@@ -6,6 +6,7 @@
 import base64
 from datetime import datetime, timezone
 import unittest
+from unittest.mock import MagicMock, patch
 from urllib.error import HTTPError
 
 import stamp_version
@@ -55,10 +56,21 @@ class Repository:
             return {}
         if path.startswith('/git/ref/tags/'):
             return {'object': {'sha': 'unrelated'}}
+        if path == '/actions/workflows/release.yml/dispatches':
+            return {}
         raise AssertionError((method, path, data))
 
 
 class StampTest(unittest.TestCase):
+    def test_dispatch_accepts_empty_204_response(self):
+        response = MagicMock()
+        response.status = 204
+        response.__enter__.return_value = response
+        with patch('stamp_version.urlopen', return_value=response):
+            self.assertEqual(stamp_version.GitHub('owner/repo', 'test-token')(
+                'POST', '/actions/workflows/release.yml/dispatches',
+                {'ref': 'joao-v20260905150000'}), {})
+
     def test_initial_and_monotonic_timestamp(self):
         self.assertEqual(stamp_version.next_version('', NOW), '20260905150000')
         self.assertEqual(stamp_version.next_version('20260905150000', NOW),
@@ -79,8 +91,13 @@ class StampTest(unittest.TestCase):
         self.assertIn('[skip ci]', commit['message'])
         self.assertIn(('PATCH', '/git/refs/heads/main',
                        {'sha': 'new-1', 'force': False}), api.calls)
-        self.assertEqual(api.calls[-1], ('POST', '/git/refs', {
+        self.assertEqual(api.calls[-2], ('POST', '/git/refs', {
             'ref': 'refs/tags/joao-v20260905150000', 'sha': 'new-1'}))
+        dispatches = [call for call in api.calls if call[1].endswith('/dispatches')]
+        self.assertEqual(dispatches, [('POST', '/actions/workflows/release.yml/dispatches', {
+            'ref': 'joao-v20260905150000', 'inputs': {
+                'release_tag': 'joao-v20260905150000', 'release_commit': 'new-1'}})])
+        self.assertEqual(api.calls[-1], dispatches[0])
 
     def test_race_rebases_on_latest_main_without_force(self):
         api = Repository(conflict=True)
@@ -89,12 +106,14 @@ class StampTest(unittest.TestCase):
         commits = [data for _, path, data in api.calls if path == '/git/commits']
         self.assertEqual(commits[-1]['parents'], ['concurrent'])
         self.assertEqual(result['commit'], 'new-2')
+        self.assertEqual(sum(path.endswith('/dispatches') for _, path, _ in api.calls), 1)
 
     def test_permission_failure_does_not_tag(self):
         api = Repository(forbidden=True)
         with self.assertRaises(HTTPError):
             stamp_version.stamp(api, now=lambda: NOW)
         self.assertFalse(any(path == '/git/refs' for _, path, _ in api.calls))
+        self.assertFalse(any(path.endswith('/dispatches') for _, path, _ in api.calls))
 
     def test_existing_tag_is_never_replaced(self):
         api = Repository(tag_conflict=True)
@@ -102,6 +121,7 @@ class StampTest(unittest.TestCase):
             stamp_version.stamp(api, now=lambda: NOW)
         self.assertFalse(any(method == 'PATCH' and 'tags' in path
                              for method, path, _ in api.calls))
+        self.assertFalse(any(path.endswith('/dispatches') for _, path, _ in api.calls))
 
 
 if __name__ == '__main__':

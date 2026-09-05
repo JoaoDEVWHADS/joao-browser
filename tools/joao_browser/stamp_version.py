@@ -29,6 +29,8 @@ class GitHub:
                                    'User-Agent': 'JoaoBrowserRelease',
                                    'Content-Type': 'application/json'})
         with urlopen(request, timeout=60) as response:
+            if response.status == 204:
+                return {}
             return json.load(response)
 
 
@@ -81,6 +83,10 @@ def stamp(api, now=lambda: datetime.now(timezone.utc), sleep=time.sleep):
             # Accept only an identical tag, never replace an existing release.
             if api('GET', '/git/ref/tags/' + tag)['object']['sha'] != sha:
                 raise RuntimeError('Release tag already names a different commit') from error
+        # GITHUB_TOKEN pushes do not start workflows. An explicit dispatch does,
+        # and the new tagged build run cancels this stamping run through concurrency.
+        api('POST', '/actions/workflows/release.yml/dispatches', {
+            'ref': tag, 'inputs': {'release_tag': tag, 'release_commit': sha}})
         return {'version': version, 'tag': tag, 'commit': sha}
     raise RuntimeError('Could not advance main after eight attempts; check branch permissions/races')
 
