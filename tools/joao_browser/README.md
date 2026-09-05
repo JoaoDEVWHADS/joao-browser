@@ -16,6 +16,9 @@ The workflow builds the tagged source and publishes three artifacts:
   it only after successful verification. It does not extract untrusted ZIPs or
   resolve a moving `latest` URL. Both installers install the same browser.
 
+Both installers support per-user installation only. `--system-level` is
+unsupported; this release does not install machine-wide services.
+
 Installation is per-user only. The native installer rejects `--system-level`;
 machine-wide installation is not supported by this build.
 
