@@ -163,6 +163,17 @@ class AutofillAiPermissionUtilsTest : public ::testing::Test {
   TestAutofillClient client_;
 };
 
+TEST_F(AutofillAiPermissionUtilsTest, JoaoBrowserDisablesAiWithExistingData) {
+  AddEntity();
+  for (auto action :
+       {AutofillAiAction::kOptIn, AutofillAiAction::kFilling,
+        AutofillAiAction::kImport, AutofillAiAction::kServerClassificationModel,
+        AutofillAiAction::kListEntityInstancesInSettings}) {
+    EXPECT_FALSE(MayPerformAutofillAiAction(
+        client(), action, EntityType(EntityTypeName::kPassport)));
+  }
+}
+
 // Tests that IsAutofillAiEntityTypeBlockedByPolicy correctly maps entity
 // schemas to enterprise policy categories.
 TEST_F(AutofillAiPermissionUtilsTest, IsAutofillAiEntityTypeBlockedByPolicy) {

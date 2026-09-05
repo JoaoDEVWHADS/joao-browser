@@ -15,10 +15,13 @@
 #include "base/test/metrics/histogram_tester.h"
 #include "base/test/scoped_feature_list.h"
 #include "base/test/task_environment.h"
+#include "build/branding_buildflags.h"
 #include "components/contextual_tasks/public/features.h"
 #include "components/contextual_tasks/public/host_override.h"
 #include "components/country_codes/country_codes.h"
 #include "components/omnibox/browser/aim_eligibility_service_features.h"
+#include "components/omnibox/browser/omnibox_pref_names.h"
+#include "components/omnibox/common/omnibox_features.h"
 #include "components/prefs/testing_pref_service.h"
 #include "components/search/search.h"
 #include "components/search_engines/search_engines_test_environment.h"
@@ -97,9 +100,9 @@ omnibox::AimEligibilityResponse::QueryParam CreateQueryParam(
 
 }  // namespace
 
-class AimEligibilityServiceTest : public testing::Test {
+class AimEligibilityServiceTestBase : public testing::Test {
  public:
-  explicit AimEligibilityServiceTest() {}
+  explicit AimEligibilityServiceTestBase() {}
 
   void SetUp() override {
     AimEligibilityService::RegisterProfilePrefs(
@@ -128,6 +131,48 @@ class AimEligibilityServiceTest : public testing::Test {
   std::unique_ptr<MockAimEligibilityServiceForInterception>
       aim_eligibility_service_;
 };
+
+class AimEligibilityServiceTest : public AimEligibilityServiceTestBase {
+ public:
+  void SetUp() override {
+    if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+      GTEST_SKIP()
+          << "Upstream enabled-AI behavior is not supported by Joao Browser";
+    }
+    AimEligibilityServiceTestBase::SetUp();
+  }
+};
+
+class JoaoBrowserAimPolicyTest : public AimEligibilityServiceTestBase {};
+
+TEST_F(JoaoBrowserAimPolicyTest, RuntimeOverridesCannotEnableAiMode) {
+  base::test::ScopedFeatureList features;
+  features.InitWithFeatures({omnibox::kAimEnabled, omnibox::kAim3pEntrypoint,
+                             contextual_tasks::kContextualTasks},
+                            {});
+  auto& prefs = search_engines_test_environment_.pref_service();
+  prefs.SetInteger(omnibox::kAIModeSettings, 0);
+  prefs.SetInteger(omnibox::kThirdPartyAiChatSettings, 0);
+  omnibox::AimEligibilityResponse response;
+  response.set_is_eligible(true);
+  response.set_is_cobrowse_eligible(true);
+  aim_eligibility_service_->SetAimEligibilityResponse(response);
+
+  EXPECT_FALSE(AimEligibilityService::IsAimAllowedByPolicy(&prefs));
+  EXPECT_FALSE(AimEligibilityService::IsAimAllowedByThirdPartyPolicy(&prefs));
+  EXPECT_FALSE(aim_eligibility_service_->IsAimLocallyEligible());
+  EXPECT_FALSE(aim_eligibility_service_->IsAimEligible());
+  EXPECT_FALSE(aim_eligibility_service_->IsCobrowseEligible());
+  EXPECT_FALSE(AimEligibilityService::GenericKillSwitchFeatureCheck(
+      aim_eligibility_service_.get(), omnibox::kAim3pEntrypoint));
+}
+
+TEST_F(JoaoBrowserAimPolicyTest, DoesNotFetchAiEligibility) {
+  aim_eligibility_service_->FetchEligibility(
+      AimEligibilityService::RequestSource::kUser);
+  task_environment_.FastForwardUntilNoTasksRemain();
+  EXPECT_EQ(test_url_loader_factory_.NumPending(), 0);
+}
 
 TEST_F(AimEligibilityServiceTest, UrlInterceptRules_Match) {
   omnibox::AimEligibilityResponse response;

@@ -46,6 +46,7 @@ source_set("impl") {
   ]
   deps = [
     ":compose",
+    "//build:branding_buildflags",
     "//chrome/browser:browser_process",
     "//chrome/browser:flags",
     "//chrome/browser/feedback",

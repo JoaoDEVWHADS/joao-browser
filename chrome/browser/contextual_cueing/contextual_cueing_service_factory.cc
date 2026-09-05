@@ -5,6 +5,7 @@
 #include "chrome/browser/contextual_cueing/contextual_cueing_service_factory.h"
 
 #include "base/no_destructor.h"
+#include "build/branding_buildflags.h"
 #include "chrome/browser/contextual_cueing/contextual_cueing_service.h"
 #include "chrome/browser/contextual_cueing/features.h"
 #include "chrome/browser/profiles/profile.h"
@@ -39,6 +40,10 @@ ContextualCueingServiceFactory::~ContextualCueingServiceFactory() = default;
 std::unique_ptr<KeyedService>
 ContextualCueingServiceFactory::BuildServiceInstanceForBrowserContext(
     content::BrowserContext* context) const {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return nullptr;
+  }
+
   if (!base::FeatureList::IsEnabled(kContextualCueingV2)) {
     return nullptr;
   }

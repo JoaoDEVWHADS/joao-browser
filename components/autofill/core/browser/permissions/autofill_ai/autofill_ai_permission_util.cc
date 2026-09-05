@@ -22,6 +22,7 @@
 #include "base/strings/string_split.h"
 #include "base/system/sys_info.h"
 #include "base/values.h"
+#include "build/branding_buildflags.h"
 #include "build/build_config.h"
 #include "build/buildflag.h"
 #include "components/autofill/core/browser/country_type.h"
@@ -753,6 +754,10 @@ bool MayPerformAutofillAiAction(
     AutofillAiAction action,
     std::optional<EntityType> entity_type,
     std::string* debug_message) {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return false;
+  }
+
   auto feature_check = [&](const base::Feature& feature) {
 #if !BUILDFLAG(IS_FUCHSIA)
     return google_groups_manager

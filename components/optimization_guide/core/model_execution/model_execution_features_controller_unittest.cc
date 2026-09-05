@@ -10,6 +10,7 @@
 #include "base/test/metrics/histogram_tester.h"
 #include "base/test/scoped_feature_list.h"
 #include "base/test/task_environment.h"
+#include "build/branding_buildflags.h"
 #include "components/optimization_guide/core/feature_registry/feature_registration.h"
 #include "components/optimization_guide/core/feature_registry/mqls_feature_registry.h"
 #include "components/optimization_guide/core/feature_registry/settings_ui_registry.h"
@@ -46,10 +47,10 @@ class TestManagementService : public policy::ManagementService {
   }
 };
 
-class ModelExecutionFeaturesControllerTest : public testing::Test {
+class ModelExecutionFeaturesControllerTestBase : public testing::Test {
  public:
-  ModelExecutionFeaturesControllerTest() = default;
-  ~ModelExecutionFeaturesControllerTest() override = default;
+  ModelExecutionFeaturesControllerTestBase() = default;
+  ~ModelExecutionFeaturesControllerTestBase() override = default;
 
   void SetUp() override {
     pref_service_ = std::make_unique<TestingPrefServiceSimple>();
@@ -132,6 +133,42 @@ class ModelExecutionFeaturesControllerTest : public testing::Test {
   std::unique_ptr<ModelExecutionFeaturesController> controller_;
   base::HistogramTester histogram_tester_;
 };
+
+class ModelExecutionFeaturesControllerTest
+    : public ModelExecutionFeaturesControllerTestBase {
+ public:
+  void SetUp() override {
+    if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+      GTEST_SKIP()
+          << "Upstream enabled-AI behavior is not supported by Joao Browser";
+    }
+    ModelExecutionFeaturesControllerTestBase::SetUp();
+  }
+};
+
+class JoaoBrowserGenerativePolicyTest
+    : public ModelExecutionFeaturesControllerTestBase {};
+
+TEST_F(JoaoBrowserGenerativePolicyTest, SavedOptInCannotEnableFeatures) {
+  base::test::ScopedFeatureList scoped_features;
+  scoped_features.InitWithFeatures(
+      {features::internal::kComposeSettingsVisibility,
+       features::internal::kWallpaperSearchGraduated},
+      {});
+  CreateController();
+  EnableSignIn();
+  for (auto feature : {UserVisibleFeatureKey::kCompose,
+                       UserVisibleFeatureKey::kWallpaperSearch,
+                       UserVisibleFeatureKey::kHistorySearch}) {
+    pref_service()->SetInteger(
+        prefs::GetSettingEnabledPrefName(feature),
+        static_cast<int>(prefs::FeatureOptInState::kEnabled));
+    EXPECT_FALSE(controller()->ShouldFeatureBeCurrentlyEnabledForUser(feature));
+    EXPECT_EQ(controller()->GetSettingsVisibility(feature),
+              ModelExecutionFeaturesController::SettingsVisibilityResult::
+                  kNotVisibleFieldTrialDisabled);
+  }
+}
 
 TEST_F(ModelExecutionFeaturesControllerTest, OneFeatureSettingVisible) {
   base::test::ScopedFeatureList scoped_feature_list;

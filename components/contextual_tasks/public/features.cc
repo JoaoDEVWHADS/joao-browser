@@ -15,6 +15,7 @@
 #include "base/rand_util.h"
 #include "base/strings/string_split.h"
 #include "base/strings/string_util.h"
+#include "build/branding_buildflags.h"
 #include "build/buildflag.h"
 #include "ui/base/device_form_factor.h"
 
@@ -62,7 +63,6 @@ BASE_FEATURE(kEnableContextualTasksPinButtonInToolbar,
 // button is pinned in the toolbar.
 BASE_FEATURE(kEphemeralPinningVisibleWhenPermanentlyPinned,
              base::FEATURE_DISABLED_BY_DEFAULT);
-
 
 // Enables relevant context determination for contextual tasks.
 BASE_FEATURE(kContextualTasksContext, base::FEATURE_DISABLED_BY_DEFAULT);
@@ -124,7 +124,6 @@ BASE_FEATURE(kContextualTasksSendContextualInputUploadType,
 
 BASE_FEATURE(kContextualTasksUrlRedirectToAimUrl,
              base::FEATURE_DISABLED_BY_DEFAULT);
-
 
 // If enabled, animates the caret.
 BASE_FEATURE(kContextualTasksAnimatedCaret, base::FEATURE_ENABLED_BY_DEFAULT);
@@ -317,8 +316,8 @@ const base::FeatureParam<double> kContentVisibilityThreshold{
 
 const base::FeatureParam<int> kMaxConversationTurns{
     &kContextualTasksContext, "max_conversation_turns", 5};
-const base::FeatureParam<int> kMaxTitlesPerThread{
-    &kContextualTasksContext, "max_titles_per_thread", 25};
+const base::FeatureParam<int> kMaxTitlesPerThread{&kContextualTasksContext,
+                                                  "max_titles_per_thread", 25};
 
 const base::FeatureParam<bool> kEnablePreviousTabFallback(
     &kContextualTasksContext,
@@ -342,7 +341,6 @@ const base::FeatureParam<base::TimeDelta> kSmartTabSharingTabSelectionTimeout(
     &kContextualTasksContext,
     "ContextualTasksContextSmartTabSharingTabSelectionTimeout",
     base::Milliseconds(300));
-
 
 const base::FeatureParam<SmartTabSharingIphFirstTimePromptOption>::Option
     kSmartTabSharingIphFirstTimePromptOptions[] = {
@@ -534,7 +532,8 @@ const base::FeatureParam<int> kContextualTasksOnboardingTooltipDismissedCap(
 
 const base::FeatureParam<int> kContextualTasksLensSearchTooltipDismissedCap(
     &kContextualTasksShowOnboardingTooltip,
-    "ContextualTasksLensSearchTooltipDismissedCap", 1);
+    "ContextualTasksLensSearchTooltipDismissedCap",
+    1);
 
 const base::FeatureParam<int>
     kContextualTasksLensSearchTooltipSessionImpressionCap(
@@ -544,13 +543,13 @@ const base::FeatureParam<int>
 
 const base::FeatureParam<int> kContextualTasksAskGTooltipDismissedCap(
     &kContextualTasksShowOnboardingTooltip,
-    "ContextualTasksAskGTooltipDismissedCap", 1);
+    "ContextualTasksAskGTooltipDismissedCap",
+    1);
 
-const base::FeatureParam<int>
-    kContextualTasksAskGTooltipSessionImpressionCap(
-        &kContextualTasksShowOnboardingTooltip,
-        "ContextualTasksAskGTooltipSessionImpressionCap",
-        10);
+const base::FeatureParam<int> kContextualTasksAskGTooltipSessionImpressionCap(
+    &kContextualTasksShowOnboardingTooltip,
+    "ContextualTasksAskGTooltipSessionImpressionCap",
+    10);
 
 const base::FeatureParam<int> kContextualTasksOnboardingTooltipImpressionDelay(
     &kContextualTasksShowOnboardingTooltip,
@@ -773,14 +772,12 @@ bool GetIsContextualTasksSuggestionsEnabled() {
   return base::FeatureList::IsEnabled(kContextualTasksSuggestionsEnabled);
 }
 
-
 base::TimeDelta GetSmartTabSharingTabSelectionTimeout() {
   if (kSmartTabSharingTabSelectionTimeout.Get().is_positive()) {
     return kSmartTabSharingTabSelectionTimeout.Get();
   }
   return base::Milliseconds(300);
 }
-
 
 bool GetIsTabAutoSuggestionChipEnabled() {
   return kContextualTasksTabAutoSuggestionChipEnabled.Get();
@@ -834,7 +831,6 @@ bool IsCustomNlmUiEnabled() {
   return base::FeatureList::IsEnabled(kContextualTasksCustomNlmUi);
 }
 
-
 bool GetIsBasicModeEnabled() {
   return kContextualTasksEnableBasicMode.Get();
 }
@@ -855,7 +851,6 @@ bool ShouldEnableLockAndUnlockInputCapability() {
   return base::FeatureList::IsEnabled(kContextualTasks) &&
          kContextualTasksLockAndUnlockInputCapability.Get();
 }
-
 
 bool GetEnableFileHint() {
   return base::FeatureList::IsEnabled(kContextualTasksEnableFileHint);
@@ -904,6 +899,10 @@ bool IsContextualTasksUnboundedMenuEnabled() {
 }
 
 bool IsContextualTasksUIEnabled() {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return false;
+  }
+
   return base::FeatureList::IsEnabled(kContextualTasksSidePanel) ||
          base::FeatureList::IsEnabled(kContextualTasks) ||
          base::FeatureList::IsEnabled(kContextualTasksRearchitecture);

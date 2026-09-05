@@ -9,6 +9,7 @@
 #include "base/command_line.h"
 #include "base/metrics/histogram_functions.h"
 #include "base/task/single_thread_task_runner.h"
+#include "build/branding_buildflags.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/optimization_guide/optimization_guide_keyed_service.h"
 #include "chrome/browser/optimization_guide/optimization_guide_keyed_service_factory.h"
@@ -281,6 +282,10 @@ void ChromePasswordChangeService::Shutdown() {
 #if !BUILDFLAG(IS_ANDROID)
 PasswordChangeAvailability ChromePasswordChangeService::GetGeneralAvailability()
     const {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return PasswordChangeAvailability::kModelExecutionNotAllowed;
+  }
+
   auto [log_manager, logger] = CreateLoggerPair(log_router_);
 
   if (HasChangePasswordUrlOverride()) {

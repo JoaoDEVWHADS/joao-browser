@@ -53,6 +53,10 @@ buildflag_header("branding_buildflags") {
     flags += [ "GOOGLE_CHROME_FOR_TESTING_BRANDING=false" ]
   }
 
+  # Product policy: runtime flags, preferences and Finch cannot enable browser
+  # AI.
+  flags += [ "ENABLE_BROWSER_INTEGRATED_AI=false" ]
+
   flags += [ "ENABLE_BUILTIN_SEARCH_PROVIDER_ASSETS=$enable_builtin_search_provider_assets" ]
 }
 

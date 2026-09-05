@@ -11,6 +11,7 @@
 #include "base/strings/strcat.h"
 #include "base/strings/utf_string_conversions.h"
 #include "base/timer/elapsed_timer.h"
+#include "build/branding_buildflags.h"
 #include "build/build_config.h"
 #include "chrome/browser/autocomplete/aim_eligibility_service_factory.h"
 #include "chrome/browser/contextual_tasks/aim_message_poster.h"
@@ -131,6 +132,10 @@ ContextualTasksUIInterface* GetWebUiInterface(
 }
 
 bool IsTabSharingEligible(Profile* profile) {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return false;
+  }
+
   // Forcing entry point eligibility should ONLY be used for local testing and
   // debugging purposes to bypass server and backend eligibility checks.
   if (base::FeatureList::IsEnabled(
@@ -355,19 +360,19 @@ void UpdatePinButtonVisibilityState(BrowserWindowInterface* browser_window) {
           kActionSidePanelShowContextualTasks, scope_action);
 
   if (action_item) {
-      // If it's not eligible, actively pull it out of the pinned model space.
-      // Do not pull it out if the user is currently in an incognito window, as
-      // this would unpin it for the parent profile.
-      if (!browser_window->GetProfile()->IsOffTheRecord()) {
-        if (auto* model =
-                PinnedToolbarActionsModel::Get(browser_window->GetProfile())) {
-          if (model->Contains(kActionSidePanelShowContextualTasks)) {
-            action_item->SetVisible(
-                contextual_tasks::EntryPointEligibilityManager::
-                    IsPinningEligible(browser_window->GetProfile()));
-          }
+    // If it's not eligible, actively pull it out of the pinned model space.
+    // Do not pull it out if the user is currently in an incognito window, as
+    // this would unpin it for the parent profile.
+    if (!browser_window->GetProfile()->IsOffTheRecord()) {
+      if (auto* model =
+              PinnedToolbarActionsModel::Get(browser_window->GetProfile())) {
+        if (model->Contains(kActionSidePanelShowContextualTasks)) {
+          action_item->SetVisible(
+              contextual_tasks::EntryPointEligibilityManager::IsPinningEligible(
+                  browser_window->GetProfile()));
         }
       }
+    }
   }
 }
 #endif

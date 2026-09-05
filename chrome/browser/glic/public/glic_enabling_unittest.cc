@@ -17,6 +17,7 @@
 #include "base/test/mock_log.h"
 #include "base/test/scoped_command_line.h"
 #include "base/test/scoped_feature_list.h"
+#include "build/branding_buildflags.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/enterprise/browser_management/management_service_factory.h"
 #include "chrome/browser/glic/glic_enums.h"
@@ -128,7 +129,7 @@ class TestDelegate : public GlicEnablingDelegate {
   std::string locale_ = "en-us";
 };
 
-class GlicEnablingTest : public testing::Test {
+class GlicEnablingTestBase : public testing::Test {
  public:
   void SetUp() override {
     base::CommandLine::ForCurrentProcess()->AppendSwitch(switches::kTestType);
@@ -180,6 +181,35 @@ class GlicEnablingTest : public testing::Test {
   base::test::ScopedFeatureList scoped_feature_list_;
   std::unique_ptr<base::HistogramTester> histogram_tester_;
 };
+
+class GlicEnablingTest : public GlicEnablingTestBase {
+ public:
+  void SetUp() override {
+    if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+      GTEST_SKIP()
+          << "Upstream enabled-AI behavior is not supported by Joao Browser";
+    }
+    GlicEnablingTestBase::SetUp();
+  }
+};
+
+class JoaoBrowserGlicPolicyTest : public GlicEnablingTestBase {};
+
+TEST_F(JoaoBrowserGlicPolicyTest, RuntimeOverridesCannotEnableGemini) {
+  EXPECT_TRUE(base::FeatureList::IsEnabled(features::kGlic));
+  EXPECT_FALSE(CreateGlobalEnabling().IsEnabledByGlobalCriteria());
+
+  GlicEnabling::ProfileEnablement enablement;
+  enablement.feature_enabled = true;
+  enablement.feature_flag_enabled = true;
+  enablement.is_regular_profile = true;
+  enablement.anchor_entrypoint_override_active = true;
+  enablement.is_rolled_out = true;
+  EXPECT_FALSE(enablement.IsProfileEligible());
+  EXPECT_FALSE(enablement.IsEnabled());
+  EXPECT_FALSE(enablement.ShouldShowSettingsPage());
+  EXPECT_FALSE(enablement.ShouldShowGlicButton());
+}
 
 // Test
 TEST_F(GlicEnablingTest, GlicFeatureEnabledTest) {

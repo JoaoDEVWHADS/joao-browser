@@ -4,6 +4,7 @@
 
 #include "chrome/browser/history_embeddings/history_embeddings_utils.h"
 
+#include "build/branding_buildflags.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/optimization_guide/optimization_guide_keyed_service.h"
 #include "chrome/browser/optimization_guide/optimization_guide_keyed_service_factory.h"
@@ -171,6 +172,10 @@ void PopulateSourceForWebUI(content::WebUIDataSource* source,
 }
 
 bool IsHistoryEmbeddingsFeatureEnabled() {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return false;
+  }
+
 #if BUILDFLAG(IS_CHROMEOS)
   if (!chromeos::features::IsFeatureManagementHistoryEmbeddingEnabled()) {
     return false;

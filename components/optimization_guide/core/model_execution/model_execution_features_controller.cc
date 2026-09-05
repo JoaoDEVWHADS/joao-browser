@@ -11,6 +11,7 @@
 #include "base/metrics/histogram_functions.h"
 #include "base/strings/strcat.h"
 #include "base/strings/string_split.h"
+#include "build/branding_buildflags.h"
 #include "components/optimization_guide/core/feature_registry/mqls_feature_registry.h"
 #include "components/optimization_guide/core/feature_registry/settings_ui_registry.h"
 #include "components/optimization_guide/core/model_execution/feature_keys.h"
@@ -99,6 +100,10 @@ ModelExecutionFeaturesController::~ModelExecutionFeaturesController() = default;
 
 bool ModelExecutionFeaturesController::ShouldFeatureBeCurrentlyEnabledForUser(
     UserVisibleFeatureKey feature) const {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return false;
+  }
+
   DCHECK_CALLED_ON_VALID_THREAD(thread_checker_);
 
   const FeatureCurrentlyEnabledResult result = GetFeatureEnabledState(feature);
@@ -249,6 +254,10 @@ ModelExecutionFeaturesController::HistorySearchNotSupported() {
 ModelExecutionFeaturesController::SettingsVisibilityResult
 ModelExecutionFeaturesController::GetSettingsVisibility(
     UserVisibleFeatureKey feature) const {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return SettingsVisibilityResult::kNotVisibleFieldTrialDisabled;
+  }
+
   DCHECK_CALLED_ON_VALID_THREAD(thread_checker_);
 
   switch (

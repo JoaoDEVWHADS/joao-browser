@@ -17,6 +17,7 @@
 #include "base/no_destructor.h"
 #include "base/rand_util.h"
 #include "base/strings/string_util.h"
+#include "build/branding_buildflags.h"
 #include "chrome/browser/about_flags.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/compose/proto/compose_optimization_guide.pb.h"
@@ -84,10 +85,9 @@ std::tuple<std::string, bool> IsEnabledForCountry(
 int ComposeEnabling::enabled_for_testing_{0};
 int ComposeEnabling::skip_user_check_for_testing_{0};
 
-ComposeEnabling::ComposeEnabling(
-    Profile* profile,
-    signin::IdentityManager* identity_manager,
-    OptimizationGuideKeyedService* opt_guide)
+ComposeEnabling::ComposeEnabling(Profile* profile,
+                                 signin::IdentityManager* identity_manager,
+                                 OptimizationGuideKeyedService* opt_guide)
     : profile_(profile),
       opt_guide_(opt_guide),
       identity_manager_(identity_manager) {
@@ -136,7 +136,6 @@ ComposeEnabling::ScopedOverride ComposeEnabling::OverrideCountryForTesting(
 compose::ComposeHintDecision ComposeEnabling::GetOptimizationGuidanceForUrl(
     const GURL& url,
     Profile* profile) {
-
   if (!opt_guide_) {
     DVLOG(2) << "Optimization guide not found, returns unspecified";
     return compose::ComposeHintDecision::COMPOSE_HINT_DECISION_UNSPECIFIED;
@@ -175,6 +174,10 @@ base::expected<void, compose::ComposeShowStatus> ComposeEnabling::IsEnabled() {
 
 // Static public entry point.
 bool ComposeEnabling::IsEnabledForProfile(Profile* profile) {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return false;
+  }
+
   OptimizationGuideKeyedService* opt_guide =
       OptimizationGuideKeyedServiceFactory::GetForProfile(profile);
   signin::IdentityManager* identity_manager =
@@ -183,6 +186,10 @@ bool ComposeEnabling::IsEnabledForProfile(Profile* profile) {
 }
 
 bool ComposeEnabling::IsSettingVisible(Profile* profile) {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return false;
+  }
+
   OptimizationGuideKeyedService* opt_guide =
       OptimizationGuideKeyedServiceFactory::GetForProfile(profile);
   signin::IdentityManager* identity_manager =
@@ -201,6 +208,10 @@ bool ComposeEnabling::IsSettingVisible(Profile* profile) {
 base::expected<void, compose::ComposeShowStatus> ComposeEnabling::CheckEnabling(
     OptimizationGuideKeyedService* opt_guide,
     signin::IdentityManager* identity_manager) {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return base::unexpected(compose::ComposeShowStatus::kNotComposeEligible);
+  }
+
   if (enabled_for_testing_) {
     DVLOG(2) << "enabled for testing";
     return base::ok();

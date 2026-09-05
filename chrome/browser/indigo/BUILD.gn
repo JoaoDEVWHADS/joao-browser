@@ -75,6 +75,7 @@ source_set("impl") {
     ":indigo_config_proto",
     ":indigo_prompts_proto",
     "//base",
+    "//build:branding_buildflags",
     "//chrome/browser:browser_process",
     "//chrome/browser:global_features",
     "//chrome/browser/component_updater",
@@ -118,6 +119,7 @@ source_set("impl") {
     deps += [ "//chromeos/ash/components/install_attributes" ]
   }
 }
+
 source_set("test_support") {
   testonly = true
   sources = [

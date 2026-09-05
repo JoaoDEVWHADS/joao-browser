@@ -24,6 +24,7 @@
 #include "base/strings/string_util.h"
 #include "base/system/sys_info.h"
 #include "base/values.h"
+#include "build/branding_buildflags.h"
 #include "chrome/browser/actor/actor_keyed_service.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/enterprise/browser_management/browser_management_service.h"
@@ -141,6 +142,10 @@ constexpr char kDefaultEnabledLocales[] =
     ;
 
 bool IsAnyEntryPointEnabled(Profile* profile) {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return false;
+  }
+
   bool is_button_enabled =
       profile->GetPrefs()->GetBoolean(glic::prefs::kGlicPinnedToTabstrip);
   bool is_shortcut_enabled = g_browser_process->local_state()->GetBoolean(
@@ -664,6 +669,10 @@ void GlicEnabling::ProfileEnablement::RecordSteadyStateMetrics() const {
 }
 
 bool GlicEnabling::ProfileEnablement::IsProfileEligible() const {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return false;
+  }
+
   return feature_enabled && is_regular_profile;
 }
 
@@ -684,6 +693,10 @@ bool GlicEnabling::ProfileEnablement::IsEnabledAndConsented() const {
 }
 
 bool GlicEnabling::ProfileEnablement::ShouldShowSettingsPage() const {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return false;
+  }
+
   const bool show_ai_settings_for_testing = base::FeatureList::IsEnabled(
       optimization_guide::features::kAiSettingsPageForceAvailable);
 
@@ -699,6 +712,10 @@ bool GlicEnabling::ProfileEnablement::ShouldShowSettingsPage() const {
 }
 
 bool GlicEnabling::ProfileEnablement::ShouldShowGlicButton() const {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return false;
+  }
+
   if (!feature_flag_enabled) {
     return false;
   }
@@ -799,6 +816,10 @@ bool GlicGlobalEnabling::IsOsVersionSupported() {
 }
 
 bool GlicGlobalEnabling::IsEnabledByGlobalCriteria() const {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return false;
+  }
+
   if (g_bypass_enablement_checks_for_testing) {
     return true;
   }
@@ -865,6 +886,10 @@ bool GlicEnabling::IsLikelyDogfoodClient() {
 
 // static
 bool GlicEnabling::IsProfileEligible(Profile* profile) {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return false;
+  }
+
   if (g_bypass_enablement_checks_for_testing) {
     return true;
   }
@@ -893,6 +918,10 @@ bool GlicEnabling::IsProfileEligible(Profile* profile) {
 // static
 bool GlicEnabling::IsAnchoredButIneligible(bool global_criteria_met,
                                            bool consented) {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return false;
+  }
+
   return !global_criteria_met && consented && IsSystemRequirementMet() &&
          base::FeatureList::IsEnabled(features::kGlic) &&
          base::FeatureList::IsEnabled(

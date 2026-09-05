@@ -10,6 +10,14 @@
 
 namespace contextual_tasks {
 
+TEST(JoaoBrowserContextualTasksPolicyTest, RuntimeOverridesCannotEnableUi) {
+  base::test::ScopedFeatureList features;
+  features.InitWithFeatures({kContextualTasks, kContextualTasksSidePanel,
+                             kContextualTasksRearchitecture},
+                            {});
+  EXPECT_FALSE(IsContextualTasksUIEnabled());
+}
+
 TEST(FeaturesTest, ForcedEmbeddedPageHost_NoOverride) {
   EXPECT_EQ(std::nullopt, GetForcedEmbeddedPageHost());
 }

@@ -14,6 +14,7 @@
 #include "base/metrics/histogram_functions.h"
 #include "base/task/sequenced_task_runner.h"
 #include "base/task/thread_pool.h"
+#include "build/branding_buildflags.h"
 #include "build/build_config.h"
 #include "chrome/browser/browser_process.h"
 #include "chrome/browser/component_updater/indigo_component_installer.h"
@@ -348,6 +349,10 @@ void IndigoService::ContextualCueShown() {
 }
 
 LocalEligibility IndigoService::ComputeLocalEligibility() const {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return LocalEligibility::kDisabledByPolicy;
+  }
+
   if (!GetScriptPath().has_value()) {
     return LocalEligibility::kMissingScript;
   }

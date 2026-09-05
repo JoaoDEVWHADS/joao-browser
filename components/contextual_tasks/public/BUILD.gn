@@ -11,6 +11,7 @@ source_set("feature_list") {
   ]
   deps = [
     "//base",
+    "//build:branding_buildflags",
     "//net",
     "//ui/base",
     "//url",

@@ -5,6 +5,7 @@
 #include "components/omnibox/browser/autocomplete_provider_client.h"
 
 #include "base/notreached.h"
+#include "build/branding_buildflags.h"
 #include "components/omnibox/browser/omnibox_field_trial.h"
 
 history_clusters::HistoryClustersService*
@@ -93,6 +94,10 @@ bool AutocompleteProviderClient::IsOmniboxNextAimPopupEnabled() const {
 }
 
 bool AutocompleteProviderClient::IsGeminiStarterPackEnabled() const {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return false;
+  }
+
   return OmniboxFieldTrial::IsStarterPackExpansionEnabled();
 }
 

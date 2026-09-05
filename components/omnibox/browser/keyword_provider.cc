@@ -14,6 +14,7 @@
 #include "base/strings/string_util.h"
 #include "base/strings/utf_string_conversions.h"
 #include "base/trace_event/trace_event.h"
+#include "build/branding_buildflags.h"
 #include "components/omnibox/browser/autocomplete_enums.h"
 #include "components/omnibox/browser/autocomplete_input.h"
 #include "components/omnibox/browser/autocomplete_match.h"
@@ -71,8 +72,9 @@ ScopedEndExtensionKeywordMode::ScopedEndExtensionKeywordMode(
     : delegate_(delegate) {}
 
 ScopedEndExtensionKeywordMode::~ScopedEndExtensionKeywordMode() {
-  if (delegate_)
+  if (delegate_) {
     delegate_->MaybeEndExtensionKeywordMode();
+  }
 }
 
 void ScopedEndExtensionKeywordMode::StayInKeywordMode() {
@@ -99,14 +101,23 @@ const TemplateURL* KeywordProvider::GetTemplateUrlForText(
       template_url_service,
       AutocompleteInput::SplitKeywordFromInput(text, true, nullptr));
 
-  if (keyword.empty())
+  if (keyword.empty()) {
     return nullptr;
+  }
 
   // Don't provide a keyword if it doesn't support replacement.
   const TemplateURL* const template_url =
       template_url_service->GetTemplateURLForKeyword(keyword);
   if (!template_url || !template_url->SupportsReplacement(
                            template_url_service->search_terms_data())) {
+    return nullptr;
+  }
+
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI) &&
+      (template_url->starter_pack_id() ==
+           template_url_starter_pack_data::StarterPackId::kGemini ||
+       template_url->starter_pack_id() ==
+           template_url_starter_pack_data::StarterPackId::kAiMode)) {
     return nullptr;
   }
 
@@ -190,8 +201,9 @@ void KeywordProvider::Start(const AutocompleteInput& input,
 
     // Input has changed. Increment the input ID so that we can discard any
     // stale extension suggestions that may be incoming.
-    if (extensions_delegate_)
+    if (extensions_delegate_) {
       extensions_delegate_->IncrementInputId();
+    }
   }
 
   if (input.IsZeroSuggest()) {
@@ -239,6 +251,15 @@ void KeywordProvider::Start(const AutocompleteInput& input,
         extensions_delegate_ &&
         !extensions_delegate_->IsEnabledExtension(
             template_url->GetExtensionId())) {
+      i = turls.erase(i);
+      continue;
+    }
+
+    if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI) &&
+        (template_url->starter_pack_id() ==
+             template_url_starter_pack_data::StarterPackId::kGemini ||
+         template_url->starter_pack_id() ==
+             template_url_starter_pack_data::StarterPackId::kAiMode)) {
       i = turls.erase(i);
       continue;
     }
@@ -305,8 +326,9 @@ void KeywordProvider::Start(const AutocompleteInput& input,
     if (is_extension_keyword && extensions_delegate_ &&
         input.allow_exact_keyword_match()) {
       if (extensions_delegate_->Start(input, minimal_changes, template_url,
-                                      remaining_input))
+                                      remaining_input)) {
         keyword_mode_toggle.StayInKeywordMode();
+      }
     }
   } else {
     for (TemplateURLService::TemplateURLVector::const_iterator i(turls.begin());
@@ -344,8 +366,9 @@ int KeywordProvider::CalculateRelevance(metrics::OmniboxInputType type,
   if (!complete) {
     return (type == metrics::OmniboxInputType::URL) ? 700 : 450;
   }
-  if (!supports_replacement)
+  if (!supports_replacement) {
     return 1500;
+  }
   return SearchProvider::CalculateRelevanceForKeywordVerbatim(
       type, allow_exact_keyword_match, in_keyword_mode);
 }
@@ -383,8 +406,9 @@ AutocompleteMatch KeywordProvider::CreateAutocompleteMatch(
                               : AutocompleteMatchType::HISTORY_KEYWORD);
   match.allowed_to_be_default_match = allowed_to_be_default_match;
   match.fill_into_edit = keyword;
-  if (!remaining_input.empty() || supports_replacement)
+  if (!remaining_input.empty() || supports_replacement) {
     match.fill_into_edit.push_back(L' ');
+  }
   match.fill_into_edit.append(remaining_input);
   // If we wanted to set |result.inline_autocompletion| correctly, we'd need
   // AutocompleteInput::CleanUserInputKeyword() to return the amount of
@@ -436,8 +460,9 @@ void KeywordProvider::FillInUrlAndContents(
       // a URL).
       match->destination_url = GURL(turl->url());
       match->contents.assign(turl->short_name());
-      if (!turl->short_name().empty())
+      if (!turl->short_name().empty()) {
         match->contents_class.emplace_back(0, ACMatchClassification::MATCH);
+      }
     }
   } else {
     // Create destination URL by escaping user input and substituting into

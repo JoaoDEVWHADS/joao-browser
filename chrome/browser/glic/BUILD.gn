@@ -484,6 +484,7 @@ source_set("impl") {
   deps = [
     ":glic",
     ":glic_metrics",
+    "//build:branding_buildflags",
     "//chrome/browser:browser_process",
     "//chrome/browser:file_select_helper",
     "//chrome/browser:global_features",
@@ -793,6 +794,7 @@ source_set("unit_tests") {
     ":glic_metrics",
     ":impl",
     "//base/test:test_support",
+    "//build:branding_buildflags",
     "//chrome/browser:global_features",
     "//chrome/browser/background/glic",
     "//chrome/browser/content_settings:content_settings_factory",

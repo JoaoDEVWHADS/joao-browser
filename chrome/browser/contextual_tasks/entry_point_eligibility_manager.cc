@@ -7,6 +7,7 @@
 #include "base/callback_list.h"
 #include "base/functional/bind.h"
 #include "base/functional/callback_helpers.h"
+#include "build/branding_buildflags.h"
 #include "chrome/browser/autocomplete/aim_eligibility_service_factory.h"
 #include "chrome/browser/contextual_tasks/contextual_tasks_eligibility_manager.h"
 #include "chrome/browser/contextual_tasks/contextual_tasks_service_factory.h"
@@ -43,10 +44,10 @@ EntryPointEligibilityManager::EntryPointEligibilityManager(
     if (eligibility_manager) {
       eligibility_subscription_ =
           eligibility_manager->RegisterEligibilityChangedCallback(
-              base::IgnoreArgs<bool>(
-                  base::BindRepeating(&EntryPointEligibilityManager::
-                                          MaybeNotifyEntryPointEligibilityChanged,
-                                      base::Unretained(this))));
+              base::IgnoreArgs<bool>(base::BindRepeating(
+                  &EntryPointEligibilityManager::
+                      MaybeNotifyEntryPointEligibilityChanged,
+                  base::Unretained(this))));
     }
   }
   auto* aim_service = AimEligibilityServiceFactory::GetForProfile(profile_);
@@ -80,6 +81,10 @@ bool EntryPointEligibilityManager::AreEntryPointsEligible() {
 
 // static
 bool EntryPointEligibilityManager::IsEligible(Profile* profile) {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return false;
+  }
+
   // TODO(crbug.com/473082702): Find a robust way to mock the entrypoint
   // manager to allow tests to pass without needing a feature flag.
   if (base::FeatureList::IsEnabled(
@@ -104,6 +109,10 @@ bool EntryPointEligibilityManager::IsEligible(Profile* profile) {
 
 // static
 bool EntryPointEligibilityManager::IsPinningEligible(Profile* profile) {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return false;
+  }
+
   if (!contextual_tasks::IsContextualTasksPinButtonInToolbarEnabled()) {
     return false;
   }

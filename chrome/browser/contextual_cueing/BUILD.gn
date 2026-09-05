@@ -60,6 +60,7 @@ source_set("impl") {
 
   deps = [
     ":contextual_cueing",
+    "//build:branding_buildflags",
     "//chrome/browser:primitives",
     "//chrome/browser/favicon",
     "//chrome/browser/optimization_guide",

@@ -561,7 +561,8 @@ SettingsUI::SettingsUI(content::WebUI* web_ui)
 
   html_source->AddBoolean(
       "enableInlineCueMenuContentSetting",
-      base::FeatureList::IsEnabled(features::kGlicSelectionPrompt));
+      BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI) &&
+          base::FeatureList::IsEnabled(features::kGlicSelectionPrompt));
 
   // AI
   bool show_glic_section = false;
@@ -626,6 +627,7 @@ SettingsUI::SettingsUI(content::WebUI* web_ui)
                          contextual_cueing::kHelpCenterArticleLink.Get());
 
   const bool enable_ai_mode_search =
+      BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI) &&
       contextual_tasks::ContextualTasksContextService::
           GetIsSmartTabSharingEnabled(profile) &&
       base::FeatureList::IsEnabled(
@@ -633,15 +635,19 @@ SettingsUI::SettingsUI(content::WebUI* web_ui)
               kContextualTasksContextSmartTabSharingDefaultOnAvailability);
   html_source->AddBoolean("enableAiModeSearchSetting", enable_ai_mode_search);
 
-  const bool show_ai_settings_for_testing = base::FeatureList::IsEnabled(
-      optimization_guide::features::kAiSettingsPageForceAvailable);
+  const bool show_ai_settings_for_testing =
+      BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI) &&
+      base::FeatureList::IsEnabled(
+          optimization_guide::features::kAiSettingsPageForceAvailable);
 
   // Show the AI features section in the AI page if any of the AI features are
   // enabled.
   bool show_ai_features_section = show_ai_settings_for_testing;
   for (auto [name, visible] : optimization_guide_features) {
-    html_source->AddBoolean(name, visible || show_ai_settings_for_testing);
-    show_ai_features_section |= visible;
+    const bool supported = BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI) &&
+                           (visible || show_ai_settings_for_testing);
+    html_source->AddBoolean(name, supported);
+    show_ai_features_section |= supported;
   }
 
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
@@ -649,6 +655,7 @@ SettingsUI::SettingsUI(content::WebUI* web_ui)
   // TODO(crbug.com/466442880): Grey out toggle based on device capability and
   // enterprise policy.
   bool show_on_device_ai_settings =
+      BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI) &&
       base::FeatureList::IsEnabled(features::kShowOnDeviceAiSettings);
   html_source->AddBoolean("showOnDeviceAiSettings", show_on_device_ai_settings);
   show_ai_features_section |= show_on_device_ai_settings;

@@ -20,6 +20,7 @@
 #include "base/strings/string_number_conversions.h"
 #include "base/strings/string_util.h"
 #include "base/time/time.h"
+#include "build/branding_buildflags.h"
 #include "components/contextual_tasks/public/features.h"
 #include "components/omnibox/browser/omnibox_prefs.h"
 #include "components/omnibox/common/logger.h"
@@ -265,12 +266,20 @@ void AimEligibilityService::RegisterProfilePrefs(PrefRegistrySimple* registry) {
 
 // static
 bool AimEligibilityService::IsAimAllowedByPolicy(const PrefService* prefs) {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return false;
+  }
+
   return prefs->GetInteger(omnibox::kAIModeSettings) == kAiModeAllowedDefault;
 }
 
 // static
 bool AimEligibilityService::IsAimAllowedByThirdPartyPolicy(
     const PrefService* prefs) {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return false;
+  }
+
   return prefs->GetInteger(omnibox::kThirdPartyAiChatSettings) ==
          kAiModeAllowedDefault;
 }
@@ -1012,7 +1021,8 @@ GURL AimEligibilityService::GetRequestUrl(
   GURL url = base_gurl.ReplaceComponents(replacements);
 
   url = net::AppendQueryParameter(url, "udm", "50");
-  if (base::FeatureList::IsEnabled(omnibox::kAimEligibilityForceUsCountryCode)) {
+  if (base::FeatureList::IsEnabled(
+          omnibox::kAimEligibilityForceUsCountryCode)) {
     url = net::AppendQueryParameter(url, "gl", "us");
   }
 
@@ -1032,7 +1042,7 @@ GURL AimEligibilityService::GetRequestUrl(
           omnibox::kAimEligibilityForceUsCountryCode)) {
     url = net::AppendQueryParameter(url, "client_country", "us");
   } else if (base::FeatureList::IsEnabled(
-          omnibox::kAimServerEligibilityIncludeClientCountry)) {
+                 omnibox::kAimServerEligibilityIncludeClientCountry)) {
     std::string country_code = GetCountryCode();
     url = net::AppendQueryParameter(url, "client_country", country_code);
   }
@@ -1075,6 +1085,10 @@ GURL AimEligibilityService::GetRequestUrl(
 void AimEligibilityService::ScheduleServerEligibilityRequest(
     RequestSource request_source,
     const std::string& locale) {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return;
+  }
+
   bool is_debounced = false;
   if (base::FeatureList::IsEnabled(omnibox::kAimEligibilityServiceDebounce)) {
     if (request_debounce_timer_.IsRunning()) {
@@ -1093,6 +1107,10 @@ void AimEligibilityService::ScheduleServerEligibilityRequest(
 void AimEligibilityService::StartServerEligibilityRequest(
     RequestSource request_source,
     const std::string& locale) {
+  if (!BUILDFLAG(ENABLE_BROWSER_INTEGRATED_AI)) {
+    return;
+  }
+
   if (IsManualOverrideActive() && request_source != RequestSource::kUser) {
     return;
   }
