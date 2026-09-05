@@ -45,7 +45,7 @@ Invoke-Checked cmd.exe @('/d', '/c', 'gclient --version')
 $gclient = @'
 solutions = [{
   "name": "src",
-  "url": "https://github.com/JoaoDEVWHADS/chromium.git",
+  "url": "https://github.com/JoaoDEVWHADS/joao-browser.git",
   "managed": False,
   "custom_deps": {},
   "custom_vars": {},

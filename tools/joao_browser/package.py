@@ -15,7 +15,7 @@ import subprocess
 import tempfile
 import zipfile
 
-REPOSITORY = 'JoaoDEVWHADS/chromium'
+REPOSITORY = 'JoaoDEVWHADS/joao-browser'
 REQUIRED_FILES = ('chrome.exe', 'chrome.dll', 'chrome_elf.dll', 'resources.pak',
                   'icudtl.dat', 'locales/en-US.pak')
 

@@ -21,7 +21,7 @@ jobs:
   windows:
     # A standard hosted runner cannot hold a full Chromium build.
     # Only trusted tags/manual runs: never run pull-request code on this runner.
-    if: github.repository == 'JoaoDEVWHADS/chromium'
+    if: github.repository == 'JoaoDEVWHADS/joao-browser'
     runs-on: [self-hosted, Windows, X64, joao-browser-build]
     # Keep the build below the 24-hour GITHUB_TOKEN lifetime.
     timeout-minutes: 1380

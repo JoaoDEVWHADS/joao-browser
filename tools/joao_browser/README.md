@@ -12,7 +12,7 @@ The workflow builds the tagged source and publishes three artifacts:
   not required for installation.
 - `JoaoBrowser-<tag>-windows-x64-online.exe`: small .NET Framework bootstrapper.
   It downloads that release's exact offline installer from
-  `JoaoDEVWHADS/chromium`, checks its compiled-in SHA-256 and length, and executes
+  `JoaoDEVWHADS/joao-browser`, checks its compiled-in SHA-256 and length, and executes
   it only after successful verification. It does not extract untrusted ZIPs or
   resolve a moving `latest` URL. Both installers install the same browser.
 
