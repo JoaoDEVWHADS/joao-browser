@@ -58,14 +58,20 @@ is not claimed until a complete Windows run passes.
 ## Releasing
 
 Push changes to `main`; a lightweight Ubuntu job creates the version commit and
-`joao-vYYYYMMDDHHMMSS` tag automatically. The version commit uses `GITHUB_TOKEN`
-and `[skip ci]` to prevent recursion. Manual workflow dispatch can also request
-a release. The Windows job checks out the stamped commit, builds and validates
-it, then uploads assets into a draft and publishes only after validation passes.
-Existing releases are never overwritten. Repository rules must allow the Actions
-bot to update `main` and create tags; otherwise the version job fails explicitly.
-The Windows runner prerequisite still applies; version stamping alone is not a
-successful browser build. Pushes with several commits produce one workflow run.
+`joao-vYYYYMMDDHHMMSS` tag automatically. It then explicitly dispatches a new
+workflow run at that tag with `GITHUB_TOKEN`. All release runs share a concurrency
+group with cancellation enabled: the newest execution interrupts the previous
+one. The dispatched build run never stamps another version, so the automatic
+commit starts a new build without causing an infinite commit/build cycle.
+Manual workflow dispatch without a release tag starts the versioning phase too.
+
+The Windows build checks out the exact stamped commit, builds and validates it,
+then uploads assets into a draft and publishes only after validation passes.
+Existing releases are never overwritten. Repository rules must allow Actions to
+update `main`, create tags and dispatch workflows; failures are reported by the
+version job. The Windows runner prerequisite still applies; version stamping
+alone is not a successful browser build. Pushes with several commits produce one
+initial workflow run, followed by the automatically dispatched build run.
 
 `version.txt` is the public release/update identity. Updates are offered only
 from published GitHub releases, never from an unbuilt version on `main`.
@@ -97,7 +103,8 @@ rejection using synthetic files. These tests run on Linux; they are not a
 Chromium build or installer runtime test.
 
 The Windows pipeline builds and runs `install_static_unittests` with the
-`UserDataDir.*Portable*` filter and all `joao_adblock_unittests` before packaging.
+`UserDataDir.*Portable*` filter, all `joao_adblock_unittests` and
+`joao_updater_unittests` before packaging.
 It then runs `smoke-test.ps1`: verify artifact digests/lengths, extract the ZIP,
 and navigate the fresh portable profile to a local HTTP fixture. A normal script
 must execute and a script from `ad.doubleclick.net` (mapped to loopback) must be
@@ -126,3 +133,12 @@ usable on another PC. Export/import passwords before migrating, and expect to
 sign in again. The browser does not disable encryption to conceal this limit.
 Windows itself can keep system-managed records of executed applications; a
 portable application cannot promise to prevent OS-level logs/prefetch.
+
+## Browser update checks
+
+On Windows, the About page checks published releases from
+`JoaoDEVWHADS/joao-browser` and displays the embedded UTC release version.
+A newer release offers the offline installer for an installed browser, or the
+portable ZIP for a portable browser. Installation/application is explicit; the
+checker does not replace a running browser automatically. See
+[the updater implementation notes](../../docs/joao_browser/updater.md).

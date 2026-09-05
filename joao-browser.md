@@ -25,7 +25,8 @@ installer.
 - [ ] Actual portable browser smoke test and clean-VM online/offline installation,
   upgrade/uninstall, default-prompt and AI UI regression checks.
 - [ ] Live YouTube playback validation, signed in and signed out.
-- [ ] Remote release build/publication (no push or execution requested).
+- [ ] Successful remote Windows build/publication (push and monitoring are now
+  authorized; the dedicated Windows runner is still required).
 
 ## Validation evidence
 Local checks passed: six package tests, five filter-resource tests, one actual
@@ -72,3 +73,19 @@ repeated failed operations. No push or remote workflow execution is included.
 ## Environment
 Chromium 155.0.8044.0 source checkout on Linux. Dependency sync, Windows toolchain,
 build output and Windows runtime are not present at the start of the work.
+
+## Timestamp release follow-up
+The GitHub repository is now `JoaoDEVWHADS/joao-browser`. Every push to `main`
+starts the workflow; one push containing multiple commits creates one run.
+A lightweight Ubuntu job commits UTC `YYYYMMDDHHMMSS` into `version.txt`, tags
+that exact commit and passes it to the Windows build. The generated bot commit
+explicitly dispatches a new build workflow at its tag using `GITHUB_TOKEN`.
+Release concurrency cancels the prior execution. The dispatched run does not
+stamp again, preventing an infinite cycle while honoring the requested restart.
+The Windows native file version is generated after dependency sync from the
+engine major plus days/minutes/seconds, allowing numeric installer upgrades.
+The browser's About-page updater checks published releases from this repository;
+the installed build offers the offline installer, and the portable build offers
+the ZIP. Applying the downloaded update is explicit, not silent self-replacement.
+The prior queued legacy-version run was canceled because it is superseded.
+See tools/joao_browser/README.md and docs/joao_browser/updater.md for details.
