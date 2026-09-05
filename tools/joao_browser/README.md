@@ -16,6 +16,9 @@ The workflow builds the tagged source and publishes three artifacts:
   it only after successful verification. It does not extract untrusted ZIPs or
   resolve a moving `latest` URL. Both installers install the same browser.
 
+Installation is per-user only. The native installer rejects `--system-level`;
+machine-wide installation is not supported by this build.
+
 `release-manifest.json` records source/tool revisions and artifact sizes/hashes.
 `SHA256SUMS.txt` covers the artifacts and manifest. Release assets must not be
 replaced: an older online installer will intentionally reject changed bytes.
@@ -79,12 +82,21 @@ required runtime validation, x64 PE checks, filename collisions and traversal
 rejection using synthetic files. These tests run on Linux; they are not a
 Chromium build or installer runtime test.
 
-The Windows pipeline runs `smoke-test.ps1`: verify artifact digests/lengths,
-extract the ZIP, render a test document with the real browser, check adjacent
-profile creation, move the extracted folder (including a path with spaces),
-and verify `chrome://version` reports the moved profile. It deliberately omits
-`--user-data-dir`, so missing native portable support fails the test. It does not
-install into the build runner's account.
+The Windows pipeline builds and runs `install_static_unittests` with the
+`UserDataDir.*Portable*` filter and all `joao_adblock_unittests` before packaging.
+It then runs `smoke-test.ps1`: verify artifact digests/lengths, extract the ZIP,
+and navigate the fresh portable profile to a local HTTP fixture. A normal script
+must execute and a script from `ad.doubleclick.net` (mapped to loopback) must be
+blocked. A second run with native ad blocking disabled must execute the same ad
+script, ruling out an unreachable fixture as a false positive. The smoke test
+also checks adjacent profile creation, moves the extracted folder (including a
+path with spaces), and verifies `chrome://version` reports the moved profile.
+It deliberately omits `--user-data-dir`, so missing native portable support fails
+the test. It does not install into the build runner's account or test YouTube.
+
+`python3 tools/joao_browser/smoke_server_test.py` exercises the fixture's actual
+subprocess startup, ready-file protocol and HTTP responses on Linux or Windows.
+This fixture test does not execute the browser.
 
 Before public distribution, verify on a clean Windows x64 VM: online install,
 network-disabled offline install, both upgrades, Windows Settings uninstall,

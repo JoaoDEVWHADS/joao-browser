@@ -75,7 +75,11 @@ chrome_pgo_phase = 0
 generate_about_credits = true
 '@ | Set-Content -LiteralPath (Join-Path $build 'args.gn') -Encoding ascii
     Invoke-Checked gn.bat @('gen', 'out/JoaoRelease', '--fail-on-unused-args')
-    Invoke-Checked autoninja.bat @('-C', 'out/JoaoRelease', 'mini_installer')
+    Invoke-Checked autoninja.bat @('-C', 'out/JoaoRelease', 'mini_installer',
+        'install_static_unittests', 'joao_adblock_unittests')
+    Invoke-Checked (Join-Path $build 'install_static_unittests.exe') @(
+        '--gtest_filter=UserDataDir.*Portable*')
+    Invoke-Checked (Join-Path $build 'joao_adblock_unittests.exe') @()
     $output = Join-Path $checkout "release-$Tag"
     Invoke-Checked python3.bat @('tools/joao_browser/package.py', '--build-dir', $build,
         '--output-dir', $output, '--tag', $Tag, '--commit', $Commit,
