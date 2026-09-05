@@ -1,0 +1,89 @@
+name: Joao Browser Windows release
+
+on:
+  push:
+    tags: ['joao-v*']
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: 'Existing tag matching chrome/VERSION, e.g. joao-v155.0.8044.0-1'
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: joao-browser-release
+  cancel-in-progress: false
+
+jobs:
+  windows:
+    # A standard hosted runner cannot hold a full Chromium build.
+    # Only trusted tags/manual runs: never run pull-request code on this runner.
+    if: github.repository == 'JoaoDEVWHADS/chromium'
+    runs-on: [self-hosted, Windows, X64, joao-browser-build]
+    # Keep the build below the 24-hour GITHUB_TOKEN lifetime.
+    timeout-minutes: 1380
+    permissions:
+      contents: write
+    defaults:
+      run:
+        shell: powershell
+    env:
+      RELEASE_TAG: ${{ inputs.tag || github.ref_name }}
+    steps:
+      - name: Validate release tag
+        run: |
+          if ($env:RELEASE_TAG -notmatch '^joao-v[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+(?:-[0-9]+)?$') {
+            throw 'Invalid release tag'
+          }
+      - name: Check out tagged source
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          ref: refs/tags/${{ env.RELEASE_TAG }}
+          path: src
+          fetch-depth: 1
+          persist-credentials: false
+      - name: Build and validate packages
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $commit = (& git -C src rev-parse HEAD).Trim()
+          if ($LASTEXITCODE -ne 0) { throw 'Cannot resolve source commit' }
+          & ./src/tools/joao_browser/build.ps1 -Tag $env:RELEASE_TAG -Commit $commit
+      - name: Publish verified release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $directory = Join-Path $env:GITHUB_WORKSPACE "release-$env:RELEASE_TAG"
+          $manifest = Get-Content (Join-Path $directory 'release-manifest.json') -Raw | ConvertFrom-Json
+          foreach ($property in $manifest.artifacts.PSObject.Properties) {
+            $path = Join-Path $directory $property.Name
+            if ((Get-FileHash $path -Algorithm SHA256).Hash.ToLowerInvariant() -ne $property.Value.sha256) {
+              throw "Artifact changed after validation: $path"
+            }
+          }
+          # Refuse replacing existing releases: online installers embed exact hashes.
+          & gh release view $env:RELEASE_TAG *> $null
+          if ($LASTEXITCODE -eq 0) { throw 'Release already exists; use a new release tag.' }
+          $notes = Join-Path $directory 'release-notes.md'
+          @'
+          Windows x64: choose portable.zip, online.exe or offline.exe.
+          Extract the portable ZIP and run chrome.exe; keep joao_portable beside it.
+          The portable profile is local to its folder. Windows-protected passwords
+          and cookies remain bound to the Windows account/machine.
+          The online installer downloads the exact offline installer in this release
+          and verifies its embedded SHA-256 before executing it.
+          SHA256SUMS.txt and release-manifest.json describe the published artifacts.
+          '@ | Set-Content $notes -Encoding utf8
+          & gh release create $env:RELEASE_TAG --verify-tag --draft --title "Joao Browser $env:RELEASE_TAG" --notes-file $notes
+          if ($LASTEXITCODE -ne 0) { throw 'Release creation failed' }
+          $assets = @($manifest.artifacts.PSObject.Properties.Name | ForEach-Object { Join-Path $directory $_ })
+          $assets += Join-Path $directory 'release-manifest.json'
+          $assets += Join-Path $directory 'SHA256SUMS.txt'
+          & gh release upload $env:RELEASE_TAG @assets
+          if ($LASTEXITCODE -ne 0) { throw 'Upload failed; draft retained for inspection' }
+          & gh release edit $env:RELEASE_TAG --draft=false
+          if ($LASTEXITCODE -ne 0) { throw 'Release publication failed; inspect draft' }
