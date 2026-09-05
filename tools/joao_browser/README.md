@@ -28,32 +28,27 @@ Request a new timestamped build for a rebuild. Signing binaries is not configure
 Windows may show an unknown-publisher prompt. Sign the offline payload before
 packaging if signing is added, so its embedded bootstrapper digest stays correct.
 
-## Runner preparation
+## GitHub-hosted build machine
 
-This cannot be built on a standard GitHub-hosted Windows runner's disk budget.
-Register a **dedicated Windows x64 self-hosted runner** with the custom label
-`joao-browser-build`. Do not enable pull-request jobs on this machine. Required:
+The release job uses GitHub's `windows-2025-vs2026` x64 machine, not a registered
+self-hosted runner. Hosted jobs have a six-hour limit. A step before checkout
+reports actual RAM, workspace disk space and installed SDKs in the job log and
+summary. It rejects machines with less than Chromium's documented 8 GiB RAM or
+100 GiB free disk, before attempting the large source download. The public
+standard runner documents 16 GiB RAM and only 14 GiB SSD; selecting a hosted label
+does not imply that a full Chromium build fits. No paid runner is configured.
 
-- Windows 10 or newer, Git for Windows, GitHub CLI (`gh`), Windows PowerShell 5.1
-  and .NET Framework 4.8 (including `Framework64/v4.0.30319/csc.exe`).
-- Visual Studio 2026 >=18.0.0, Desktop development with C++, ATL/MFC, Windows SDK
-  10.0.28000.2270 and SDK Debugging Tools >=10.0.26100.3323, matching
-  [this source tree's build instructions](../../docs/windows_build_instructions.md).
-  Set `vs2026_install` if toolchain discovery requires it.
-- 32 GB RAM minimum, 64 GB recommended, preferably 24 or more CPU cores, and
-  150 GB free NTFS space **in addition to the source checkout**. Provision a
-  400 GB or larger SSD for sources, dependencies, build and distribution staging.
-- A short runner workspace path without spaces (for example `C:\actions`).
-  Enable Windows/Git long paths as explained in the upstream build instructions.
-- Network access to GitHub and Chromium's dependency/toolchain hosts.
+The source still requires Visual Studio 2026 >=18.0.0 with C++ ATL/MFC, Windows
+SDK 10.0.28000.2270 and Debugging Tools >=10.0.26100.3323. The hosted image's
+installed software can change; consult the job's diagnostics and
+[the source requirements](../../docs/windows_build_instructions.md).
+For a manual build, use a short NTFS path with no spaces, Git long paths,
+.NET Framework 4.8, PowerShell 5.1 and sufficient storage for source, dependencies,
+build output and release staging. More than 16 GiB RAM is recommended upstream.
 
-The script pins depot_tools to `81577f19a8497ba7e41afac322e8f03553a863ec`, disables
-its automatic update, and syncs the checkout's pinned DEPS at the exact tagged
-commit. Update that pin deliberately when updating Chromium. The job allows
-23 hours, below the
-[24-hour GITHUB_TOKEN lifetime](https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#jobsjob_idtimeout-minutes).
-A slow/cold machine that exceeds this needs more resources; successful publication
-is not claimed until a complete Windows run passes.
+The build script pins depot_tools to
+`81577f19a8497ba7e41afac322e8f03553a863ec`, disables its automatic update, and
+syncs the checkout's pinned DEPS at the exact stamped commit.
 
 ## Releasing
 
@@ -69,7 +64,7 @@ The Windows build checks out the exact stamped commit, builds and validates it,
 then uploads assets into a draft and publishes only after validation passes.
 Existing releases are never overwritten. Repository rules must allow Actions to
 update `main`, create tags and dispatch workflows; failures are reported by the
-version job. The Windows runner prerequisite still applies; version stamping
+version job. The Windows machine capacity requirements still apply; version stamping
 alone is not a successful browser build. Pushes with several commits produce one
 initial workflow run, followed by the automatically dispatched build run.
 

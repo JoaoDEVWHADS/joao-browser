@@ -26,7 +26,7 @@ installer.
   upgrade/uninstall, default-prompt and AI UI regression checks.
 - [ ] Live YouTube playback validation, signed in and signed out.
 - [ ] Successful remote Windows build/publication (push and monitoring are now
-  authorized; the dedicated Windows runner is still required).
+  authorized; adequate Windows build capacity is still required).
 
 ## Validation evidence
 Local checks passed: six package tests, five filter-resource tests, one actual
@@ -40,7 +40,7 @@ The workflow now builds/runs portable profile and native rule matcher tests,
 then tests first-navigation blocking against a local server with an unfiltered
 control and verifies profile storage after moving the portable directory.
 
-The Windows job requires a dedicated self-hosted runner; see
+The Windows job uses GitHub-hosted `windows-2025-vs2026` with capacity checks; see
 tools/joao_browser/README.md for exact prerequisites and release instructions.
 Native ad filtering is an initial implementation using Chromium's engine, not
 the full Brave engine. Unsupported rule operators and service-worker requests
@@ -89,3 +89,11 @@ the installed build offers the offline installer, and the portable build offers
 the ZIP. Applying the downloaded update is explicit, not silent self-replacement.
 The prior queued legacy-version run was canceled because it is superseded.
 See tools/joao_browser/README.md and docs/joao_browser/updater.md for details.
+
+## Hosted runner correction
+The user clarified that GitHub's hosted machines must be used. The workflow now
+selects `windows-2025-vs2026`, caps execution at six hours and reports/validates
+machine capacity before the source checkout. Removed the earlier arbitrary
+32 GiB memory gate; the source minimum is 8 GiB. Standard hosted disk capacity
+may prevent a complete build; the job reports this explicitly rather than
+remaining queued for an unregistered self-hosted runner.

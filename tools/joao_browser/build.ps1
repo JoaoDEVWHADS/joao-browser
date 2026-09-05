@@ -26,9 +26,9 @@ $checkout = Split-Path -Parent $source
 if ((Split-Path -Leaf $source) -ne 'src') { throw 'Checkout must be located in a directory named src.' }
 if ($source.Contains(' ')) { throw 'Chromium requires a source path without spaces.' }
 $drive = Get-PSDrive -Name ([IO.Path]::GetPathRoot($source).Substring(0, 1))
-if ($drive.Free -lt 150GB) { throw 'At least 150 GB free space is required before dependency sync.' }
+Write-Output ('Free workspace space before dependency sync: {0:N2} GiB' -f ($drive.Free / 1GB))
 $memory = (Get-CimInstance Win32_ComputerSystem).TotalPhysicalMemory
-if ($memory -lt 32GB) { throw 'Release runner needs at least 32 GB RAM (64 GB recommended).' }
+if ($memory -lt 8GB) { throw 'Chromium requires at least 8 GB RAM; more than 16 GB is recommended.' }
 $actualCommit = (& git -C $source rev-parse HEAD).Trim()
 if ($LASTEXITCODE -ne 0 -or $actualCommit -ne $Commit) { throw 'Checkout commit mismatch.' }
 $depot = Join-Path $checkout 'depot_tools'

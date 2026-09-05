@@ -60,13 +60,13 @@ jobs:
               subprocess.run([sys.executable, str(script)], check=True)
           PY
   windows:
-    # A standard hosted runner cannot hold a full Chromium build.
+    # Use GitHub-hosted Windows; validate actual capacity before downloading Chromium.
     # The explicit tagged dispatch is a separate run. It cancels the stamping
     # run and any older release build; it never stamps another version.
     if: github.repository == 'JoaoDEVWHADS/joao-browser' && github.event_name == 'workflow_dispatch' && inputs.release_tag != ''
-    runs-on: [self-hosted, Windows, X64, joao-browser-build]
-    # Keep the build below the 24-hour GITHUB_TOKEN lifetime.
-    timeout-minutes: 1380
+    runs-on: windows-2025-vs2026
+    # GitHub-hosted jobs have a six-hour execution limit.
+    timeout-minutes: 360
     permissions:
       contents: write
     defaults:
@@ -87,6 +87,27 @@ jobs:
           if ($env:GITHUB_REF -ne "refs/tags/$env:RELEASE_TAG" -or $env:GITHUB_SHA -ne $env:RELEASE_COMMIT) {
             throw 'Build dispatch must target the exact stamped tag and commit'
           }
+      - name: Check hosted machine capacity before source download
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $memoryGiB = [Math]::Round((Get-CimInstance Win32_ComputerSystem).TotalPhysicalMemory / 1GB, 2)
+          $driveName = [IO.Path]::GetPathRoot($env:GITHUB_WORKSPACE).Substring(0, 1)
+          $drive = Get-PSDrive -Name $driveName
+          $freeGiB = [Math]::Round($drive.Free / 1GB, 2)
+          $summary = "GitHub-hosted runner: $env:ImageOS; RAM: $memoryGiB GiB; workspace free: $freeGiB GiB."
+          Write-Output $summary
+          $summary | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Encoding utf8 -Append
+          Get-PSDrive -PSProvider FileSystem | Select-Object Name, Used, Free | Format-Table
+          $sdk = Join-Path ${env:ProgramFiles(x86)} 'Windows Kits/10/Include'
+          if (Test-Path $sdk) { Get-ChildItem $sdk -Directory | Select-Object Name }
+          if ($memoryGiB -lt 8) { throw 'Chromium requires at least 8 GiB RAM.' }
+          if ($drive.Free -lt 100GB) {
+            throw "Insufficient disk for Chromium: $freeGiB GiB free; source build requires at least 100 GiB before checkout. The standard GitHub-hosted machine cannot fit this build."
+          }
+          $vswhere = Join-Path ${env:ProgramFiles(x86)} 'Microsoft Visual Studio/Installer/vswhere.exe'
+          $vs = & $vswhere -latest -products '*' -version '[18.0,19.0)' -requires Microsoft.VisualStudio.Component.VC.ATLMFC -property installationPath
+          if ($LASTEXITCODE -ne 0 -or -not $vs) { throw 'Visual Studio 2026 with C++ ATL/MFC is required.' }
+          "vs2026_install=$vs" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
       - name: Check out tagged source
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
