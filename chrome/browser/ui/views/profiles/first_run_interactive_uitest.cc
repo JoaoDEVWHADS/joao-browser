@@ -64,6 +64,7 @@
 #include "chrome/browser/ui/webui/signin/signin_url_utils.h"
 #include "chrome/browser/ui/webui/whats_new/whats_new_fetcher.h"
 #include "chrome/common/chrome_features.h"
+#include "chrome/common/pref_names.h"
 #include "chrome/common/webui_url_constants.h"
 #include "chrome/grit/branded_strings.h"
 #include "chrome/grit/browser_resources.h"
@@ -1374,6 +1375,12 @@ IN_PROC_BROWSER_TEST_P(FirstRunInteractiveUiTestWithSyncService,
          Then(CompleteFinishOrContinueStep())));
 
   WaitForPickerClosed();
+#if BUILDFLAG(IS_WIN)
+  if (!UseRevampedView()) {
+    EXPECT_TRUE(g_browser_process->local_state()->GetBoolean(
+        prefs::kDefaultBrowserPromptDeclined));
+  }
+#endif
 
   ASSERT_TRUE(proceed_future.Get());
   BrowserWindowInterface* incognito_browser =

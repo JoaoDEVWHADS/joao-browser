@@ -74,6 +74,19 @@ TEST_F(DefaultBrowserStepEligibilityCheckerTest, DisabledByPolicy) {
 }
 
 #if BUILDFLAG(IS_WIN)
+TEST_F(DefaultBrowserStepEligibilityCheckerTest, PreviousRefusalSkipsOffer) {
+  SetDefaultBrowserDisabledByPolicy(false);
+  auto* local_state =
+      TestingBrowserProcess::GetGlobal()->GetTestingLocalState();
+  local_state->SetBoolean(prefs::kDefaultBrowserPromptDeclined, true);
+  TestDefaultBrowserStepEligibilityChecker checker;
+  checker.SetStateForTesting(shell_integration::NOT_DEFAULT);
+  base::test::TestFuture<bool> future;
+  checker.CheckEligibility(profile(), future.GetCallback());
+  EXPECT_FALSE(future.Get());
+  local_state->ClearPref(prefs::kDefaultBrowserPromptDeclined);
+}
+
 TEST_F(DefaultBrowserStepEligibilityCheckerTest, CheckFinishedIsDefault) {
   SetDefaultBrowserDisabledByPolicy(false);
 

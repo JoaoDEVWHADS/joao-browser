@@ -137,6 +137,7 @@ void DefaultBrowserSurfaceManager::HandleAccept() {
 
 void DefaultBrowserSurfaceManager::HandleDismiss() {
   PrefService* local_state = g_browser_process->local_state();
+  local_state->SetBoolean(prefs::kDefaultBrowserPromptDeclined, true);
 
   int declined_count =
       local_state->GetInteger(prefs::kDefaultBrowserDeclinedCount);

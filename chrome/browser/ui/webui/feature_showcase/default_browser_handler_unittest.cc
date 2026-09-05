@@ -13,6 +13,7 @@
 #include "chrome/browser/shell_integration.h"
 #include "chrome/browser/ui/views/profiles/feature_showcase/feature_showcase_metrics.h"
 #include "chrome/browser/ui/webui/intro/intro_ui.h"
+#include "chrome/common/pref_names.h"
 #include "chrome/test/base/testing_browser_process.h"
 #include "components/prefs/testing_pref_service.h"
 #include "content/public/test/browser_task_environment.h"
@@ -23,7 +24,11 @@ class FeatureShowcaseDefaultBrowserHandlerTest : public testing::Test {
  public:
   FeatureShowcaseDefaultBrowserHandlerTest() = default;
 
-  void TearDown() override { handler_.reset(); }
+  void TearDown() override {
+    handler_.reset();
+    TestingBrowserProcess::GetGlobal()->local_state()->ClearPref(
+        prefs::kDefaultBrowserPromptDeclined);
+  }
 
   void CreateHandler() {
     handler_remote_.reset();
@@ -78,9 +83,12 @@ TEST_F(FeatureShowcaseDefaultBrowserHandlerTest,
   base::HistogramTester histogram_tester;
   CreateHandler();
 
+  auto* local_state = TestingBrowserProcess::GetGlobal()->local_state();
+  local_state->SetBoolean(prefs::kDefaultBrowserPromptDeclined, false);
   handler_remote_->SkipSetAsDefaultBrowser();
   handler_remote_.FlushForTesting();
 
+  EXPECT_TRUE(local_state->GetBoolean(prefs::kDefaultBrowserPromptDeclined));
   histogram_tester.ExpectBucketCount("ProfilePicker.FirstRun.DefaultBrowser",
                                      DefaultBrowserChoice::kSkip, 1);
   histogram_tester.ExpectUniqueSample(

@@ -60,6 +60,7 @@
 #include "chrome/browser/ui/webui/signin/signin_ui_error.h"
 #include "chrome/browser/ui/webui/whats_new/whats_new_fetcher.h"
 #include "chrome/common/channel_info.h"
+#include "chrome/common/pref_names.h"
 #include "chrome/common/webui_url_constants.h"
 #include "chrome/grit/browser_resources.h"
 #include "components/lens/lens_overlay_metrics.h"
@@ -380,6 +381,10 @@ class DefaultBrowserStepController : public ProfileManagementStepController {
   }
 
   void OnStepCompleted(bool can_pin, DefaultBrowserChoice choice) {
+    if (choice == DefaultBrowserChoice::kSkip) {
+      g_browser_process->local_state()->SetBoolean(
+          prefs::kDefaultBrowserPromptDeclined, true);
+    }
     if (choice == DefaultBrowserChoice::kClickSetAsDefault) {
       // The worker pointer is reference counted. While it is running, sequence
       // it runs on will hold references to it and it will be automatically

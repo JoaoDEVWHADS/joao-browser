@@ -11,6 +11,10 @@
 
 void chrome::startup::default_prompt::ResetPromptPrefs(Profile* profile) {
   PrefService* local_state = g_browser_process->local_state();
+  if (local_state->GetInteger(prefs::kDefaultBrowserInfobarDeclinedCount) > 0 ||
+      local_state->GetInteger(prefs::kDefaultBrowserDeclinedCount) > 0) {
+    local_state->SetBoolean(prefs::kDefaultBrowserPromptDeclined, true);
+  }
   local_state->ClearPref(prefs::kDefaultBrowserInfobarLastDeclinedTime);
   local_state->ClearPref(prefs::kDefaultBrowserInfobarDeclinedCount);
 

@@ -10,7 +10,8 @@
 namespace chrome::startup::default_prompt {
 
 // Resets the tracking preferences for the default browser prompts so that
-// they are re-shown if the browser ceases to be the user's chosen default.
+// they are re-shown if the browser ceases to be the user's chosen default,
+// unless the user has previously declined an offer.
 void ResetPromptPrefs(Profile* profile);
 
 // Updates the tracking preferences for the default browser prompts to reflect

@@ -7,14 +7,17 @@
 #include <memory>
 
 #include "base/types/pass_key.h"
+#include "chrome/browser/browser_process.h"
 #include "chrome/browser/infobars/confirm_infobar_creator.h"
 #include "chrome/browser/profiles/profile.h"
 #include "chrome/browser/ui/startup/default_browser_prompt/default_browser_prompt_prefs.h"
+#include "chrome/common/pref_names.h"
 #include "chrome/grit/branded_strings.h"
 #include "chrome/grit/generated_resources.h"
 #include "components/infobars/core/confirm_infobar_delegate.h"
 #include "components/infobars/core/infobar.h"
 #include "components/omnibox/browser/vector_icons.h"
+#include "components/prefs/pref_service.h"
 #include "components/vector_icons/vector_icons.h"
 #include "ui/base/l10n/l10n_util.h"
 #include "ui/base/ui_base_features.h"
@@ -58,6 +61,8 @@ bool DefaultBrowserInfoBarDelegate::ShouldExpire(
 void DefaultBrowserInfoBarDelegate::InfoBarDismissed() {
   // `profile_` may be null in tests.
   if (profile_) {
+    g_browser_process->local_state()->SetBoolean(
+        prefs::kDefaultBrowserPromptDeclined, true);
     chrome::startup::default_prompt::UpdatePrefsForDismissedPrompt(profile_);
   }
 

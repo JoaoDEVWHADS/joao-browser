@@ -36,51 +36,13 @@ using default_browser::DefaultBrowserPromptSurface;
 bool ShouldShowPrompts() {
   PrefService* local_state = g_browser_process->local_state();
 
-  int declined_count =
-      local_state->GetInteger(prefs::kDefaultBrowserInfobarDeclinedCount);
-  base::Time last_declined_time =
-      local_state->GetTime(prefs::kDefaultBrowserInfobarLastDeclinedTime);
-
-  constexpr int kMaxPromptCount = 5;
-  constexpr int kRepromptDurationDays = 21;
-
-  int max_prompt_count = kMaxPromptCount;
-  int reprompt_duration_days = kRepromptDurationDays;
-
-  if (default_browser::IsDefaultBrowserPromptSurfacesEnabled()) {
-    declined_count =
-        local_state->GetInteger(prefs::kDefaultBrowserDeclinedCount);
-    last_declined_time =
-        local_state->GetTime(prefs::kDefaultBrowserLastDeclinedTime);
-
-    constexpr int kFrameworkMaxPromptCount = 5;
-    constexpr int kFrameworkRepromptDurationDays = 14;
-
-    max_prompt_count = kFrameworkMaxPromptCount;
-    reprompt_duration_days = kFrameworkRepromptDurationDays;
+  // Honor refusals recorded by both the legacy infobar and newer surfaces.
+  // Persist the migration before the legacy tracking counters can be reset.
+  if (local_state->GetInteger(prefs::kDefaultBrowserInfobarDeclinedCount) > 0 ||
+      local_state->GetInteger(prefs::kDefaultBrowserDeclinedCount) > 0) {
+    local_state->SetBoolean(prefs::kDefaultBrowserPromptDeclined, true);
   }
-
-#if BUILDFLAG(IS_WIN) || BUILDFLAG(IS_MAC)
-  if (base::FeatureList::IsEnabled(features::kSeparateDefaultAndPinPrompt)) {
-    max_prompt_count =
-        features::kSeparateDefaultAndPinPromptDefaultMaxCount.Get();
-    reprompt_duration_days =
-        features::kSeparateDefaultAndPinPromptDefaultCooldownDays.Get();
-  }
-#endif
-
-  if (declined_count >= max_prompt_count) {
-    return false;
-  }
-
-  // Show if the user has never declined the prompt.
-  if (declined_count == 0) {
-    return true;
-  }
-
-  // Show if it has been long enough since the last declined time
-  return (base::Time::Now() - last_declined_time) >
-         base::Days(reprompt_duration_days);
+  return !local_state->GetBoolean(prefs::kDefaultBrowserPromptDeclined);
 }
 
 DefaultBrowserPromptSurface GetPromptSurface() {

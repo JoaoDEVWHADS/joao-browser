@@ -770,6 +770,10 @@ inline constexpr char kDefaultBrowserInfobarDeclinedCount[] =
 inline constexpr char kDefaultBrowserLastDeclinedTime[] =
     "browser.default_browser_last_declined_time";
 
+// Permanently suppress automatic default-browser offers after a refusal.
+inline constexpr char kDefaultBrowserPromptDeclined[] =
+    "browser.default_browser_prompt_declined";
+
 // Int representing the number of times the user has dismissed the default
 // browser experiment surface.
 inline constexpr char kDefaultBrowserDeclinedCount[] =

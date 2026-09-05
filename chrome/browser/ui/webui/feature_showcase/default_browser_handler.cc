@@ -108,6 +108,8 @@ void DefaultBrowserHandler::SetAsDefaultBrowser() {
 }
 
 void DefaultBrowserHandler::SkipSetAsDefaultBrowser() {
+  g_browser_process->local_state()->SetBoolean(
+      prefs::kDefaultBrowserPromptDeclined, true);
   RecordStepUserAction(FeatureShowcaseStep::kDefaultBrowser,
                        FeatureShowcaseStepUserAction::kDeclined);
   // TODO(crbug.com/486819807): Remove old metrics once we completely switch to

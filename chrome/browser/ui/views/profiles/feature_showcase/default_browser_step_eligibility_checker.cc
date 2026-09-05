@@ -38,7 +38,9 @@ void DefaultBrowserStepEligibilityChecker::CheckEligibility(
     Profile& profile,
     base::OnceCallback<void(bool)> callback) {
 #if BUILDFLAG(IS_WIN)
-  if (IsDefaultBrowserDisabledByPolicy() ||
+  if (g_browser_process->local_state()->GetBoolean(
+          prefs::kDefaultBrowserPromptDeclined) ||
+      IsDefaultBrowserDisabledByPolicy() ||
       !shell_integration::CanSetAsDefaultBrowser()) {
     base::SingleThreadTaskRunner::GetCurrentDefault()->PostTask(
         FROM_HERE, base::BindOnce(std::move(callback), false));
