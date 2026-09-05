@@ -375,21 +375,21 @@ class VariableExpander:
                     ),
                 }
             )
-        elif mini_installer_product_name == 'Chromium Installer':
+        elif mini_installer_product_name == 'João Browser Installer':
             self._variable_mapping.update(
                 {
-                    'BRAND': 'Chromium',
-                    'BINARIES_UPDATE_REGISTRY_SUBKEY': 'Software\\Chromium Binaries',
-                    'CHROME_DIR': 'Chromium',
-                    'CHROME_HTML_PROG_ID': 'ChromiumHTM',
-                    'CHROME_LONG_NAME': 'Chromium',
-                    'CHROME_PDF_PROG_ID': 'ChromiumPDF',
-                    'CHROME_SHORT_NAME': 'Chromium',
-                    'CHROME_UPDATE_REGISTRY_SUBKEY': 'Software\\Chromium',
-                    'CHROME_CLIENT_STATE_KEY': 'Software\\Chromium',
-                    'CHROME_DIRECT_LAUNCH_SCHEME': 'chromium',
+                    'BRAND': 'João Browser',
+                    'BINARIES_UPDATE_REGISTRY_SUBKEY': 'Software\\JoaoBrowser Binaries',
+                    'CHROME_DIR': 'JoaoBrowser',
+                    'CHROME_HTML_PROG_ID': 'JoaoBrowserHTM',
+                    'CHROME_LONG_NAME': 'João Browser',
+                    'CHROME_PDF_PROG_ID': 'JoaoBrowserPDF',
+                    'CHROME_SHORT_NAME': 'João Browser',
+                    'CHROME_UPDATE_REGISTRY_SUBKEY': 'Software\\JoaoBrowser',
+                    'CHROME_CLIENT_STATE_KEY': 'Software\\JoaoBrowser',
+                    'CHROME_DIRECT_LAUNCH_SCHEME': 'joaobrowser',
                     'CHROME_TOAST_ACTIVATOR_CLSID': (
-                        '{635EFA6F-08D6-4EC9-BD14-8A0FDE975159}'
+                        '{64272B7E-386D-5C65-A381-E949085415B7}'
                     ),
                     'CHROME_ELEVATOR_CLSID': (
                         '{D133B120-6DB4-4D6B-8BFE-83BF8CA1B1B0}'
@@ -397,9 +397,9 @@ class VariableExpander:
                     'CHROME_ELEVATOR_IID': (
                         '{BB19A0E5-00C6-4966-94B2-5AFEC6FED93A}'
                     ),
-                    'CHROME_ELEVATION_SERVICE_NAME': 'ChromiumElevationService',
+                    'CHROME_ELEVATION_SERVICE_NAME': 'JoãoBrowserElevationService',
                     'CHROME_ELEVATION_SERVICE_DISPLAY_NAME': (
-                        'Chromium Elevation Service (ChromiumElevationService)'
+                        'João Browser Elevation Service (JoãoBrowserElevationService)'
                     ),
                     'TRACING_SERVICE_CLSID': '{83F69367-442D-447F-8BCC-0E3F97BE9CF2}',
                     'TRACING_SERVICE_STORAGE_DIR': os.path.join(

@@ -207,13 +207,14 @@ constexpr TestData kTestData[] = {
 #else   // BUILDFLAG(GOOGLE_CHROME_BRANDING)
 constexpr TestData kTestData[] = {
     {
-        L"C:\\Program Files (x86)\\Chromium\\Application\\chrome.exe",
+        L"C:\\Program Files (x86)\\JoaoBrowser\\Application\\chrome.exe",
         CHROMIUM_INDEX,
-        true,
+        false,
         L"",
     },
     {
-        L"C:\\Users\\user\\AppData\\Local\\Chromium\\Application\\chrome.exe",
+        L"C:\\Users\\user\\AppData\\Local\\JoaoBrowser\\Application\\"
+        L"chrome.exe",
         CHROMIUM_INDEX,
         false,
         L"",

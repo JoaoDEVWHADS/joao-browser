@@ -360,8 +360,10 @@ class InstallStaticUtilTest
 #if BUILDFLAG(GOOGLE_CHROME_BRANDING)
     static constexpr wchar_t kPolicyKey[] =
         L"Software\\Policies\\Google\\Chrome";
-#else
+#elif BUILDFLAG(GOOGLE_CHROME_FOR_TESTING_BRANDING)
     static constexpr wchar_t kPolicyKey[] = L"Software\\Policies\\Chromium";
+#else
+    static constexpr wchar_t kPolicyKey[] = L"Software\\Policies\\JoaoBrowser";
 #endif
 
     ASSERT_EQ(ERROR_SUCCESS,
@@ -378,8 +380,9 @@ class InstallStaticUtilTest
     std::wstring result(L"Software\\");
 #if BUILDFLAG(USE_GOOGLE_UPDATE_INTEGRATION)
     result.append(L"Google\\Update\\ClientState");
-    if (medium)
+    if (medium) {
       result.append(L"Medium");
+    }
     result.push_back(L'\\');
     result.append(mode_->app_guid);
 #else
@@ -416,7 +419,7 @@ TEST_P(InstallStaticUtilTest, GetChromeInstallSubDirectory) {
   // The directory strings for the brand's install modes; parallel to
   // kInstallModes.
   static constexpr const wchar_t* kInstallDirs[] = {
-      L"Chromium",
+      L"JoaoBrowser",
   };
 #endif
   static_assert(std::size(kInstallDirs) == NUM_INSTALL_MODES,
@@ -445,7 +448,7 @@ TEST_P(InstallStaticUtilTest, GetRegistryPath) {
   // The registry path strings for the brand's install modes; parallel to
   // kInstallModes.
   static constexpr const wchar_t* kRegistryPaths[] = {
-      L"Software\\Chromium",
+      L"Software\\JoaoBrowser",
   };
 #endif
   static_assert(std::size(kRegistryPaths) == NUM_INSTALL_MODES,
@@ -478,7 +481,7 @@ TEST_P(InstallStaticUtilTest, GetUninstallRegistryPath) {
   // The registry path strings for the brand's install modes; parallel to
   // kInstallModes.
   static constexpr const wchar_t* kUninstallRegistryPaths[] = {
-      L"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\Chromium",
+      L"Software\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\JoaoBrowser",
   };
 #endif
   static_assert(std::size(kUninstallRegistryPaths) == NUM_INSTALL_MODES,
@@ -527,7 +530,7 @@ TEST_P(InstallStaticUtilTest, GetBaseAppId) {
 #else
   // The base app ids for the brand's install modes; parallel to kInstallModes.
   static constexpr const wchar_t* kBaseAppIds[] = {
-      L"Chromium",
+      L"JoaoBrowser",
   };
 #endif
   static_assert(std::size(kBaseAppIds) == NUM_INSTALL_MODES,
@@ -587,15 +590,15 @@ TEST_P(InstallStaticUtilTest, GetToastActivatorClsid) {
   // The toast activator CLSIDs for the brand's install modes; parallel to
   // kInstallModes.
   static constexpr CLSID kToastActivatorClsids[] = {
-      {0x635EFA6F,
-       0x08D6,
-       0x4EC9,
-       {0xBD, 0x14, 0x8A, 0x0F, 0xDE, 0x97, 0x51, 0x59}}  // Chromium.
+      {0x64272b7e,
+       0x386d,
+       0x5c65,
+       {0xa3, 0x81, 0xe9, 0x49, 0x08, 0x54, 0x15, 0xb7}}  // Chromium.
   };
 
   // The string representation of the CLSIDs above.
   static constexpr const wchar_t* kToastActivatorClsidsString[] = {
-      L"{635EFA6F-08D6-4EC9-BD14-8A0FDE975159}"  // Chromium.
+      L"{64272B7E-386D-5C65-A381-E949085415B7}"  // Chromium.
   };
 #endif
   static_assert(std::size(kToastActivatorClsids) == NUM_INSTALL_MODES,
@@ -785,8 +788,9 @@ TEST_P(InstallStaticUtilTest, UsageStatsZero) {
 }
 
 TEST_P(InstallStaticUtilTest, UsageStatsZeroMedium) {
-  if (!system_level())
+  if (!system_level()) {
     return;
+  }
   SetUsageStat(0, true);
   EXPECT_FALSE(GetCollectStatsConsent());
 }
@@ -797,8 +801,9 @@ TEST_P(InstallStaticUtilTest, UsageStatsOne) {
 }
 
 TEST_P(InstallStaticUtilTest, UsageStatsOneMedium) {
-  if (!system_level())
+  if (!system_level()) {
     return;
+  }
   SetUsageStat(1, true);
   EXPECT_TRUE(GetCollectStatsConsent());
 }
@@ -895,11 +900,11 @@ INSTANTIATE_TEST_SUITE_P(
     testing::Combine(testing::Values(GOOGLE_CHROME_FOR_TESTING_INDEX),
                      testing::Values("user")));
 #else   // BUILDFLAG(GOOGLE_CHROME_BRANDING)
-// Chromium supports user and system levels.
-INSTANTIATE_TEST_SUITE_P(Chromium,
+// João Browser supports per-user installation.
+INSTANTIATE_TEST_SUITE_P(JoaoBrowser,
                          InstallStaticUtilTest,
                          testing::Combine(testing::Values(CHROMIUM_INDEX),
-                                          testing::Values("user", "system")));
+                                          testing::Values("user")));
 #endif  // !BUILDFLAG(GOOGLE_CHROME_BRANDING)
 
 }  // namespace install_static

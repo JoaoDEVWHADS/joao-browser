@@ -3,272 +3,272 @@
 <translationbundle lang="fi">
 <translation id="1026101648481255140">Jatka asennusta</translation>
 <translation id="1029669172902658969">Päivitä &amp;Chromium-käyttöjärjestelmä käynnistämällä se uudelleen</translation>
-<translation id="1040916596585577953">Chromium suosittelee tämän laajennuksen tarkistamista</translation>
+<translation id="4711726241445951349">João Browser suosittelee tämän laajennuksen tarkistamista</translation>
 <translation id="1042552502243217427">Kun sivusto pyytää lupaa esiladata sen sivulla olevia linkkejä yksityisesti, Chromium käyttää Googlen palvelimia. Henkilöllisyytesi piilotetaan esiladatulta sivustolta, mutta Google oppii, mitä sivustoja esiladataan.</translation>
 <translation id="1051793555070215510">Auta meitä parantamaan Incognitoa vastaamalla tähän minuutin kestävään kyselyyn.</translation>
 <translation id="1065672644894730302">Asetuksiasi ei voi lukea. Kaikkia toimintoja ei voi välttämättä käyttää eikä asetuksiin tehtäviä muutoksia tallenneta.</translation>
-<translation id="1083934481477628225">Vanhempasi on laittanut Chromiumin "Sivustojen, sovellusten ja laajennusten käyttöluvat" pois päältä</translation>
-<translation id="1090946077924227754">Etsi tiettyä Chromiumin ominaisuutta tai laajennusta kirjoittamalla sen pikakomento osoitepalkkiin ja painamalla valitsemaasi näppäintä</translation>
-<translation id="1104942323762546749">Chromium yrittää viedä salasanojasi tiedostoon. Salli tämä kirjoittamalla Windows-salasanasi.</translation>
+<translation id="3937976866851867994">Vanhempasi on laittanut João Browserin "Sivustojen, sovellusten ja laajennusten käyttöluvat" pois päältä</translation>
+<translation id="8626021334348319355">Etsi tiettyä João Browserin ominaisuutta tai laajennusta kirjoittamalla sen pikakomento osoitepalkkiin ja painamalla valitsemaasi näppäintä</translation>
+<translation id="9157778882771986870">João Browser yrittää viedä salasanojasi tiedostoon. Salli tämä kirjoittamalla Windows-salasanasi.</translation>
 <translation id="112640046208448578">Tunnista asioita tai paikkoja ja kopioi tai käännä tekstiä. Kun käytät kuvahakua, sivusta lähetetään kuvakaappaus palvelimelle. <ph name="LEARN_MORE" /></translation>
 <translation id="113122355610423240">Chromium on oletusselaimesi.</translation>
 <translation id="1131805035311359397">Jos haluat tarkistaa, ovatko salasanasi turvassa tietosuojaloukkauksilta ja muilta tietoturvaongelmilta, <ph name="BEGIN_LINK" />kirjaudu Chromiumiin<ph name="END_LINK" />.</translation>
-<translation id="1153368717515616349">Klikkaa Chromium-valikkoa</translation>
+<translation id="2795895511109336240">Klikkaa João Browser-valikkoa</translation>
 <translation id="1157985233335035034">Viimeksi käytetyt kielet</translation>
 <translation id="1184145431117212167">Asennus epäonnistui, koska käyttämääsi Windows-versiota ei tueta.</translation>
 <translation id="1185134272377778587">Tietoja Chromiumista</translation>
-<translation id="1186645291482254714">Saat puhelimeen hintaseurantailmoituksia Chromiumin avulla</translation>
+<translation id="667420476518265356">Saat puhelimeen hintaseurantailmoituksia João Browserin avulla</translation>
 <translation id="1203500561924088507">Kiitos asennuksesta. Selain pitää käynnistää uudelleen ennen kuin <ph name="BUNDLE_NAME" /> otetaan käyttöön.</translation>
 <translation id="1232234696885483911">Kun avaat kuvahaun, sivun otsikko, URL-osoite ja sisältö (mukaan lukien PDF-tiedostot) lähetetään automaattisesti palvelimelle. <ph name="LEARN_MORE" /></translation>
-<translation id="123265588161106468">Kun olet kirjautunut sisään, voit käyttää esimerkiksi Google-tilin salasanoja Chromiumissa. Jos haluat muuttaa tätä, siirry kohtaan "Tilisi Chromiumissa".</translation>
-<translation id="1244381985120794049">Näytä Gemini in Chromium Macin valikkopalkissa</translation>
-<translation id="1257483544893909270">Voit valita osan näytöstä Gemini in Chromiumissa pikanäppäimellä.</translation>
-<translation id="1262876892872089030">Kun tämä välilehti ei ollut aktiivinen, muistia vapautettiin Chromiumin pitämiseksi nopeana. Voit halutessasi valita, että tämä sivusto ei ole koskaan ei-aktiivinen.</translation>
-<translation id="1265577313130862557">Chromium on estänyt tämän latauksen, koska tiedosto on haitallinen</translation>
+<translation id="3667545935184141183">Kun olet kirjautunut sisään, voit käyttää esimerkiksi Google-tilin salasanoja João Browserissa. Jos haluat muuttaa tätä, siirry kohtaan "Tilisi João Browserissa".</translation>
+<translation id="4866003137980530528">Näytä Gemini in João Browser Macin valikkopalkissa</translation>
+<translation id="2526294198551578217">Voit valita osan näytöstä Gemini in João Browserissa pikanäppäimellä.</translation>
+<translation id="7068536367561625920">Kun tämä välilehti ei ollut aktiivinen, muistia vapautettiin João Browserin pitämiseksi nopeana. Voit halutessasi valita, että tämä sivusto ei ole koskaan ei-aktiivinen.</translation>
+<translation id="3669854427836618143">João Browser on estänyt tämän latauksen, koska tiedosto on haitallinen</translation>
 <translation id="126567311906253476">Kun kirjaudut Googlen palveluihin (esim. Gmailiin tai YouTubeen) tilillä <ph name="USER_EMAIL" />, voit kirjautua Chromiumiin automaattisesti samalla tilillä</translation>
-<translation id="1287534462498555020">Lataa Chromium puhelimelle</translation>
+<translation id="8094399825947986050">Lataa João Browser puhelimelle</translation>
 <translation id="1290883685122687410">Käyttöönottovirhe: <ph name="METAINSTALLER_EXIT_CODE" />. <ph name="WINDOWS_ERROR" /></translation>
-<translation id="1315551408014407711">Luo uusi Chromium-profiili</translation>
-<translation id="132092532143527429">Kokeile Gemini in Chromiumilla</translation>
-<translation id="1324107359134968521">Chromium tarvitsee pääsyn Bluetoothiin etsiäkseen
+<translation id="7781635806686712111">Luo uusi João Browser-profiili</translation>
+<translation id="7591029065989504977">Kokeile Gemini in João Browserilla</translation>
+<translation id="8408989583029959522">João Browser tarvitsee pääsyn Bluetoothiin etsiäkseen
  Bluetooth-laitteita. <ph name="IDS_SERIAL_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK" /></translation>
-<translation id="1329040302064168406">Kirjaudu Chromiumiin puhelimella</translation>
+<translation id="4407260690215472946">Kirjaudu João Browseriin puhelimella</translation>
 <translation id="1330562121671411446">Tunnista kieli</translation>
-<translation id="1342274909142618978">Poista data myös Chromiumista (<ph name="URL" />)</translation>
+<translation id="6026568602942276348">Poista data myös João Browserista (<ph name="URL" />)</translation>
 <translation id="1345251407431278948">Kiinnitetty! Voit käyttää kuvahakua jatkossa yläpalkin uudella painikkeella</translation>
 <translation id="1356661055722410047">Uutta! Voit kääntää näytöllä näkyvän tekstin ja kuvat</translation>
 <translation id="1383876407941801731">Haku</translation>
-<translation id="1388276868779258475">Jatka selaamista missä tahansa Chromium-sovelluksella</translation>
+<translation id="5807085300679014096">Jatka selaamista missä tahansa João Browser-sovelluksella</translation>
 <translation id="141901961143729572">Kerro mielipiteesi</translation>
-<translation id="1465192221147974788">Jos haluat jakaa ikkunan, salli Chromiumin näytön tallennus järjestelmäasetuksista.</translation>
+<translation id="3736947618013031173">Jos haluat jakaa ikkunan, salli João Browserin näytön tallennus järjestelmäasetuksista.</translation>
 <translation id="1478370723027452770">Ohjeita Chrome for Testingin käyttöön</translation>
 <translation id="1497802159252041924">Asennusvirhe: <ph name="INSTALL_ERROR" /></translation>
 <translation id="1518627427551567882">Tämä sivu on suojattu</translation>
-<translation id="1524282610922162960">Jaa Chromium-välilehti</translation>
-<translation id="154404805518949443">Kirjaudu Chromiumiin</translation>
+<translation id="4379865404970367448">Jaa João Browser-välilehti</translation>
+<translation id="4436275659297289591">Kirjaudu João Browseriin</translation>
 <translation id="1547469039832541117">Lopettaa korostetun tehtävän.</translation>
-<translation id="1562320819937089394">Kiinnitä Chromium</translation>
+<translation id="449712764049695153">Kiinnitä João Browser</translation>
 <translation id="1574377791422810894">Chromiumin turvallisuustyökalut</translation>
-<translation id="1594928384848033697">Chromium haluaa poistaa Salasanat-datasi. Salli tämä kirjoittamalla Windows-salasanasi.</translation>
-<translation id="1607715478322902680">{COUNT,plural, =0{Ylläpitäjä vaatii Chromiumin uudelleenkäynnistystä, jotta päivitys voidaan ottaa käyttöön.}=1{Ylläpitäjä vaatii Chromiumin uudelleenkäynnistystä, jotta päivitys voidaan ottaa käyttöön. Incognito-ikkunaasi ei avata uudelleen.}other{Ylläpitäjä vaatii Chromiumin uudelleenkäynnistystä, jotta päivitys voidaan ottaa käyttöön. # incognito-ikkunaasi ei avata uudelleen.}}</translation>
-<translation id="1623563412065267963">Chromium-sovelluksella voit hyödyntää Googlen parhaita ominaisuuksia puhelimella</translation>
+<translation id="5480232403718129394">João Browser haluaa poistaa Salasanat-datasi. Salli tämä kirjoittamalla Windows-salasanasi.</translation>
+<translation id="5374513512130831872">{COUNT,plural, =0{Ylläpitäjä vaatii João Browserin uudelleenkäynnistystä, jotta päivitys voidaan ottaa käyttöön.}=1{Ylläpitäjä vaatii João Browserin uudelleenkäynnistystä, jotta päivitys voidaan ottaa käyttöön. Incognito-ikkunaasi ei avata uudelleen.}other{Ylläpitäjä vaatii João Browserin uudelleenkäynnistystä, jotta päivitys voidaan ottaa käyttöön. # incognito-ikkunaasi ei avata uudelleen.}}</translation>
+<translation id="980976428162070137">João Browser-sovelluksella voit hyödyntää Googlen parhaita ominaisuuksia puhelimella</translation>
 <translation id="1625909126243026060">Tarkista Chromiumin tärkeimmät yksityisyys‑ ja turvallisuusasetukset</translation>
 <translation id="1640672724030957280">Ladataan...</translation>
 <translation id="1665602916345474427">Kirjautuneena käyttäjänä <ph name="USER_NAME" />, <ph name="USER_EMAIL" />, jäsenyys. Avaa tilivalikko</translation>
 <translation id="1708414395296835197">Voit käyttää Chromiumia aina, kun klikkaat linkkejä viesteissä, dokumenteissa ja muissa sovelluksissa. Se myös kiinnitetään tehtäväpalkkiin.</translation>
 <translation id="1709772298389099340">Tarjoaa laajat pääsyoikeudet (<ph name="BROWSER_NAME" />).</translation>
 <translation id="1722488837206509557">Näin voit valita käytettävissä olevista laitteista ja näyttää niillä sisältöä.</translation>
-<translation id="1733725117201708356">Selausdata poistetaan pian Chromiumista</translation>
+<translation id="6972087163510342335">Selausdata poistetaan pian João Browserista</translation>
 <translation id="1736443181683099871">Chromium yrittää päivittää siirtymiset HTTPS:ään</translation>
-<translation id="1736662517232558588">Chromium-tiedot tyhjennettiin</translation>
-<translation id="1745121272106313518">Chromium käynnistyy uudelleen, kun <ph name="REMAINING_TIME" /> on kulunut</translation>
+<translation id="3879288383593333401">João Browser-tiedot tyhjennettiin</translation>
+<translation id="656496276885630888">João Browser käynnistyy uudelleen, kun <ph name="REMAINING_TIME" /> on kulunut</translation>
 <translation id="1749104137266986751">Kun HTTPS ei ole käytettävissä, Chromium käyttää suojaamatonta yhteyttä ilman erillistä varoitusta</translation>
-<translation id="1774152462503052664">Jätä Chromium käyntiin taustalle</translation>
-<translation id="1779356040007214683">Paransimme Chromiumin turvallisuutta poistamalla käytöstä sovelluksia, joita ei löydy kohteesta <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> ja jotka on voitu lisätä ilman lupaasi.</translation>
-<translation id="1793486931176048546">Klikkaa Windowsin ilmoituksesta <ph name="BEGIN_BOLD" />Kyllä<ph name="END_BOLD" />, niin voit kiinnittää Chromiumin tehtäväpalkkiin nopeaa käyttöä varten.</translation>
-<translation id="1808667845054772817">Asenna Chromium uudelleen</translation>
-<translation id="1820835682567584003">Chromium yrittää seuraavaa: <ph name="AUTHENTICATION_PURPOSE" /></translation>
-<translation id="183031085822326697">Seuraavan kerran kun avaat Chromiumin laitteella (<ph name="DEVICE_TYPE" />), näet kehotteen käyttää Googlen salasanoja.</translation>
+<translation id="1226290419185955779">Jätä João Browser käyntiin taustalle</translation>
+<translation id="4231366995273072370">Paransimme João Browserin turvallisuutta poistamalla käytöstä sovelluksia, joita ei löydy kohteesta <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> ja jotka on voitu lisätä ilman lupaasi.</translation>
+<translation id="1822049153969905781">Klikkaa Windowsin ilmoituksesta <ph name="BEGIN_BOLD" />Kyllä<ph name="END_BOLD" />, niin voit kiinnittää João Browserin tehtäväpalkkiin nopeaa käyttöä varten.</translation>
+<translation id="1321831992638405531">Asenna João Browser uudelleen</translation>
+<translation id="3386967202064865436">João Browser yrittää seuraavaa: <ph name="AUTHENTICATION_PURPOSE" /></translation>
+<translation id="70054449700528483">Seuraavan kerran kun avaat João Browserin laitteella (<ph name="DEVICE_TYPE" />), näet kehotteen käyttää Googlen salasanoja.</translation>
 <translation id="1838374766361614909">Tyhjennä haku</translation>
-<translation id="18552579716432081">Jos haluat poistaa selausdatan vain tältä laitteelta, mutta säilyttää sen Google-tililläsi, <ph name="BEGIN_LINK" />kirjaudu ulos Chromiumista<ph name="END_LINK" />.</translation>
-<translation id="1857749206890802997">Lataa Chromium puhelimelle, niin voit avata tai luoda uusia välilehtiryhmiä missä tahansa.</translation>
+<translation id="5807096362853316123">Jos haluat poistaa selausdatan vain tältä laitteelta, mutta säilyttää sen Google-tililläsi, <ph name="BEGIN_LINK" />kirjaudu ulos João Browserista<ph name="END_LINK" />.</translation>
+<translation id="6396384011117650379">Lataa João Browser puhelimelle, niin voit avata tai luoda uusia välilehtiryhmiä missä tahansa.</translation>
 <translation id="185970820835152459">Voit ylläpitää sisäänkirjautuneita Google-tilejäsi. Google-tilejäsi käytetään Chromium-selaimella, Play Kaupassa ja muualla. Jos haluat lisätä tilin jollekulle toiselle, esim. perheenjäsenelle, lisää tämän sijasta uusi henkilö laitteelle (<ph name="DEVICE_TYPE" />). <ph name="LINK_BEGIN" />Lue lisää<ph name="LINK_END" /></translation>
 <translation id="1862852878885210965">Hae kuvahaulla</translation>
-<translation id="1863837059069884561"><ph name="EXISTING_USER" /> on jo kirjautunut sisään. Jos haluat pitää selaamisen erillään, kirjaudu Chromiumiin omalla profiilillasi käyttämällä tiliä <ph name="USER_EMAIL_ADDRESS" />. Voit myös käyttää kirjanmerkkejä ja muita tietoja laitteelta: <ph name="DEVICE" />.</translation>
+<translation id="65457771685016683"><ph name="EXISTING_USER" /> on jo kirjautunut sisään. Jos haluat pitää selaamisen erillään, kirjaudu João Browseriin omalla profiilillasi käyttämällä tiliä <ph name="USER_EMAIL_ADDRESS" />. Voit myös käyttää kirjanmerkkejä ja muita tietoja laitteelta: <ph name="DEVICE" />.</translation>
 <translation id="1880677175115548835">Valitse tekstiä</translation>
-<translation id="1881322772814446296">Olet kirjautumassa sisään hallinnoidulla tilillä ja antamassa tilin järjestelmänvalvojalle oikeuden hallita Chromium-profiiliasi. Chromium-tietosi, kuten sovelluksesi, kirjanmerkkisi, historiasi, salasanasi ja muut asetuksesi, yhdistetään pysyvästi käyttäjätiliin <ph name="USER_NAME" />. Voit poistaa nämä tiedot Google-tilien Hallintapaneelissa, mutta et voi liittää tietoja toiseen tiliin. Halutessasi voit luoda uuden profiilin, jolloin aiemmat Chromium-tietosi pysyvät erillään. <ph name="LEARN_MORE" /></translation>
+<translation id="2634119629547215883">Olet kirjautumassa sisään hallinnoidulla tilillä ja antamassa tilin järjestelmänvalvojalle oikeuden hallita João Browser-profiiliasi. João Browser-tietosi, kuten sovelluksesi, kirjanmerkkisi, historiasi, salasanasi ja muut asetuksesi, yhdistetään pysyvästi käyttäjätiliin <ph name="USER_NAME" />. Voit poistaa nämä tiedot Google-tilien Hallintapaneelissa, mutta et voi liittää tietoja toiseen tiliin. Halutessasi voit luoda uuden profiilin, jolloin aiemmat João Browser-tietosi pysyvät erillään. <ph name="LEARN_MORE" /></translation>
 <translation id="1896836275755235458">Chromium säästää akkua rajoittamalla taustatoimintaa ja visuaalisia tehosteita, esim. sujuvaa vierittämistä ja videon kuvanopeutta. <ph name="BEGIN_LINK" />Lue lisää Virransäästöstä<ph name="END_LINK" /></translation>
-<translation id="1900969832270057921">Chromiumin päivityspalvelu</translation>
+<translation id="6115114251350798456">João Browserin päivityspalvelu</translation>
 <translation id="1911763535808217981">Poistamalla tämän käytöstä voit kirjautua Google-sivustoille, esim. Gmailiin, kirjautumatta Chromiumiin.</translation>
-<translation id="1929939181775079593">Chromium ei vastaa. Käynnistetäänkö uudelleen?</translation>
-<translation id="1933341829955786215">Organisaatiosi (<ph name="MANAGER" />) edellyttää, että kirjaudut Chromiumiin</translation>
+<translation id="4037729269678342163">João Browser ei vastaa. Käynnistetäänkö uudelleen?</translation>
+<translation id="7563750688920581112">Organisaatiosi (<ph name="MANAGER" />) edellyttää, että kirjaudut João Browseriin</translation>
 <translation id="193439633299369377">Chromium-käyttöjärjestelmä täytyy käynnistää uudelleen, jotta päivitys voidaan ottaa käyttöön.</translation>
-<translation id="1951406923938785464">Chromium on estänyt tämän latauksen, koska tiedostotyyppiä ei ladata usein, ja se saattaa olla haitallinen</translation>
+<translation id="7099143775283792684">João Browser on estänyt tämän latauksen, koska tiedostotyyppiä ei ladata usein, ja se saattaa olla haitallinen</translation>
 <translation id="1953553007165777902">Ladataan… <ph name="MINUTE" /> minuuttia jäljellä</translation>
 <translation id="1966382378801805537">Chromium ei voi tunnistaa tai asettaa oletusselainta.</translation>
 <translation id="197326043290947695">Selaa fiksummin kuvahaulla</translation>
-<translation id="1990262977744080398">Lue lisää siitä, miksi Chromium estää joitakin tiedostoja ja avautuu uudelle välilehdelle</translation>
-<translation id="1999715455684970349">Pitää Chromium-ohjelmiston ajan tasalla. Jos palvelu on poistettu käytöstä tai lopetettu, Chromium-ohjelmistoa ei pidetä ajan tasalla. Tämä tarkoittaa, että mahdollisia tietoturvahaavoittuvuuksia ei voida korjata ja ominaisuudet eivät välttämättä toimi. Tämän palvelun asennus poistetaan automaattisesti, kun sitä ei käytä mikään Chromium-ohjelmisto.</translation>
+<translation id="6185556991023272801">Lue lisää siitä, miksi João Browser estää joitakin tiedostoja ja avautuu uudelle välilehdelle</translation>
+<translation id="4053636705816895911">Pitää João Browser-ohjelmiston ajan tasalla. Jos palvelu on poistettu käytöstä tai lopetettu, João Browser-ohjelmistoa ei pidetä ajan tasalla. Tämä tarkoittaa, että mahdollisia tietoturvahaavoittuvuuksia ei voida korjata ja ominaisuudet eivät välttämättä toimi. Tämän palvelun asennus poistetaan automaattisesti, kun sitä ei käytä mikään João Browser-ohjelmisto.</translation>
 <translation id="2008474315282236005">Tämä poistaa yhden kohteen pysyvästi laitteelta. Jos haluat palauttaa tiedot myöhemmin, kirjaudu Chromiumiin käyttäjänä <ph name="USER_EMAIL" />.</translation>
 <translation id="2018879682492276940">Asennus epäonnistui. Yritä uudelleen.</translation>
 <translation id="2039417478970545937">Asetukset.</translation>
 <translation id="2049376729098081731">Valitse, käytetäänkö Chromium-historiaa personoituun kokemukseen Google-palveluissa</translation>
-<translation id="2050698962207788467">Sisäänrakennettu Chromiumiin, jotta voit luoda, tallentaa ja täyttää vahvoja salasanoja automaattisesti. Lisää pikakuvake, niin pääset siihen helposti.</translation>
-<translation id="2064856577282482477">Muokkaa Chromiumia klikkaamalla Uusi välilehti ‐sivun Yksilöi Chromiumia ‑painiketta</translation>
-<translation id="2086476982681781442">Chromium on estänyt tämän latauksen, koska tiedosto on harhaanjohtava ja se voi tehdä odottamattomia muutoksia laitteellesi</translation>
-<translation id="208726765006323911">Näet kehotteen kokeilla ominaisuutta (<ph name="FEATURE_NAME" />) seuraavan kerran, kun avaat Chromiumin iOS:llä.</translation>
-<translation id="2099452623287920103">Salasanat ja muu Chromium-data tallennetaan Google-tilillesi ja poistetaan tältä laitteelta. Jos haluat käyttää niitä uudelleen Chromiumissa, kirjaudu takaisin sisään.</translation>
-<translation id="2120965832000301375">{COUNT,plural, =1{Organisaatiosi poistaa selausdatan automaattisesti, kun Chromiumia ei ole käytetty 1 minuuttiin. Tämä voi sisältää historian, automaattisen täytön ja lataukset. Välilehdet pysyvät auki.}other{Organisaatiosi poistaa selausdatan automaattisesti, kun Chromiumia ei ole käytetty # minuuttiin. Tämä voi sisältää historian, automaattisen täytön ja lataukset. Välilehdet pysyvät auki.}}</translation>
+<translation id="6768767091114123654">Sisäänrakennettu João Browseriin, jotta voit luoda, tallentaa ja täyttää vahvoja salasanoja automaattisesti. Lisää pikakuvake, niin pääset siihen helposti.</translation>
+<translation id="3571664229232252557">Muokkaa João Browseria klikkaamalla Uusi välilehti ‐sivun Yksilöi João Browseria ‑painiketta</translation>
+<translation id="4273287215573278663">João Browser on estänyt tämän latauksen, koska tiedosto on harhaanjohtava ja se voi tehdä odottamattomia muutoksia laitteellesi</translation>
+<translation id="9063967192437499581">Näet kehotteen kokeilla ominaisuutta (<ph name="FEATURE_NAME" />) seuraavan kerran, kun avaat João Browserin iOS:llä.</translation>
+<translation id="8511569826706775962">Salasanat ja muu João Browser-data tallennetaan Google-tilillesi ja poistetaan tältä laitteelta. Jos haluat käyttää niitä uudelleen João Browserissa, kirjaudu takaisin sisään.</translation>
+<translation id="1187540878814389979">{COUNT,plural, =1{Organisaatiosi poistaa selausdatan automaattisesti, kun João Browseria ei ole käytetty 1 minuuttiin. Tämä voi sisältää historian, automaattisen täytön ja lataukset. Välilehdet pysyvät auki.}other{Organisaatiosi poistaa selausdatan automaattisesti, kun João Browseria ei ole käytetty # minuuttiin. Tämä voi sisältää historian, automaattisen täytön ja lataukset. Välilehdet pysyvät auki.}}</translation>
 <translation id="2125838419757773031">Valitse näytön alue, jota haluat hakea</translation>
 <translation id="2126108037660393668">Ladattua tiedostoa ei voitu vahvistaa.</translation>
 <translation id="2135919691573380097">Ilmoita sivustosta</translation>
 <translation id="2137162749895930932">Sulje käännösnäyttö</translation>
-<translation id="215352261310130060">Chromium on estänyt tämän latauksen, koska sivusto ei käytä suojattua yhteyttä ja tiedostoa on ehkä peukaloitu</translation>
+<translation id="1308845716497059117">João Browser on estänyt tämän latauksen, koska sivusto ei käytä suojattua yhteyttä ja tiedostoa on ehkä peukaloitu</translation>
 <translation id="2170098639895543546">Valitse mitä tahansa sivulta</translation>
-<translation id="2174178932569897599">Yksilöi Chromiumia</translation>
+<translation id="6705844023496387932">Yksilöi João Browseria</translation>
 <translation id="2174917724755363426">Asennus ei ole valmis. Haluatko varmasti perua sen?</translation>
-<translation id="2185166961232948079">Chromium – Kirjautuminen verkkoon – <ph name="PAGE_TITLE" /></translation>
+<translation id="7728290795259244895">João Browser – Kirjautuminen verkkoon – <ph name="PAGE_TITLE" /></translation>
 <translation id="2190166659037789668">Virhe päivityksiä tarkistettaessa: <ph name="UPDATE_CHECK_ERROR" />.</translation>
-<translation id="2199210295479376551">Poista tili Chromiumista</translation>
-<translation id="2201788217099588893">Lataa Chromium-sovellus, niin voi hyödyntää parhaat ostostyökalut missä tahansa</translation>
-<translation id="2210502920229141283">Pysy turvassa liikkeellä iOS:n Chromiumin Parannetun selaussuojan avulla</translation>
+<translation id="3486802320473595711">Poista tili João Browserista</translation>
+<translation id="4648870374540039667">Lataa João Browser-sovellus, niin voi hyödyntää parhaat ostostyökalut missä tahansa</translation>
+<translation id="2106116820042118250">Pysy turvassa liikkeellä iOS:n João Browserin Parannetun selaussuojan avulla</translation>
 <translation id="2210682093923538346">Vaarallinen sivusto. Chromium poisti ilmoitukset.</translation>
 <translation id="2236949375853147973">Oma toiminta</translation>
-<translation id="2238130810669087193">Kirjaudu sisään Chromiumiin, niin voit käyttää osoitteita ja muita tietoja kaikilla laitteillasi Tämä osoite tallennetaan Google-tilillesi kirjautumisen jälkeen.</translation>
-<translation id="2241627712206172106">Jos käytät jaettua tietokonetta, kaverisi ja perheenjäsenesi voivat selata verkkoa omista profiileistaan käsin ja muokata Chromiumista juuri itselleen sopivan.</translation>
+<translation id="118764235932893741">Kirjaudu sisään João Browseriin, niin voit käyttää osoitteita ja muita tietoja kaikilla laitteillasi Tämä osoite tallennetaan Google-tilillesi kirjautumisen jälkeen.</translation>
+<translation id="7254578863532089400">Jos käytät jaettua tietokonetta, kaverisi ja perheenjäsenesi voivat selata verkkoa omista profiileistaan käsin ja muokata João Browserista juuri itselleen sopivan.</translation>
 <translation id="22571759390241347">Taidot Chromiumissa</translation>
 <translation id="2283803047247799269">Hae tältä välilehdeltä kuvahaulla</translation>
-<translation id="2287771843518581140">{NUM_TABS,plural, =1{Chromium suosittelee selainta hidastavan välilehden keskeyttämistä}other{Chromium suosittelee selainta hidastavien välilehtien keskeyttämistä}}</translation>
+<translation id="8383041367037966133">{NUM_TABS,plural, =1{João Browser suosittelee selainta hidastavan välilehden keskeyttämistä}other{João Browser suosittelee selainta hidastavien välilehtien keskeyttämistä}}</translation>
 <translation id="2307973900865360088">Pidä Dock-palkissa</translation>
 <translation id="2313870531055795960">Tarkistaa URL-osoitteet Chromiumiin tallennetun vaarallisten sivustojen luettelon avulla. Jos sivusto yrittää varastaa salasanaasi tai jos lataat haitallisen tiedoston, Chromium voi myös lähettää Selaussuojan tarkistettavaksi URL-osoitteita, myös osia sivujen sisällöstä.</translation>
 <translation id="2356070529366658676">Kysy</translation>
 <translation id="2359808026110333948">Jatka</translation>
-<translation id="2361918034042471035">Laajennus "<ph name="EXTENSION_NAME" />" haluaa, että kirjaudut Chromiumiin</translation>
-<translation id="236943522426971115">Poista käytöstä Chromiumin taustalla toimiminen sovelluksissa</translation>
-<translation id="2374216753258219393">Jos haluat käyttää tätä laajennusta käyttäjänä <ph name="USER_EMAIL_ADDRESS" />, kirjaudu sisään Chromiumiin.</translation>
+<translation id="3800730051093461113">Laajennus "<ph name="EXTENSION_NAME" />" haluaa, että kirjaudut João Browseriin</translation>
+<translation id="8758735062658446604">Poista käytöstä João Browserin taustalla toimiminen sovelluksissa</translation>
+<translation id="2623595027619107207">Jos haluat käyttää tätä laajennusta käyttäjänä <ph name="USER_EMAIL_ADDRESS" />, kirjaudu sisään João Browseriin.</translation>
 <translation id="2384373936468275798">Chromium-käyttöjärjestelmä ei voi synkronoida tietoja, sillä tilin kirjautumistiedot ovat vanhentuneet.</translation>
-<translation id="2398377054246527950">{NUM_DEVICES,plural, =0{Yhdellä tai useammalla Chromium-laajennuksella oli pääsy yhdelle HID-laitteelle}=1{Yhdellä tai useammalla Chromium-laajennuksella on pääsy yhdelle HID-laitteelle}other{Yhdellä tai useammalla Chromium-laajennuksella on pääsy # HID-laitteelle}}</translation>
-<translation id="2401032172288869980">Chromium tarvitsee kameran ja mikrofonin luvan tällä sivustolla</translation>
+<translation id="5930179096923499335">{NUM_DEVICES,plural, =0{Yhdellä tai useammalla João Browser-laajennuksella oli pääsy yhdelle HID-laitteelle}=1{Yhdellä tai useammalla João Browser-laajennuksella on pääsy yhdelle HID-laitteelle}other{Yhdellä tai useammalla João Browser-laajennuksella on pääsy # HID-laitteelle}}</translation>
+<translation id="6254788431480237503">João Browser tarvitsee kameran ja mikrofonin luvan tällä sivustolla</translation>
 <translation id="2403703063067034158">Käynnistysvirhe: toinen käyttöönotto on käynnissä, yritä myöhemmin uudelleen.</translation>
-<translation id="2418322681019544463">Avaa linkkejä Chromiumissa mistä tahansa sovelluksesta ja pidä selain käytettävissä tehtäväpalkissa</translation>
-<translation id="2425157128016763890">Klikkaa Tee yhteenveto ‐painiketta, niin voit jakaa dokumentin Gemini in Chromiumille, saada nopean yleiskatsauksen ja esittää jatkokysymyksiä</translation>
+<translation id="3028975423343897358">Avaa linkkejä João Browserissa mistä tahansa sovelluksesta ja pidä selain käytettävissä tehtäväpalkissa</translation>
+<translation id="579079006139156831">Klikkaa Tee yhteenveto ‐painiketta, niin voit jakaa dokumentin Gemini in João Browserille, saada nopean yleiskatsauksen ja esittää jatkokysymyksiä</translation>
 <translation id="2440750600860946460"><ph name="BEGIN_LINK" />Chromiumin työkalujen<ph name="END_LINK" /> avulla voit selata turvallisesti ja pitää ohjat omissa käsissäsi</translation>
-<translation id="2449487342837813167"><ph name="EXISTING_USER" /> on jo kirjautunut sisään. Jos haluat pitää selaamisen erillään, kirjaudu Chromiumiin omalla profiilillasi käyttämällä tiliä <ph name="USER_EMAIL_ADDRESS" />. Voit myös käyttää salasanojasi ja muita tietoja kaikilla laitteillasi.</translation>
+<translation id="7114471809991869757"><ph name="EXISTING_USER" /> on jo kirjautunut sisään. Jos haluat pitää selaamisen erillään, kirjaudu João Browseriin omalla profiilillasi käyttämällä tiliä <ph name="USER_EMAIL_ADDRESS" />. Voit myös käyttää salasanojasi ja muita tietoja kaikilla laitteillasi.</translation>
 <translation id="2451727308784734061">Käytä Salasanoja nopeasti pikakuvakkeen avulla. Voit siirtää pikakuvakkeen tietokoneen aloitusnäytölle tai sovelluksien käynnistysohjelmaan.</translation>
-<translation id="2478295928299953161">Chromium suljetaan pian</translation>
-<translation id="2483889755041906834">Chromiumissa</translation>
+<translation id="2709136733469807397">João Browser suljetaan pian</translation>
+<translation id="3652225684487279741">João Browserissa</translation>
 <translation id="2485422356828889247">Poista</translation>
 <translation id="2513154137948333830">Uudelleenkäynnistys vaaditaan: <ph name="INSTALL_SUCCESS" /></translation>
 <translation id="2542968102051442371">Valitse tekstiä kuvahaulla</translation>
-<translation id="2554739539410784893">Chromium yrittää korvata nykyiset salasanat. Salli tämä kirjoittamalla Windows-salasanasi.</translation>
-<translation id="2560420686485554789">Chromium tarvitsee tallennustilan käyttöoikeuden tiedostojen lataamiseen.</translation>
-<translation id="2572494885440352020">Chromium Helper</translation>
+<translation id="1527474262707362156">João Browser yrittää korvata nykyiset salasanat. Salli tämä kirjoittamalla Windows-salasanasi.</translation>
+<translation id="6480371226914552131">João Browser tarvitsee tallennustilan käyttöoikeuden tiedostojen lataamiseen.</translation>
+<translation id="6318568902186985084">João Browser Helper</translation>
 <translation id="2575822587468774919">Valitse, mitä haluat hakea kuvahaulla</translation>
-<translation id="2576118232315942160">Kirjaudu sisään Chromiumiin, niin voit käyttää salasanojasi ja muita tietoja kaikilla laitteillasi</translation>
-<translation id="2587622539943955767">Skannaa QR-koodi puhelimella, niin voit ladata Chromiumin ja kirjautua Google-tilillesi.</translation>
-<translation id="2592940277904433508">Jatka Chromiumin käyttöä</translation>
+<translation id="4557210258834653476">Kirjaudu sisään João Browseriin, niin voit käyttää salasanojasi ja muita tietoja kaikilla laitteillasi</translation>
+<translation id="1148164459654218834">Skannaa QR-koodi puhelimella, niin voit ladata João Browserin ja kirjautua Google-tilillesi.</translation>
+<translation id="235892353478111963">Jatka João Browserin käyttöä</translation>
 <translation id="259935314519650377">Ladatun asennusohjelman siirtäminen välimuistiin epäonnistui. Virhe: <ph name="UNPACK_CACHING_ERROR_CODE" />.</translation>
 <translation id="2620436844016719705">Järjestelmä</translation>
-<translation id="2629740064077610681">Organisaatiosi voi nähdä ja hallinnoida selausdataa, esimerkiksi kirjanmerkkejä, historiaa ja salasanoja. Se ei näe muiden Chromium-profiilien selausdataa.</translation>
-<translation id="2635452620547538388">Vahvista henkilöllisyytesi, jotta voit käyttää ja tallentaa Chromium-dataa tililläsi: <ph name="ACCOUNT_EMAIL" /></translation>
-<translation id="2637732208198500597">{COUNT,plural, =0{Lisäsuojaus edellyttää Chromiumin uudelleenkäynnistystä, jotta päivitys voidaan ottaa käyttöön}=1{Lisäsuojaus edellyttää Chromiumin uudelleenkäynnistystä, jotta päivitys voidaan ottaa käyttöön. Incognito-ikkunaa ei avata uudelleen.}other{Lisäsuojaus edellyttää Chromiumin uudelleenkäynnistystä, jotta päivitys voidaan ottaa käyttöön. # incognito-ikkunaa ei avata uudelleen.}}</translation>
-<translation id="263863604136125912">Käynnistä Chromium</translation>
-<translation id="2648074677641340862">Asennuksessa ilmeni käyttöjärjestelmävirhe. Lataa Chromium uudelleen.</translation>
-<translation id="2661879430930417727">Jos käytät jaettua laitetta, kaverisi ja perheenjäsenesi voivat selata verkkoa erillään ja räätälöidä Chromiumista juuri itselleen sopivan</translation>
-<translation id="2676569452213089702">Gemini in Chromium on helposti käytettävissä laitteella, vaikka Chromium olisi pienennettynä.</translation>
-<translation id="2711502716910134313">Chromium-välilehti</translation>
+<translation id="8471946631262724853">Organisaatiosi voi nähdä ja hallinnoida selausdataa, esimerkiksi kirjanmerkkejä, historiaa ja salasanoja. Se ei näe muiden João Browser-profiilien selausdataa.</translation>
+<translation id="2870759219964376597">Vahvista henkilöllisyytesi, jotta voit käyttää ja tallentaa João Browser-dataa tililläsi: <ph name="ACCOUNT_EMAIL" /></translation>
+<translation id="2955972712254986678">{COUNT,plural, =0{Lisäsuojaus edellyttää João Browserin uudelleenkäynnistystä, jotta päivitys voidaan ottaa käyttöön}=1{Lisäsuojaus edellyttää João Browserin uudelleenkäynnistystä, jotta päivitys voidaan ottaa käyttöön. Incognito-ikkunaa ei avata uudelleen.}other{Lisäsuojaus edellyttää João Browserin uudelleenkäynnistystä, jotta päivitys voidaan ottaa käyttöön. # incognito-ikkunaa ei avata uudelleen.}}</translation>
+<translation id="8949462882238006192">Käynnistä João Browser</translation>
+<translation id="4224214204752803768">Asennuksessa ilmeni käyttöjärjestelmävirhe. Lataa João Browser uudelleen.</translation>
+<translation id="3141414135710372892">Jos käytät jaettua laitetta, kaverisi ja perheenjäsenesi voivat selata verkkoa erillään ja räätälöidä João Browserista juuri itselleen sopivan</translation>
+<translation id="8838607803339100223">Gemini in João Browser on helposti käytettävissä laitteella, vaikka João Browser olisi pienennettynä.</translation>
+<translation id="1679364578146271696">João Browser-välilehti</translation>
 <translation id="2718390899429598676">Chromium lisää suojausta salaamalla tietosi.</translation>
-<translation id="2721354645805494590">Jos haluat poistaa Google-tilisi Chromiumista, kirjaudu ulos</translation>
-<translation id="2722636413143664436">Kirjaudu sisään Chromiumiin, niin voit käyttää salasanoja, kirjanmerkkejä ja muita tietoja kaikilla laitteillasi</translation>
+<translation id="1874696651662237927">Jos haluat poistaa Google-tilisi João Browserista, kirjaudu ulos</translation>
+<translation id="6850669719663104304">Kirjaudu sisään João Browseriin, niin voit käyttää salasanoja, kirjanmerkkejä ja muita tietoja kaikilla laitteillasi</translation>
 <translation id="2738871930057338499">Internetyhteyden muodostaminen ei onnistu. HTTP 403 (kielletty). Tarkista välityspalvelimen asetukset.</translation>
 <translation id="2753623023919742414">Hae klikkaamalla</translation>
-<translation id="2768103863314748511">Valitse Chromium PDF:ien oletuskatseluohjelmaksi</translation>
-<translation id="2785438272836277133">Tämä laajennus sisältää haittaohjelmia, ja se ei ole turvallinen. Poista se Chromiumista, jotta se ei enää voi nähdä tai muuttaa dataasi avaamillasi sivustoilla, mukaan lukien henkilökohtaisia tietojasi.</translation>
+<translation id="4193420110872590792">Valitse João Browser PDF:ien oletuskatseluohjelmaksi</translation>
+<translation id="6614401181366354261">Tämä laajennus sisältää haittaohjelmia, ja se ei ole turvallinen. Poista se João Browserista, jotta se ei enää voi nähdä tai muuttaa dataasi avaamillasi sivustoilla, mukaan lukien henkilökohtaisia tietojasi.</translation>
 <translation id="2799223571221894425">Käynnistä uudelleen</translation>
-<translation id="2803971713792056305">Oma Chromium</translation>
+<translation id="6299858290790311689">Oma João Browser</translation>
 <translation id="2816462166102338036">Hae tätä videota kuvahaulla</translation>
-<translation id="282591729717417030">Löydä tuotteita kameralla, seuraa hinnanlaskuja ja paljon muuta Chromiumin iOS-versiossa.</translation>
+<translation id="5896458971800337862">Löydä tuotteita kameralla, seuraa hinnanlaskuja ja paljon muuta João Browserin iOS-versiossa.</translation>
 <translation id="2841525013647267359">Käännä kielestä</translation>
 <translation id="2846251086934905009">Asennusvirhe: Asennusohjelmaa ei suoritettu loppuun. Asennus on keskeytetty.</translation>
-<translation id="2847479871509788944">Poista Chromiumista…</translation>
+<translation id="4357241592510111611">Poista João Browserista…</translation>
 <translation id="2850691299438350830">Pitää sinut turvassa Chromiumissa ja voi parantaa suojaustasi muissa Google-sovelluksissa, kun olet sisäänkirjautuneena</translation>
 <translation id="2885378588091291677">Tehtävänhallinta</translation>
-<translation id="2910007522516064972">Tietoja &amp;Chromiumista</translation>
+<translation id="8887040619780090085">Tietoja &amp;João Browserista</translation>
 <translation id="2915996080311180594">Uudelleenkäynnistä myöhemmin</translation>
-<translation id="2933336679234709858">Datasi salataan tunnuslauseella. Lisää se, niin voit käyttää ja tallentaa Chromium-dataa Google-tililläsi.</translation>
+<translation id="6619708652934279502">Datasi salataan tunnuslauseella. Lisää se, niin voit käyttää ja tallentaa João Browser-dataa Google-tililläsi.</translation>
 <translation id="2945997411976714835">Asennusvirhe: Asennusprosessin aloittaminen ei onnistunut.</translation>
-<translation id="2948852018303413228">Kirjaudu sivustoille nopeammin iOS:n Chromiumiin tallennetuilla salasanoilla</translation>
-<translation id="2970426615109535079">Organisaatiosi ylläpitää Chromiumia</translation>
+<translation id="4566114009566397386">Kirjaudu sivustoille nopeammin iOS:n João Browseriin tallennetuilla salasanoilla</translation>
+<translation id="562175540137901632">Organisaatiosi ylläpitää João Browseria</translation>
 <translation id="2977470724722393594">Chromium on ajan tasalla.</translation>
 <translation id="2977506796191543575">Jos sivusto yrittää varastaa salasanaasi tai jos lataat haitallisen tiedoston, Chromium voi myös lähettää Selaussuojan tarkistettavaksi URL-osoitteita, myös osia sivujen sisällöstä</translation>
-<translation id="2981563588585023386">Jos haluat käyttää vanhempasi valintoja verkossa, kirjaudu Chromiumiin</translation>
+<translation id="1776205510657237623">Jos haluat käyttää vanhempasi valintoja verkossa, kirjaudu João Browseriin</translation>
 <translation id="3003694935412297923">Kaikki tehtävät</translation>
-<translation id="3012615494352020668">{count,plural, =1{Chromiumin on vahvistettava henkilöllisyytesi, ennen kuin tiettyä dataa voidaan tallentaa Google-tilillesi ja käyttää kaikilla laitteillasi. Jos kirjaudut ulos nyt, tämä data (1 kohde) poistetaan.}other{Chromiumin on vahvistettava henkilöllisyytesi, ennen kuin tiettyä dataa voidaan tallentaa Google-tilillesi ja käyttää kaikilla laitteillasi. Jos kirjaudut ulos nyt, tämä data ({count} kohde) poistetaan.}}</translation>
-<translation id="3013473503895162900">Avaa <ph name="URL" /> uudella välilehdellä Chromiumissa.</translation>
+<translation id="3374694374267805392">{count,plural, =1{João Browserin on vahvistettava henkilöllisyytesi, ennen kuin tiettyä dataa voidaan tallentaa Google-tilillesi ja käyttää kaikilla laitteillasi. Jos kirjaudut ulos nyt, tämä data (1 kohde) poistetaan.}other{João Browserin on vahvistettava henkilöllisyytesi, ennen kuin tiettyä dataa voidaan tallentaa Google-tilillesi ja käyttää kaikilla laitteillasi. Jos kirjaudut ulos nyt, tämä data ({count} kohde) poistetaan.}}</translation>
+<translation id="4915792193596835645">Avaa <ph name="URL" /> uudella välilehdellä João Browserissa.</translation>
 <translation id="302551344979399011">Taidot ja muut tekoälyinnovaatiot tallennetaan Google-tilillesi ja niitä hallinnoidaan erillään Chromiumin synkronoinnista</translation>
-<translation id="3032787606318309379">Lisätään Chromiumiin...</translation>
+<translation id="8367114375553489372">Lisätään João Browseriin...</translation>
 <translation id="3038232873781883849">Asennetaan…</translation>
 <translation id="3045032126857188731">Käännetty kieli: <ph name="LANGUAGE" /></translation>
 <translation id="3047590466164881923">Sulje palautteen valintaikkuna</translation>
-<translation id="3068187312562070417">Muut Chromium-profiilit</translation>
-<translation id="3068290154869370196">Laajennukset ovat lisäosia, joiden avulla voit muokata Chromiumia. Laajennusten avulla voit pitää asiat järjestyksessä, yksinkertaistaa päivittäisiä tehtäviä ja muokata Chromiumia mieleiseksesi.</translation>
-<translation id="3068515742935458733">Auta parantamaan Chromiumia lähettämällä kaatumisilmoitukset ja <ph name="UMA_LINK" /> Googlelle</translation>
-<translation id="3071024987058544609">Chromium-sovelluksella saat Googlen turvallisuuden missä oletkin</translation>
-<translation id="3079753320517721795">{NUM_DEVICES,plural, =0{Yhdellä tai useammalla Chromium-laajennuksella oli pääsy yhdelle USB-laitteelle}=1{Yhdellä tai useammalla Chromium-laajennuksella on pääsy yhdelle USB-laitteelle}other{Yhdellä tai useammalla Chromium-laajennuksella on pääsy # USB-laitteelle}}</translation>
-<translation id="3095811995836568724">Chromium-historia</translation>
-<translation id="3103660991484857065">Asennusohjelma ei pystynyt purkamaan arkistotiedostoa. Lataa Chromium uudelleen.</translation>
+<translation id="6168172692486433600">Muut João Browser-profiilit</translation>
+<translation id="884929993636327">Laajennukset ovat lisäosia, joiden avulla voit muokata João Browseria. Laajennusten avulla voit pitää asiat järjestyksessä, yksinkertaistaa päivittäisiä tehtäviä ja muokata João Browseria mieleiseksesi.</translation>
+<translation id="1525897524206034002">Auta parantamaan João Browseria lähettämällä kaatumisilmoitukset ja <ph name="UMA_LINK" /> Googlelle</translation>
+<translation id="2766971658743453990">João Browser-sovelluksella saat Googlen turvallisuuden missä oletkin</translation>
+<translation id="4387884830246074210">{NUM_DEVICES,plural, =0{Yhdellä tai useammalla João Browser-laajennuksella oli pääsy yhdelle USB-laitteelle}=1{Yhdellä tai useammalla João Browser-laajennuksella on pääsy yhdelle USB-laitteelle}other{Yhdellä tai useammalla João Browser-laajennuksella on pääsy # USB-laitteelle}}</translation>
+<translation id="3413144813287436446">João Browser-historia</translation>
+<translation id="9192419056064225629">Asennusohjelma ei pystynyt purkamaan arkistotiedostoa. Lataa João Browser uudelleen.</translation>
 <translation id="310459126943037700">Tehtävien lopettaminen epäonnistui.</translation>
 <translation id="3104828284009500087">Hae mitä tahansa sivulla näkyvää</translation>
-<translation id="3126784891977756556">Pidä salasanat, kirjanmerkit ja historia synkronoituina kaikilla laitteilla. Päivitä oletusselaimeksi Chromium, niin saat tutut ominaisuudet helposti käyttöösi.</translation>
-<translation id="3130323860337406239">Chromium käyttää mikrofoniasi.</translation>
+<translation id="3508468328135806512">Pidä salasanat, kirjanmerkit ja historia synkronoituina kaikilla laitteilla. Päivitä oletusselaimeksi João Browser, niin saat tutut ominaisuudet helposti käyttöösi.</translation>
+<translation id="3216151988142306917">João Browser käyttää mikrofoniasi.</translation>
 <translation id="3130333203120345554">Uusi haku</translation>
 <translation id="3137969841538672700">Hae vetämällä</translation>
-<translation id="3144188012276422546">Tämä välilehti käyttää ylimääräisiä resursseja. Jos haluat parantaa suorituskykyä, anna Chromiumin tehdä siitä ei-aktiivisen.</translation>
-<translation id="3149163023759831301">Jos haluat jakaa näytön, salli Chromiumin näytön tallennus järjestelmäasetuksista.</translation>
-<translation id="3155163173539279776">Käynnistä Chromium uudelleen</translation>
+<translation id="7493177208577109722">Tämä välilehti käyttää ylimääräisiä resursseja. Jos haluat parantaa suorituskykyä, anna João Browserin tehdä siitä ei-aktiivisen.</translation>
+<translation id="7239354789967255675">Jos haluat jakaa näytön, salli João Browserin näytön tallennus järjestelmäasetuksista.</translation>
+<translation id="4955872590603594814">Käynnistä João Browser uudelleen</translation>
 <translation id="3161522574479303604">Kaikki kielet</translation>
-<translation id="3179665906251668410">Avaa linkki Chromiumin inco&amp;gnito-ikkunassa</translation>
-<translation id="3185330573522821672">Muokkaa uusi Chromium-profiili näköiseksesi</translation>
-<translation id="3189205223539394158">Voit jatkaa keskustelua tekoälytilassa vaihtamatta välilehteä. Aloita kirjautumalla Chromiumiin. Voit myös käyttää salasanojasi ja muita tietoja kaikilla laitteillasi.</translation>
-<translation id="3224847870593914902">Jos haluat poistaa Google-tilisi Chromiumista, kirjaudu ulos Chromiumista Asetukset-sivun kautta</translation>
+<translation id="4697739132113629685">Avaa linkki João Browserin inco&amp;gnito-ikkunassa</translation>
+<translation id="1629247860984475766">Muokkaa uusi João Browser-profiili näköiseksesi</translation>
+<translation id="1905008150929775692">Voit jatkaa keskustelua tekoälytilassa vaihtamatta välilehteä. Aloita kirjautumalla João Browseriin. Voit myös käyttää salasanojasi ja muita tietoja kaikilla laitteillasi.</translation>
+<translation id="4232381420311815141">Jos haluat poistaa Google-tilisi João Browserista, kirjaudu ulos João Browserista Asetukset-sivun kautta</translation>
 <translation id="3234316605225071811">Chromium voi kysyä myöhemmin, haluatko käyttää tallennettuja tietoja lomakkeiden automaattiseen täyttöön</translation>
-<translation id="3258596308407688501">Chromium ei voi lukea tietohakemistoaan ja kirjoittaa siihen:
+<translation id="6676749542734993844">João Browser ei voi lukea tietohakemistoaan ja kirjoittaa siihen:
 
 <ph name="USER_DATA_DIRECTORY" /></translation>
-<translation id="3263249950597659484">Ota Googlen tekoälytyökalut iOS:n Chromiumilla mukaan minne menetkin.</translation>
+<translation id="6632498492152446344">Ota Googlen tekoälytyökalut iOS:n João Browserilla mukaan minne menetkin.</translation>
 <translation id="3286538390144397061">Käynnistä uudelleen</translation>
-<translation id="328888136576916638">Googlen sovellusliittymän avaimet puuttuvat. Jotkin Chromiumin toiminnoista poistetaan käytöstä.</translation>
+<translation id="532528773927600103">Googlen sovellusliittymän avaimet puuttuvat. Jotkin João Browserin toiminnoista poistetaan käytöstä.</translation>
 <translation id="3296368748942286671">Jätä taustasovellukset käyntiin, kun Chromium suljetaan</translation>
 <translation id="3313189106987092621">Chromium varoittaa sinua ennen kuin lataat sivustoja suojaamattomalla yhteydellä</translation>
-<translation id="3316771292331273802">Sinut kirjataan ulos useimmilta sivustoilta, kun suljet kaikki Chromium-ikkunat. Tämä ei kuitenkaan koske Google-tiliäsi, jos olet kirjautuneena Chromiumiin. <ph name="SETTINGS_LINK" />, jotta sivustot muistavat sinut.</translation>
+<translation id="8095477191923518137">Sinut kirjataan ulos useimmilta sivustoilta, kun suljet kaikki João Browser-ikkunat. Tämä ei kuitenkaan koske Google-tiliäsi, jos olet kirjautuneena João Browseriin. <ph name="SETTINGS_LINK" />, jotta sivustot muistavat sinut.</translation>
 <translation id="3352986031709923790">hakualueen oikea yläkulma: oikea <ph name="RIGHT" /> %, ylä <ph name="TOP" /> %</translation>
 <translation id="3366305173356742781">Tilisi Chromium-data</translation>
-<translation id="3375770072980084583">Käytä salasanoja Chromiumin avulla puhelimella</translation>
+<translation id="3234882977104294240">Käytä salasanoja João Browserin avulla puhelimella</translation>
 <translation id="3387527074123400161">Chromium-käyttöjärjestelmä</translation>
-<translation id="3406848076815591792">Vaihdetaanko nykyiseen Chromium-profiiliin?</translation>
+<translation id="2974199599420431595">Vaihdetaanko nykyiseen João Browser-profiiliin?</translation>
 <translation id="3412460710772753638">Googlen Salasanojen ylläpidossa tällä laitteella</translation>
 <translation id="3438772217992559640">Hae tältä välilehdeltä kuvahaulla</translation>
-<translation id="3455907671758333080">Laajenna parannettua selaussuojaa Chromiumin avulla puhelimella</translation>
-<translation id="3461644266919055473">Muokataan Chromiumia…</translation>
+<translation id="8318147705317768982">Laajenna parannettua selaussuojaa João Browserin avulla puhelimella</translation>
+<translation id="347392028839310978">Muokataan João Browseria…</translation>
 <translation id="3474745554856756813">Tämä poistaa <ph name="ITEMS_COUNT" /> kohdetta pysyvästi laitteelta. Jos haluat palauttaa tiedot myöhemmin, kirjaudu Chromiumiin käyttäjänä <ph name="USER_EMAIL" />.</translation>
-<translation id="3497319089134299931">Valitsemalla <ph name="SHORTCUT" /> voit vaihdella eri Chromium-profiilien välillä</translation>
-<translation id="3509308970982693815">Sulje kaikki Chromium-ikkunat ja yritä uudelleen.</translation>
-<translation id="3522404737534491619">Jos haluat jakaa ikkunan, salli Chromiumin näytön tallennus järjestelmäasetuksista.</translation>
-<translation id="3530103706039034513"><ph name="EXISTING_USER" /> on jo kirjautunut sisään.  Jos haluat pitää selaamisen erillään, kirjaudu Chromiumiin omalla profiilillasi käyttämällä tiliä <ph name="USER_EMAIL_ADDRESS" />.</translation>
-<translation id="3531741627422851418">QR-koodi, jolla voi ladata Chromium-selaimen mobiililaitteille</translation>
+<translation id="5805833167703404998">Valitsemalla <ph name="SHORTCUT" /> voit vaihdella eri João Browser-profiilien välillä</translation>
+<translation id="1835124883585653877">Sulje kaikki João Browser-ikkunat ja yritä uudelleen.</translation>
+<translation id="7106246566966568195">Jos haluat jakaa ikkunan, salli João Browserin näytön tallennus järjestelmäasetuksista.</translation>
+<translation id="6017005873246021363"><ph name="EXISTING_USER" /> on jo kirjautunut sisään.  Jos haluat pitää selaamisen erillään, kirjaudu João Browseriin omalla profiilillasi käyttämällä tiliä <ph name="USER_EMAIL_ADDRESS" />.</translation>
+<translation id="1146681170626381319">QR-koodi, jolla voi ladata João Browser-selaimen mobiililaitteille</translation>
 <translation id="354621070532799440">Muistutus: Googlen parhaat turvaominaisuudet taskussasi</translation>
-<translation id="3561853857681580870">Jos haluat jakaa näytön, salli Chromiumin näytön tallennus järjestelmäasetuksista.</translation>
+<translation id="2488701737291439763">Jos haluat jakaa näytön, salli João Browserin näytön tallennus järjestelmäasetuksista.</translation>
 <translation id="3588112919289558122">Parannettu suojaus laittaa JavaScript-optimoinnin pois päältä sivustoilla, joita Chromium ei tunnista</translation>
 <translation id="3597003331831379823">Käyttöönotto laajennetuilla pääsyoikeuksilla epäonnistui. <ph name="METAINSTALLER_ERROR" /></translation>
-<translation id="3600428265489994557">Chromiumiin kirjautuminen</translation>
-<translation id="3639635944603682591">Käyttäjän selaustiedot poistetaan tältä laitteelta. Jos haluat palauttaa tiedot myöhemmin, kirjaudu Chromiumiin käyttäjänä <ph name="USER_EMAIL" />.</translation>
-<translation id="364817392622123556">{COUNT,plural, =0{Uusi Chromium-päivitys on saatavilla, ja se otetaan käyttöön uudelleenkäynnistyksen jälkeen.}=1{Uusi Chromium-päivitys on saatavilla, ja se otetaan käyttöön uudelleenkäynnistyksen jälkeen. Incognito-ikkunaasi ei avata uudelleen.}other{Uusi Chromium-päivitys on saatavilla, ja se otetaan käyttöön uudelleenkäynnistyksen jälkeen. # incognito-ikkunaasi ei avata uudelleen.}}</translation>
+<translation id="7882299119268334705">João Browseriin kirjautuminen</translation>
+<translation id="5985252758124395804">Käyttäjän selaustiedot poistetaan tältä laitteelta. Jos haluat palauttaa tiedot myöhemmin, kirjaudu João Browseriin käyttäjänä <ph name="USER_EMAIL" />.</translation>
+<translation id="3873330960224886843">{COUNT,plural, =0{Uusi João Browser-päivitys on saatavilla, ja se otetaan käyttöön uudelleenkäynnistyksen jälkeen.}=1{Uusi João Browser-päivitys on saatavilla, ja se otetaan käyttöön uudelleenkäynnistyksen jälkeen. Incognito-ikkunaasi ei avata uudelleen.}other{Uusi João Browser-päivitys on saatavilla, ja se otetaan käyttöön uudelleenkäynnistyksen jälkeen. # incognito-ikkunaasi ei avata uudelleen.}}</translation>
 <translation id="3667616615096815454">Asennus ei onnistu, palvelin ei tunnista sovellusta.</translation>
 <translation id="3675854891107786059">Salaa kaikki Google-tilisi Chromium-data <ph name="BEGIN_LINK" />omalla tunnuslauseella<ph name="END_LINK" />. Google Payn maksutapoja ja osoitteita ei salata. Chromiumin selaushistoriaa ei synkronoida.</translation>
-<translation id="370962675267501463">{COUNT,plural, =0{Ylläpitäjä pyytää Chromiumin uudelleenkäynnistystä, jotta tämä päivitys voidaan ottaa käyttöön.}=1{Ylläpitäjä pyytää Chromiumin uudelleenkäynnistystä, jotta tämä päivitys voidaan ottaa käyttöön. Incognito-ikkunaasi ei avata uudelleen.}other{Ylläpitäjä pyytää Chromiumin uudelleenkäynnistystä, jotta tämä päivitys voidaan ottaa käyttöön. # incognito-ikkunaasi ei avata uudelleen.}}</translation>
-<translation id="3713809861844741608">Avaa linkki uudella Chromiumin välilehdellä</translation>
+<translation id="6155809479106644907">{COUNT,plural, =0{Ylläpitäjä pyytää João Browserin uudelleenkäynnistystä, jotta tämä päivitys voidaan ottaa käyttöön.}=1{Ylläpitäjä pyytää João Browserin uudelleenkäynnistystä, jotta tämä päivitys voidaan ottaa käyttöön. Incognito-ikkunaasi ei avata uudelleen.}other{Ylläpitäjä pyytää João Browserin uudelleenkäynnistystä, jotta tämä päivitys voidaan ottaa käyttöön. # incognito-ikkunaasi ei avata uudelleen.}}</translation>
+<translation id="4134769722455445399">Avaa linkki uudella João Browserin välilehdellä</translation>
 <translation id="3728124580182886854">Linkitä Chromium ja muita Googlen palveluja esimerkiksi personointia varten</translation>
 <translation id="3729187154190517324">Tee hausta tarkempi lisäämällä useita välilehtiä, tiedostoja ja työkaluja "Lisää välilehti ja muuta" ‑painikkeella.</translation>
-<translation id="3788675262216168505">Ylläpidä Chromium-profiileja</translation>
-<translation id="3790262771324122253">Katso, miksi Chromium estää joitakin latauksia</translation>
+<translation id="655691042235349825">Ylläpidä João Browser-profiileja</translation>
+<translation id="8494798931804571569">Katso, miksi João Browser estää joitakin latauksia</translation>
 <translation id="379589255253486813">Chromium ilmoittaa, jos jotain on tarkistettava</translation>
 <translation id="3802055581630249637">Chromium esilataa sivut, joilla todennäköisesti käyt, jotta ne latautuisivat avatessa nopeammin</translation>
 <translation id="3810973564298564668">Hallinnoi</translation>
-<translation id="3823384748599722168">Jos haluat käyttää tallennettuja salasanoja, seuraa QR-koodia, lataa Chromium iOS:lle ja kirjaudu sisään Google-tilille</translation>
+<translation id="6945066279282141856">Jos haluat käyttää tallennettuja salasanoja, seuraa QR-koodia, lataa João Browser iOS:lle ja kirjaudu sisään Google-tilille</translation>
 <translation id="3846683726093018685">**Tee yhteenveto:** Kuvaile kuvakaappauksen sisällön ensisijaista aihetta ja tarkoitusta yhdellä alle 30 sanan lauseella.
 
           **Ehdota kysymyksiä:** Luo ranskalaisilla viivoilla lista, jossa on 3–5 ajatuksia herättävää kysymystä kuvakaappauksen ymmärtämisen tueksi. Ainakin yhden kysymyksen tulee koskea nimenomaan visuaalista kohdetta, sen asettelua tai sijoittelua.</translation>
-<translation id="3848258323044014972"><ph name="PAGE_TITLE" /> - Chromium</translation>
-<translation id="387514319934708384">Chromium tarvitsee pääsyn lähiverkkoon tällä sivustolla</translation>
+<translation id="4996569675441627032"><ph name="PAGE_TITLE" /> - João Browser</translation>
+<translation id="6008740052107737825">João Browser tarvitsee pääsyn lähiverkkoon tällä sivustolla</translation>
 <translation id="3885770153807205175">Kielivalitsin</translation>
-<translation id="388648406173476553">Yksilöi ja ylläpidä Chromiumia. Toimenpiteitä vaaditaan. Katso lisätiedot klikkaamalla.</translation>
-<translation id="3889543394854987837">Avaa Chromium klikkaamalla nimeäsi ja aloita selaaminen.</translation>
+<translation id="2390004682597453662">Yksilöi ja ylläpidä João Browseria. Toimenpiteitä vaaditaan. Katso lisätiedot klikkaamalla.</translation>
+<translation id="8262407643678629134">Avaa João Browser klikkaamalla nimeäsi ja aloita selaaminen.</translation>
 <translation id="3892148308691398805">Kopioi teksti</translation>
-<translation id="390528597099634151"><ph name="EXISTING_USER" /> on jo kirjautunut tähän Chromium-profiiliin. Chromium voi luoda sinulle oman profiilin, jotta selaamisesi pysyy erillään.</translation>
-<translation id="3909353120217047026">Tämä laajennus rikkoo Chrome Web Storen käytäntöä ja saattaa olla vaarallinen. Poista se Chromiumista, jotta se ei enää voi nähdä tai muuttaa dataasi avaamillasi sivustoilla, mukaan lukien henkilökohtaisia tietojasi.</translation>
+<translation id="2168201717554927204"><ph name="EXISTING_USER" /> on jo kirjautunut tähän João Browser-profiiliin. João Browser voi luoda sinulle oman profiilin, jotta selaamisesi pysyy erillään.</translation>
+<translation id="1046732460303790107">Tämä laajennus rikkoo Chrome Web Storen käytäntöä ja saattaa olla vaarallinen. Poista se João Browserista, jotta se ei enää voi nähdä tai muuttaa dataasi avaamillasi sivustoilla, mukaan lukien henkilökohtaisia tietojasi.</translation>
 <translation id="3941890832296813527">Asennusvirhe: Asennusohjelman tiedostonimi on virheellinen, tai sitä ei tueta.</translation>
-<translation id="3945058413678539331">Chromium yrittää kopioida salasanat. Salli tämä kirjoittamalla Windows-salasanasi.</translation>
-<translation id="3954172517175569325">Google-tilille tallennetut salasanat, maksutavat ja osoitteet poistetaan tältä laitteelta. Jos haluat käyttää niitä uudelleen Chromiumissa, kirjaudu takaisin sisään.</translation>
+<translation id="3879366121647289622">João Browser yrittää kopioida salasanat. Salli tämä kirjoittamalla Windows-salasanasi.</translation>
+<translation id="7332365758981378072">Google-tilille tallennetut salasanat, maksutavat ja osoitteet poistetaan tältä laitteelta. Jos haluat käyttää niitä uudelleen João Browserissa, kirjaudu takaisin sisään.</translation>
 <translation id="395904275706073188">Suojattuja sivuja ei voi lukea. Kokeile toista sivua.</translation>
 <translation id="3962647064319009959">Lue, miten Chromium pitää sinut turvassa</translation>
 <translation id="3967822245660637423">Lataus on valmis</translation>
@@ -280,271 +280,271 @@
 <translation id="4019629340646866719">Toinen <ph name="BEGIN_LINK_CROS_OSS" />avoimen lähdekoodin ohjelmisto<ph name="END_LINK_CROS_OSS" /> tukee Chromium-käyttöjärjestelmää, kuten myös <ph name="BEGIN_LINK_LINUX_OSS" />Linux-kehitysympäristöä<ph name="END_LINK_LINUX_OSS" />.</translation>
 <translation id="4022972681110646219">Käännä näyttö</translation>
 <translation id="4023601594785368013">Alkuperäinen kieli: <ph name="LANGUAGE" /></translation>
-<translation id="4023845192681161785">Avaa minkä tahansa sovelluksen linkit Chromiumissa. Lisäksi se kiinnitetään tehtäväpalkkiin, jotta pääset siihen helposti.</translation>
+<translation id="6855094093276351199">Avaa minkä tahansa sovelluksen linkit João Browserissa. Lisäksi se kiinnitetään tehtäväpalkkiin, jotta pääset siihen helposti.</translation>
 <translation id="4036079820698952681">Auta parantamaan Chromiumia ilmoittamalla <ph name="BEGIN_LINK" />nykyiset asetukset<ph name="END_LINK" />.</translation>
 <translation id="4050175100176540509">Uusimmassa versiossa on käytettävissä tärkeitä turvallisuusparannuksia ja uusia ominaisuuksia.</translation>
 <translation id="4055805654398742145">S&amp;alasanat</translation>
-<translation id="4095980151185649725">{COUNT,plural, =1{Organisaatiosi sulkee Chromiumin automaattisesti, kun sitä ei ole käytetty 1 minuuttiin. Selausdata poistetaan. Tämä voi sisältää historian, automaattisen täytön ja lataukset.}other{Organisaatiosi sulkee Chromiumin automaattisesti, kun sitä ei ole käytetty # minuuttiin. Selausdata poistetaan. Tämä voi sisältää historian, automaattisen täytön ja lataukset.}}</translation>
+<translation id="615818333141511791">{COUNT,plural, =1{Organisaatiosi sulkee João Browserin automaattisesti, kun sitä ei ole käytetty 1 minuuttiin. Selausdata poistetaan. Tämä voi sisältää historian, automaattisen täytön ja lataukset.}other{Organisaatiosi sulkee João Browserin automaattisesti, kun sitä ei ole käytetty # minuuttiin. Selausdata poistetaan. Tämä voi sisältää historian, automaattisen täytön ja lataukset.}}</translation>
 <translation id="4118474109249235144">Chromiumin incognito-tila</translation>
 <translation id="4122186850977583290">Siirry Tietoja Chromiumista ‐sivulle</translation>
-<translation id="4135244987012252068">Tee Chromiumista näköisesi muokkaamalla selaimen tyyliä</translation>
-<translation id="4147856324248078748">M&amp;uokkaa Chromiumia</translation>
+<translation id="9207280419664362385">Tee João Browserista näköisesi muokkaamalla selaimen tyyliä</translation>
+<translation id="3719803995198923598">M&amp;uokkaa João Browseria</translation>
 <translation id="4148957013307229264">Asennetaan...</translation>
-<translation id="419998258129752635"><ph name="PAGE_TITLE" /> – Kirjautuminen verkkoon – Chromium</translation>
-<translation id="421369550622382712">Löydät hienoja sovelluksia, pelejä, laajennuksia ja teemoja Chromiumille.</translation>
-<translation id="4217080900579554343">Kirjaudu sisään Chromiumiin, niin voit käyttää tätä laajennusta ja muita ominaisuuksia kaikilla tietokoneilla</translation>
-<translation id="4217972271355023382">Jos haluat käyttää vanhempasi valitsemia asetuksia, vaihda Chromium-profiiliin, jolla olet jo kirjautuneena (<ph name="USER_EMAIL_ADDRESS" />)</translation>
+<translation id="2954462321765112214"><ph name="PAGE_TITLE" /> – Kirjautuminen verkkoon – João Browser</translation>
+<translation id="7812363663832111420">Löydät hienoja sovelluksia, pelejä, laajennuksia ja teemoja João Browserille.</translation>
+<translation id="69200600645763018">Kirjaudu sisään João Browseriin, niin voit käyttää tätä laajennusta ja muita ominaisuuksia kaikilla tietokoneilla</translation>
+<translation id="7505863944027312744">Jos haluat käyttää vanhempasi valitsemia asetuksia, vaihda João Browser-profiiliin, jolla olet jo kirjautuneena (<ph name="USER_EMAIL_ADDRESS" />)</translation>
 <translation id="4222932583846282852">Peruutetaan…</translation>
 <translation id="4224210481850767180">Asennus on peruutettu.</translation>
-<translation id="4230135487732243613">Linkitetäänkö Chromium-tiedot tähän tiliin?</translation>
+<translation id="8090594705972340646">Linkitetäänkö João Browser-tiedot tähän tiliin?</translation>
 <translation id="4251772536351901305">Varoittaa vaarallisista sivustoista, myös niistä, joista Google ei ole tiennyt aiemmin, analysoimalla enemmän dataa sivustoilta kuin perustason suojaus. Voit ohittaa Chromiumin varoitukset.</translation>
-<translation id="4269093074552541569">Kirjaudu ulos Chromiumista</translation>
+<translation id="5696119579094527589">Kirjaudu ulos João Browserista</translation>
 <translation id="4271805377592243930">Ohjeita Chromiumin käyttöön</translation>
 <translation id="4281844954008187215">Käyttöehdot</translation>
-<translation id="4285930937574705105">Asennus epäonnistui tuntemattoman virheen takia. Jos Chromium on tällä hetkellä käynnissä, sulje se ja yritä uudelleen.</translation>
-<translation id="4298125729853015961">Vie salasanoja Chromiumista</translation>
+<translation id="1245307320228150348">Asennus epäonnistui tuntemattoman virheen takia. Jos João Browser on tällä hetkellä käynnissä, sulje se ja yritä uudelleen.</translation>
+<translation id="7405356088321579627">Vie salasanoja João Browserista</translation>
 <translation id="4304713468139749426">Salasanojen ylläpito</translation>
 <translation id="4334241893986177674">Hae tätä kuvakaappausta</translation>
-<translation id="4384331407722351213">Käynnistä Chromium, kun Windows käynnistyy</translation>
+<translation id="212570256141568951">Käynnistä João Browser, kun Windows käynnistyy</translation>
 <translation id="4400772909124543403">Päivityksiä ei ole saatavilla</translation>
-<translation id="4407044323746248786">Suljetaanko Chromium silti?</translation>
+<translation id="7463042547966071103">Suljetaanko João Browser silti?</translation>
 <translation id="4413205837991854510">Näytä aina kuvahaun pikanäppäin</translation>
-<translation id="4415566066719264597">Jätä Chromium käyntiin taustalle</translation>
-<translation id="4419831163359812184">{NUM_EXTENSIONS,plural, =1{Chromium suosittelee sen poistamista. <ph name="BEGIN_LINK" />Lue lisää tuetuista laajennuksista<ph name="END_LINK" />}other{Chromium suosittelee niiden poistamista. <ph name="BEGIN_LINK" />Lue lisää tuetuista laajennuksista<ph name="END_LINK" />}}</translation>
-<translation id="4423735387467980091">Chromiumin muokkaus ja hallinta</translation>
+<translation id="4736206301215400753">Jätä João Browser käyntiin taustalle</translation>
+<translation id="821847589110998911">{NUM_EXTENSIONS,plural, =1{João Browser suosittelee sen poistamista. <ph name="BEGIN_LINK" />Lue lisää tuetuista laajennuksista<ph name="END_LINK" />}other{João Browser suosittelee niiden poistamista. <ph name="BEGIN_LINK" />Lue lisää tuetuista laajennuksista<ph name="END_LINK" />}}</translation>
+<translation id="5305058100936019600">João Browserin muokkaus ja hallinta</translation>
 <translation id="4427306783828095590">Parannettu suojaus torjuu tietojenkalastelua ja haittaohjelmia entistä tehokkaammin</translation>
 <translation id="4434353761996769206">Asennusohjelman virhe: <ph name="INSTALLER_ERROR" /></translation>
-<translation id="4438870983368648614"><ph name="MANAGER" /> ylläpitää Chromiumia</translation>
-<translation id="444069871276811466">Lisää Chromium-profiili</translation>
+<translation id="3461955321878243607"><ph name="MANAGER" /> ylläpitää João Browseria</translation>
+<translation id="3379477508903866078">Lisää João Browser-profiili</translation>
 <translation id="4447409407328223819">Tietoa Chrome for Testingistä</translation>
-<translation id="4470974262661801543">Chromium-datan käyttö ja tallennus Google-tilillä edellyttää, että lisäät tunnuslauseesi</translation>
+<translation id="4074057296993529937">João Browser-datan käyttö ja tallennus Google-tilillä edellyttää, että lisäät tunnuslauseesi</translation>
 <translation id="4493028449971051158">Käynnistysvirhe: Suorita asennusohjelma järjestelmänvalvojana.</translation>
 <translation id="4501471624619070934">Asentaminen epäonnistui, koska pääsyä on rajoitettu tässä maassa.</translation>
-<translation id="4510853178268397146">Tästä laajennuksesta ei ole julkaistu tietosuojakäytäntöjä koskien esimerkiksi datan keräämistä ja käyttöä. Chromium suosittelee sen poistamista.</translation>
-<translation id="452711251841752011">Tervetuloa Chromiumiin, uusi selainikkuna avattu</translation>
-<translation id="4531137820806573936">Chromium tarvitsee luvan ympäristösi kartoittamiseen ja käsiesi liikkeiden seuraamiseen</translation>
-<translation id="4536805923587466102">Olet jo kirjautunut sisään tilillä <ph name="USER_EMAIL_ADDRESS" /> toisessa Chromium-profiilissa</translation>
+<translation id="8624811527667906941">Tästä laajennuksesta ei ole julkaistu tietosuojakäytäntöjä koskien esimerkiksi datan keräämistä ja käyttöä. João Browser suosittelee sen poistamista.</translation>
+<translation id="5571435860030744559">Tervetuloa João Browseriin, uusi selainikkuna avattu</translation>
+<translation id="8132016625974854930">João Browser tarvitsee luvan ympäristösi kartoittamiseen ja käsiesi liikkeiden seuraamiseen</translation>
+<translation id="6599071882590417739">Olet jo kirjautunut sisään tilillä <ph name="USER_EMAIL_ADDRESS" /> toisessa João Browser-profiilissa</translation>
 <translation id="4548534452171747496">Chromium esilataa sivuja, mikä nopeuttaa selaamista ja hakemista. <ph name="BEGIN_LINK" />Lue lisää sivujen esilatauksesta<ph name="END_LINK" /></translation>
 <translation id="4549180975214802957">Auta parantamaan kaikkien verkkoturvallisuutta ilmoittamalla sivustosta, jonka uskot olevan haitallinen.</translation>
-<translation id="4570813286784708942">Chromium on estänyt tämän latauksen, koska laitoit Selaussuojan pois päältä eikä tiedostoa voi vahvistaa</translation>
-<translation id="4583692638088316420">Kokeile Google Lensia Chromiumin avulla puhelimella</translation>
+<translation id="202208802191333704">João Browser on estänyt tämän latauksen, koska laitoit Selaussuojan pois päältä eikä tiedostoa voi vahvistaa</translation>
+<translation id="3128308674776200516">Kokeile Google Lensia João Browserin avulla puhelimella</translation>
 <translation id="4594305310729380060">Googlen Salasanojen ylläpitoon tällä laitteella</translation>
-<translation id="459535195905078186">Chromium-sovellukset</translation>
+<translation id="7653380076752216509">João Browser-sovellukset</translation>
 <translation id="4598116752460667024">Hae mitä tahansa prosessia listalta.</translation>
 <translation id="4613863813562375431">Chromium-käyttöjärjestelmän versio</translation>
 <translation id="4621240073146040695">Melkein valmista. Viimeistele päivitys käynnistämällä Chromium uudelleen.</translation>
-<translation id="4625064703209785397">Nopeuttaa sivustoja Chromiumin V8-moottorilla, mutta heikentää Chromiumin suojaa hyökkäyksiä vastaan</translation>
-<translation id="4665829708273112819">Varoitus: Chromium ei voi estää laajennuksia tallentamasta selaushistoriaasi. Voit estää tämän laajennuksen käytön incognito-tilassa poistamalla tämän valinnan.</translation>
+<translation id="1497446027991908251">Nopeuttaa sivustoja João Browserin V8-moottorilla, mutta heikentää João Browserin suojaa hyökkäyksiä vastaan</translation>
+<translation id="7523749920868634278">Varoitus: João Browser ei voi estää laajennuksia tallentamasta selaushistoriaasi. Voit estää tämän laajennuksen käytön incognito-tilassa poistamalla tämän valinnan.</translation>
 <translation id="4673151026126227699">Jos jaat myös Chromiumin käyttöraportteja, avaamasi URL-osoitteet näkyvät niissä</translation>
 <translation id="4673710618874938871">Kirjautuneena tilillä <ph name="USER_NAME" />, jäsenyys. Avaa tilivalikko</translation>
-<translation id="4677944499843243528">Profiili näyttäisi olevan toisen Chromium-prosessin (<ph name="PROCESS_ID" />) käytössä toisella tietokoneella (<ph name="HOST_NAME" />). Chromium on lukinnut profiilin, jotta se ei vioitu. Jos olet varma, että mikään toinen prosessi ei käytä tätä profiilia, voit poistaa profiilin lukituksen ja käynnistää Chromiumin uudelleen.</translation>
+<translation id="6608258642372806522">Profiili näyttäisi olevan toisen João Browser-prosessin (<ph name="PROCESS_ID" />) käytössä toisella tietokoneella (<ph name="HOST_NAME" />). João Browser on lukinnut profiilin, jotta se ei vioitu. Jos olet varma, että mikään toinen prosessi ei käytä tätä profiilia, voit poistaa profiilin lukituksen ja käynnistää João Browserin uudelleen.</translation>
 <translation id="4680828127924988555">Peru asennus</translation>
-<translation id="469259825538636168">Osaa Chromium-datastasi ei ole vielä tallennettu Google-tilillesi. Odota muutama minuutti ennen uloskirjautumista. Jos kirjaudut ulos nyt, tämä data poistetaan.</translation>
-<translation id="4708193446201257833">Kun olet kirjautunut sisään, voit käyttää esimerkiksi Google-tilin salasanoja Chromiumissa. <ph name="SHORTCUT" /> voi muuttaa Googlen palvelujen asetuksiasi.</translation>
-<translation id="4708774505295300557">Joku on jo kirjautunut tällä tietokoneella Chromiumiin käyttäjätilillä <ph name="ACCOUNT_EMAIL_LAST" />. Luo uusi Chromium-käyttäjä, jos haluat pitää tiedot erillään.</translation>
+<translation id="3912572071294857936">Osaa João Browser-datastasi ei ole vielä tallennettu Google-tilillesi. Odota muutama minuutti ennen uloskirjautumista. Jos kirjaudut ulos nyt, tämä data poistetaan.</translation>
+<translation id="1077152188344040592">Kun olet kirjautunut sisään, voit käyttää esimerkiksi Google-tilin salasanoja João Browserissa. <ph name="SHORTCUT" /> voi muuttaa Googlen palvelujen asetuksiasi.</translation>
+<translation id="5729536702149847030">Joku on jo kirjautunut tällä tietokoneella João Browseriin käyttäjätilillä <ph name="ACCOUNT_EMAIL_LAST" />. Luo uusi João Browser-käyttäjä, jos haluat pitää tiedot erillään.</translation>
 <translation id="4724676981607797757">Asennus epäonnistui, koska protokollaa ei tueta.</translation>
-<translation id="4746050847053251315">Suljetaanko Chromium silti?</translation>
-<translation id="4748217263233248895">Chromiumin tärkeä tietoturvapäivitys on asennettu. Käynnistä selain uudelleen – palautamme avoimet välilehdet.</translation>
+<translation id="6273241729694500032">Suljetaanko João Browser silti?</translation>
+<translation id="3239680024825449390">João Browserin tärkeä tietoturvapäivitys on asennettu. Käynnistä selain uudelleen – palautamme avoimet välilehdet.</translation>
 <translation id="4771701986670315895">Sivustot, joilla et ole käynyt viime aikoina. Chromium poisti nämä luvat: <ph name="PERMISSION_1" />, <ph name="PERMISSION_2" /> ja <ph name="COUNT" /> muuta.</translation>
-<translation id="4786083865378785874">Jos Gemini in Chromium on auki, sivupaneeli pysyy auki, kun luot uusia välilehtiä</translation>
+<translation id="1908292729364083164">Jos Gemini in João Browser on auki, sivupaneeli pysyy auki, kun luot uusia välilehtiä</translation>
 <translation id="479167709087336770">Tämä käyttää samaa oikeinkirjoituksen tarkistusta kuin Google Haku. Selaimeen kirjoittamasi teksti lähetetään Googlelle. Voit vaihtaa valintasi milloin tahansa asetuksista.</translation>
-<translation id="4814736265800133385">Käytä Chromiumia ilman tiliä</translation>
-<translation id="4888717733111232871">Chromiumin saapuvien yhteyksien sääntö, joka sallii mDNS-liikenteen.</translation>
-<translation id="4893347770495441059">Päivitä &amp;Chromium käynnistämällä se uudelleen</translation>
+<translation id="189382710647501724">Käytä João Browseria ilman tiliä</translation>
+<translation id="4456919965836032212">João Browserin saapuvien yhteyksien sääntö, joka sallii mDNS-liikenteen.</translation>
+<translation id="3486986778673504636">Päivitä &amp;João Browser käynnistämällä se uudelleen</translation>
 <translation id="4918086044614829423">Hyväksy</translation>
 <translation id="4918844574251943176">Kuva kopioitu</translation>
-<translation id="4943838377383847465">Chromium on käynnissä taustalla</translation>
-<translation id="494490797786467921">Sulje Chromiumin kirjautumisikkuna klikkaamalla</translation>
-<translation id="4950660488495335294">Kun käytät Chromium-profiileja, voit pitää kaiken Chromium-sisällön erillään. Luo profiileja kavereita ja perhettä varten tai tee ero työn ja hauskanpidon välille.</translation>
-<translation id="4987820182225656817">Vierailijat voivat käyttää Chromiumia jälkiä jättämättä.</translation>
-<translation id="4992938037305302429">Tilisi Chromiumissa</translation>
-<translation id="4994636714258228724">Lisää itsesi Chromiumiin</translation>
+<translation id="1571932028747131277">João Browser on käynnissä taustalla</translation>
+<translation id="7612124006067933008">Sulje João Browserin kirjautumisikkuna klikkaamalla</translation>
+<translation id="2598788273876744576">Kun käytät João Browser-profiileja, voit pitää kaiken João Browser-sisällön erillään. Luo profiileja kavereita ja perhettä varten tai tee ero työn ja hauskanpidon välille.</translation>
+<translation id="2115498792600385171">Vierailijat voivat käyttää João Browseria jälkiä jättämättä.</translation>
+<translation id="6870732303439257966">Tilisi João Browserissa</translation>
+<translation id="4366792189726044065">Lisää itsesi João Browseriin</translation>
 <translation id="504699503110800016">Avaa ylivuotovalikko</translation>
-<translation id="5074496654342756568">Käytä kaikkia Googlen suosikkeja Chromiumin kautta laitteellasi (<ph name="DEVICE_TYPE" />)</translation>
-<translation id="5123973130450702873">Chromium tarvitsee luvan käsien liikkeen seuraamiseen</translation>
+<translation id="4340125167559705618">Käytä kaikkia Googlen suosikkeja João Browserin kautta laitteellasi (<ph name="DEVICE_TYPE" />)</translation>
+<translation id="4916697359431064123">João Browser tarvitsee luvan käsien liikkeen seuraamiseen</translation>
 <translation id="5141988424377517949">Sivustot, joilla et ole käynyt viime aikoina. Chromium poisti nämä luvat: <ph name="PERMISSION_1" />, <ph name="PERMISSION_2" /> ja <ph name="PERMISSION_3" />.</translation>
 <translation id="5174969993834422967">Estät yleensä ilmoitukset. Voit antaa tälle sivustolle luvan lähettää ilmoituksia klikkaamalla ilmoituskuvaketta osoitepalkin oikeassa reunassa.</translation>
 <translation id="5174983315706567306">Levytila ei riitä.</translation>
-<translation id="5187123684706427865">Chromium-tili edellyttää uudelleentodennusta</translation>
-<translation id="5223510345050543907">Jatka Chromiumin käyttöä iOS:llä siitä, mihin jäit.</translation>
-<translation id="5231355151045086930">Kirjaudu ulos Chromiumista</translation>
+<translation id="961070648267203077">João Browser-tili edellyttää uudelleentodennusta</translation>
+<translation id="69363826605946518">Jatka João Browserin käyttöä iOS:llä siitä, mihin jäit.</translation>
+<translation id="471694954923709047">Kirjaudu ulos João Browserista</translation>
 <translation id="5234764350956374838">Hylkää</translation>
-<translation id="5249261924633168472">Avaa linkki Chromiumin Inco&amp;gnito-ikkunassa</translation>
-<translation id="5276305953263010518">Lataa Chromium-sovellus, niin voit tallentaa salasanoja missä tahansa</translation>
+<translation id="5782956358171235578">Avaa linkki João Browserin Inco&amp;gnito-ikkunassa</translation>
+<translation id="903712329052383264">Lataa João Browser-sovellus, niin voit tallentaa salasanoja missä tahansa</translation>
 <translation id="5277894862589591112">Ota muutokset käyttöön käynnistämällä Chromium uudelleen</translation>
 <translation id="5286907366254680517">Tunnistettu</translation>
-<translation id="5289287148052354622">Lataa Chromium-sovellus</translation>
+<translation id="5593827909938092728">Lataa João Browser-sovellus</translation>
 <translation id="5294316920224716406">Kun selaat incognito-tilassa, Chromium varoittaa sinua ennen kuin sivusto ladataan suojaamattomalla yhteydellä</translation>
-<translation id="5313228254328109263">Chromiumin sisäinen päivityspalvelu</translation>
+<translation id="1066981078513393795">João Browserin sisäinen päivityspalvelu</translation>
 <translation id="5324450571874973775">Käytä niitä yhdessä muiden Gemini in Chromiumin ominaisuuksien kanssa</translation>
 <translation id="5346389065299425353">Tarkenna hakua lisäämällä useita välilehtiä, tiedostoja ja työkaluja</translation>
-<translation id="5348677704241861105">Nopea yleiskatsaus dokumentista ja mahdollisuus esittää kysymyksiä Gemini in Chromiumilla</translation>
+<translation id="1884203704972162365">Nopea yleiskatsaus dokumentista ja mahdollisuus esittää kysymyksiä Gemini in João Browserilla</translation>
 <translation id="5352264705793813212">Chromium on löytänyt turvallisuussuosituksia, jotka sinun täytyy tarkistaa</translation>
-<translation id="5352361688875342522">Muut Chromium-profiilit</translation>
-<translation id="535243042947607642">ChromiumOS ei voinut tallentaa Chromium-dataa Google-tilillesi, koska tilin kirjautumistiedot ovat vanhentuneet</translation>
-<translation id="5358375970380395591">Olet kirjautumassa sisään hallinnoidulla tilillä ja antamassa tilin järjestelmänvalvojalle oikeuden hallita Chromium-profiiliasi. Chromium-tietosi, kuten sovelluksesi, kirjanmerkkisi, historiasi, salasanasi ja muut asetuksesi, yhdistetään pysyvästi käyttäjätiliin <ph name="USER_NAME" />. Voit poistaa nämä tiedot Google-tilien Hallintapaneelissa, mutta et voi liittää tietoja toiseen tiliin. <ph name="LEARN_MORE" /></translation>
+<translation id="4819697639570429319">Muut João Browser-profiilit</translation>
+<translation id="7878591304929138776">ChromiumOS ei voinut tallentaa João Browser-dataa Google-tilillesi, koska tilin kirjautumistiedot ovat vanhentuneet</translation>
+<translation id="5249614051186670898">Olet kirjautumassa sisään hallinnoidulla tilillä ja antamassa tilin järjestelmänvalvojalle oikeuden hallita João Browser-profiiliasi. João Browser-tietosi, kuten sovelluksesi, kirjanmerkkisi, historiasi, salasanasi ja muut asetuksesi, yhdistetään pysyvästi käyttäjätiliin <ph name="USER_NAME" />. Voit poistaa nämä tiedot Google-tilien Hallintapaneelissa, mutta et voi liittää tietoja toiseen tiliin. <ph name="LEARN_MORE" /></translation>
 <translation id="5368118228313795342">Lisäkoodi: <ph name="EXTRA_CODE" />.</translation>
 <translation id="5377622451696208284">Voit käyttää personointia, kun lisäät Chromiumin verkko- ja sovellustoimintaan</translation>
-<translation id="5383439451358640070">Lue lisää siitä, miksi Chromium estää joitakin tiedostoja</translation>
+<translation id="108952623091824942">Lue lisää siitä, miksi João Browser estää joitakin tiedostoja</translation>
 <translation id="5386450000063123300">Päivitetään Chromiumia (<ph name="PROGRESS_PERCENT" />)</translation>
 <translation id="538767207339317086">Salli Chromium-kirjautuminen</translation>
-<translation id="5405650547142096840">Poista Chromiumista</translation>
-<translation id="5424544524441439284">Rajoittaa suorituskykyä, mutta tekee Chromiumista suojatumman hyökkäyksiä vastaan</translation>
-<translation id="5427571867875391349">Aseta Chromium oletusselaimeksi</translation>
-<translation id="5438241569118040789"><ph name="PAGE_TITLE" /> – Chromium Beta</translation>
-<translation id="5460618461609401056">{NUM_TABS,plural, =1{Chromium suosittelee selainta hidastavan välilehden keskeyttämistä}other{Chromium suosittelee selainta hidastavien välilehtien keskeyttämistä}}</translation>
-<translation id="5473971139929175403">Chromium ei ehkä toimi oikein, koska sen käyttöä tällä Linux-jakelulla ei enää tueta.</translation>
-<translation id="5475924890392386523">Chromium on estänyt tämän latauksen, koska tiedosto voi vahingoittaa some‐ ja henkilökohtaisia tilejäsi</translation>
-<translation id="549669000822060376">Odota hetki, Chromium asentaa uusimpia järjestelmäpäivityksiä.</translation>
-<translation id="5496810170689441661">Chromium yrittää muuttaa salasanoja. Salli tämä kirjoittamalla Windows-salasanasi.</translation>
-<translation id="549975168243349205">Chromiumin avulla käytät suosikkisovelluksiasi, kuten Google Drivea ja YouTubea, vaivatta missä tahansa.</translation>
+<translation id="1265086181910844216">Poista João Browserista</translation>
+<translation id="1500700851187484222">Rajoittaa suorituskykyä, mutta tekee João Browserista suojatumman hyökkäyksiä vastaan</translation>
+<translation id="6665657403278704382">Aseta João Browser oletusselaimeksi</translation>
+<translation id="3520901681432894293"><ph name="PAGE_TITLE" /> – João Browser Beta</translation>
+<translation id="5994273394215159270">{NUM_TABS,plural, =1{João Browser suosittelee selainta hidastavan välilehden keskeyttämistä}other{João Browser suosittelee selainta hidastavien välilehtien keskeyttämistä}}</translation>
+<translation id="646791423998269453">João Browser ei ehkä toimi oikein, koska sen käyttöä tällä Linux-jakelulla ei enää tueta.</translation>
+<translation id="7249139852479053716">João Browser on estänyt tämän latauksen, koska tiedosto voi vahingoittaa some‐ ja henkilökohtaisia tilejäsi</translation>
+<translation id="478612683981218420">Odota hetki, João Browser asentaa uusimpia järjestelmäpäivityksiä.</translation>
+<translation id="3466187211963597724">João Browser yrittää muuttaa salasanoja. Salli tämä kirjoittamalla Windows-salasanasi.</translation>
+<translation id="3133978491361824131">João Browserin avulla käytät suosikkisovelluksiasi, kuten Google Drivea ja YouTubea, vaivatta missä tahansa.</translation>
 <translation id="5524890928877629608">hakualueen vasen yläkulma: vasen <ph name="LEFT" /> %, ylä <ph name="TOP" /> %</translation>
 <translation id="5527463683072221100">Avaa PDF-tiedostot Chromiumissa</translation>
 <translation id="5536164441519929134">Kysy<ph name="LINE_BREAK" />tästä välilehdestä</translation>
-<translation id="555970465369471303">Turvallisuussyistä Chromium laittaa JavaScript-optimoinnin pois päältä, kun käyt sivustolla ensimmäistä kertaa.
+<translation id="3902123582863904748">Turvallisuussyistä João Browser laittaa JavaScript-optimoinnin pois päältä, kun käyt sivustolla ensimmäistä kertaa.
 
 Jos tämä sivu ei toimi odotetulla tavalla, kokeile sallia optimointi.</translation>
-<translation id="5575874067957905201">Näytä Gemini in Chromium Macin valikkopalkissa ja laita pikanäppäin päälle</translation>
-<translation id="5576587363991567745"><ph name="EXISTING_USER" /> on jo kirjautunut sisään. Jos haluat pitää selaamisen erillään, kirjaudu Chromiumiin omalla profiilillasi käyttämällä tiliä <ph name="USER_EMAIL_ADDRESS" />. Saat myös tallennetut tiedot ja muuta sisältöä laitteelta (<ph name="DEVICE" />).</translation>
+<translation id="5924481826213021755">Näytä Gemini in João Browser Macin valikkopalkissa ja laita pikanäppäin päälle</translation>
+<translation id="4988760628116707723"><ph name="EXISTING_USER" /> on jo kirjautunut sisään. Jos haluat pitää selaamisen erillään, kirjaudu João Browseriin omalla profiilillasi käyttämällä tiliä <ph name="USER_EMAIL_ADDRESS" />. Saat myös tallennetut tiedot ja muuta sisältöä laitteelta (<ph name="DEVICE" />).</translation>
 <translation id="5579324208890605088">Käynnistysvirhe: Suorita asennusohjelma tavallisena käyttäjänä, ei järjestelmänvalvojana.</translation>
-<translation id="5580770360767802657">Chromiumin käyttäminen oletuksena ja kiinnittäminen</translation>
+<translation id="697769674160644707">João Browserin käyttäminen oletuksena ja kiinnittäminen</translation>
 <translation id="5596627076506792578">Lisäasetukset</translation>
 <translation id="5605834417512968703">Valitse, mitä haluat hakea kuvahaulla, tai poistu kuvahausta painamalla Escape</translation>
 <translation id="5618818588972826921">Valitse teksti tai kuva, jota haluat hakea kuvahaulla, tai poistu kuvahausta painamalla Escape</translation>
-<translation id="5623402015214259806">{0,plural, =0{Chromium-päivitys on saatavilla}=1{Chromium-päivitys on saatavilla}other{Chromium-päivitys on ollut saatavilla # vuorokauden ajan}}</translation>
+<translation id="2497422928854452258">{0,plural, =0{João Browser-päivitys on saatavilla}=1{João Browser-päivitys on saatavilla}other{João Browser-päivitys on ollut saatavilla # vuorokauden ajan}}</translation>
 <translation id="5643865575100044307">Poista laitteen sivustodata aina, kun suljet Chromiumin</translation>
-<translation id="5653831366781983928">Käynnistä Chromium uudelleen nyt</translation>
+<translation id="620465883043431255">Käynnistä João Browser uudelleen nyt</translation>
 <translation id="5690427481109656848">Google LLC</translation>
 <translation id="5698481217667032250">Näytä Chromium tällä kielellä</translation>
 <translation id="569897634095159764">Internetyhteyden muodostaminen ei onnistu. Välityspalvelin edellyttää todennusta.</translation>
 <translation id="5768371961535086509">Chromium vapauttaa muistia ei-aktiivisilta välilehdiltä. Näin aktiiviset välilehdet ja muut sovellukset voivat käyttää enemmän tietokoneen resursseja ja Chromium pysyy nopeana. Ei-aktiiviset välilehdet aktivoituvat automaattisesti, kun palaat niihin. <ph name="BEGIN_LINK" />Lue lisää Muistinsäästöstä<ph name="END_LINK" /></translation>
-<translation id="5775198138441669627">Jos unohdit tunnuslauseen tai haluat muuttaa asetusta, <ph name="SETTINGS_LINK" /> tilin Chromium-data</translation>
-<translation id="5800158606660203929">Yksilöi Chromiumia ja muuta sen asetuksia. Valitse Chromium oletusselaimeksi.</translation>
-<translation id="5802618941556161431">Pidä salasanat, kirjanmerkit ja historia synkronoituina kaikilla laitteilla asettamalla Chromium oletusselaimeksi.</translation>
+<translation id="8866372822266732235">Jos unohdit tunnuslauseen tai haluat muuttaa asetusta, <ph name="SETTINGS_LINK" /> tilin João Browser-data</translation>
+<translation id="2106070764285625641">Yksilöi João Browseria ja muuta sen asetuksia. Valitse João Browser oletusselaimeksi.</translation>
+<translation id="9077878413488413377">Pidä salasanat, kirjanmerkit ja historia synkronoituina kaikilla laitteilla asettamalla João Browser oletusselaimeksi.</translation>
 <translation id="5809516625706423866">Internetyhteyden muodostaminen ei onnistu. HTTP 401 (ei lupaa). Tarkista välityspalvelimen asetukset.</translation>
-<translation id="5817952762723416573">Nopeuttaa sivustoja Chromiumin V8-moottorilla, mutta heikentää Chromiumin suojaa hyökkäyksiä vastaan. Tämä asetus on poissa päältä.</translation>
-<translation id="5821520528363214608">Chromium-datan käyttö ja tallennus Google-tilillä edellyttää Chromiumin päivittämistä</translation>
+<translation id="614221876503883218">Nopeuttaa sivustoja João Browserin V8-moottorilla, mutta heikentää João Browserin suojaa hyökkäyksiä vastaan. Tämä asetus on poissa päältä.</translation>
+<translation id="8788365803279840995">João Browser-datan käyttö ja tallennus Google-tilillä edellyttää João Browserin päivittämistä</translation>
 <translation id="5824893331272123205">Paneelin lataaminen epäonnistui, yritä uudelleen</translation>
-<translation id="5862307444128926510">Tervetuloa Chromiumiin</translation>
+<translation id="5805760187441013922">Tervetuloa João Browseriin</translation>
 <translation id="5867606647614813312">Laittaa päälle lisäominaisuuksia, jotka tarjoavat Chromiumin tehokkaimman suojauksen</translation>
 <translation id="5871205389137001634">Poistu kuvahausta klikkaamalla</translation>
-<translation id="5883558403894052917">Chromium havaitsi, että näissä kohteissa on haittaohjelmia:</translation>
+<translation id="8367098380158627809">João Browser havaitsi, että näissä kohteissa on haittaohjelmia:</translation>
 <translation id="5889361821821684993">Chromium tarkistaa säännöllisesti, että selaimen asetukset ovat mahdollisimman turvalliset. Ilmoitamme, jos jotain on tarkistettava.</translation>
 <translation id="5895138241574237353">Käynnistä uudelleen</translation>
 <translation id="5903106910045431592"><ph name="PAGE_TITLE" /> – Kirjautuminen verkkoon</translation>
 <translation id="5924017743176219022">Muodostetaan internetyhteyttä…</translation>
-<translation id="5939553720811388432">Valmistellaan Chromium</translation>
+<translation id="7627350220326904504">Valmistellaan João Browser</translation>
 <translation id="5941711191222866238">Pienennä</translation>
-<translation id="5949225980829865667">Kirjaudu Chromiumiin, niin voit käyttää tätä kirjanmerkkiä ja muuta sisältöä kaikilla laitteillasi</translation>
-<translation id="5953657885167112863">Tee Chromiumista näköisesi</translation>
+<translation id="8680863040348007215">Kirjaudu João Browseriin, niin voit käyttää tätä kirjanmerkkiä ja muuta sisältöä kaikilla laitteillasi</translation>
+<translation id="2008232276062354182">Tee João Browserista näköisesi</translation>
 <translation id="5960071705175224773">Tuntematon sovellus on muuttanut asetuksiasi</translation>
 <translation id="5977420883993828287">Kiinnitetty! Käytä kontekstuaalisia tehtäviä uudelleen yläpalkista</translation>
-<translation id="5986585015444752010">{COUNT,plural, =1{Organisaatiosi sulkee Chromiumin automaattisesti, kun sitä ei ole käytetty 1 minuuttiin.}other{Organisaatiosi sulkee Chromiumin automaattisesti, kun sitä ei ole käytetty # minuuttiin.}}</translation>
-<translation id="5987687638152509985">Aloita synkronointi päivittämällä Chromium.</translation>
+<translation id="5889362640603897718">{COUNT,plural, =1{Organisaatiosi sulkee João Browserin automaattisesti, kun sitä ei ole käytetty 1 minuuttiin.}other{Organisaatiosi sulkee João Browserin automaattisesti, kun sitä ei ole käytetty # minuuttiin.}}</translation>
+<translation id="4971097497342057998">Aloita synkronointi päivittämällä João Browser.</translation>
 <translation id="5990360079535151574">Yläpalkin "Kontekstuaaliset tehtävät" ‑painikkeella voit avata kontekstuaaliset tehtävät uudelleen ja esittää kysymyksiä selailun aikana</translation>
 <translation id="6003112304606738118">Ladataan… <ph name="HOURS" /> tuntia jäljellä</translation>
 <translation id="6009821354356307391">Esitä lisäkysymys</translation>
 <translation id="6040143037577758943">Sulje</translation>
-<translation id="6044357424127037044">Saat enemmän irti verkkoshoppailusta, kun käytät Chromium-sovellusta laitteellasi (<ph name="DEVICE_TYPE" />)</translation>
+<translation id="2100398097168307292">Saat enemmän irti verkkoshoppailusta, kun käytät João Browser-sovellusta laitteellasi (<ph name="DEVICE_TYPE" />)</translation>
 <translation id="6058380562449900225">Datasi suojaamiseksi salli Chromiumin poistaa luvat sivustoilta, joilla et ole käynyt viime aikoina. Tämä ei estä ilmoituksia.</translation>
-<translation id="6063093106622310249">&amp;Avaa Chromiumissa</translation>
+<translation id="4735359759698689867">&amp;Avaa João Browserissa</translation>
 <translation id="6069027071882229820">Kopioi kuvana</translation>
-<translation id="6072279588547424923"><ph name="EXTENSION_NAME" /> on lisätty Chromiumiin</translation>
-<translation id="6096348254544841612">Muokkaa ja hallinnoi Chromiumia. Päivitys on saatavilla.</translation>
-<translation id="6107893135096467929">Päällä • Chromium ei voi vahvistaa, mistä tämä laajennus on peräisin</translation>
-<translation id="611228897408671387">Tilisi Chromiumissa</translation>
-<translation id="6119438414301547735">Salli laajennuksen näyttää pääsyoikeuspyyntöjä Chromium-työkalupalkissa</translation>
-<translation id="6129621093834146363"><ph name="FILE_NAME" /> on vaarallinen, joten Chromium on estänyt sen.</translation>
-<translation id="6132897690380286411">Chromium suljetaan ja data poistetaan pian</translation>
-<translation id="6145820983052037069">Voit vaihdella Chromium-profiilien välillä täällä</translation>
+<translation id="2274675514456642321"><ph name="EXTENSION_NAME" /> on lisätty João Browseriin</translation>
+<translation id="147381942282490529">Muokkaa ja hallinnoi João Browseria. Päivitys on saatavilla.</translation>
+<translation id="8775234022739879423">Päällä • João Browser ei voi vahvistaa, mistä tämä laajennus on peräisin</translation>
+<translation id="6634821567165410381">Tilisi João Browserissa</translation>
+<translation id="4398707227122702993">Salli laajennuksen näyttää pääsyoikeuspyyntöjä João Browser-työkalupalkissa</translation>
+<translation id="5370941509199989624"><ph name="FILE_NAME" /> on vaarallinen, joten João Browser on estänyt sen.</translation>
+<translation id="5119118887583954582">João Browser suljetaan ja data poistetaan pian</translation>
+<translation id="576637711620229618">Voit vaihdella João Browser-profiilien välillä täällä</translation>
 <translation id="615103374448673771">Jos sallit evästeet, Chromium voi käyttää niitä esilataamisen aikana</translation>
 <translation id="6165508094623778733">Lisätietoja</translation>
-<translation id="6173308241973263798">Poista Chromium-data tililtäsi</translation>
-<translation id="6174920971222007286">Tämä tiedosto voi olla vaarallinen<ph name="LINE_BREAK" />Chromium voi tarkistaa latauksen puolestasi, jos annat salasanan. Tiedoston tiedot lähetetään Googlen selaussuojalle, mutta tiedoston sisältö ja salasana pysyvät laitteellasi.</translation>
+<translation id="3738215896821824918">Poista João Browser-data tililtäsi</translation>
+<translation id="2145111683361496197">Tämä tiedosto voi olla vaarallinen<ph name="LINE_BREAK" />João Browser voi tarkistaa latauksen puolestasi, jos annat salasanan. Tiedoston tiedot lähetetään Googlen selaussuojalle, mutta tiedoston sisältö ja salasana pysyvät laitteellasi.</translation>
 <translation id="6182736845697986886">Asennus epäonnistui päivityspalvelimen sisäisen virheen takia.</translation>
-<translation id="6183079672144801177">Varmista, että olet kirjautunut Chromiumiin laitteellasi (<ph name="TARGET_DEVICE_NAME" />) ja yritä sitten lähettämistä uudelleen.</translation>
-<translation id="6212496753309875659">Tälle tietokoneelle on jo asennettu Chromiumin uudempi versio. Jos Chromium ei toimi, poista sen asennus ja yritä uudelleen.</translation>
-<translation id="6219195342503754812">{0,plural, =0{Chromium käynnistetään uudelleen nyt}=1{Chromium käynnistetään uudelleen 1 sekunnin kuluttua}other{Chromium käynnistetään uudelleen # sekunnin kuluttua}}</translation>
-<translation id="6241367896540709610">Chromium tarvitsee tallennustilan pääsyoikeudet tiedostojen lataamiseen</translation>
+<translation id="6050294746023477088">Varmista, että olet kirjautunut João Browseriin laitteellasi (<ph name="TARGET_DEVICE_NAME" />) ja yritä sitten lähettämistä uudelleen.</translation>
+<translation id="3395167674702947885">Tälle tietokoneelle on jo asennettu João Browserin uudempi versio. Jos João Browser ei toimi, poista sen asennus ja yritä uudelleen.</translation>
+<translation id="4384214545531685923">{0,plural, =0{João Browser käynnistetään uudelleen nyt}=1{João Browser käynnistetään uudelleen 1 sekunnin kuluttua}other{João Browser käynnistetään uudelleen # sekunnin kuluttua}}</translation>
+<translation id="5880255774989397049">João Browser tarvitsee tallennustilan pääsyoikeudet tiedostojen lataamiseen</translation>
 <translation id="6245734527075554892">Tarkistaa URL-osoitteet Chromiumiin tallennetun vaarallisten sivustojen listan avulla</translation>
-<translation id="6248213926982192922">Tee Chromiumista oletusselain</translation>
+<translation id="1959823478027154444">Tee João Browserista oletusselain</translation>
 <translation id="6248988683584659830">Hae asetuksista</translation>
-<translation id="6261803579884938625">Chromium-sovelluksella saat Googlen parhaat turvaominaisuudet puhelimella mukaan minne menetkin</translation>
-<translation id="6268381023930128611">Kirjaudutaanko ulos?</translation>
-<translation id="6270547683008298381">Nämä välilehdet käyttävät ylimääräisiä resursseja. Jos haluat parantaa suorituskykyä, anna Chromiumin tehdä niistä ei-aktiivisia.</translation>
-<translation id="6281746429495226318">Muokkaa Chromium-profiiliasi</translation>
+<translation id="9191635841540101343">João Browser-sovelluksella saat Googlen parhaat turvaominaisuudet puhelimella mukaan minne menetkin</translation>
+<translation id="538350741885862188">Kirjaudutaanko ulos?</translation>
+<translation id="161121067714522736">Nämä välilehdet käyttävät ylimääräisiä resursseja. Jos haluat parantaa suorituskykyä, anna João Browserin tehdä niistä ei-aktiivisia.</translation>
+<translation id="2095090272560293574">Muokkaa João Browser-profiiliasi</translation>
 <translation id="6290827346642914212">Nimeä Chromium-profiilisi</translation>
-<translation id="6294831894865512704">Laajennus pyytää sinua kirjautumaan Chromiumiin</translation>
-<translation id="6295779123002464101"><ph name="FILE_NAME" /> voi olla vaarallinen, joten Chromium on estänyt sen.</translation>
-<translation id="6309712487085796862">Chromium käyttää kameraasi.</translation>
-<translation id="6333502561965082103">Toinen Chromium-prosessi on jo käynnissä. Yritä myöhemmin uudelleen.</translation>
-<translation id="6334986366598267305">Nyt voit helpommin käyttää Chromiumia Google-tililläsi ja jaetuilla tietokoneilla.</translation>
-<translation id="6347002662287820329">Kun valitset Chromiumin oletusselaimeksi, saat helposti käyttöösi tutut, luotettavat ominaisuudet.</translation>
-<translation id="6347933965114150440">Chromium-pikanäppäin</translation>
-<translation id="6366160072964553914">Chromium on estänyt tämän latauksen, koska tiedostoa ei ladata usein, ja se saattaa olla haitallinen</translation>
-<translation id="6373523479360886564">Haluatko varmasti poistaa Chromiumin asennuksen?</translation>
+<translation id="6472525517562723285">Laajennus pyytää sinua kirjautumaan João Browseriin</translation>
+<translation id="2069878195899746465"><ph name="FILE_NAME" /> voi olla vaarallinen, joten João Browser on estänyt sen.</translation>
+<translation id="1283909912629029170">João Browser käyttää kameraasi.</translation>
+<translation id="323902744000752306">Toinen João Browser-prosessi on jo käynnissä. Yritä myöhemmin uudelleen.</translation>
+<translation id="1292164882596462877">Nyt voit helpommin käyttää João Browseria Google-tililläsi ja jaetuilla tietokoneilla.</translation>
+<translation id="6411450594978516531">Kun valitset João Browserin oletusselaimeksi, saat helposti käyttöösi tutut, luotettavat ominaisuudet.</translation>
+<translation id="3344301749774719950">João Browser-pikanäppäin</translation>
+<translation id="8395825163097750991">João Browser on estänyt tämän latauksen, koska tiedostoa ei ladata usein, ja se saattaa olla haitallinen</translation>
+<translation id="7683737657427846440">Haluatko varmasti poistaa João Browserin asennuksen?</translation>
 <translation id="6375219077595103062">Näin lisäät pikakuvakkeen Salasanoihin</translation>
 <translation id="6388799252195623474">näytä ohjeet</translation>
-<translation id="6390800440335263989">Jatka kirjautumalla Chromiumiin käyttäjänä <ph name="EMAIL" />. Näin varmistat, että organisaatiosi käytännöt ovat käytössä.</translation>
-<translation id="6400112897226594999">Chromium-logo tietokoneen näytöllä.</translation>
-<translation id="6403826409255603130">Chromium on selain, jolla verkkosivut ja sovellukset toimivat salamannopeasti. Se on nopea, vakaa ja helppokäyttöinen. Chromiumin sisäänrakennettu haittaohjelma- ja tietojenkalastelusuojaus tekevät verkkoselauksesta turvallisempaa.</translation>
-<translation id="6414624068245092115">Vahvista henkilöllisyytesi, jotta voit aina käyttää ja tallentaa Chromium-dataa Google-tililläsi</translation>
-<translation id="642132557830635295">Chromium toimii nopeammin ja JavaScriptiä käyttävien ominaisuuksien pitäisi toimia suunnitellusti</translation>
+<translation id="6966523531135953867">Jatka kirjautumalla João Browseriin käyttäjänä <ph name="EMAIL" />. Näin varmistat, että organisaatiosi käytännöt ovat käytössä.</translation>
+<translation id="5146608242127807773">João Browser-logo tietokoneen näytöllä.</translation>
+<translation id="6361476216650509195">João Browser on selain, jolla verkkosivut ja sovellukset toimivat salamannopeasti. Se on nopea, vakaa ja helppokäyttöinen. João Browserin sisäänrakennettu haittaohjelma- ja tietojenkalastelusuojaus tekevät verkkoselauksesta turvallisempaa.</translation>
+<translation id="7864687914956920860">Vahvista henkilöllisyytesi, jotta voit aina käyttää ja tallentaa João Browser-dataa Google-tililläsi</translation>
+<translation id="1160920197193662978">João Browser toimii nopeammin ja JavaScriptiä käyttävien ominaisuuksien pitäisi toimia suunnitellusti</translation>
 <translation id="6436260184216827876">Kuvahaku ei ole käytettävissä. Yritä myöhemmin uudelleen.</translation>
 <translation id="6442900851116057561">Käynnistä Chromium-käyttöjärjestelmä uudelleen</translation>
 <translation id="6443470774889161065">Chromium esilataa enemmän sivuja, joilla todennäköisesti käyt, jotta ne latautuisivat avatessa nopeammin</translation>
-<translation id="6450948450282634257">Lataa Chromium puhelimelle, niin voit seurata hintoja ja saada ilmoituksia, kun hinta laskee millä tahansa sivustolla</translation>
-<translation id="645458117210240797">Pois päältä • Chromium ei voi vahvistaa, mistä tämä laajennus on peräisin</translation>
-<translation id="6455857529632101747">Tervetuloa Chromium-profiileihin</translation>
-<translation id="6460614424172581323">Seuraavan kerran kun avaat Chromiumin laitteella (<ph name="DEVICE_TYPE" />), näet kehotteen käyttää välilehtiryhmiä.</translation>
-<translation id="6466344609055215035">Poista tili Chromiumista</translation>
-<translation id="6475912303565314141">Määrittää myös Chromiumin aloitussivun.</translation>
+<translation id="3730564967922511625">Lataa João Browser puhelimelle, niin voit seurata hintoja ja saada ilmoituksia, kun hinta laskee millä tahansa sivustolla</translation>
+<translation id="3753019081686930624">Pois päältä • João Browser ei voi vahvistaa, mistä tämä laajennus on peräisin</translation>
+<translation id="5444641426058108434">Tervetuloa João Browser-profiileihin</translation>
+<translation id="5103470775766355478">Seuraavan kerran kun avaat João Browserin laitteella (<ph name="DEVICE_TYPE" />), näet kehotteen käyttää välilehtiryhmiä.</translation>
+<translation id="9087231386723579740">Poista tili João Browserista</translation>
+<translation id="4984395209542302039">Määrittää myös João Browserin aloitussivun.</translation>
 <translation id="648319183876919572">Parannettu selaussuoja suojaa sinua entistä paremmin vaarallisilta sivustoilta ja latauksilta</translation>
-<translation id="6510925080656968729">Poista Chromium</translation>
-<translation id="651535675648445253">Pikakuvakkeet avautuvat Chromiumissa</translation>
-<translation id="6539122709674868420">Kun Chromium on ollut käyttämättömänä <ph name="TIMEOUT_DURATION" />, organisaatiosi sulkee sen. Selausdata on poistettu. Data voi sisältää historian, automaattisen täytön ja lataukset.</translation>
-<translation id="6542839706527980775">Jokainen profiili sisältää omat Chromium-tietonsa, esim. kirjanmerkit, historian ja salasanat</translation>
+<translation id="1524792685704191751">Poista João Browser</translation>
+<translation id="6637504267182028286">Pikakuvakkeet avautuvat João Browserissa</translation>
+<translation id="1478247638436966279">Kun João Browser on ollut käyttämättömänä <ph name="TIMEOUT_DURATION" />, organisaatiosi sulkee sen. Selausdata on poistettu. Data voi sisältää historian, automaattisen täytön ja lataukset.</translation>
+<translation id="1311233187253046133">Jokainen profiili sisältää omat João Browser-tietonsa, esim. kirjanmerkit, historian ja salasanat</translation>
 <translation id="6563921047760808519">Lue lisää siitä, <ph name="BEGIN_LINK" />miten Chromium pitää datasi yksityisenä<ph name="END_LINK" /></translation>
-<translation id="6564039629497156115">Asetukseen tehdyt muutokset tulevat voimaan, kun Chromium käynnistetään uudelleen.</translation>
-<translation id="6567032987737689854">Hallinnoi laajennuksia valitsemalla Chromiumin päävalikosta Laajennukset.</translation>
-<translation id="656935081669708576">Voit vaihtaa profiilia nähdäksesi toisen Chromium-profiilin salasanat</translation>
-<translation id="6569556444379005948">Lataa Chromium-sovellus ja käytä parhaita tekoälytyökaluja missä tahansa</translation>
+<translation id="1643078533228697915">Asetukseen tehdyt muutokset tulevat voimaan, kun João Browser käynnistetään uudelleen.</translation>
+<translation id="1918630514771863338">Hallinnoi laajennuksia valitsemalla João Browserin päävalikosta Laajennukset.</translation>
+<translation id="4229328298978407243">Voit vaihtaa profiilia nähdäksesi toisen João Browser-profiilin salasanat</translation>
+<translation id="7717252965531997879">Lataa João Browser-sovellus ja käytä parhaita tekoälytyökaluja missä tahansa</translation>
 <translation id="6570579332384693436">Chromium lähettää kenttiin kirjoittamasi tekstin Googlelle oikeinkirjoitusvirheiden korjaamiseksi.</translation>
-<translation id="6598877126913850652">Siirry Chromiumin ilmoitusasetuksiin</translation>
+<translation id="5374627817618267090">Siirry João Browserin ilmoitusasetuksiin</translation>
 <translation id="6600016381025017075">Hae mitä tahansa tältä sivulta</translation>
-<translation id="6613594504749178791">Muutokset tulevat voimaan, kun käynnistät Chromiumin seuraavan kerran.</translation>
-<translation id="6637908313088374648">Chromium käynnistyy nyt Windowsin käynnistyessä, joten voit aloittaa selaamisen heti. Voit poistaa tämän käytöstä asetuksissa.</translation>
-<translation id="6648212540664651655">Jatka siitä, mihin jäit: Chromium palautti välilehdet edellisestä istunnosta. Voit laittaa asetuksen pois päältä täältä:</translation>
-<translation id="665732753414869868">Chromium tarvitsee kameran luvan, jotta se voi luoda 3D-kartan ympäristöstäsi</translation>
+<translation id="264335610358256197">Muutokset tulevat voimaan, kun käynnistät João Browserin seuraavan kerran.</translation>
+<translation id="2657584510687441826">João Browser käynnistyy nyt Windowsin käynnistyessä, joten voit aloittaa selaamisen heti. Voit poistaa tämän käytöstä asetuksissa.</translation>
+<translation id="5482413402708094860">Jatka siitä, mihin jäit: João Browser palautti välilehdet edellisestä istunnosta. Voit laittaa asetuksen pois päältä täältä:</translation>
+<translation id="5022765692226673603">João Browser tarvitsee kameran luvan, jotta se voi luoda 3D-kartan ympäristöstäsi</translation>
 <translation id="6669284030132180248">Jos tallennat kirjanmerkit myös Google-tilillesi, voit seurata tuotteiden hintoja Chromiumissa ja saada ilmoituksen, kun hinta laskee</translation>
 <translation id="6676384891291319759">Käytä internetiä</translation>
 <translation id="668175097507315160">Chromium-käyttöjärjestelmä ei voi synkronoida dataa kirjautumisvirheen vuoksi.</translation>
-<translation id="6691132793308828750">Poista tämän sovelluksen data Chromiumista</translation>
-<translation id="6709350901466051922">Chromium tarvitsee mikrofonin luvan tällä sivustolla</translation>
+<translation id="3982573751008180181">Poista tämän sovelluksen data João Browserista</translation>
+<translation id="5613723096388999601">João Browser tarvitsee mikrofonin luvan tällä sivustolla</translation>
 <translation id="6712881677154121168">Latausvirhe: <ph name="DOWNLOAD_ERROR" />.</translation>
-<translation id="6717134281241384636">Profiiliasi ei voi käyttää, sillä se on peräisin Chromiumin uudemmasta versiosta.
+<translation id="9190188975825967506">Profiiliasi ei voi käyttää, sillä se on peräisin João Browserin uudemmasta versiosta.
 
-Kaikki ominaisuudet eivät ehkä ole käytettävissä. Määritä jokin muu profiilihakemisto tai käytä Chromiumin uudempaa versiota.</translation>
+Kaikki ominaisuudet eivät ehkä ole käytettävissä. Määritä jokin muu profiilihakemisto tai käytä João Browserin uudempaa versiota.</translation>
 <translation id="6729124504294600478">Voit käyttää personointia ja muita ominaisuuksia, kun lisäät Chromiumin verkko- ja sovellustoimintaan ja linkitettyihin Googlen palveluihin</translation>
-<translation id="6734291798041940871">Chromium on jo asennettuna kaikille tietokoneen käyttäjille.</translation>
-<translation id="6742093177587589736">Kirjaudu sisään Chromiumiin, niin voit käyttää salasanoja, kirjanmerkkejä ja muita tietoja kaikilla laitteillasi. Tämä kirjanmerkki tallennetaan Google-tilillesi kirjautumisen jälkeen.</translation>
-<translation id="6751374565094704799">Nopeuttaa sivustoja Chromiumin V8-moottorilla, mutta heikentää Chromiumin suojaa hyökkäyksiä vastaan. Tämä asetus on päällä.</translation>
-<translation id="6754665438209053659">{count,plural, =1{Osaa Chromium-datastasi ei ole vielä tallennettu Google-tilillesi. Odota muutama minuutti ennen uloskirjautumista. Jos kirjaudut ulos nyt, tämä data (1 kohde) poistetaan.}other{Osaa Chromium-datastasi ei ole vielä tallennettu Google-tilillesi. Odota muutama minuutti ennen uloskirjautumista. Jos kirjaudut ulos nyt, tämä data ({count} kohdetta) poistetaan.}}</translation>
-<translation id="67706546131546258">Chromium suosittelee tiedoston skannaamista, koska se voi olla vaarallinen.</translation>
+<translation id="6957684879859415418">João Browser on jo asennettuna kaikille tietokoneen käyttäjille.</translation>
+<translation id="4411262692912917677">Kirjaudu sisään João Browseriin, niin voit käyttää salasanoja, kirjanmerkkejä ja muita tietoja kaikilla laitteillasi. Tämä kirjanmerkki tallennetaan Google-tilillesi kirjautumisen jälkeen.</translation>
+<translation id="6064901610880747710">Nopeuttaa sivustoja João Browserin V8-moottorilla, mutta heikentää João Browserin suojaa hyökkäyksiä vastaan. Tämä asetus on päällä.</translation>
+<translation id="4530735110472079436">{count,plural, =1{Osaa João Browser-datastasi ei ole vielä tallennettu Google-tilillesi. Odota muutama minuutti ennen uloskirjautumista. Jos kirjaudut ulos nyt, tämä data (1 kohde) poistetaan.}other{Osaa João Browser-datastasi ei ole vielä tallennettu Google-tilillesi. Odota muutama minuutti ennen uloskirjautumista. Jos kirjaudut ulos nyt, tämä data ({count} kohdetta) poistetaan.}}</translation>
+<translation id="9176853308971176490">João Browser suosittelee tiedoston skannaamista, koska se voi olla vaarallinen.</translation>
 <translation id="6779406956731413166">Toinen <ph name="BEGIN_LINK_CROS_OSS" />avoimen lähdekoodin ohjelmisto<ph name="END_LINK_CROS_OSS" /> tukee Chromium-käyttöjärjestelmää.</translation>
 <translation id="6831043979455480757">Käännä</translation>
-<translation id="6847869444787758381">Chromium ilmoittaa sinulle, jos salasanasi ovat vaarantuneet</translation>
+<translation id="6412488898785231889">João Browser ilmoittaa sinulle, jos salasanasi ovat vaarantuneet</translation>
 <translation id="684888714667046800">Internetyhteyttä ei voi muodostaa. Jos käytät palomuuria, varmista, että <ph name="PRODUCT_EXE_NAME" /> kuuluu sallittuihin.</translation>
-<translation id="6857782730669500492">Chromium – <ph name="PAGE_TITLE" /></translation>
+<translation id="6750640664545078431">João Browser – <ph name="PAGE_TITLE" /></translation>
 <translation id="6859580922007887573">Jatka painamalla välilehteä</translation>
 <translation id="6862030660799253820">Hae tätä kuvaa kuvahaulla</translation>
-<translation id="6873893289264747459">Chromium havaitsi, että "<ph name="EXTENSION_NAME" />" sisältää haittaohjelmia</translation>
+<translation id="4260365383290377081">João Browser havaitsi, että "<ph name="EXTENSION_NAME" />" sisältää haittaohjelmia</translation>
 <translation id="6877155553248388166">hakualueen oikea alakulma: oikea <ph name="RIGHT" /> %, ala <ph name="BOTTOM" /> %</translation>
 <translation id="6896758677409633944">Kopioi</translation>
 <translation id="6898028264630240901">Voit kiinnittää kontekstuaaliset tehtävät, jotta voit esittää kysymyksiä selailun aikana</translation>
-<translation id="6901631050894301805">Valitse Chromium oletusselaimeksi ja kiinnitä se tehtäväpalkkiin</translation>
-<translation id="6909503629704372277">&amp;Ylläpidä Chromium-profiileja</translation>
-<translation id="6919942714452658456">Tämä
+<translation id="6985817498888719203">Valitse João Browser oletusselaimeksi ja kiinnitä se tehtäväpalkkiin</translation>
+<translation id="5277424858974213042">&amp;Ylläpidä João Browser-profiileja</translation>
+<translation id="2726137364317931343">Tämä
           <ph name="LINE_BREAKS" />
             • nollaa aloitussivun, uusi välilehti ‑sivun, hakukoneen ja kiinnitetyt välilehdet
             <ph name="LINE_BREAK" />
@@ -552,206 +552,206 @@ Kaikki ominaisuudet eivät ehkä ole käytettävissä. Määritä jokin muu prof
             <ph name="LINE_BREAK" />
             • poistaa evästeet ja muun tilapäisen sivustodatan
             <ph name="LINE_BREAK" />
-            • nollaa Chromiumin pikakuvakkeet.
+            • nollaa João Browserin pikakuvakkeet.
             <ph name="LINE_BREAKS" />
             Tämä ei vaikuta kirjanmerkkeihin, historiaan eikä tallennettuihin salasanoihin.</translation>
-<translation id="6948031725951063910">Olet saavuttanut Chromiumin <ph name="BOOKMARK_LIMIT" /> kirjanmerkin rajan, joten kaikkia kirjanmerkkejäsi ei ole vielä tallennettu Google-tilillesi.
+<translation id="2901988969322822496">Olet saavuttanut João Browserin <ph name="BOOKMARK_LIMIT" /> kirjanmerkin rajan, joten kaikkia kirjanmerkkejäsi ei ole vielä tallennettu Google-tilillesi.
 
 Uusia kirjanmerkkejä ei voi tallentaa tilillesi, ennen kuin poistat joitakin. Jos kirjaudut ulos nyt, tallentamattomat kirjanmerkit poistetaan.</translation>
-<translation id="6964305034639999644">Avaa linkki Chromiumin inco&amp;gnito-ikkunassa</translation>
+<translation id="6203410920314218280">Avaa linkki João Browserin inco&amp;gnito-ikkunassa</translation>
 <translation id="6965382102122355670">OK</translation>
 <translation id="6985329841647292029">Chromium-käyttöjärjestelmän käyttöehdot</translation>
-<translation id="7003299027384820442">Lisää tunnuslause, jotta voit käyttää ja tallentaa Chromium-dataa tililläsi: <ph name="ACCOUNT_EMAIL" /></translation>
+<translation id="8064285182627814996">Lisää tunnuslause, jotta voit käyttää ja tallentaa João Browser-dataa tililläsi: <ph name="ACCOUNT_EMAIL" /></translation>
 <translation id="7011190694940573312">Asennus epäonnistui, koska tätä käyttöjärjestelmän versiota ei tueta.</translation>
 <translation id="7024536598735240744">Purkamisvirhe: <ph name="UNPACK_ERROR" />.</translation>
-<translation id="7045244423563602563">Tee Chromiumista näköisesi</translation>
+<translation id="181803036615530330">Tee João Browserista näköisesi</translation>
 <translation id="7047386856539490735">Ovatko nämä tulokset hyödyllisiä?</translation>
-<translation id="705851970750939768">Päivitä Chromium</translation>
-<translation id="7067091210845072982">Jos kuvalla ei ole hyödyllistä kuvausta, Chromium yrittää luoda sellaisen. Kuvat lähetetään Googlelle kuvausten luomista varten.</translation>
-<translation id="7074836723476134809">Hyödynnä tekoälyä, kun käytät Chromium-sovellusta laitteellasi (<ph name="DEVICE_TYPE" />)</translation>
-<translation id="7134687062119989071">Chromium-sovelluksella voit käyttää esimerkiksi salasanoja ja välilehtiä puhelimella missä tahansa</translation>
+<translation id="2478245051737698828">Päivitä João Browser</translation>
+<translation id="452909342278940733">Jos kuvalla ei ole hyödyllistä kuvausta, João Browser yrittää luoda sellaisen. Kuvat lähetetään Googlelle kuvausten luomista varten.</translation>
+<translation id="8606769615526968368">Hyödynnä tekoälyä, kun käytät João Browser-sovellusta laitteellasi (<ph name="DEVICE_TYPE" />)</translation>
+<translation id="2061960765882453684">João Browser-sovelluksella voit käyttää esimerkiksi salasanoja ja välilehtiä puhelimella missä tahansa</translation>
 <translation id="7141270731789036260">Yksilöi Chrome for Testing ‑versiota</translation>
 <translation id="7147227333672430807">Voit käyttää Chromiumia aina, kun klikkaat linkkejä viesteissä, dokumenteissa ja muissa sovelluksissa</translation>
-<translation id="7163519456498498587">Poista <ph name="EXTENSION_NAME" /> Chromiumista</translation>
-<translation id="7173822816570314652">Kun Chromium-data on ollut käyttämättömänä <ph name="TIMEOUT_DURATION" />, organisaatiosi poistaa sen. Data voi sisältää historian, automaattisen täytön ja lataukset.</translation>
-<translation id="718435575166326686">Chromium tarvitsee kameran luvan tällä sivustolla</translation>
-<translation id="7196312274710523067">Chromiumin käynnistäminen epäonnistui. Yritä uudelleen.</translation>
-<translation id="7204669035546236137">Kysy mitä tahansa Gemini in Chromiumilla</translation>
-<translation id="7213008767289637091">Pidä Chromium Dock-palkissa, niin voit käyttää sitä nopeasti milloin tahansa</translation>
-<translation id="7213407614656404070">Käytä Chromiumia aina, kun klikkaat viesteissä, dokumenteissa ja muissa sovelluksissa olevia linkkejä</translation>
+<translation id="6949173677980969871">Poista <ph name="EXTENSION_NAME" /> João Browserista</translation>
+<translation id="3556355753960287061">Kun João Browser-data on ollut käyttämättömänä <ph name="TIMEOUT_DURATION" />, organisaatiosi poistaa sen. Data voi sisältää historian, automaattisen täytön ja lataukset.</translation>
+<translation id="8689006320829658442">João Browser tarvitsee kameran luvan tällä sivustolla</translation>
+<translation id="7501884108538572227">João Browserin käynnistäminen epäonnistui. Yritä uudelleen.</translation>
+<translation id="5484563502710761706">Kysy mitä tahansa Gemini in João Browserilla</translation>
+<translation id="3823264355161086552">Pidä João Browser Dock-palkissa, niin voit käyttää sitä nopeasti milloin tahansa</translation>
+<translation id="9153902741226700840">Käytä João Browseria aina, kun klikkaat viesteissä, dokumenteissa ja muissa sovelluksissa olevia linkkejä</translation>
 <translation id="7216228761061470870">Kun käytät kuvahakua tietokoneella, sivun otsikko, URL-osoite ja sisältö (mukaan lukien PDF-tiedostot) lähetetään palvelimelle</translation>
-<translation id="7223968959479464213">Tehtävänhallinta - Chromium</translation>
-<translation id="7227958669698166857"><ph name="EXISTING_USER" /> on jo kirjautunut sisään. Jos haluat pitää selaamisen erillään, kirjaudu Chromiumiin omalla profiilillasi käyttämällä tiliä <ph name="USER_EMAIL_ADDRESS" />. Voit myös käyttää tallennettuja tietoja ja muuta kaikilla laitteillasi.</translation>
-<translation id="7252276985725323153">Aloita selaaminen heti: Chromium voi nyt käynnistyä Windowsin käynnistyessä.</translation>
+<translation id="7950844619283784703">Tehtävänhallinta - João Browser</translation>
+<translation id="133513825972536773"><ph name="EXISTING_USER" /> on jo kirjautunut sisään. Jos haluat pitää selaamisen erillään, kirjaudu João Browseriin omalla profiilillasi käyttämällä tiliä <ph name="USER_EMAIL_ADDRESS" />. Voit myös käyttää tallennettuja tietoja ja muuta kaikilla laitteillasi.</translation>
+<translation id="4558982617284733740">Aloita selaaminen heti: João Browser voi nyt käynnistyä Windowsin käynnistyessä.</translation>
 <translation id="7274695763216404502">Kiinnitetty! Löydät kuvahaun jatkossa yläpalkista</translation>
 <translation id="7288567540154601580">Välilehdet ja laajennukset</translation>
-<translation id="7295544978856094497">{NUM_EXTENSIONS,plural, =1{Chromium suosittelee sen poistamista}other{Chromium suosittelee niiden poistamista}}</translation>
-<translation id="7296334833518879294">Jos haluat jakaa järjestelmän audion, avaa Järjestelmäasetukset ja salli Chromiumille "Vain järjestelmän audion tallennus". Käynnistä Chromium uudelleen.</translation>
+<translation id="5494571279964989269">{NUM_EXTENSIONS,plural, =1{João Browser suosittelee sen poistamista}other{João Browser suosittelee niiden poistamista}}</translation>
+<translation id="2269053214123323740">Jos haluat jakaa järjestelmän audion, avaa Järjestelmäasetukset ja salli João Browserille "Vain järjestelmän audion tallennus". Käynnistä João Browser uudelleen.</translation>
 <translation id="731795002583552498">Päivitetään Chromiumia.</translation>
-<translation id="7318036098707714271">Asetustiedostosi on virheellinen.
+<translation id="9065168747010082551">Asetustiedostosi on virheellinen.
 
-Chromium ei voi palauttaa asetuksiasi.</translation>
+João Browser ei voi palauttaa asetuksiasi.</translation>
 <translation id="7324051657739063017">Voit avata kontekstuaaliset tehtävät uudelleen, jotta voit esittää kysymyksiä selailun aikana</translation>
-<translation id="734373864078049451">Tämä on verkkosi, kirjanmerkkiesi ja muun Chromium-sisältösi koti.</translation>
+<translation id="4159250197688136733">Tämä on verkkosi, kirjanmerkkiesi ja muun João Browser-sisältösi koti.</translation>
 <translation id="7347827960336370838">Salattua dataa voi lukea vain tunnuslauseen avulla. Tunnuslausetta ei lähetetä Googlelle eikä Google tallenna sitä. Jos unohdat tunnuslauseen tai haluat muuttaa asetusta, sinun on <ph name="BEGIN_LINK" />poistettava tilin Chromium-data<ph name="END_LINK" />.</translation>
-<translation id="7349591376906416160">Järjestelmänvalvojasi on määrittänyt Chromiumin avaamaan osoitteen <ph name="TARGET_URL_HOSTNAME" /> selaimella <ph name="ALTERNATIVE_BROWSER_NAME" />.</translation>
+<translation id="1062903713270840396">Järjestelmänvalvojasi on määrittänyt João Browserin avaamaan osoitteen <ph name="TARGET_URL_HOSTNAME" /> selaimella <ph name="ALTERNATIVE_BROWSER_NAME" />.</translation>
 <translation id="7352651011704765696">Tapahtui jokin virhe</translation>
-<translation id="7368826207863345663">Sinulla on oltava macOS 13 tai uudempi, jotta saat tulevia Chromiumin päivityksiä. Tällä tietokoneella on macOS 12.</translation>
+<translation id="5817362738974335084">Sinulla on oltava macOS 13 tai uudempi, jotta saat tulevia João Browserin päivityksiä. Tällä tietokoneella on macOS 12.</translation>
 <translation id="7376384068949534168">Sivustot, joilla et ole käynyt viime aikoina. Chromium poisti nämä luvat: <ph name="PERMISSION_1" /> ja <ph name="PERMISSION_2" />.</translation>
 <translation id="73786666777299047">Avaa Chrome Web Store</translation>
-<translation id="7394275517973019558">Näytä Gemini in Chromium ilmaisinalueella</translation>
+<translation id="5724625487458697703">Näytä Gemini in João Browser ilmaisinalueella</translation>
 <translation id="7401687852903179959">Hae tästä videosta kuvahaulla</translation>
-<translation id="7407655596887111931">Chromium on nyt oletusselain</translation>
-<translation id="7413153308467572558">Jatka siitä, mihin jäit: Chromium palauttaa välilehdet aina, kun käynnistät sen uudelleen. Voit laittaa asetuksen pois päältä täältä:</translation>
-<translation id="7427879960656355200">Tuo salasanoja Chromiumiin</translation>
-<translation id="744815265653811511">1. Klikkaa <ph name="BUTTON_LABEL" /> alta
+<translation id="1088684725931971005">João Browser on nyt oletusselain</translation>
+<translation id="7479848806300971661">Jatka siitä, mihin jäit: João Browser palauttaa välilehdet aina, kun käynnistät sen uudelleen. Voit laittaa asetuksen pois päältä täältä:</translation>
+<translation id="1258077876605261365">Tuo salasanoja João Browseriin</translation>
+<translation id="5293062713751091377">1. Klikkaa <ph name="BUTTON_LABEL" /> alta
 2. Klikkaa Windowsin asetuksista <ph name="BUTTON_2" />
-3. Klikkaa Windowsin ilmoituksessa olevaa <ph name="BUTTON_3" />, niin voit kiinnittää Chromiumin tehtäväpalkkiin nopeaa käyttöä varten</translation>
-<translation id="7449453770951226939"><ph name="PAGE_TITLE" /> – Chromium Dev</translation>
+3. Klikkaa Windowsin ilmoituksessa olevaa <ph name="BUTTON_3" />, niin voit kiinnittää João Browserin tehtäväpalkkiin nopeaa käyttöä varten</translation>
+<translation id="1941496545060769345"><ph name="PAGE_TITLE" /> – João Browser Dev</translation>
 <translation id="7450541714075000668">Teksti kopioitu</translation>
 <translation id="7458892263350425044">Jos haluat käyttää mikrofonia, anna Chromiumille pääsyoikeus <ph name="BEGIN_LINK" />järjestelmäasetuksista<ph name="END_LINK" /></translation>
-<translation id="7461356015007898716">Jotta saat tulevia Chromiumin päivityksiä, sinulla on oltava Windows 10 tai uudempi. Tietokoneen käyttöjärjestelmä on Windows 7.</translation>
+<translation id="5422859338435319909">Jotta saat tulevia João Browserin päivityksiä, sinulla on oltava Windows 10 tai uudempi. Tietokoneen käyttöjärjestelmä on Windows 7.</translation>
 <translation id="7467949745582939695">Käynnistä Chromium uudelleen?</translation>
-<translation id="7483335560992089831">Chromiumista ei voi asentaa versiota, joka on tällä hetkellä käynnissä. Sulje Chromium ja yritä uudelleen.</translation>
+<translation id="7707324976708178089">João Browserista ei voi asentaa versiota, joka on tällä hetkellä käynnissä. Sulje João Browser ja yritä uudelleen.</translation>
 <translation id="7510190804000607802">Muistutus: Googlen parhaat ominaisuudet taskussasi</translation>
 <translation id="751935028865900641">Sivustot toimivat todennäköisesti odotetulla tavalla. Sinut kirjataan ulos useimmilta sivustoilta, kun suljet kaikki Chromium-ikkunat. Tämä ei kuitenkaan koske Google-tiliäsi, jos olet kirjautuneena Chromiumiin.</translation>
-<translation id="753534427205733210">{0,plural, =1{Chromium käynnistetään uudelleen 1 minuutin kuluttua}other{Chromium käynnistetään uudelleen # minuutin kuluttua}}</translation>
+<translation id="5325102834460669866">{0,plural, =1{João Browser käynnistetään uudelleen 1 minuutin kuluttua}other{João Browser käynnistetään uudelleen # minuutin kuluttua}}</translation>
 <translation id="7565444033145385702">Datasi suojaamiseksi salli Chromiumin poistaa luvat sivustoilta, joilla et ole käynyt viime aikoina.</translation>
-<translation id="7583104404158659071">Käynnistä Chromium automaattisesti, niin voit aloittaa selaamisen heti.</translation>
+<translation id="8099958128052689767">Käynnistä João Browser automaattisesti, niin voit aloittaa selaamisen heti.</translation>
 <translation id="7583399374488819119">Asennusohjelma: <ph name="COMPANY_NAME" /></translation>
-<translation id="761356813943268536">Chromium käyttää kameraasi ja mikrofoniasi.</translation>
-<translation id="7617377681829253106">Chromium on nyt entistä parempi</translation>
-<translation id="7622753900276619808">Chromiumissa on nyt enemmän ominaisuuksia</translation>
+<translation id="7125257608567714221">João Browser käyttää kameraasi ja mikrofoniasi.</translation>
+<translation id="227045421902171569">João Browser on nyt entistä parempi</translation>
+<translation id="5356567285381070312">João Browserissa on nyt enemmän ominaisuuksia</translation>
 <translation id="7624307931717240213">Käytämme tietoja palvelun parantamiseen. Katso tietosuojakäytäntö ja käyttöehdot.</translation>
 <translation id="7649070708921625228">Ohje</translation>
-<translation id="7650134251917003571">Lataa Chromium-sovellus</translation>
+<translation id="5714374331629713291">Lataa João Browser-sovellus</translation>
 <translation id="7658239707568436148">Peru</translation>
-<translation id="7686590090926151193">Chromium ei ole oletusselain.</translation>
-<translation id="7689606757190482937">Voit synkronoida Chromiumin ja tehdä siitä yksilöllisemmän kaikilla laitteilla.</translation>
+<translation id="549378870470819535">João Browser ei ole oletusselain.</translation>
+<translation id="6574348346278803862">Voit synkronoida João Browserin ja tehdä siitä yksilöllisemmän kaikilla laitteilla.</translation>
 <translation id="7699779824407626136">Chromium-päivitys</translation>
-<translation id="7700735928747402058">Työsi on turvassa Chromiumissa</translation>
+<translation id="3304080024230377341">Työsi on turvassa João Browserissa</translation>
 <translation id="7716950018788545737">Tehtävät päättyivät.</translation>
 <translation id="77283119132245232">Tarjoaa järjestelmän seurantapalveluja (<ph name="BROWSER_NAME" />). Jos tämä palvelu on poissa käytöstä, selaimen luomat tulosten jäljet eivät sisällä järjestelmänlaajuisia tapahtumia, kuten kontekstin vaihtoa ja valmiita säietapahtumia.</translation>
 <translation id="7745317241717453663">Tämä poistaa selaustiedot pysyvästi laitteelta. Jos haluat palauttaa tiedot myöhemmin, kirjaudu Chromiumiin käyttäjänä <ph name="USER_EMAIL" />.</translation>
 <translation id="7747138024166251722">Asennusohjelma ei pystynyt luomaan väliaikaista hakemistoa. Tarkista, että käytettävissä on riittävästi levytilaa ja että sinulla on oikeus asentaa ohjelmia.</translation>
-<translation id="7747820849741499258">Hae Chromiumista</translation>
-<translation id="7750130090210923118">Palauta Chromiumin oletusversio</translation>
-<translation id="7752521946322750699">Organisaatiosi voi nähdä tai ylläpitää tiettyjä tietoja, jotta voit käyttää Chromiumia turvallisesti, kun olet kirjautuneena Chromiumiin.</translation>
-<translation id="7781047659465034537">Valitse Chromium oletukseksi ja kiinnitä se tehtäväpalkkiin</translation>
-<translation id="7786760609782648049">Chromiumin nopeuttaminen</translation>
-<translation id="7790626492778995050"><ph name="PAGE_TITLE" /> – Chromium Canary</translation>
+<translation id="4713120944298974980">Hae João Browserista</translation>
+<translation id="5804390944809171853">Palauta João Browserin oletusversio</translation>
+<translation id="6930487390575519812">Organisaatiosi voi nähdä tai ylläpitää tiettyjä tietoja, jotta voit käyttää João Browseria turvallisesti, kun olet kirjautuneena João Browseriin.</translation>
+<translation id="5214761769821670245">Valitse João Browser oletukseksi ja kiinnitä se tehtäväpalkkiin</translation>
+<translation id="1294697217796985566">João Browserin nopeuttaminen</translation>
+<translation id="1278345486417353853"><ph name="PAGE_TITLE" /> – João Browser Canary</translation>
 <translation id="7803986347287457849">Pyri estämään avaamiesi sivustojen näkyminen henkilöille, joilla on pääsy internetliikenteeseesi. Chromium käyttää turvallista yhteyttä sivuston IP-osoitteen etsimiseen DNS:stä (Domain Name System)</translation>
 <translation id="7810005234485217901">Kiinnitä kuvahaku, niin löydät sen helposti</translation>
-<translation id="7828947555739565424">Tämän tilin Chromium-profiili on jo tällä laitteella</translation>
+<translation id="489728561211958943">Tämän tilin João Browser-profiili on jo tällä laitteella</translation>
 <translation id="7845233973568007926">Kiitos asennuksesta. Tietokone pitää käynnistää uudelleen ennen kuin <ph name="BUNDLE_NAME" /> otetaan käyttöön.</translation>
-<translation id="7847673590271334840">Hakukone on vaihdettu Chromiumin ulkopuolelta. Chromium on nollannut sen alkuperäisiin oletusasetuksiin suojatakseen sinua. <ph name="LEARN_MORE_LINK" /></translation>
-<translation id="7853661403199074278">Muokkaa Chromiumia ja anna sille uusi ilme</translation>
+<translation id="5294768452950207882">Hakukone on vaihdettu João Browserin ulkopuolelta. João Browser on nollannut sen alkuperäisiin oletusasetuksiin suojatakseen sinua. <ph name="LEARN_MORE_LINK" /></translation>
+<translation id="3244974069468656925">Muokkaa João Browseria ja anna sille uusi ilme</translation>
 <translation id="7859018312476869945">Kun kirjoitat osoitepalkkiin tai hakukenttään, Chromium lähettää kirjoittamasi tekstin oletushakukoneellesi, niin saat parempia ehdotuksia. Tämä on poissa päältä incognito-tilassa.</translation>
-<translation id="7867198900892795913">Chromiumia ei voitu päivittää uusimpaan versioon, joten sinulta puuttuu joitakin uusia ominaisuuksia ja tietoturvakorjauksia.</translation>
+<translation id="6517519572778941051">João Browseria ei voitu päivittää uusimpaan versioon, joten sinulta puuttuu joitakin uusia ominaisuuksia ja tietoturvakorjauksia.</translation>
 <translation id="7872446069773932638">Ladataan… <ph name="SECONDS" /> sekuntia jäljellä</translation>
 <translation id="7873537467422636035">Jos unohdit tunnuslauseen tai haluat muuttaa asetusta, <ph name="BEGIN_LINK" />poista tilin Chromium-data<ph name="END_LINK" /></translation>
-<translation id="7874369989024033742">Avaa Gemini in Chromium nopeasti aina tarvittaessa</translation>
-<translation id="7888981273428720788">Valitse Chromium oletusselaimeksi</translation>
+<translation id="1722038268139386345">Avaa Gemini in João Browser nopeasti aina tarvittaessa</translation>
+<translation id="8344320926817290924">Valitse João Browser oletusselaimeksi</translation>
 <translation id="7934340546140346950">Chromium päivittää suojaamattomat yhteydet HTTPS:ään automaattisesti, jos mahdollista</translation>
-<translation id="7937630085815544518">Chromiumiin kirjautunut käyttäjä: <ph name="USER_EMAIL_ADDRESS" />. Kirjaudu uudelleen sisään samalla tilillä.</translation>
-<translation id="7944602660083060118"><ph name="EXISTING_USER" /> on jo kirjautunut sisään. Jos haluat pitää selaamisen erillään, kirjaudu Chromiumiin omalla profiilillasi käyttämällä tiliä <ph name="USER_EMAIL_ADDRESS" />. Voit myös käyttää esimerkiksi kirjanmerkkejä kaikilla laitteillasi.</translation>
+<translation id="3755057387338907970">João Browseriin kirjautunut käyttäjä: <ph name="USER_EMAIL_ADDRESS" />. Kirjaudu uudelleen sisään samalla tilillä.</translation>
+<translation id="929903348843569380"><ph name="EXISTING_USER" /> on jo kirjautunut sisään. Jos haluat pitää selaamisen erillään, kirjaudu João Browseriin omalla profiilillasi käyttämällä tiliä <ph name="USER_EMAIL_ADDRESS" />. Voit myös käyttää esimerkiksi kirjanmerkkejä kaikilla laitteillasi.</translation>
 <translation id="7975919845073681630">Tämä on Chromiumin toissijainen asennus, eikä sitä voi asettaa oletusselaimeksi.</translation>
-<translation id="7997934263947464652">Jos laajennukset, sovellukset ja teemat ovat tuntemattomista lähteistä, ne voivat vahingoittaa laitetta. Chromium suosittelee niiden asentamista vain täältä: <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /></translation>
-<translation id="8000759043835159571">Chromium-sovelluksella voit hyödyntää Googlen parhaita ominaisuuksia laitteellasi (<ph name="DEVICE_TYPE" />)</translation>
+<translation id="8905411496853397218">Jos laajennukset, sovellukset ja teemat ovat tuntemattomista lähteistä, ne voivat vahingoittaa laitetta. João Browser suosittelee niiden asentamista vain täältä: <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /></translation>
+<translation id="6306672714476596428">João Browser-sovelluksella voit hyödyntää Googlen parhaita ominaisuuksia laitteellasi (<ph name="DEVICE_TYPE" />)</translation>
 <translation id="8004582292198964060">Selain</translation>
 <translation id="8010081455002666927">Automaattinen tunnistus</translation>
-<translation id="8013436988911883588">Kun Chromiumilla on käyttöoikeus, sivustot voivat pyytää sitä sinulta.</translation>
-<translation id="8031714377769448844">Kiinnitä Chromium tehtäväpalkkiin, niin voit käyttää sitä nopeasti milloin tahansa</translation>
+<translation id="2172829664765531568">Kun João Browserilla on käyttöoikeus, sivustot voivat pyytää sitä sinulta.</translation>
+<translation id="74641100973032765">Kiinnitä João Browser tehtäväpalkkiin, niin voit käyttää sitä nopeasti milloin tahansa</translation>
 <translation id="80471789339884597">Kiitos asennuksesta. Kaikki selaimet pitää käynnistää uudelleen ennen kuin <ph name="BUNDLE_NAME" /> otetaan käyttöön.</translation>
 <translation id="8054112667659782652">Näytä aina kuvahaun pikanäppäin</translation>
 <translation id="8069447462453318634">Valitse "Kiinnitä työkalupalkkiin"</translation>
-<translation id="8077498902115777962">Poista käytöstä Chromiumin taustalla toimiminen sovelluksissa</translation>
+<translation id="5039671129725402518">Poista käytöstä João Browserin taustalla toimiminen sovelluksissa</translation>
 <translation id="80790299200510644">Kuvahaku</translation>
 <translation id="8086881907087796310">Asennus epäonnistui, koska tietokoneesi ei täytä laitteiston vähimmäisvaatimuksia.</translation>
 <translation id="8096472344908884505"><ph name="PAGE_TITLE" /> – Google Chrome for Testing</translation>
-<translation id="8105840573057009683">Chromium tarvitsee sijaintiluvan tällä sivustolla</translation>
-<translation id="8107060931443639922">Seuraavan kerran kun avaat Chromiumin laitteella (<ph name="DEVICE_TYPE" />), näet kehotteen ottaa käyttöön hintaseurantailmoitukset.</translation>
-<translation id="8117908349476699973">Chromium-sovelluksella saat ilmoituksia sinua kiinnostavien tuotteiden hinnanlaskuista puhelimella</translation>
+<translation id="2430877582155731716">João Browser tarvitsee sijaintiluvan tällä sivustolla</translation>
+<translation id="8298045348217323">Seuraavan kerran kun avaat João Browserin laitteella (<ph name="DEVICE_TYPE" />), näet kehotteen ottaa käyttöön hintaseurantailmoitukset.</translation>
+<translation id="3827347991254458074">João Browser-sovelluksella saat ilmoituksia sinua kiinnostavien tuotteiden hinnanlaskuista puhelimella</translation>
 <translation id="8118331347066725040">Lähetä palautetta Lensillä hakemisesta</translation>
-<translation id="8130609355518033382">Yksilöi Chromiumia</translation>
+<translation id="2580039965224265556">Yksilöi João Browseria</translation>
 <translation id="8133124826068723441">Chromium-käyttöjärjestelmä ei voi synkronoida dataa, koska synkronointi ei ole käytettävissä verkkotunnuksessasi.</translation>
 <translation id="813913629614996137">Alustetaan…</translation>
-<translation id="8161503455832158203">Avaa Gemini in Chromium pikanäppäimellä.</translation>
-<translation id="8164014945047474187">Chromiumin lisäkäyttöehdot</translation>
-<translation id="81770708095080097">Tämä tiedosto on vaarallinen, joten Chromium on estänyt sen.</translation>
+<translation id="7940955011992997426">Avaa Gemini in João Browser pikanäppäimellä.</translation>
+<translation id="7560319627203819845">João Browserin lisäkäyttöehdot</translation>
+<translation id="7133741820744999589">Tämä tiedosto on vaarallinen, joten João Browser on estänyt sen.</translation>
 <translation id="8177472873527554730">Sisältöä ei löydy sivulta</translation>
 <translation id="8200109504272824693">Lisää tunnuslause, jotta voit käyttää ja tallentaa Chromium-dataa tililläsi: <ph name="USER_EMAIL" /></translation>
 <translation id="820759916613250543">Hae tästä kuvasta kuvahaulla</translation>
 <translation id="8221491193165283816">Estät yleensä ilmoitukset. Voit antaa tälle sivustolle luvan lähettää ilmoituksia klikkaamalla tätä.</translation>
 <translation id="8223363452568144035">Anna Chromiumille pääsyoikeus <ph name="BEGIN_LINK" />järjestelmäasetuksista<ph name="END_LINK" />, jotta voit käyttää kameraa</translation>
-<translation id="8232193495299001329">Chromium ei voi vahvistaa, mistä tämä laajennus on peräisin, ja se saattaa olla vaarallinen. Poista se Chromiumista, jotta se ei enää voi nähdä tai muuttaa dataasi (mukaan lukien henkilökohtaisia tietoja) avatuilla sivustoilla.</translation>
-<translation id="8248265253516264921">Jos kuvalla ei ole hyödyllistä kuvausta, Chromium yrittää luoda sellaisen. Kuvat lähetetään Googlelle kuvausten luomista varten. Voit milloin tahansa poistaa tämän käytöstä asetuksissa.</translation>
-<translation id="8254601181414348851">Haluatko kirjautua Chromiumiin uudella profiililla?</translation>
-<translation id="8262224117913639129"><ph name="EXISTING_USER" /> on jo kirjautunut sisään. Jos haluat pitää selaamisen erillään, kirjaudu Chromiumiin omalla profiilillasi käyttämällä tiliä <ph name="USER_EMAIL_ADDRESS" />. Voit myös käyttää salasanojasi ja muita tietoja laitteelta (<ph name="DEVICE" />).</translation>
-<translation id="8277334259226003205">Näytä Gemini in Chromium ilmaisinalueella ja laita pikanäppäin päälle</translation>
+<translation id="8132864687089402359">João Browser ei voi vahvistaa, mistä tämä laajennus on peräisin, ja se saattaa olla vaarallinen. Poista se João Browserista, jotta se ei enää voi nähdä tai muuttaa dataasi (mukaan lukien henkilökohtaisia tietoja) avatuilla sivustoilla.</translation>
+<translation id="7600652022483599804">Jos kuvalla ei ole hyödyllistä kuvausta, João Browser yrittää luoda sellaisen. Kuvat lähetetään Googlelle kuvausten luomista varten. Voit milloin tahansa poistaa tämän käytöstä asetuksissa.</translation>
+<translation id="8703735741562140394">Haluatko kirjautua João Browseriin uudella profiililla?</translation>
+<translation id="2830039647655087365"><ph name="EXISTING_USER" /> on jo kirjautunut sisään. Jos haluat pitää selaamisen erillään, kirjaudu João Browseriin omalla profiilillasi käyttämällä tiliä <ph name="USER_EMAIL_ADDRESS" />. Voit myös käyttää salasanojasi ja muita tietoja laitteelta (<ph name="DEVICE" />).</translation>
+<translation id="1802935470126307750">Näytä Gemini in João Browser ilmaisinalueella ja laita pikanäppäin päälle</translation>
 <translation id="8286943863733751221"><ph name="BEGIN_LINK" />Chromium varoittaa sinua<ph name="END_LINK" /> vaarallisista sivustoista ja latauksista</translation>
 <translation id="8295827201165805317">Sivustot, joilla et ole käynyt viime aikoina. Chromium poisti tämän luvan: <ph name="PERMISSION" />.</translation>
-<translation id="8296236834352487533">Tee ostoksia, käännä ja tunnista näkemiäsi asioita kameran avulla Chromiumin iOS-sovelluksen avulla</translation>
-<translation id="8310603974518734211">QR-koodi, jolla voit kirjautua Chromiumiin nimellä <ph name="USER_NAME" /></translation>
+<translation id="481989138594406896">Tee ostoksia, käännä ja tunnista näkemiäsi asioita kameran avulla João Browserin iOS-sovelluksen avulla</translation>
+<translation id="5242426961520127942">QR-koodi, jolla voit kirjautua João Browseriin nimellä <ph name="USER_NAME" /></translation>
 <translation id="8313851650939857356">Käynnistysvirhe: <ph name="STARTUP_ERROR" />.</translation>
-<translation id="8318772038038596122">Kun Chromium on ollut käyttämättömänä <ph name="TIMEOUT_DURATION" />, organisaatiosi sulkee sen.</translation>
+<translation id="3644336211313412429">Kun João Browser on ollut käyttämättömänä <ph name="TIMEOUT_DURATION" />, organisaatiosi sulkee sen.</translation>
 <translation id="8321888067342493336">Tallenna kuvana</translation>
-<translation id="8340674089072921962"><ph name="USER_EMAIL_ADDRESS" /> käytti aiemmin Chromiumia</translation>
+<translation id="3150519286474936594"><ph name="USER_EMAIL_ADDRESS" /> käytti aiemmin João Browseria</translation>
 <translation id="8351551329754447960">Ota taidot käyttöön Chromiumissa</translation>
-<translation id="8359544530202147897">Päivitä Chromium, jotta voit jatkaa Chromium-datan käyttöä Google-tililläsi: <ph name="ACCOUNT_EMAIL" /></translation>
-<translation id="8360718212975266891">Jotta saat tulevia Chromiumin päivityksiä, sinulla on oltava Windows 10 tai uudempi. Tietokoneen käyttöjärjestelmä on Windows 8.</translation>
+<translation id="4566781614303801262">Päivitä João Browser, jotta voit jatkaa João Browser-datan käyttöä Google-tililläsi: <ph name="ACCOUNT_EMAIL" /></translation>
+<translation id="8404636483124146663">Jotta saat tulevia João Browserin päivityksiä, sinulla on oltava Windows 10 tai uudempi. Tietokoneen käyttöjärjestelmä on Windows 8.</translation>
 <translation id="8362914115861174987">Käännä kielelle</translation>
 <translation id="8367705492654390392">Kysy mitä tahansa</translation>
 <translation id="8370517070665726704">Copyright <ph name="YEAR" /> Google LLC. Kaikki oikeudet pidätetään.</translation>
-<translation id="8372327902843331129">Kirjaudu sisään Chromiumiin, niin voit käyttää salasanojasi ja muita tietoja kaikilla laitteillasi. Tämä salasana tallennetaan Google-tilillesi kirjautumisen jälkeen.</translation>
-<translation id="837460953767177950">Käynnistä Chromium uudelleen.</translation>
-<translation id="8397248745433792218">Chromium suosittelee sen poistamista. <ph name="BEGIN_LINK" />Lue lisää tuetuista laajennuksista<ph name="END_LINK" /></translation>
-<translation id="8401454788024434101">Kehittäjä on perunut laajennuksen julkaisun, joten se voi olla vaarallinen. Poista se Chromiumista, jotta se ei enää voi nähdä tai muuttaa dataasi avaamillasi sivustoilla, mukaan lukien henkilökohtaisia tietojasi.</translation>
-<translation id="8416884904046428725">Chromiumin on vahvistettava henkilöllisyytesi, ennen kuin tiettyä dataa voidaan tallentaa Google-tilillesi ja käyttää kaikilla laitteillasi. Jos kirjaudut ulos nyt, tämä data poistetaan.</translation>
-<translation id="8417404458978023919">{0,plural, =1{Käynnistä Chromium uudelleen vuorokauden kuluessa}other{Käynnistä Chromium uudelleen # vuorokauden kuluessa}}</translation>
+<translation id="8954225380790220359">Kirjaudu sisään João Browseriin, niin voit käyttää salasanojasi ja muita tietoja kaikilla laitteillasi. Tämä salasana tallennetaan Google-tilillesi kirjautumisen jälkeen.</translation>
+<translation id="208035402574338948">Käynnistä João Browser uudelleen.</translation>
+<translation id="7458698097055456629">João Browser suosittelee sen poistamista. <ph name="BEGIN_LINK" />Lue lisää tuetuista laajennuksista<ph name="END_LINK" /></translation>
+<translation id="3428558977667883100">Kehittäjä on perunut laajennuksen julkaisun, joten se voi olla vaarallinen. Poista se João Browserista, jotta se ei enää voi nähdä tai muuttaa dataasi avaamillasi sivustoilla, mukaan lukien henkilökohtaisia tietojasi.</translation>
+<translation id="5012944467031125860">João Browserin on vahvistettava henkilöllisyytesi, ennen kuin tiettyä dataa voidaan tallentaa Google-tilillesi ja käyttää kaikilla laitteillasi. Jos kirjaudut ulos nyt, tämä data poistetaan.</translation>
+<translation id="8822543678238892300">{0,plural, =1{Käynnistä João Browser uudelleen vuorokauden kuluessa}other{Käynnistä João Browser uudelleen # vuorokauden kuluessa}}</translation>
 <translation id="8438543370129609977">Kun käytät kuvahakua, sivun otsikko, URL-osoite ja sisältö (mukaan lukien PDF-tiedostot) lähetetään palvelimelle. <ph name="LEARN_MORE" /></translation>
-<translation id="8447525028100794994">Lue lisää kuvahausta Chromiumissa</translation>
-<translation id="8453117565092476964">Asennusarkisto on virheellinen. Lataa Chromium uudelleen.</translation>
-<translation id="8458614432758743027">Chromium edellyttää Windows 10:tä tai uudempaa versiota.</translation>
+<translation id="4307944272317199640">Lue lisää kuvahausta João Browserissa</translation>
+<translation id="6024135746436350583">Asennusarkisto on virheellinen. Lataa João Browser uudelleen.</translation>
+<translation id="4933173390191738516">João Browser edellyttää Windows 10:tä tai uudempaa versiota.</translation>
 <translation id="8463672209299734063">Valinnainen: Auta parantamaan Chromium-käyttöjärjestelmän ominaisuuksia ja suorituskykyä lähettämällä diagnostiikka- ja käyttödataa Googlelle automaattisesti.</translation>
-<translation id="8471947159125090285">Chromium-datan käyttö ja tallennus Google-tilillä edellyttää, että vahvistat henkilöllisyytesi</translation>
+<translation id="4499703930846496679">João Browser-datan käyttö ja tallennus Google-tilillä edellyttää, että vahvistat henkilöllisyytesi</translation>
 <translation id="8482493977473846331">Näytä kehotteet kirjautua Chromiumiin</translation>
-<translation id="8493179195440786826">Chromium on vanhentunut</translation>
+<translation id="2129903037617090425">João Browser on vanhentunut</translation>
 <translation id="850264194101621529">Kiitos, että valitsit Chromiumin oletusselaimeksi.</translation>
 <translation id="8522801943730206384">Chromium voi tarkistaa salasanasi, kun tallennat niitä</translation>
 <translation id="8525579356836940628">Asennus keskeytyi</translation>
-<translation id="8545729292258443488">Chromium-sovelluksella voit käyttää esimerkiksi salasanoja ja välilehtiä missä tahansa laitteellasi (<ph name="DEVICE_TYPE" />)</translation>
+<translation id="2445505893586445499">João Browser-sovelluksella voit käyttää esimerkiksi salasanoja ja välilehtiä missä tahansa laitteellasi (<ph name="DEVICE_TYPE" />)</translation>
 <translation id="8548787790260785208">Saat varoituksen, jos Chromium jonkin salasanoistasi julkisesta tietosuojaloukkauksesta</translation>
 <translation id="8555465886620020932">Palveluvirhe: <ph name="SERVICE_ERROR" />.</translation>
-<translation id="8556055872671007529">Joissakin Chromiumin ominaisuuksissa ja laajennuksissa on pikanäppäimiä. Voit halutessasi laittaa ne takaisin päälle.</translation>
+<translation id="8871890913961794658">Joissakin João Browserin ominaisuuksissa ja laajennuksissa on pikanäppäimiä. Voit halutessasi laittaa ne takaisin päälle.</translation>
 <translation id="8556420416730706394">Kiinnitä kuvahaku klikkaamalla sivupaneelin yläreunan Kiinnitä-painiketta, niin löydät sen helposti</translation>
 <translation id="856656450041460113">Hakukielilista</translation>
-<translation id="8576826849825683917">Useat organisaatiot ylläpitävät Chromiumia</translation>
+<translation id="9044172203094901282">Useat organisaatiot ylläpitävät João Browseria</translation>
 <translation id="8586442755830160949">Copyright <ph name="YEAR" /> The Chromium Authors. Kaikki oikeudet pidätetään.</translation>
 <translation id="8601359445272098721">Uutta! Voit kääntää näytöllä näkyvän tekstin ja kuvat valitsemalla "Käännä näyttö" ‑painikkeen</translation>
-<translation id="8619360774459241877">Käynnistetään Chromiumia…</translation>
+<translation id="1071663705626404814">Käynnistetään João Browseria…</translation>
 <translation id="8624541899164515475">Asetukset, avautuu uudelle välilehdelle.</translation>
 <translation id="8648201657708811153">Google Chrome for Testingistä ei voi tehdä oletusselainta.</translation>
-<translation id="8697124171261953979">Määrittää myös Chromiumin ja omnibox-hakujen aloitussivun.</translation>
-<translation id="8704119203788522458">Tämä on oma Chromiumisi</translation>
+<translation id="5975137268566279898">Määrittää myös João Browserin ja omnibox-hakujen aloitussivun.</translation>
+<translation id="6358904712334248114">Tämä on oma João Browserisi</translation>
 <translation id="8712637175834984815">Ymmärretty</translation>
-<translation id="8719993436687031146">Haluatko kirjautua Chromiumiin?</translation>
+<translation id="5380190167074430719">Haluatko kirjautua João Browseriin?</translation>
 <translation id="8747073452963259673">hakualueen vasen alakulma: vasen <ph name="LEFT" /> %, ala <ph name="BOTTOM" /> %</translation>
 <translation id="878572486461146056">Asennusvirhe: Verkon järjestelmänvalvojan käyttämä ryhmäkäytäntö estää asennuksen: <ph name="INSTALL_ERROR" /></translation>
 <translation id="8813277370772331957">Muistuta myöhemmin</translation>
-<translation id="8816416449795340678">Jaa tämä dokumentti Gemini in Chromiumille, niin saat nopean yleiskatsauksen ja voit esittää jatkokysymyksiä</translation>
-<translation id="8818550178040858407">Haluatko kirjautua Chromiumiin?</translation>
+<translation id="8871607387186266158">Jaa tämä dokumentti Gemini in João Browserille, niin saat nopean yleiskatsauksen ja voit esittää jatkokysymyksiä</translation>
+<translation id="3009329613270131861">Haluatko kirjautua João Browseriin?</translation>
 <translation id="8823401858233292222">Tee Chromiumista oletusselain ja kiinnitä se tehtäväpalkkiin</translation>
 <translation id="8826492472752484139">Klikkaa Salasanat</translation>
 <translation id="8833697763442816810">Chromium-käyttöjärjestelmä</translation>
 <translation id="8852026904190808918">Chromiumin valikot, asetukset, ilmoitukset ja muu teksti näytetään tällä kielellä</translation>
 <translation id="8862326446509486874">Sinulla ei ole käyttöoikeuksia järjestelmätason asennukseen. Kokeile asennusohjelman suorittamista uudelleen järjestelmänvalvojana.</translation>
-<translation id="8876044221123442390">Lisää Chromium-profiili</translation>
-<translation id="8890569919834781711">ChromiumOS ei voinut tallentaa Chromium-dataa Google-tilillesi kirjautumisvirheen vuoksi</translation>
-<translation id="8891709362986793894">Organisaatiosi edellyttää, että kirjaudut Chromiumiin</translation>
-<translation id="8907580949721785412">Chromium yrittää näyttää salasanat. Salli tämä kirjoittamalla Windows-salasanasi.</translation>
-<translation id="8932992523185907506">Chromium ei ole enää oletusselaimesi. Haluatko tehdä Chromiumista oletusselaimen?</translation>
-<translation id="8941642502866065432">Chromiumin päivitys epäonnistui</translation>
+<translation id="6821836710312478344">Lisää João Browser-profiili</translation>
+<translation id="5139769635207740615">ChromiumOS ei voinut tallentaa João Browser-dataa Google-tilillesi kirjautumisvirheen vuoksi</translation>
+<translation id="6814613825007700341">Organisaatiosi edellyttää, että kirjaudut João Browseriin</translation>
+<translation id="1009831347869773172">João Browser yrittää näyttää salasanat. Salli tämä kirjoittamalla Windows-salasanasi.</translation>
+<translation id="690637523240192979">João Browser ei ole enää oletusselaimesi. Haluatko tehdä João Browserista oletusselaimen?</translation>
+<translation id="225046375773654931">João Browserin päivitys epäonnistui</translation>
 <translation id="8944232836376404813">Tämä
           <ph name="LINE_BREAKS" />
             • nollaa aloitussivun, uusi välilehti ‑sivun, hakukoneen ja kiinnitetyt välilehdet
@@ -761,39 +761,39 @@ Chromium ei voi palauttaa asetuksiasi.</translation>
             • poistaa evästeet ja muun tilapäisen sivustodatan.
             <ph name="LINE_BREAKS" />
             Tämä ei vaikuta kirjanmerkkeihin, historiaan eikä tallennettuihin salasanoihin.</translation>
-<translation id="897581876605952338">Chromium Enterprise ‑logo</translation>
-<translation id="8980139959902937527">Chromium-sovelluksella saat Googlen turvallisuuden mukaan minne tahansa laitteellasi (<ph name="DEVICE_TYPE" />)</translation>
-<translation id="8981150672034878610">Chromiumia ei voi käynnistää, koska jotain meni pieleen profiilia avattaessa. Kokeile käynnistää Chromium uudelleen.</translation>
-<translation id="8988036198400390003">Ylläpidä Chromium-profiileja</translation>
-<translation id="8993855408334954620">Siirry näppäimistöllä Gemini in Chromiumin ja avoimen välilehden välillä.</translation>
+<translation id="4349474976990059197">João Browser Enterprise ‑logo</translation>
+<translation id="3227699293368317033">João Browser-sovelluksella saat Googlen turvallisuuden mukaan minne tahansa laitteellasi (<ph name="DEVICE_TYPE" />)</translation>
+<translation id="6527164294507620103">João Browseria ei voi käynnistää, koska jotain meni pieleen profiilia avattaessa. Kokeile käynnistää João Browser uudelleen.</translation>
+<translation id="6741767563284518125">Ylläpidä João Browser-profiileja</translation>
+<translation id="3101491883380219087">Siirry näppäimistöllä Gemini in João Browserin ja avoimen välilehden välillä.</translation>
 <translation id="9018218886431812662">Asennus valmis</translation>
-<translation id="9019929317751753759">Paransimme Chromiumin turvallisuutta poistamalla käytöstä sovelluksia, joita <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> ei tarjoa ja jotka on voitu lisätä ilman lupaasi.</translation>
-<translation id="9022552996538154597">Kirjaudu sisään Chromiumiin</translation>
-<translation id="904366664621834601">Chromium on estänyt tämän latauksen, koska arkistotiedosto sisältää muita tiedostoja, jotka voivat piilottaa haittaohjelmia</translation>
-<translation id="9053882453960391422">Pidä salasanat, kirjanmerkit ja historia synkronoituina kaikilla laitteilla. Päivitä oletusselaimeksi Chromium, niin saat tutut ominaisuudet helposti käyttöösi. Chromium kiinnitetään tehtäväpalkkiin, jotta voit käyttää sitä nopeasti.</translation>
-<translation id="9056398481763999048">Chromium-sovelluksella voit käyttää Googlen parhaita tekoälytyökaluja puhelimella</translation>
+<translation id="3370247132646333337">Paransimme João Browserin turvallisuutta poistamalla käytöstä sovelluksia, joita <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> ei tarjoa ja jotka on voitu lisätä ilman lupaasi.</translation>
+<translation id="1940116386572548863">Kirjaudu sisään João Browseriin</translation>
+<translation id="8381652653666868014">João Browser on estänyt tämän latauksen, koska arkistotiedosto sisältää muita tiedostoja, jotka voivat piilottaa haittaohjelmia</translation>
+<translation id="8374335201144490555">Pidä salasanat, kirjanmerkit ja historia synkronoituina kaikilla laitteilla. Päivitä oletusselaimeksi João Browser, niin saat tutut ominaisuudet helposti käyttöösi. João Browser kiinnitetään tehtäväpalkkiin, jotta voit käyttää sitä nopeasti.</translation>
+<translation id="6176486087616698123">João Browser-sovelluksella voit käyttää Googlen parhaita tekoälytyökaluja puhelimella</translation>
 <translation id="9062666675513499497">Kirjaudu Chromiumiin, kun kirjaudut muihin Googlen palveluihin</translation>
-<translation id="9078733879136747090">Chromium on suljettu automaattisesti</translation>
-<translation id="9089354809943900324">Chromium on vanhentunut</translation>
-<translation id="9093206154853821181">{0,plural, =1{Chromium käynnistetään uudelleen tunnin kuluttua}other{Chromium käynnistetään uudelleen # tunnin kuluttua}}</translation>
+<translation id="724802823738504651">João Browser on suljettu automaattisesti</translation>
+<translation id="2689333215784698609">João Browser on vanhentunut</translation>
+<translation id="8049510467237146160">{0,plural, =1{João Browser käynnistetään uudelleen tunnin kuluttua}other{João Browser käynnistetään uudelleen # tunnin kuluttua}}</translation>
 <translation id="9106236359747881194">Valitse haettavaa tekstiä</translation>
-<translation id="9106612006984859720">Jotta saat tulevia Chromiumin päivityksiä, sinulla on oltava Windows 10 tai uudempi. Tietokoneen käyttöjärjestelmä on Windows 8.1.</translation>
-<translation id="91086099826398415">Avaa linkki uudella Chromiumin välilehdellä</translation>
+<translation id="8558551666630075184">Jotta saat tulevia João Browserin päivityksiä, sinulla on oltava Windows 10 tai uudempi. Tietokoneen käyttöjärjestelmä on Windows 8.1.</translation>
+<translation id="1194819784870407331">Avaa linkki uudella João Browserin välilehdellä</translation>
 <translation id="911206726377975832">Poistetaanko myös selailutiedot?</translation>
 <translation id="9134482777260927479">Kotitehtäväapu</translation>
 <translation id="9148058034647219655">Poistu</translation>
-<translation id="9155105544013854680">Jatka siitä, mihin jäit: Chromium voi palauttaa välilehdet aina, kun käynnistät sen uudelleen. Voit laittaa asetuksen päälle täältä:</translation>
-<translation id="9158494823179993217">Järjestelmänvalvojasi on määrittänyt Chromiumin avaamaan toisen selaimen, jolla <ph name="TARGET_URL_HOSTNAME" /> avataan.</translation>
-<translation id="9185526690718004400">Päivitä &amp;Chromium käynnistämällä se uudelleen</translation>
-<translation id="9190841055450128916">Chromium (saapuva mDNS)</translation>
-<translation id="924957577793602335">Tee Chromiumista näköisesi</translation>
-<translation id="93478295209880648">Chromium ei välttämättä toimi oikein, koska se ei enää tue Windows XP:tä tai Windows Vistaa.</translation>
-<translation id="945098430667185067">Chromiumin avulla saat Googlen parhaat turvaominaisuudet käyttöösi missä tahansa.</translation>
+<translation id="548951409840319583">Jatka siitä, mihin jäit: João Browser voi palauttaa välilehdet aina, kun käynnistät sen uudelleen. Voit laittaa asetuksen päälle täältä:</translation>
+<translation id="7614949510548815395">Järjestelmänvalvojasi on määrittänyt João Browserin avaamaan toisen selaimen, jolla <ph name="TARGET_URL_HOSTNAME" /> avataan.</translation>
+<translation id="3441698750089879771">Päivitä &amp;João Browser käynnistämällä se uudelleen</translation>
+<translation id="369689859238510548">João Browser (saapuva mDNS)</translation>
+<translation id="8336832914816665097">Tee João Browserista näköisesi</translation>
+<translation id="7698429329590050365">João Browser ei välttämättä toimi oikein, koska se ei enää tue Windows XP:tä tai Windows Vistaa.</translation>
+<translation id="190261805571697214">João Browserin avulla saat Googlen parhaat turvaominaisuudet käyttöösi missä tahansa.</translation>
 <translation id="945522503751344254">Lähetä palautetta</translation>
-<translation id="965162752251293939">Kuka käyttää Chromiumia?</translation>
-<translation id="967427899662692980">Ota Chromiumin tehokkain suojaus käyttöön</translation>
+<translation id="5554799509799759090">Kuka käyttää João Browseria?</translation>
+<translation id="9153108844196984904">Ota João Browserin tehokkain suojaus käyttöön</translation>
 <translation id="983803489796659991">Asennus epäonnistui, koska päivityspalvelimella ei ole tiivistedataa sovelluksesta.</translation>
-<translation id="985498048907240953">Käytä Chromiumia ilman tiliä</translation>
+<translation id="6230710687825107323">Käytä João Browseria ilman tiliä</translation>
 <translation id="985602178874221306">The Chromium Authors</translation>
 <translation id="989970834842471429">Valitse teksti tai kuva, jota haluat hakea kuvahaulla</translation>
 <translation id="992780518932311116">Anna Chromiumille pääsyoikeus <ph name="BEGIN_LINK" />järjestelmäasetuksista<ph name="END_LINK" />, jotta voit käyttää sijaintia</translation>

@@ -3,273 +3,273 @@
 <translationbundle lang="zu">
 <translation id="1026101648481255140">Qalisa Kabusha Ukufaka</translation>
 <translation id="1029669172902658969">Qalisa kabusha ukuze ubuyekeze i-&amp;ChromiumOS</translation>
-<translation id="1040916596585577953">I-Chromium incoma ukuthi ubuyekeze lesi sandiso</translation>
+<translation id="4711726241445951349">I-João Browser incoma ukuthi ubuyekeze lesi sandiso</translation>
 <translation id="1042552502243217427">Lapho isayithi icela ukulayisha kusengaphambili ngasese amalinki ekhasini layo, i-Chromium isebenzisa amaseva e-Google. Lokhu kufihla ubuwena kusayithi elayishwe ngaphambilini, kodwa i-Google ifunda ukuthi yimaphi amasayithi alayishwa ngaphambilini.</translation>
 <translation id="1051793555070215510">Sisize sithuthukise i-Incognito ngokuthatha le nhlolovo yomzuzu o-1.</translation>
 <translation id="1065672644894730302">Okuncamelayo kwakho akukwazi ukufundwa.
 
 Ezinye izici kungenzeka zingabi khona futhi izinguquko kokuncamelayo ngeke zize zilondolozwe.</translation>
-<translation id="1083934481477628225">Umzali wakho uvale "Izimvume zamasayithi, ama-app, nezandiso" ze-Chromium</translation>
-<translation id="1090946077924227754">Ukuze useshe isakhi noma isandiso esithile seChromium, thayipha isinqamuleli sayo kubha yekheli, kulandelwe ukhiye wakho wekhibhodi okhethiwe</translation>
-<translation id="1104942323762546749">I-Chromium ifuna ukuthumela amaphasiwedi akho. Thayipha iphasiwedi yakho ye-Windows ukuze uvumele lokhu.</translation>
+<translation id="3937976866851867994">Umzali wakho uvale "Izimvume zamasayithi, ama-app, nezandiso" ze-João Browser</translation>
+<translation id="8626021334348319355">Ukuze useshe isakhi noma isandiso esithile seJoão Browser, thayipha isinqamuleli sayo kubha yekheli, kulandelwe ukhiye wakho wekhibhodi okhethiwe</translation>
+<translation id="9157778882771986870">I-João Browser ifuna ukuthumela amaphasiwedi akho. Thayipha iphasiwedi yakho ye-Windows ukuze uvumele lokhu.</translation>
 <translation id="112640046208448578">Thola izinto noma izindawo bese ukopisha noma uhumusha umbhalo. Lapho usebenzisa Usesho Lomfanekiso, isithombe-sikrini sekhasi sithunyelwa eseveni. <ph name="LEARN_MORE" /></translation>
 <translation id="113122355610423240">I-Chromium iyisiphequluli sakho esizenzakalelayo</translation>
 <translation id="1131805035311359397">Ukuze uhlole uma ngabe amaphasiwedi akho aphephile yini kusukela ekuphulweni kwedatha nakwezinye izinkinga zokuvikela, <ph name="BEGIN_LINK" />ngena ngemvume ku-Chromium<ph name="END_LINK" />.</translation>
-<translation id="1153368717515616349">Chofoza imenyu ye-Chromium</translation>
+<translation id="2795895511109336240">Chofoza imenyu ye-João Browser</translation>
 <translation id="1157985233335035034">Izilimi zakamuva</translation>
 <translation id="1184145431117212167">Ukufaka kwehlulekile ngoba uhlobo lweWindows yakho alusekelwa.</translation>
 <translation id="1185134272377778587">Mayelana ne-Chromium</translation>
-<translation id="1186645291482254714">Thola izexwayiso zokulandelela intengo nge-Chromium efonini yakho</translation>
+<translation id="667420476518265356">Thola izexwayiso zokulandelela intengo nge-João Browser efonini yakho</translation>
 <translation id="1203500561924088507">Siyabonga ngokufaka. Kufanele uqale kabusha ibhrawuza yakho ngaphambi kokusebenzisa i-<ph name="BUNDLE_NAME" />.</translation>
 <translation id="1232234696885483911">Uma uvula Usesho Lomfanekiso, isihloko sekhasi, i-URL, nekhontenti, okuhlanganisa ama-PDF, kuzothunyelwa ngokuzenzekelayo kuseva. <ph name="LEARN_MORE" /></translation>
-<translation id="123265588161106468">Ngenkathi ungene ngemvume, ungasebenzisa amaphasiwedi akho nokuningi ngeGoogle Account yakho kuChromium. Ukuze ushintshe lokhu, iya kokuthi “I-akhawunti yakho kuChromium”.</translation>
-<translation id="1244381985120794049">Bonisa iGemini kuChromium kubha yemenyu yeMac</translation>
-<translation id="1257483544893909270">Ukuze ukhethe ingxenye yesikrini kuGemini kuChromium, sebenzisa isinqamuleli sekhibhodi.</translation>
-<translation id="1262876892872089030">Ngenkathi le thebhu ingasebenzi, inkumbulo iye yenzelwa isikhala ukugcina i-Chromium ishesha. Ungakhetha ukungahlanganisi le sayithi ekutheni ibe engasebenzi.</translation>
-<translation id="1265577313130862557">I-Chromium ivimbele lokhu kudawunilodwa ngoba ifayela liyingozi</translation>
+<translation id="3667545935184141183">Ngenkathi ungene ngemvume, ungasebenzisa amaphasiwedi akho nokuningi ngeGoogle Account yakho kuJoão Browser. Ukuze ushintshe lokhu, iya kokuthi “I-akhawunti yakho kuJoão Browser”.</translation>
+<translation id="4866003137980530528">Bonisa iGemini kuJoão Browser kubha yemenyu yeMac</translation>
+<translation id="2526294198551578217">Ukuze ukhethe ingxenye yesikrini kuGemini kuJoão Browser, sebenzisa isinqamuleli sekhibhodi.</translation>
+<translation id="7068536367561625920">Ngenkathi le thebhu ingasebenzi, inkumbulo iye yenzelwa isikhala ukugcina i-João Browser ishesha. Ungakhetha ukungahlanganisi le sayithi ekutheni ibe engasebenzi.</translation>
+<translation id="3669854427836618143">I-João Browser ivimbele lokhu kudawunilodwa ngoba ifayela liyingozi</translation>
 <translation id="126567311906253476">Uma ungena ngemvume kumasevisi eGoogle efana neGmail noma iYouTube nge-<ph name="USER_EMAIL" />, ungangena ngemvume ngokuzenzakalela kuChromium nge-akhawunti efanayo</translation>
-<translation id="1287534462498555020">Thola iChromium efonini yakho</translation>
+<translation id="8094399825947986050">Thola iJoão Browser efonini yakho</translation>
 <translation id="1290883685122687410">Iphutha lesethaphu: <ph name="METAINSTALLER_EXIT_CODE" />. <ph name="WINDOWS_ERROR" /></translation>
-<translation id="1315551408014407711">Setha iphrofayela yakho entsha ye-Chromium</translation>
-<translation id="132092532143527429">Zama ngeGemini kuChromium</translation>
-<translation id="1324107359134968521">I-Chromium idinga ukufinyelela i-Bluetooth ukuze ihlole amadivayisi we-Bluetooth. <ph name="IDS_SERIAL_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK" /></translation>
-<translation id="1329040302064168406">Ngena ngemvume kuChromium efonini yakho</translation>
+<translation id="7781635806686712111">Setha iphrofayela yakho entsha ye-João Browser</translation>
+<translation id="7591029065989504977">Zama ngeGemini kuJoão Browser</translation>
+<translation id="8408989583029959522">I-João Browser idinga ukufinyelela i-Bluetooth ukuze ihlole amadivayisi we-Bluetooth. <ph name="IDS_SERIAL_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK" /></translation>
+<translation id="4407260690215472946">Ngena ngemvume kuJoão Browser efonini yakho</translation>
 <translation id="1330562121671411446">Thola ulimi</translation>
-<translation id="1342274909142618978">Futhi sula idatha ku-Chromium (<ph name="URL" />)</translation>
+<translation id="6026568602942276348">Futhi sula idatha ku-João Browser (<ph name="URL" />)</translation>
 <translation id="1345251407431278948">Kuphiniwe! Ungafinyelela futhi Usesho Lomfanekiso ngenkinobho entsha kubha yamathuluzi</translation>
 <translation id="1356661055722410047">Okusha! Ungahumusha kokubili umbhalo nezithombe esikrinini sakho</translation>
 <translation id="1383876407941801731">Sesha</translation>
-<translation id="1388276868779258475">Sebenzisa i-app yeChromium ukuze uqhubeke nokubhrawuza usendleleni</translation>
+<translation id="5807085300679014096">Sebenzisa i-app yeJoão Browser ukuze uqhubeke nokubhrawuza usendleleni</translation>
 <translation id="141901961143729572">Yabelana ngemicabango yakho</translation>
-<translation id="1465192221147974788">Ukuze wabelane ngewindi lakho, vumela ukurekhodwa kwesikrini kweChromium Kumasethingi Ohlelo.</translation>
+<translation id="3736947618013031173">Ukuze wabelane ngewindi lakho, vumela ukurekhodwa kwesikrini kweJoão Browser Kumasethingi Ohlelo.</translation>
 <translation id="1478370723027452770">Thola usizo nge-Chrome Yokuhlola</translation>
 <translation id="1497802159252041924">Iphutha lokufaka <ph name="INSTALL_ERROR" /></translation>
 <translation id="1518627427551567882">Leli khasi livikelwe</translation>
-<translation id="1524282610922162960">Yabelana ngethebhu ye-Chromium</translation>
-<translation id="154404805518949443">Ngena ngemvume kuChromium</translation>
+<translation id="4379865404970367448">Yabelana ngethebhu ye-João Browser</translation>
+<translation id="4436275659297289591">Ngena ngemvume kuJoão Browser</translation>
 <translation id="1547469039832541117">Ivala umsebenzi ogqanyisiwe.</translation>
-<translation id="1562320819937089394">Phina iChromium</translation>
+<translation id="449712764049695153">Phina iJoão Browser</translation>
 <translation id="1574377791422810894">Amathuluzi okuphepha e-Chromium</translation>
-<translation id="1594928384848033697">IChromium ifuna ukusula idatha Yesiphathi sakho Sephasiwedi. Thayipha iphasiwedi yakho yeWindows ukuze uvumele lokhu.</translation>
-<translation id="1607715478322902680">{COUNT,plural, =0{Umlawuli wakho udinga ukuthi uqalise kabusha i-Chromium ukuze kusetshenziswe isibuyekezo}=1{Umlawuli wakho udinga ukuthi uqalise kabusha i-Chromium ukuze kusetshenziswe isibuyekezo. Iwindi lakho le-Incognito ngeke liphinde livuleke.}one{Umlawuli wakho udinga ukuthi uqalise kabusha i-Chromium ukuze kusetshenziswe isibuyekezo. Amawindi akho angu-# e-Incognito ngeke aze aphinde avuleke.}other{Umlawuli wakho udinga ukuthi uqalise kabusha i-Chromium ukuze kusetshenziswe isibuyekezo. Amawindi akho angu-# e-Incognito ngeke aze aphinde avuleke.}}</translation>
-<translation id="1623563412065267963">Thola okuhamba phambili kweGoogle nge-app yeChromium efonini yakho</translation>
+<translation id="5480232403718129394">IJoão Browser ifuna ukusula idatha Yesiphathi sakho Sephasiwedi. Thayipha iphasiwedi yakho yeWindows ukuze uvumele lokhu.</translation>
+<translation id="5374513512130831872">{COUNT,plural, =0{Umlawuli wakho udinga ukuthi uqalise kabusha i-João Browser ukuze kusetshenziswe isibuyekezo}=1{Umlawuli wakho udinga ukuthi uqalise kabusha i-João Browser ukuze kusetshenziswe isibuyekezo. Iwindi lakho le-Incognito ngeke liphinde livuleke.}one{Umlawuli wakho udinga ukuthi uqalise kabusha i-João Browser ukuze kusetshenziswe isibuyekezo. Amawindi akho angu-# e-Incognito ngeke aze aphinde avuleke.}other{Umlawuli wakho udinga ukuthi uqalise kabusha i-João Browser ukuze kusetshenziswe isibuyekezo. Amawindi akho angu-# e-Incognito ngeke aze aphinde avuleke.}}</translation>
+<translation id="980976428162070137">Thola okuhamba phambili kweGoogle nge-app yeJoão Browser efonini yakho</translation>
 <translation id="1625909126243026060">Buyekeza izilawuli eziyinhloko zobumfihlo nokuvikeleka ku-Chromium</translation>
 <translation id="1640672724030957280">Iyadawuniloda...</translation>
 <translation id="1665602916345474427">Ungene ngemvume njengo-<ph name="USER_NAME" />, <ph name="USER_EMAIL" />, ubulungu. Vula imenyu ye-akhawunti</translation>
 <translation id="1708414395296835197">Ungasebenzisa iChromium noma nini lapho uchofoza amalinki emiyalezweni, kumadokhumenti, nakwamanye ama-app Izobuye iphinwe ku-taskbar yakho.</translation>
 <translation id="1709772298389099340">Inikeza amalungelo aphakeme e-<ph name="BROWSER_NAME" />.</translation>
 <translation id="1722488837206509557">Lokhu kuzokuvumela ukuthi ukhethe emadivayisini atholakalayo futhi ubonise okuqukethwe kuwo.</translation>
-<translation id="1733725117201708356">I-Chromium izosula idatha yokubhrawuza maduze</translation>
+<translation id="6972087163510342335">I-João Browser izosula idatha yokubhrawuza maduze</translation>
 <translation id="1736443181683099871">I-Chromium izozama ukuthuthukisa ukufuna ukuya ku-HTTPS</translation>
-<translation id="1736662517232558588">Idatha ye-Chromium esuliwe</translation>
-<translation id="1745121272106313518">I-Chromium izoqala kabusha emizuzwaneni engu-<ph name="REMAINING_TIME" /></translation>
+<translation id="3879288383593333401">Idatha ye-João Browser esuliwe</translation>
+<translation id="656496276885630888">I-João Browser izoqala kabusha emizuzwaneni engu-<ph name="REMAINING_TIME" /></translation>
 <translation id="1749104137266986751">Uma i-HTTPS ingatholakali, i-Chromium izosebenzisa uxhumo olungavikelekile ngaphandle kokukuxwayisa</translation>
-<translation id="1774152462503052664">Vumela i-Chromium ukuthi isebenze ngemuva</translation>
-<translation id="1779356040007214683">Ukuze senze i-Chromium ivikeleke, sikhubaze ezinye izandiso ezingafakwanga kuhlu lwe-<ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> futhi okungenzeka zingezwe ngaphandle kolwazi lakho.</translation>
-<translation id="1793486931176048546">Chofoza okuthi <ph name="BEGIN_BOLD" />Yebo<ph name="END_BOLD" /> esazisweni seWindows ukuze uphine iChromium ku-taskbar yakho ukuze uyifinyelele ngokushesha.</translation>
-<translation id="1808667845054772817">Phinda ufake i-Chromium</translation>
-<translation id="1820835682567584003">I-Chromium izama uku-<ph name="AUTHENTICATION_PURPOSE" /></translation>
-<translation id="183031085822326697">Ngokuzayo uma uvula iChromium ku-<ph name="DEVICE_TYPE" /> yakho, uzobona umyalelo wokusebenzisa Umphathi Wephasiwedi YeGoogle.</translation>
+<translation id="1226290419185955779">Vumela i-João Browser ukuthi isebenze ngemuva</translation>
+<translation id="4231366995273072370">Ukuze senze i-João Browser ivikeleke, sikhubaze ezinye izandiso ezingafakwanga kuhlu lwe-<ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> futhi okungenzeka zingezwe ngaphandle kolwazi lakho.</translation>
+<translation id="1822049153969905781">Chofoza okuthi <ph name="BEGIN_BOLD" />Yebo<ph name="END_BOLD" /> esazisweni seWindows ukuze uphine iJoão Browser ku-taskbar yakho ukuze uyifinyelele ngokushesha.</translation>
+<translation id="1321831992638405531">Phinda ufake i-João Browser</translation>
+<translation id="3386967202064865436">I-João Browser izama uku-<ph name="AUTHENTICATION_PURPOSE" /></translation>
+<translation id="70054449700528483">Ngokuzayo uma uvula iJoão Browser ku-<ph name="DEVICE_TYPE" /> yakho, uzobona umyalelo wokusebenzisa Umphathi Wephasiwedi YeGoogle.</translation>
 <translation id="1838374766361614909">Sula usesho</translation>
-<translation id="18552579716432081">Ukuze usule idatha yopheqululo kule divayisi kuphela, kuyilapho uyigcina ku-Google Account yakho, <ph name="BEGIN_LINK" />phuma ngemvume ku-Chromium<ph name="END_LINK" />.</translation>
-<translation id="1857749206890802997">Dawuniloda iChromium efonini yakho ukuze uvule noma usungule amaqembu ethebhu amasha usendleleni.</translation>
+<translation id="5807096362853316123">Ukuze usule idatha yopheqululo kule divayisi kuphela, kuyilapho uyigcina ku-Google Account yakho, <ph name="BEGIN_LINK" />phuma ngemvume ku-João Browser<ph name="END_LINK" />.</translation>
+<translation id="6396384011117650379">Dawuniloda iJoão Browser efonini yakho ukuze uvule noma usungule amaqembu ethebhu amasha usendleleni.</translation>
 <translation id="185970820835152459">Ungaphatha ama-akhawunti we-Google wakho angene ngemvume. Ama-akhawunti wakho we-Google asetshenziselwe i-browser ye-Chromium, i-Play Store, i-Gmail, nokuningi. Uma ufuna ukungeza i-akhawunti yomuntu othile, njengelungu lomndeni, engeza umuntu omusha ku-<ph name="DEVICE_TYPE" /> yakho kunalokho. <ph name="LINK_BEGIN" />Funda kabanzi<ph name="LINK_END" /></translation>
 <translation id="1862852878885210965">Sesha Ngosesho Lomfanekiso</translation>
-<translation id="1863837059069884561">U-<ph name="EXISTING_USER" /> usevele ungene ngemvume. Ukuze ugcine ukubhrawuza kwakho kuhlukile, ngena ngemvume kuChromium kuphrofayela yakho njengo-<ph name="USER_EMAIL_ADDRESS" /> Uzophinde uthole amabhukhimakhi akho nokuningi ku-<ph name="DEVICE" />.</translation>
+<translation id="65457771685016683">U-<ph name="EXISTING_USER" /> usevele ungene ngemvume. Ukuze ugcine ukubhrawuza kwakho kuhlukile, ngena ngemvume kuJoão Browser kuphrofayela yakho njengo-<ph name="USER_EMAIL_ADDRESS" /> Uzophinde uthole amabhukhimakhi akho nokuningi ku-<ph name="DEVICE" />.</translation>
 <translation id="1880677175115548835">Khetha umbhalo</translation>
-<translation id="1881322772814446296">Ungena ngemvume nge-akhawunti ephethwe futhi unikezele ukuqondiswa kokulawulwa kwayo ngaphezulu kwephrofayela yakho ye-Chromium. Idatha yakho ye-Chromium, efana nezinhlelo zakho zokusebenza, amabhukhimakhi, umlando, amaphasiwedi, nezinye izilungiselelo zizoboshelwa unaphakade ku-<ph name="USER_NAME" />. Uzokwazi ukususa le datha nge-Ideshibhodi yama-Akhawunti we-Google, kodwa ngeke uze ukwazi ukuhlobanisa le datha nenye i-akhawunti. Ungadala ngokukhetha iphrofayela entsha ukuze ugcine idatha yakho ekhona ye-Chromium ihlukile. <ph name="LEARN_MORE" /></translation>
+<translation id="2634119629547215883">Ungena ngemvume nge-akhawunti ephethwe futhi unikezele ukuqondiswa kokulawulwa kwayo ngaphezulu kwephrofayela yakho ye-João Browser. Idatha yakho ye-João Browser, efana nezinhlelo zakho zokusebenza, amabhukhimakhi, umlando, amaphasiwedi, nezinye izilungiselelo zizoboshelwa unaphakade ku-<ph name="USER_NAME" />. Uzokwazi ukususa le datha nge-Ideshibhodi yama-Akhawunti we-Google, kodwa ngeke uze ukwazi ukuhlobanisa le datha nenye i-akhawunti. Ungadala ngokukhetha iphrofayela entsha ukuze ugcine idatha yakho ekhona ye-João Browser ihlukile. <ph name="LEARN_MORE" /></translation>
 <translation id="1896836275755235458">IChromium igcina amandla ebhethri ngokukhawulela umsebenzi ongemuva nemiphumela yokubuka, njengokuskrola okubushelelezi namazinga ohlaka lwevidiyo. <ph name="BEGIN_LINK" />Funda kabanzi mayelana Nesongi Samandla<ph name="END_LINK" /></translation>
-<translation id="1900969832270057921">Isevisi Yesibuyekezi SeChromium</translation>
+<translation id="6115114251350798456">Isevisi Yesibuyekezi SeJoão Browser</translation>
 <translation id="1911763535808217981">Ngokuvala lokhu, ungangena ngemvume kumasayithi e-Google njenge-Gmail ngaphandle kokungena ngemvume ku-Chromium</translation>
-<translation id="1929939181775079593">I-Chromium ayiphenduli. Qalisa kabusha manje?</translation>
-<translation id="1933341829955786215">Inhlangano yakho, ebizwa <ph name="MANAGER" />, ifuna ungene ngemvume kuChromium</translation>
+<translation id="4037729269678342163">I-João Browser ayiphenduli. Qalisa kabusha manje?</translation>
+<translation id="7563750688920581112">Inhlangano yakho, ebizwa <ph name="MANAGER" />, ifuna ungene ngemvume kuJoão Browser</translation>
 <translation id="193439633299369377">I-ChromiumOS idinga ukuphinda iqaliswe ukuze kusetshenziswe isibuyekezo.</translation>
-<translation id="1951406923938785464">I-Chromium ivimbele lokhu kudawunilodwa ngoba uhlobo lwefayela alivamile ukudawunilodwa futhi lingase libe yingozi</translation>
+<translation id="7099143775283792684">I-João Browser ivimbele lokhu kudawunilodwa ngoba uhlobo lwefayela alivamile ukudawunilodwa futhi lingase libe yingozi</translation>
 <translation id="1953553007165777902">Iyadawuniloda... Kusele imizuzu engu-<ph name="MINUTE" /></translation>
 <translation id="1966382378801805537">I-Chromium ayikwazi ukunquma noma isethe isiphequluli esizenzakalelayo</translation>
 <translation id="197326043290947695">Bhrawuza ngobuhlakani Ngosesho Lomfanekiso</translation>
-<translation id="1990262977744080398">Funda ukuthi kungani i-Chromium ivimba amanye amafayela, ivula kuthebhu entsha</translation>
-<translation id="1999715455684970349">Kugcina isofthiwe yakho yeChromium ingeyakamuva. Uma le sevisi ikhutshaziswe noma imisiwe, isofthiwe yakho yeChromium ngeke igcinwe ingeyakamuva, okusho ukuthi ukungavikeleki okungase kuphakame akukwazi ukulungiswa futhi izakhi zingase zingasebenzi. Le sevisi iyazikhipha uma ingekho isofthiwe yeChromium eyisebenzisayo.</translation>
+<translation id="6185556991023272801">Funda ukuthi kungani i-João Browser ivimba amanye amafayela, ivula kuthebhu entsha</translation>
+<translation id="4053636705816895911">Kugcina isofthiwe yakho yeJoão Browser ingeyakamuva. Uma le sevisi ikhutshaziswe noma imisiwe, isofthiwe yakho yeJoão Browser ngeke igcinwe ingeyakamuva, okusho ukuthi ukungavikeleki okungase kuphakame akukwazi ukulungiswa futhi izakhi zingase zingasebenzi. Le sevisi iyazikhipha uma ingekho isofthiwe yeJoão Browser eyisebenzisayo.</translation>
 <translation id="2008474315282236005">Lokhu kuzosusa into engu-1 kusuka kule divayisi. Ukuze usebenzise futhi idatha yakho ngokuhamba kwesikhathi, ngena ngemvume ku-Chromium njengo-<ph name="USER_EMAIL" />.</translation>
 <translation id="2018879682492276940">Ukufakwa kwehlulekile. Sicela uzame futhi.</translation>
 <translation id="2039417478970545937">Amasethingi.</translation>
 <translation id="2049376729098081731">Khetha ukuthi ufake phakathi umlando we-Chromium ukuze uthole umuzwa womuntu siqu kumasevisi e-Google</translation>
-<translation id="2050698962207788467">Yakhelwe kuChromium ukuze ikusize usungule, ulondoloze, futhi ugcwalise ngokuzenzekelayo amaphasiwedi aqinile. Faka isinqamuleli ukuze ufinyelele kalula.</translation>
-<translation id="2064856577282482477">Chofoza inkinobho ethi Vumelanisa IChrome Nomuntu Ngamunye Ekhasini Lethebhu Entsha ukuze unikeze iChromium ukubukeka okusha</translation>
-<translation id="2086476982681781442">I-Chromium ivimbele lokhu kudawuniloda ngoba ifayela liyakhohlisa futhi lingase lenze izinguquko ezingalindelekile kudivayisi yakho</translation>
-<translation id="208726765006323911">Uzobona umyalelo wokuzama okuthi <ph name="FEATURE_NAME" /> ngesikhathi esilandelayo lapho uvula iChromium iOS.</translation>
-<translation id="2099452623287920103">Amaphasiwedi akho kanye nenye idatha yeChromium oyilondoloze kuGoogle Account yakho izosuswa kule divayisi. Ukuze uphinde uzisebenzise kuChromium, ngena ngemvume futhi.</translation>
-<translation id="2120965832000301375">{COUNT,plural, =1{Inhlangano yakho isula idatha yokubhrawuza ngokuzenzekelayo uma i-Chromium ingasetshenziswanga umzuzu o-1. Lokhu kungase kuhlanganise umlando, ukugcwalisa okuzenzakalelayo, nokudawuniloda. Amathebhu akho azohlala evulekile.}one{Inhlangano yakho isula idatha yokubhrawuza ngokuzenzekelayo uma i-Chromium ingasetshenziswanga imizuzu engu-#. Lokhu kungase kuhlanganise umlando, ukugcwalisa okuzenzakalelayo, nokudawuniloda. Amathebhu akho azohlala evulekile.}other{Inhlangano yakho isula idatha yokubhrawuza ngokuzenzekelayo uma i-Chromium ingasetshenziswanga imizuzu engu-#. Lokhu kungase kuhlanganise umlando, ukugcwalisa okuzenzakalelayo, nokudawuniloda. Amathebhu akho azohlala evulekile.}}</translation>
+<translation id="6768767091114123654">Yakhelwe kuJoão Browser ukuze ikusize usungule, ulondoloze, futhi ugcwalise ngokuzenzekelayo amaphasiwedi aqinile. Faka isinqamuleli ukuze ufinyelele kalula.</translation>
+<translation id="3571664229232252557">Chofoza inkinobho ethi Vumelanisa IChrome Nomuntu Ngamunye Ekhasini Lethebhu Entsha ukuze unikeze iJoão Browser ukubukeka okusha</translation>
+<translation id="4273287215573278663">I-João Browser ivimbele lokhu kudawuniloda ngoba ifayela liyakhohlisa futhi lingase lenze izinguquko ezingalindelekile kudivayisi yakho</translation>
+<translation id="9063967192437499581">Uzobona umyalelo wokuzama okuthi <ph name="FEATURE_NAME" /> ngesikhathi esilandelayo lapho uvula iJoão Browser iOS.</translation>
+<translation id="8511569826706775962">Amaphasiwedi akho kanye nenye idatha yeJoão Browser oyilondoloze kuGoogle Account yakho izosuswa kule divayisi. Ukuze uphinde uzisebenzise kuJoão Browser, ngena ngemvume futhi.</translation>
+<translation id="1187540878814389979">{COUNT,plural, =1{Inhlangano yakho isula idatha yokubhrawuza ngokuzenzekelayo uma i-João Browser ingasetshenziswanga umzuzu o-1. Lokhu kungase kuhlanganise umlando, ukugcwalisa okuzenzakalelayo, nokudawuniloda. Amathebhu akho azohlala evulekile.}one{Inhlangano yakho isula idatha yokubhrawuza ngokuzenzekelayo uma i-João Browser ingasetshenziswanga imizuzu engu-#. Lokhu kungase kuhlanganise umlando, ukugcwalisa okuzenzakalelayo, nokudawuniloda. Amathebhu akho azohlala evulekile.}other{Inhlangano yakho isula idatha yokubhrawuza ngokuzenzekelayo uma i-João Browser ingasetshenziswanga imizuzu engu-#. Lokhu kungase kuhlanganise umlando, ukugcwalisa okuzenzakalelayo, nokudawuniloda. Amathebhu akho azohlala evulekile.}}</translation>
 <translation id="2125838419757773031">Khetha isifunda sesikrini ukuze useshe</translation>
 <translation id="2126108037660393668">Ifayela elidawunilodiwe aliphumelelanga lapho liqinisekiswa.</translation>
 <translation id="2135919691573380097">Bika le sayithi</translation>
 <translation id="2137162749895930932">Vala isikrini sokuhumusha</translation>
-<translation id="215352261310130060">I-Chromium ivimbele lokhu kulanda ngoba isayithi alisebenzisi uxhumano oluvikelekile futhi kungenzeka ukuthi ifayela lonaniwe.</translation>
+<translation id="1308845716497059117">I-João Browser ivimbele lokhu kulanda ngoba isayithi alisebenzisi uxhumano oluvikelekile futhi kungenzeka ukuthi ifayela lonaniwe.</translation>
 <translation id="2170098639895543546">Khetha noma yini esekhasini</translation>
-<translation id="2174178932569897599">Yenza i-Chromium ngokwezifiso</translation>
+<translation id="6705844023496387932">Yenza i-João Browser ngokwezifiso</translation>
 <translation id="2174917724755363426">Ukufaka akuqediwe. Uqinisekile ufuna ukukhansela?</translation>
-<translation id="2185166961232948079">I-Chromium - Inethiwekhi Yokungena ngemvume - <ph name="PAGE_TITLE" /></translation>
+<translation id="7728290795259244895">I-João Browser - Inethiwekhi Yokungena ngemvume - <ph name="PAGE_TITLE" /></translation>
 <translation id="2190166659037789668">Buyekeza iphutha lokuchekha: <ph name="UPDATE_CHECK_ERROR" />.</translation>
-<translation id="2199210295479376551">Susa i-akhawunti kuChromium</translation>
-<translation id="2201788217099588893">Sebenzisa i-app yeChromium ukuze usebenzise amathuluzi okuthenga angcono kakhulu usendleleni</translation>
-<translation id="2210502920229141283">Hlala uphephile lapho usendleleni Ngokubhrawuza Okuphephe Ngokuthuthukisiwe kuChromium ye-iOS</translation>
+<translation id="3486802320473595711">Susa i-akhawunti kuJoão Browser</translation>
+<translation id="4648870374540039667">Sebenzisa i-app yeJoão Browser ukuze usebenzise amathuluzi okuthenga angcono kakhulu usendleleni</translation>
+<translation id="2106116820042118250">Hlala uphephile lapho usendleleni Ngokubhrawuza Okuphephe Ngokuthuthukisiwe kuJoão Browser ye-iOS</translation>
 <translation id="2210682093923538346">Isayithi eyingozi. I-Chromium isuse izaziso.</translation>
 <translation id="2236949375853147973">Umsebenzi Wami</translation>
-<translation id="2238130810669087193">Ukuze uthole amakheli akho nokuningi kuwo wonke amadivayisi akho, ngena ngemvume kuChromium. Leli kheli lizolondolozwa kuGoogle Account yakho ngemva kokungena ngemvume.</translation>
-<translation id="2241627712206172106">Uma wabelana ngekhompyutha, abangani nomndeni bangadlulisa amehlo ngokuhlukile baphinde basethe i-Chrome ngendlela abafuna ngayo nje.</translation>
+<translation id="118764235932893741">Ukuze uthole amakheli akho nokuningi kuwo wonke amadivayisi akho, ngena ngemvume kuJoão Browser. Leli kheli lizolondolozwa kuGoogle Account yakho ngemva kokungena ngemvume.</translation>
+<translation id="7254578863532089400">Uma wabelana ngekhompyutha, abangani nomndeni bangadlulisa amehlo ngokuhlukile baphinde basethe i-Chrome ngendlela abafuna ngayo nje.</translation>
 <translation id="22571759390241347">Amakhono kuChromium</translation>
 <translation id="2283803047247799269">Sesha le thebhu Ngosesho Lomfanekiso</translation>
-<translation id="2287771843518581140">{NUM_TABS,plural, =1{IChromium incoma ukumisa ithebhu enciphisa ijubane lebhrawuza yakho}one{IChromium incoma ukumisa amathebhu anciphisa ijubane lebhrawuza yakho}other{IChromium incoma ukumisa amathebhu anciphisa ijubane lebhrawuza yakho}}</translation>
+<translation id="8383041367037966133">{NUM_TABS,plural, =1{IJoão Browser incoma ukumisa ithebhu enciphisa ijubane lebhrawuza yakho}one{IJoão Browser incoma ukumisa amathebhu anciphisa ijubane lebhrawuza yakho}other{IJoão Browser incoma ukumisa amathebhu anciphisa ijubane lebhrawuza yakho}}</translation>
 <translation id="2307973900865360088">Kugcine Edokhini</translation>
 <translation id="2313870531055795960">Kuhlola ama-URL anohlu lwamasayithi angaphephile agcinwe ku-Chromium. Uma isayithi lizama ukuntshontsha iphasiwedi yakho, noma uma ulanda ifayela eliyingozi, i-Chromium ingathumela nama-URL, kuhlanganise nokuthile okuqukethwe kulelo khasi, Ekuphequluleni Okuphephile.</translation>
 <translation id="2356070529366658676">Buza</translation>
 <translation id="2359808026110333948">Qhubeka</translation>
-<translation id="2361918034042471035">Isandiso esithi "<ph name="EXTENSION_NAME" />" sifuna ukuthi ungene ngemvume kuChromium</translation>
-<translation id="236943522426971115">Vala iChromium Esebenza Ngemuva kuma-App</translation>
-<translation id="2374216753258219393">Ukuze usebenzise lesi sandiso njenge-<ph name="USER_EMAIL_ADDRESS" />, ngena ngemvume kuChromium.</translation>
+<translation id="3800730051093461113">Isandiso esithi "<ph name="EXTENSION_NAME" />" sifuna ukuthi ungene ngemvume kuJoão Browser</translation>
+<translation id="8758735062658446604">Vala iJoão Browser Esebenza Ngemuva kuma-App</translation>
+<translation id="2623595027619107207">Ukuze usebenzise lesi sandiso njenge-<ph name="USER_EMAIL_ADDRESS" />, ngena ngemvume kuJoão Browser.</translation>
 <translation id="2384373936468275798">I-ChromiumOS ayikwazanga ukuvumelanisa idatha yakho ngoba imininingwane yokungena ngemvume kwi-akhawunti yakho iphelelwe isikhathi.</translation>
-<translation id="2398377054246527950">{NUM_DEVICES,plural, =0{Idivayisi e-1 ye-HID ibifinyelelwa yisandiso se-Chromium esisodwa noma eziningi}=1{Idivayisi e-1 ye-HID ifinyelelwa yisandiso se-Chromium esisodwa noma eziningi}one{Amadivayisi angu-# e-HID abefinyelelwa yisandiso se-Chromium esisodwa noma eziningi}other{Amadivayisi angu-# e-HID abefinyelelwa yisandiso se-Chromium esisodwa noma eziningi}}</translation>
-<translation id="2401032172288869980">I-Chromium idinga izimvume zekhamera nemakrofoni kule sayithi</translation>
+<translation id="5930179096923499335">{NUM_DEVICES,plural, =0{Idivayisi e-1 ye-HID ibifinyelelwa yisandiso se-João Browser esisodwa noma eziningi}=1{Idivayisi e-1 ye-HID ifinyelelwa yisandiso se-João Browser esisodwa noma eziningi}one{Amadivayisi angu-# e-HID abefinyelelwa yisandiso se-João Browser esisodwa noma eziningi}other{Amadivayisi angu-# e-HID abefinyelelwa yisandiso se-João Browser esisodwa noma eziningi}}</translation>
+<translation id="6254788431480237503">I-João Browser idinga izimvume zekhamera nemakrofoni kule sayithi</translation>
 <translation id="2403703063067034158">Iphutha lokuqala: esinye isenzakalo sokusetha siyaqalisa okwamanje, sicela uzame futhi ngokuhamba kwesikhathi.</translation>
-<translation id="2418322681019544463">Vula amalinki kuChromium kunoma iyiphi i-app futhi ugcine ibhrawuza ifinyeleleka ku-taskbar yakho</translation>
-<translation id="2425157128016763890">Chofoza inkinobho ethi Finyeza ukuze wabelane ngale dokhumenti neGemini kuChromium ukuze uthole iqoqa elisheshayo futhi ubuze imibuzo yokulandelela</translation>
+<translation id="3028975423343897358">Vula amalinki kuJoão Browser kunoma iyiphi i-app futhi ugcine ibhrawuza ifinyeleleka ku-taskbar yakho</translation>
+<translation id="579079006139156831">Chofoza inkinobho ethi Finyeza ukuze wabelane ngale dokhumenti neGemini kuJoão Browser ukuze uthole iqoqa elisheshayo futhi ubuze imibuzo yokulandelela</translation>
 <translation id="2440750600860946460"><ph name="BEGIN_LINK" />Ngamathuluzi avela ku-Chromium<ph name="END_LINK" />, ungabhrawuza ngokuphepha bese uhlala ulawula</translation>
-<translation id="2449487342837813167">U-<ph name="EXISTING_USER" /> usevele ungene ngemvume. Ukuze ugcine ukubhrawuza kwakho kuhlukile, ngena ngemvume kuChromium kuphrofayela yakho njengo-<ph name="USER_EMAIL_ADDRESS" /> Uzophinde uthole namaphasiwedi akho nokuningi kuwo wonke amadivayisi akho.</translation>
+<translation id="7114471809991869757">U-<ph name="EXISTING_USER" /> usevele ungene ngemvume. Ukuze ugcine ukubhrawuza kwakho kuhlukile, ngena ngemvume kuJoão Browser kuphrofayela yakho njengo-<ph name="USER_EMAIL_ADDRESS" /> Uzophinde uthole namaphasiwedi akho nokuningi kuwo wonke amadivayisi akho.</translation>
 <translation id="2451727308784734061">Sebenzisa isinqamuleli sakho ukuze ufike ngokushesha Kusiphathi Sephasiwedi. Ungahambisa isinqamuleli sakho esikrinini sasekhaya sekhompyutha yakho noma isiqalisi se-app.</translation>
-<translation id="2478295928299953161">I-Chromium izovala maduzane</translation>
-<translation id="2483889755041906834">Ku-Chromium</translation>
+<translation id="2709136733469807397">I-João Browser izovala maduzane</translation>
+<translation id="3652225684487279741">Ku-João Browser</translation>
 <translation id="2485422356828889247">Khipha</translation>
 <translation id="2513154137948333830">Ukuqalisa kuyadingeka: <ph name="INSTALL_SUCCESS" /></translation>
 <translation id="2542968102051442371">Khetha umbhalo Ngosesho Lomfanekiso</translation>
-<translation id="2554739539410784893">I-Chromium izama ukufaka amaphasiwedi akhona esikhundleni. Thayipha iphasiwedi yakho ye-Windows ukuze uvumele lokhu.</translation>
-<translation id="2560420686485554789">I-Chromium idinga ukufinyelela kusitoreji ukuze ilande amafayela</translation>
-<translation id="2572494885440352020">Isisizi se-Chromium</translation>
+<translation id="1527474262707362156">I-João Browser izama ukufaka amaphasiwedi akhona esikhundleni. Thayipha iphasiwedi yakho ye-Windows ukuze uvumele lokhu.</translation>
+<translation id="6480371226914552131">I-João Browser idinga ukufinyelela kusitoreji ukuze ilande amafayela</translation>
+<translation id="6318568902186985084">Isisizi se-João Browser</translation>
 <translation id="2575822587468774919">Khetha noma yini ukuze useshe Ngosesho Lomfanekiso</translation>
-<translation id="2576118232315942160">Ukuze uthole amaphasiwedi akho kanye nokwengeziwe kuwo wonke amadivayisi akho, ngena ngemvume kuChromium</translation>
-<translation id="2587622539943955767">Skena ikhodi ye-QR ngefoni yakho ukuze udawunilode iChromium bese ungena ngemvume kuGoogle Account yakho.</translation>
-<translation id="2592940277904433508">Qhubeka usebenzisa i-Chromium</translation>
+<translation id="4557210258834653476">Ukuze uthole amaphasiwedi akho kanye nokwengeziwe kuwo wonke amadivayisi akho, ngena ngemvume kuJoão Browser</translation>
+<translation id="1148164459654218834">Skena ikhodi ye-QR ngefoni yakho ukuze udawunilode iJoão Browser bese ungena ngemvume kuGoogle Account yakho.</translation>
+<translation id="235892353478111963">Qhubeka usebenzisa i-João Browser</translation>
 <translation id="259935314519650377">Yehlulekile ukufaka enqolobaneni isifaki esidawunilodiwe. Iphutha: <ph name="UNPACK_CACHING_ERROR_CODE" />.</translation>
 <translation id="2620436844016719705">Isistimu</translation>
-<translation id="2629740064077610681">Inhlangano yakho ingabona futhi ilawule idatha yopheqululo, efana namabhukhimakhi akho, umlando, namaphasiwedi. Ayikwazi ukubona idatha yokubhrawuza kwamanye amaphrofayela eChromium</translation>
-<translation id="2635452620547538388">Qinisekisa ukuthi nguwe ukuze usebenzise futhi ulondoloze idatha yeChromium ku-akhawunti yakho, <ph name="ACCOUNT_EMAIL" /></translation>
-<translation id="2637732208198500597">{COUNT,plural, =0{Ukuvikelwa Okuthuthukile kudinga ukuthi uqalise kabusha iChromium ukuze usebenzise isibuyekezo}=1{Ukuvikelwa Okuthuthukile kudinga ukuthi uqalise kabusha iChromium ukuze usebenzise isibuyekezo. Iwindi lakho le-Incognito ngeke liphinde livuleke.}one{Ukuvikelwa Okuthuthukile kudinga ukuthi uqalise kabusha iChromium ukuze usebenzise isibuyekezo. Amawindi akho angu-# e-Incognito ngeke aze aphinde avuleke.}other{Ukuvikelwa Okuthuthukile kudinga ukuthi uqalise kabusha iChromium ukuze usebenzise isibuyekezo. Amawindi akho angu-# e-Incognito ngeke aze aphinde avuleke.}}</translation>
-<translation id="263863604136125912">Qala iChromium</translation>
-<translation id="2648074677641340862">Iphutha le sistimu yokusebenza livele ngesikhathi sokufaka. Sicela uphinde ulande i-Chromium.</translation>
-<translation id="2661879430930417727">Uma wabelana ngedivayisi, abangane nomndeni bangaphequlula ngokuhlukile baphinde basethe i-Chrome ngendlela abafuna ngayo</translation>
-<translation id="2676569452213089702">Ukufinyelela okulula kokusebenzisa iGemini kuChromium kudivayisi yakho yonke, nanoma iChromium incishisiwe.</translation>
-<translation id="2711502716910134313">Ithebhu le-Chromium</translation>
+<translation id="8471946631262724853">Inhlangano yakho ingabona futhi ilawule idatha yopheqululo, efana namabhukhimakhi akho, umlando, namaphasiwedi. Ayikwazi ukubona idatha yokubhrawuza kwamanye amaphrofayela eJoão Browser</translation>
+<translation id="2870759219964376597">Qinisekisa ukuthi nguwe ukuze usebenzise futhi ulondoloze idatha yeJoão Browser ku-akhawunti yakho, <ph name="ACCOUNT_EMAIL" /></translation>
+<translation id="2955972712254986678">{COUNT,plural, =0{Ukuvikelwa Okuthuthukile kudinga ukuthi uqalise kabusha iJoão Browser ukuze usebenzise isibuyekezo}=1{Ukuvikelwa Okuthuthukile kudinga ukuthi uqalise kabusha iJoão Browser ukuze usebenzise isibuyekezo. Iwindi lakho le-Incognito ngeke liphinde livuleke.}one{Ukuvikelwa Okuthuthukile kudinga ukuthi uqalise kabusha iJoão Browser ukuze usebenzise isibuyekezo. Amawindi akho angu-# e-Incognito ngeke aze aphinde avuleke.}other{Ukuvikelwa Okuthuthukile kudinga ukuthi uqalise kabusha iJoão Browser ukuze usebenzise isibuyekezo. Amawindi akho angu-# e-Incognito ngeke aze aphinde avuleke.}}</translation>
+<translation id="8949462882238006192">Qala iJoão Browser</translation>
+<translation id="4224214204752803768">Iphutha le sistimu yokusebenza livele ngesikhathi sokufaka. Sicela uphinde ulande i-João Browser.</translation>
+<translation id="3141414135710372892">Uma wabelana ngedivayisi, abangane nomndeni bangaphequlula ngokuhlukile baphinde basethe i-Chrome ngendlela abafuna ngayo</translation>
+<translation id="8838607803339100223">Ukufinyelela okulula kokusebenzisa iGemini kuJoão Browser kudivayisi yakho yonke, nanoma iJoão Browser incishisiwe.</translation>
+<translation id="1679364578146271696">Ithebhu le-João Browser</translation>
 <translation id="2718390899429598676">Ngokuvikela okungeziwe, i-Chromium izobethela idatha yakho.</translation>
-<translation id="2721354645805494590">Ukuze ususe i-Google Account yakho ku-Chromium, phuma ngemvume</translation>
-<translation id="2722636413143664436">Ukuze uthole amaphasiwedi wakho, amabhukhimakhi, nokuningi kuwo wonke amadivayisi akho, ngena ngemvume kuChromium</translation>
+<translation id="1874696651662237927">Ukuze ususe i-Google Account yakho ku-João Browser, phuma ngemvume</translation>
+<translation id="6850669719663104304">Ukuze uthole amaphasiwedi wakho, amabhukhimakhi, nokuningi kuwo wonke amadivayisi akho, ngena ngemvume kuJoão Browser</translation>
 <translation id="2738871930057338499">Ayikwazi ukuxhuma ku-inthanethi I-HTTP 403 Yenqatshelwe. Sicela uchekhe ukulungiselelwa kommeleli wakho.</translation>
 <translation id="2753623023919742414">Chofoza ukuze useshe</translation>
-<translation id="2768103863314748511">Setha iChromium njengesibuki sakho esizenzakalelayo se-PDF</translation>
-<translation id="2785438272836277133">Lesi sandiso sinohlelo olungayilungele ikhompyutha futhi asiphephile. Sisuse ku-Chromium ukuze singasakwazi ukubona nokushintsha idatha yakho kumasayithi owavakashelayo, okufaka phakathi ulwazi lwakho lomuntu siqu.</translation>
+<translation id="4193420110872590792">Setha iJoão Browser njengesibuki sakho esizenzakalelayo se-PDF</translation>
+<translation id="6614401181366354261">Lesi sandiso sinohlelo olungayilungele ikhompyutha futhi asiphephile. Sisuse ku-João Browser ukuze singasakwazi ukubona nokushintsha idatha yakho kumasayithi owavakashelayo, okufaka phakathi ulwazi lwakho lomuntu siqu.</translation>
 <translation id="2799223571221894425">Qalisa kabusha</translation>
-<translation id="2803971713792056305">IChromium Yakho</translation>
+<translation id="6299858290790311689">IJoão Browser Yakho</translation>
 <translation id="2816462166102338036">Sesha le vidiyo ngesakhi esithi Ukusesha Ngezithombe</translation>
-<translation id="282591729717417030">Thola imikhiqizo ngekhamera yakho, ulandelele ukwehliswa kwentengo nokuningi usendleleni ngeChromium ku-iOS.</translation>
+<translation id="5896458971800337862">Thola imikhiqizo ngekhamera yakho, ulandelele ukwehliswa kwentengo nokuningi usendleleni ngeJoão Browser ku-iOS.</translation>
 <translation id="2841525013647267359">Humusha kusuka</translation>
 <translation id="2846251086934905009">Iphutha lokufaka: Isifaki asiqedanga. Ukufakwa kukhanseliwe.</translation>
-<translation id="2847479871509788944">Susa kusuka  ku-Chromium...</translation>
+<translation id="4357241592510111611">Susa kusuka  ku-João Browser...</translation>
 <translation id="2850691299438350830">Kukugcina uphephile ku-Chromium futhi kungase kusetshenziswe ukuthuthukisa ukuvikeleka kwakho kwamanye ama-app we-Google lapho ungene ngemvume</translation>
 <translation id="2885378588091291677">Isiphathi somsebenzi</translation>
-<translation id="2910007522516064972">Mayelana ne-&amp;Chromium</translation>
+<translation id="8887040619780090085">Mayelana ne-&amp;João Browser</translation>
 <translation id="2915996080311180594">Qala Kabusha Ngemuva Kwesikhathi</translation>
-<translation id="2933336679234709858">Idatha yakho ibethelwe ngomushwana wakho wokungena. Ifake ukuze usebenzise futhi wonge idatha yeChromium kuGoogle Account yakho.</translation>
+<translation id="6619708652934279502">Idatha yakho ibethelwe ngomushwana wakho wokungena. Ifake ukuze usebenzise futhi wonge idatha yeJoão Browser kuGoogle Account yakho.</translation>
 <translation id="2945997411976714835">Iphutha lokufaka: Inqubo yesifaki yehlulekile ukuqala.</translation>
-<translation id="2948852018303413228">Ngena ngemvume ngokushesha kumasayithi usebenzisa amaphasiwedi alondoloziwe weChromium ku-iOS</translation>
-<translation id="2970426615109535079">Inhlangano yakho iphatha iChromium</translation>
+<translation id="4566114009566397386">Ngena ngemvume ngokushesha kumasayithi usebenzisa amaphasiwedi alondoloziwe weJoão Browser ku-iOS</translation>
+<translation id="562175540137901632">Inhlangano yakho iphatha iJoão Browser</translation>
 <translation id="2977470724722393594">I-Chromium isesikhathini samanje</translation>
 <translation id="2977506796191543575">Uma isayithi lizama ukuntshontsha iphasiwedi yakho, noma uma ulanda ifayela eliyingozi, i-Chromium ingathumela nama-URL, kuhlanganise nokuthile okuqukethwe kulelo khasi, Ekuphequluleni Okuphephile</translation>
-<translation id="2981563588585023386">Ukuze uhlale uphephile ku-inthanethi ngokukhethwayo komzali wakho, ngena ngemvume kuChromium</translation>
+<translation id="1776205510657237623">Ukuze uhlale uphephile ku-inthanethi ngokukhethwayo komzali wakho, ngena ngemvume kuJoão Browser</translation>
 <translation id="3003694935412297923">Yonke imisebenzi</translation>
-<translation id="3012615494352020668">{count,plural, =1{IChromium idinga ukuqinisekisa ukuthi uwena ngaphambi kokuthi idatha ethile ilondolozwe kuGoogle Account yakho futhi isetshenziswe kuwo wonke amadivayisi akho. Uma uphuma ngemvume manje, le datha (into e-1) izosulwa.}one{IChromium idinga ukuqinisekisa ukuthi uwena ngaphambi kokuthi idatha ethile ilondolozwe kuGoogle Account yakho futhi isetshenziswe kuwo wonke amadivayisi akho. Uma uphuma ngemvume manje, le datha (izinto ezingu-{count}) izosulwa.}other{IChromium idinga ukuqinisekisa ukuthi uwena ngaphambi kokuthi idatha ethile ilondolozwe kuGoogle Account yakho futhi isetshenziswe kuwo wonke amadivayisi akho. Uma uphuma ngemvume manje, le datha (izinto ezingu-{count}) izosulwa.}}</translation>
-<translation id="3013473503895162900">Vula i-<ph name="URL" /> kuthebhu entsha ku-Chromium.</translation>
+<translation id="3374694374267805392">{count,plural, =1{IJoão Browser idinga ukuqinisekisa ukuthi uwena ngaphambi kokuthi idatha ethile ilondolozwe kuGoogle Account yakho futhi isetshenziswe kuwo wonke amadivayisi akho. Uma uphuma ngemvume manje, le datha (into e-1) izosulwa.}one{IJoão Browser idinga ukuqinisekisa ukuthi uwena ngaphambi kokuthi idatha ethile ilondolozwe kuGoogle Account yakho futhi isetshenziswe kuwo wonke amadivayisi akho. Uma uphuma ngemvume manje, le datha (izinto ezingu-{count}) izosulwa.}other{IJoão Browser idinga ukuqinisekisa ukuthi uwena ngaphambi kokuthi idatha ethile ilondolozwe kuGoogle Account yakho futhi isetshenziswe kuwo wonke amadivayisi akho. Uma uphuma ngemvume manje, le datha (izinto ezingu-{count}) izosulwa.}}</translation>
+<translation id="4915792193596835645">Vula i-<ph name="URL" /> kuthebhu entsha ku-João Browser.</translation>
 <translation id="302551344979399011">Okusha kwe-AI okufana namakhono kulondolozwa kuGoogle Account yakho futhi kulawulwa ngokuhlukile ekuvumelaniseni kweChromium</translation>
-<translation id="3032787606318309379">Ingeza ku-Chromium...</translation>
+<translation id="8367114375553489372">Ingeza ku-João Browser...</translation>
 <translation id="3038232873781883849">Ilinde ukufaka...</translation>
 <translation id="3045032126857188731">Ulimi oluhunyushiwe: <ph name="LANGUAGE" /></translation>
 <translation id="3047590466164881923">Vala idayalogi yempendulo</translation>
-<translation id="3068187312562070417">Amanye amaphrofayela e-Chromium</translation>
-<translation id="3068290154869370196">Izandiso ziyizengezo ezikuvumela ukuthi uqambe ngokwabahlinzekelwayo iChromium. Ukusuka ekuhlaleni uhlelekile, ukuya ekwenzeni lula imisebenzi yansuku zonke, izandiso zikusiza wenze iChromium ibe ngeyakho.</translation>
-<translation id="3068515742935458733">Siza ukwenza i-Chromium ibe ngcono ngokuthumela imibiko yokuphahlazeka ne-<ph name="UMA_LINK" /> ku-Google</translation>
-<translation id="3071024987058544609">Sebenzisa i-app yeChromium ukuze uvikele iGoogle usendleleni</translation>
-<translation id="3079753320517721795">{NUM_DEVICES,plural, =0{Idivayisi e-1 ye-USB ibifinyelelwa yisandiso se-Chromium esisodwa noma eziningi}=1{Idivayisi e-1 ye-USB ifinyelelwa yisandiso se-Chromium esisodwa noma eziningi}one{Amadivayisi angu-# e-USB abefinyelelwa yisandiso se-Chromium esisodwa noma eziningi}other{Amadivayisi angu-# e-USB abefinyelelwa yisandiso se-Chromium esisodwa noma eziningi}}</translation>
-<translation id="3095811995836568724">Umlando weChromium</translation>
-<translation id="3103660991484857065">Isifaki sihlulekile ukungaminyanisi ingobo yomlando. Sicela ulande i-Chromium futhi.</translation>
+<translation id="6168172692486433600">Amanye amaphrofayela e-João Browser</translation>
+<translation id="884929993636327">Izandiso ziyizengezo ezikuvumela ukuthi uqambe ngokwabahlinzekelwayo iJoão Browser. Ukusuka ekuhlaleni uhlelekile, ukuya ekwenzeni lula imisebenzi yansuku zonke, izandiso zikusiza wenze iJoão Browser ibe ngeyakho.</translation>
+<translation id="1525897524206034002">Siza ukwenza i-João Browser ibe ngcono ngokuthumela imibiko yokuphahlazeka ne-<ph name="UMA_LINK" /> ku-Google</translation>
+<translation id="2766971658743453990">Sebenzisa i-app yeJoão Browser ukuze uvikele iGoogle usendleleni</translation>
+<translation id="4387884830246074210">{NUM_DEVICES,plural, =0{Idivayisi e-1 ye-USB ibifinyelelwa yisandiso se-João Browser esisodwa noma eziningi}=1{Idivayisi e-1 ye-USB ifinyelelwa yisandiso se-João Browser esisodwa noma eziningi}one{Amadivayisi angu-# e-USB abefinyelelwa yisandiso se-João Browser esisodwa noma eziningi}other{Amadivayisi angu-# e-USB abefinyelelwa yisandiso se-João Browser esisodwa noma eziningi}}</translation>
+<translation id="3413144813287436446">Umlando weJoão Browser</translation>
+<translation id="9192419056064225629">Isifaki sihlulekile ukungaminyanisi ingobo yomlando. Sicela ulande i-João Browser futhi.</translation>
 <translation id="310459126943037700">Yehlulekile ukuqeda imisebenzi.</translation>
 <translation id="3104828284009500087">Sesha noma yini ekhasini</translation>
-<translation id="3126784891977756556">Gcina amaphasiwedi akho, amabhukhimakhi, nomlando kuvunyelaniswe ngokuphelele kuwo wonke amadivayisi. Finyelela kalula izakhi ozaziyo nozithandayo ngokubuyekeza ibhrawuza yakho evuleka ngokuzenzakalelayo ibe yiChromium.</translation>
-<translation id="3130323860337406239">I-Chromium isebenzisa imakrofoni yakho.</translation>
+<translation id="3508468328135806512">Gcina amaphasiwedi akho, amabhukhimakhi, nomlando kuvunyelaniswe ngokuphelele kuwo wonke amadivayisi. Finyelela kalula izakhi ozaziyo nozithandayo ngokubuyekeza ibhrawuza yakho evuleka ngokuzenzakalelayo ibe yiJoão Browser.</translation>
+<translation id="3216151988142306917">I-João Browser isebenzisa imakrofoni yakho.</translation>
 <translation id="3130333203120345554">Usesho olusha</translation>
 <translation id="3137969841538672700">Hudulela oseshweni</translation>
-<translation id="3144188012276422546">Le thebhu isebenzisa izinsiza ezengeziwe. Ukuze uthuthukise ukusebenza kwakho, vumela iChromium ikwenze kungasebenzi.</translation>
-<translation id="3149163023759831301">Ukuze wabelane ngesikrini sakho, vumela ukurekhodwa kwesikrini kweChromium Kumasethingi Ohlelo</translation>
-<translation id="3155163173539279776">Phinda uqalise i-Chromium</translation>
+<translation id="7493177208577109722">Le thebhu isebenzisa izinsiza ezengeziwe. Ukuze uthuthukise ukusebenza kwakho, vumela iJoão Browser ikwenze kungasebenzi.</translation>
+<translation id="7239354789967255675">Ukuze wabelane ngesikrini sakho, vumela ukurekhodwa kwesikrini kweJoão Browser Kumasethingi Ohlelo</translation>
+<translation id="4955872590603594814">Phinda uqalise i-João Browser</translation>
 <translation id="3161522574479303604">Zonke izilimi</translation>
-<translation id="3179665906251668410">Vula isixhumanisi kuwindi le-Chromium Inco&amp;gnito</translation>
-<translation id="3185330573522821672">Yenza ngendlela oyifisayo iphrofayela yakho entsha ye-Chromium</translation>
-<translation id="3189205223539394158">Ungaqhubeka nokuxoxa Ngemodi ye-AI ngaphandle kokushintsha amathebhu. Ukuze uqalise, ngena ngemvume kuChromium. Uzophinde uthole namaphasiwedi akho nokuningi kuwo wonke amadivayisi akho.</translation>
-<translation id="3224847870593914902">Ukuze ususe i-Google Account yakho ku-Chromium, phuma ngemvume ku-Chromium ekhasini Lamasethingi</translation>
+<translation id="4697739132113629685">Vula isixhumanisi kuwindi le-João Browser Inco&amp;gnito</translation>
+<translation id="1629247860984475766">Yenza ngendlela oyifisayo iphrofayela yakho entsha ye-João Browser</translation>
+<translation id="1905008150929775692">Ungaqhubeka nokuxoxa Ngemodi ye-AI ngaphandle kokushintsha amathebhu. Ukuze uqalise, ngena ngemvume kuJoão Browser. Uzophinde uthole namaphasiwedi akho nokuningi kuwo wonke amadivayisi akho.</translation>
+<translation id="4232381420311815141">Ukuze ususe i-Google Account yakho ku-João Browser, phuma ngemvume ku-João Browser ekhasini Lamasethingi</translation>
 <translation id="3234316605225071811">Emva kwesikhathi, iChromium ingakucela ukuthi usebenzise ulwazi olulondoloziwe ukuze uzigcwalisele amafomu</translation>
-<translation id="3258596308407688501">I-Chromium ayikwazi ukufunda nokubhala umkhombandlela wayo wedatha:
+<translation id="6676749542734993844">I-João Browser ayikwazi ukufunda nokubhala umkhombandlela wayo wedatha:
 
 <ph name="USER_DATA_DIRECTORY" /></translation>
-<translation id="3263249950597659484">Sebenzisa amathuluzi akho ayintandokazi eGoogle AI usendleleni ngeChromium ku-iOS.</translation>
+<translation id="6632498492152446344">Sebenzisa amathuluzi akho ayintandokazi eGoogle AI usendleleni ngeJoão Browser ku-iOS.</translation>
 <translation id="3286538390144397061">Qala kabusha manje</translation>
-<translation id="328888136576916638">Okhiye be-Google API abekho. Okunye ukusebenza kwe-Chromium kuzokhutshazwa.</translation>
+<translation id="532528773927600103">Okhiye be-Google API abekho. Okunye ukusebenza kwe-João Browser kuzokhutshazwa.</translation>
 <translation id="3296368748942286671">Qhubeka usebenzise izinhlelo zokusebenza ezingemuva uma i-Chromium ivaliwe</translation>
 <translation id="3313189106987092621">I-Chromium izokuxwayisa ngaphambi kokulayisha noma iyiphi isayithi isebenzisa uxhumo olungavikelekile</translation>
-<translation id="3316771292331273802">Uzophuma ngemvume emasayithini amaningi uma uvala wonke amawindi e-Chromium, ngaphandle kwe-Google Account yakho uma ungene ngemvume ku-Chromium. Ukuvumela amasayithi akukhumbule, <ph name="SETTINGS_LINK" />.</translation>
+<translation id="8095477191923518137">Uzophuma ngemvume emasayithini amaningi uma uvala wonke amawindi e-João Browser, ngaphandle kwe-Google Account yakho uma ungene ngemvume ku-João Browser. Ukuvumela amasayithi akukhumbule, <ph name="SETTINGS_LINK" />.</translation>
 <translation id="3352986031709923790">ikhona elingaphezulu ngakwesokudla lendawo yokusesha: ngakwesokudla okungu-<ph name="RIGHT" />%, phezulu okungu-<ph name="TOP" />%</translation>
 <translation id="3366305173356742781">Idatha ye-Chromium ku-akhawunti yakho</translation>
-<translation id="3375770072980084583">Sebenzisa amaphasiwedi akho ngeChromium efonini yakho</translation>
+<translation id="3234882977104294240">Sebenzisa amaphasiwedi akho ngeJoão Browser efonini yakho</translation>
 <translation id="3387527074123400161">I-ChromiumOS</translation>
-<translation id="3406848076815591792">Shintshela kwiphrofayela le-Chromium elikhona kakade?</translation>
+<translation id="2974199599420431595">Shintshela kwiphrofayela le-João Browser elikhona kakade?</translation>
 <translation id="3412460710772753638">Kokuthi Isiphathi Sephasiwedi kule divayisi</translation>
 <translation id="3438772217992559640">Sesha Le Thebhu Ngosesho Lomfanekiso</translation>
-<translation id="3455907671758333080">Nweba Ukubhrawuza Okuphephe Ngokuthuthukisiwe ngeChromium efonini yakho</translation>
-<translation id="3461644266919055473">Yenza iChromium ibe ngeyakho...</translation>
+<translation id="8318147705317768982">Nweba Ukubhrawuza Okuphephe Ngokuthuthukisiwe ngeJoão Browser efonini yakho</translation>
+<translation id="347392028839310978">Yenza iJoão Browser ibe ngeyakho...</translation>
 <translation id="3474745554856756813">Lokhu kuzobuyekeza izinto ezingu-<ph name="ITEMS_COUNT" /> kusuka kule divayisi. Ukuze ubuyise idatha yakho, ngena ngemvume ku-<ph name="USER_EMAIL" /> njengo.</translation>
-<translation id="3497319089134299931">I-<ph name="SHORTCUT" /> ingashintsha phakathi kwamaphrofayela we-Chromium</translation>
-<translation id="3509308970982693815">Sicela uvale wonke amawindi we-Chromium uphinde uzame futhi.</translation>
-<translation id="3522404737534491619">Ukuze wabelane ngewindi lakho, vumela ukurekhodwa kwesikrini kweChromium Kumasethingi Ohlelo.</translation>
-<translation id="3530103706039034513">U-<ph name="EXISTING_USER" /> usevele ungene ngemvume.  Ukuze ugcine ukubhrawuza kwakho kuhlukile, ngena ngemvume ku-Chromium kuphrofayela yakho njengo-<ph name="USER_EMAIL_ADDRESS" /></translation>
-<translation id="3531741627422851418">Ikhodi ye-QR yokudawuniloda ibhrawuza yeChromium kumadivayisi eselula</translation>
+<translation id="5805833167703404998">I-<ph name="SHORTCUT" /> ingashintsha phakathi kwamaphrofayela we-João Browser</translation>
+<translation id="1835124883585653877">Sicela uvale wonke amawindi we-João Browser uphinde uzame futhi.</translation>
+<translation id="7106246566966568195">Ukuze wabelane ngewindi lakho, vumela ukurekhodwa kwesikrini kweJoão Browser Kumasethingi Ohlelo.</translation>
+<translation id="6017005873246021363">U-<ph name="EXISTING_USER" /> usevele ungene ngemvume.  Ukuze ugcine ukubhrawuza kwakho kuhlukile, ngena ngemvume ku-João Browser kuphrofayela yakho njengo-<ph name="USER_EMAIL_ADDRESS" /></translation>
+<translation id="1146681170626381319">Ikhodi ye-QR yokudawuniloda ibhrawuza yeJoão Browser kumadivayisi eselula</translation>
 <translation id="354621070532799440">Isikhumbuzi: Izakhi zokuphepha ezihamba phambili zeGoogle ephaketheni lakho</translation>
-<translation id="3561853857681580870">Ukuze wabelane ngesikrini sakho, vumela ukurekhodwa kwesikrini kweChromium Kumasethingi Ohlelo.</translation>
+<translation id="2488701737291439763">Ukuze wabelane ngesikrini sakho, vumela ukurekhodwa kwesikrini kweJoão Browser Kumasethingi Ohlelo.</translation>
 <translation id="3588112919289558122">Ukuvikeleka okuthuthukisiwe kuvala ukulungiselelwa kweJavaScript emasayithini iChromium engawaqapheli</translation>
 <translation id="3597003331831379823">Ihlulekile ukuqalisa isethaphu ngamalungelo aphakeme. <ph name="METAINSTALLER_ERROR" /></translation>
-<translation id="3600428265489994557">Ngena ngemvume kuChromium</translation>
-<translation id="3639635944603682591">Idatha yokuphequlula yalo muntu izosuswa kusukela kule divayisi. Ukuze uphinde uthole idatha, ngena ngemvume ku-Chromium njengo-<ph name="USER_EMAIL" />.</translation>
-<translation id="364817392622123556">{COUNT,plural, =0{Isibuyekezo esisha se-Chromium siyatholakala futhi sizosetshenziswa maduze ngemuva kokuthi uqalise kabusha.}=1{Isibuyekezo esisha se-Chromium siyatholakala futhi sizosetshenziswa maduze ngemuva kokuthi uqalise kabusha. Iwindi lakho le-Incognito ngeke liphinde livuleke.}one{Isibuyekezo esisha se-Chromium siyatholakala futhi sizosetshenziswa maduze ngemuva kokuthi uqalise kabusha. Amawindi akho angu-# e-Incognito ngeke aze aphinde avuleke.}other{Isibuyekezo esisha se-Chromium siyatholakala futhi sizosetshenziswa maduze ngemuva kokuthi uqalise kabusha. Amawindi akho angu-# e-Incognito ngeke aze aphinde avuleke.}}</translation>
+<translation id="7882299119268334705">Ngena ngemvume kuJoão Browser</translation>
+<translation id="5985252758124395804">Idatha yokuphequlula yalo muntu izosuswa kusukela kule divayisi. Ukuze uphinde uthole idatha, ngena ngemvume ku-João Browser njengo-<ph name="USER_EMAIL" />.</translation>
+<translation id="3873330960224886843">{COUNT,plural, =0{Isibuyekezo esisha se-João Browser siyatholakala futhi sizosetshenziswa maduze ngemuva kokuthi uqalise kabusha.}=1{Isibuyekezo esisha se-João Browser siyatholakala futhi sizosetshenziswa maduze ngemuva kokuthi uqalise kabusha. Iwindi lakho le-Incognito ngeke liphinde livuleke.}one{Isibuyekezo esisha se-João Browser siyatholakala futhi sizosetshenziswa maduze ngemuva kokuthi uqalise kabusha. Amawindi akho angu-# e-Incognito ngeke aze aphinde avuleke.}other{Isibuyekezo esisha se-João Browser siyatholakala futhi sizosetshenziswa maduze ngemuva kokuthi uqalise kabusha. Amawindi akho angu-# e-Incognito ngeke aze aphinde avuleke.}}</translation>
 <translation id="3667616615096815454">Ayikwazi ukufaka, uhlelo lokusebenza alwaziwa kuseva.</translation>
 <translation id="3675854891107786059">Sebenzisa <ph name="BEGIN_LINK" />umushwana wokungena <ph name="END_LINK" />ukuze ubhale ngokubethela idatha yeChrome kuGoogle Account yakho. Izindlela zokukhokha namakheli kusuka kuGoogle Pay ngeke kubethelwe. Umlando wokubhrawuza ovela kuChromium ngeke uvumelanise.</translation>
-<translation id="370962675267501463">{COUNT,plural, =0{Umlawuli wakho ucela ukuthi uqalise kabusha i-Chromium ukuze kusetshenziswe lesi sibuyekezo}=1{Umlawuli wakho ucela ukuthi uqalise kabusha i-Chromium ukuze kusetshenziswe lesi sibuyekezo. Iwindi lakho le-Incognito ngeke liphinde livuleke.}one{Umlawuli wakho ucela ukuthi uqalise kabusha i-Chromium ukuze kusetshenziswe lesi sibuyekezo. Amawindi akho angu-# e-Incognito ngeke aze aphinde avuleke.}other{Umlawuli wakho ucela ukuthi uqalise kabusha i-Chromium ukuze kusetshenziswe lesi sibuyekezo. Amawindi akho angu-# e-Incognito ngeke aze aphinde avuleke.}}</translation>
-<translation id="3713809861844741608">Vula isixhumanisi ku&amp;thebhu elisha le-Chromium</translation>
+<translation id="6155809479106644907">{COUNT,plural, =0{Umlawuli wakho ucela ukuthi uqalise kabusha i-João Browser ukuze kusetshenziswe lesi sibuyekezo}=1{Umlawuli wakho ucela ukuthi uqalise kabusha i-João Browser ukuze kusetshenziswe lesi sibuyekezo. Iwindi lakho le-Incognito ngeke liphinde livuleke.}one{Umlawuli wakho ucela ukuthi uqalise kabusha i-João Browser ukuze kusetshenziswe lesi sibuyekezo. Amawindi akho angu-# e-Incognito ngeke aze aphinde avuleke.}other{Umlawuli wakho ucela ukuthi uqalise kabusha i-João Browser ukuze kusetshenziswe lesi sibuyekezo. Amawindi akho angu-# e-Incognito ngeke aze aphinde avuleke.}}</translation>
+<translation id="4134769722455445399">Vula isixhumanisi ku&amp;thebhu elisha le-João Browser</translation>
 <translation id="3728124580182886854">Linka i-Chromium namanye amasevisi e-Google ngokwenza ngokomuntu ngamunye nangezinye izinjongo</translation>
 <translation id="3729187154190517324">Julisa usesho lwakho ngokufaka amathebhu amaningi, amafayela, namathuluzi usebenzisa inkinobho ethi "Faka ithebhu nokuningi".</translation>
-<translation id="3788675262216168505">Phatha Amaphrofayela e-Chromium</translation>
-<translation id="3790262771324122253">Funda ukuthi kungani i-Chromium ivimbela ukudawuniloda okuthile</translation>
+<translation id="655691042235349825">Phatha Amaphrofayela e-João Browser</translation>
+<translation id="8494798931804571569">Funda ukuthi kungani i-João Browser ivimbela ukudawuniloda okuthile</translation>
 <translation id="379589255253486813">I-Chromium izokwazisa uma kukhona okudinga isibuyekezo sakho</translation>
 <translation id="3802055581630249637">I-Chromium ilayisha kusengaphambili amakhasi okungenzeka uwavakashele, ukuze alayishe ngokushesha lapho uwavakashela</translation>
 <translation id="3810973564298564668">Phatha</translation>
-<translation id="3823384748599722168">Ukuze usebenzise amaphasiwedi akho agciniwe, landela ikhodi ye-QR, dawuniloda iChromium ye-iOS bese ungena ngemvume kuGoogle Account yakho</translation>
+<translation id="6945066279282141856">Ukuze usebenzise amaphasiwedi akho agciniwe, landela ikhodi ye-QR, dawuniloda iJoão Browser ye-iOS bese ungena ngemvume kuGoogle Account yakho</translation>
 <translation id="3846683726093018685">**Fingqa:** Ngomusho owodwa onamagama angaphansi kwa-30, chaza abantu ebhekiswe kubo nenjongo eyinhloko yekhontenti yakho eku-screenshot.
 
           **Phakamisa Imibuzo:** Sungula uhlu lwamachashazi olunemibuzo emi-3 ukuya kwemi-5 eshukumisa ingqondo engase ibuzwe umsebenzisi ukuze asiqonde kahle i-screenshot. Le mibuzo kufanele ihlanganise okungenani owodwa okhuluma ngokuqondile ngento ebukwayo, indlela eklanywe ngayo, noma indawo ekuyo.</translation>
-<translation id="3848258323044014972"><ph name="PAGE_TITLE" /> - Chromium</translation>
-<translation id="387514319934708384">IChromium idinga imvume yenethiwekhi yendawo kule sayithi</translation>
+<translation id="4996569675441627032"><ph name="PAGE_TITLE" /> - João Browser</translation>
+<translation id="6008740052107737825">IJoão Browser idinga imvume yenethiwekhi yendawo kule sayithi</translation>
 <translation id="3885770153807205175">Okokukhetha ulimi</translation>
-<translation id="388648406173476553">Yenza ngokwezifiso uphinde ulawule i-Chromium. Okuthile kudinga ukuthi ukunake - chofoza ngemininingwane.</translation>
-<translation id="3889543394854987837">Chofoza igama lakho ukuze uvule i-Chromium uphinde uqale ukudlulisa amehlo.</translation>
+<translation id="2390004682597453662">Yenza ngokwezifiso uphinde ulawule i-João Browser. Okuthile kudinga ukuthi ukunake - chofoza ngemininingwane.</translation>
+<translation id="8262407643678629134">Chofoza igama lakho ukuze uvule i-João Browser uphinde uqale ukudlulisa amehlo.</translation>
 <translation id="3892148308691398805">Kopisha umbhalo</translation>
-<translation id="390528597099634151">U-<ph name="EXISTING_USER" /> usengene ngemvume kakade kule phrofayela ye-Chromium. Ukuze uqhubeke nokuphequlula ngokwehlukile, i-Chromium ingakwazi ukukudalela iphrofayela yakho.</translation>
-<translation id="3909353120217047026">Lesi sandiso sephula inqubomgomo Yesitolo sewebu se-Chrome, futhi kungenzeka singabi esiphephile. Sisuse ku-Chromium ukuze singasakwazi ukubona nokushintsha idatha yakho kumasayithi owavakashelayo, okufaka phakathi ulwazi lwakho lomuntu siqu.</translation>
+<translation id="2168201717554927204">U-<ph name="EXISTING_USER" /> usengene ngemvume kakade kule phrofayela ye-João Browser. Ukuze uqhubeke nokuphequlula ngokwehlukile, i-João Browser ingakwazi ukukudalela iphrofayela yakho.</translation>
+<translation id="1046732460303790107">Lesi sandiso sephula inqubomgomo Yesitolo sewebu se-Chrome, futhi kungenzeka singabi esiphephile. Sisuse ku-João Browser ukuze singasakwazi ukubona nokushintsha idatha yakho kumasayithi owavakashelayo, okufaka phakathi ulwazi lwakho lomuntu siqu.</translation>
 <translation id="3941890832296813527">Iphutha lokufaka: Igama lefayela lesifaki alivumelekile noma alisekelwe.</translation>
-<translation id="3945058413678539331">I-Chromium izama ukukopisha amaphasiwedi. Thayipha iphasiwedi yakho ye-Windows ukuze uvumele lokhu.</translation>
-<translation id="3954172517175569325">Amaphasiwedi akho, izindlela zokukhokha, namakheli owalondoloze kuGoogle Account yakho azosuswa kule divayisi. Ukuze uphinde uzisebenzise kuChromium, ngena ngemvume futhi.</translation>
+<translation id="3879366121647289622">I-João Browser izama ukukopisha amaphasiwedi. Thayipha iphasiwedi yakho ye-Windows ukuze uvumele lokhu.</translation>
+<translation id="7332365758981378072">Amaphasiwedi akho, izindlela zokukhokha, namakheli owalondoloze kuGoogle Account yakho azosuswa kule divayisi. Ukuze uphinde uzisebenzise kuJoão Browser, ngena ngemvume futhi.</translation>
 <translation id="395904275706073188">Amakhasi avikelwe awakwazi ukufundwa. Zama ikhasi elehlukile.</translation>
 <translation id="3962647064319009959">Funda ukuthi i-Chromium ikugcina kanjani uphephile</translation>
 <translation id="3967822245660637423">Ukulanda kuqedile</translation>
@@ -281,271 +281,271 @@ Ezinye izici kungenzeka zingabi khona futhi izinguquko kokuncamelayo ngeke zize 
 <translation id="4019629340646866719">I-ChromiumOS yenziwe ukuthi isebenze ngesofthiwe yomthombo ovulekile owengeziwe<ph name="BEGIN_LINK_CROS_OSS" />isofthiwe yomthombo ovulekile<ph name="END_LINK_CROS_OSS" />, njengoba kunjalo ngendawo yokuthuthukiswa kwe-<ph name="BEGIN_LINK_LINUX_OSS" />Linux<ph name="END_LINK_LINUX_OSS" />.</translation>
 <translation id="4022972681110646219">Isikrini sokuhumusha</translation>
 <translation id="4023601594785368013">Ulimi loqobo: <ph name="LANGUAGE" /></translation>
-<translation id="4023845192681161785">Vula amalinki kuChromium kunoma iyiphi i-app. Futhi ukuze ifinyeleleke kalula, iphinwa ku-taskbar yakho.</translation>
+<translation id="6855094093276351199">Vula amalinki kuJoão Browser kunoma iyiphi i-app. Futhi ukuze ifinyeleleke kalula, iphinwa ku-taskbar yakho.</translation>
 <translation id="4036079820698952681">Siza i-Chromium ibengcono ngokubika <ph name="BEGIN_LINK" />izilungiselelo zamanje<ph name="END_LINK" /></translation>
 <translation id="4050175100176540509">Ukuthuthukiswa kokuphepha okubalulekile nezici ezintsha kuyathokala kunguqulo yakamuva.</translation>
 <translation id="4055805654398742145">Umphathi Wephasiwedi</translation>
-<translation id="4095980151185649725">{COUNT,plural, =1{Inhlangano yakho ivala i-Chromium ngokuzenzekelayo uma ingasetshenziswanga umzuzu o-1. Idatha yokubhrawuza isuliwe. Lokhu kungase kuhlanganise umlando, ukugcwalisa ngokuzenzakalelayo, nokudawuniloda.}one{Inhlangano yakho ivala i-Chromium ngokuzenzekelayo uma ingasetshenziswanga imizuzu engu-#. Idatha yokubhrawuza isuliwe. Lokhu kungase kuhlanganise umlando, ukugcwalisa ngokuzenzakalelayo, nokudawuniloda.}other{Inhlangano yakho ivala i-Chromium ngokuzenzekelayo uma ingasetshenziswanga imizuzu engu-#. Idatha yokubhrawuza isuliwe. Lokhu kungase kuhlanganise umlando, ukugcwalisa ngokuzenzakalelayo, nokudawuniloda.}}</translation>
+<translation id="615818333141511791">{COUNT,plural, =1{Inhlangano yakho ivala i-João Browser ngokuzenzekelayo uma ingasetshenziswanga umzuzu o-1. Idatha yokubhrawuza isuliwe. Lokhu kungase kuhlanganise umlando, ukugcwalisa ngokuzenzakalelayo, nokudawuniloda.}one{Inhlangano yakho ivala i-João Browser ngokuzenzekelayo uma ingasetshenziswanga imizuzu engu-#. Idatha yokubhrawuza isuliwe. Lokhu kungase kuhlanganise umlando, ukugcwalisa ngokuzenzakalelayo, nokudawuniloda.}other{Inhlangano yakho ivala i-João Browser ngokuzenzekelayo uma ingasetshenziswanga imizuzu engu-#. Idatha yokubhrawuza isuliwe. Lokhu kungase kuhlanganise umlando, ukugcwalisa ngokuzenzakalelayo, nokudawuniloda.}}</translation>
 <translation id="4118474109249235144">I-Chromium Incognito</translation>
 <translation id="4122186850977583290">Iya ekhasini elithi Mayelana neChromium</translation>
-<translation id="4135244987012252068">Qamba ngokwabahlinzekelwayo iChrome ukuze unikeze ibhrawuza yakho ukubukeka okusha</translation>
-<translation id="4147856324248078748">Qamba ngokwabahlinzekelwayo iChromium yakho</translation>
+<translation id="9207280419664362385">Qamba ngokwabahlinzekelwayo iChrome ukuze unikeze ibhrawuza yakho ukubukeka okusha</translation>
+<translation id="3719803995198923598">Qamba ngokwabahlinzekelwayo iJoão Browser yakho</translation>
 <translation id="4148957013307229264">Iyafaka...</translation>
-<translation id="419998258129752635"><ph name="PAGE_TITLE" /> - Inethiwekhi Yokungena ngemvume - i-Chromium</translation>
-<translation id="421369550622382712">Thola izinhlelo zokusebenza ezinhle, amageyimu, izandiso, namatimu we-Chromium.</translation>
-<translation id="4217080900579554343">Ukuze uthole lesi sandiso nokuningi kuwo wonke amakhompyutha wakho, ngena ngemvume kuChromium</translation>
-<translation id="4217972271355023382">Ukuze uhlale uphephile ku-inthanethi ngokukhetha komzali wakho, shintshela kuphrofayela yakho yeChromium lapho usungene ngemvume kakade njengo-<ph name="USER_EMAIL_ADDRESS" /></translation>
+<translation id="2954462321765112214"><ph name="PAGE_TITLE" /> - Inethiwekhi Yokungena ngemvume - i-João Browser</translation>
+<translation id="7812363663832111420">Thola izinhlelo zokusebenza ezinhle, amageyimu, izandiso, namatimu we-João Browser.</translation>
+<translation id="69200600645763018">Ukuze uthole lesi sandiso nokuningi kuwo wonke amakhompyutha wakho, ngena ngemvume kuJoão Browser</translation>
+<translation id="7505863944027312744">Ukuze uhlale uphephile ku-inthanethi ngokukhetha komzali wakho, shintshela kuphrofayela yakho yeJoão Browser lapho usungene ngemvume kakade njengo-<ph name="USER_EMAIL_ADDRESS" /></translation>
 <translation id="4222932583846282852">Iyakhansela...</translation>
 <translation id="4224210481850767180">Ukufaka kukhanseliwe.</translation>
-<translation id="4230135487732243613">Xhumanisa idatha yakho ye-Chromium kule akhawunti?</translation>
+<translation id="8090594705972340646">Xhumanisa idatha yakho ye-João Browser kule akhawunti?</translation>
 <translation id="4251772536351901305">Ikuxwayisa mayelana namasayithi ayingozi, ngisho nalawo i-Google ebingazi ngawo ngaphambili, ngokuhlaziya idatha eningi evela kumasayithi kunokuvikela okujwayelekile. Ungakhetha ukweqa izixwayiso ze-Chromium.</translation>
-<translation id="4269093074552541569">Phuma Ngemvume ku-Chromium</translation>
+<translation id="5696119579094527589">Phuma Ngemvume ku-João Browser</translation>
 <translation id="4271805377592243930">Thola usizo nge-Chromium</translation>
 <translation id="4281844954008187215">Imigomo yesevisi</translation>
-<translation id="4285930937574705105">Ukufaka kuhlulekile ngenxa yephutha elingacacisiwe. Uma ngabe i-Chromium iyasebenza manje, sicela uyivale uphinde uzame futhi.</translation>
-<translation id="4298125729853015961">Khipha amaphasiwedi Ukusuka kuChromium</translation>
+<translation id="1245307320228150348">Ukufaka kuhlulekile ngenxa yephutha elingacacisiwe. Uma ngabe i-João Browser iyasebenza manje, sicela uyivale uphinde uzame futhi.</translation>
+<translation id="7405356088321579627">Khipha amaphasiwedi Ukusuka kuJoão Browser</translation>
 <translation id="4304713468139749426">Isiphathi sephasiwedi</translation>
 <translation id="4334241893986177674">Sesha lesi sithombe-skrini</translation>
-<translation id="4384331407722351213">Qalisa iChromium lapho iWindows iqala</translation>
+<translation id="212570256141568951">Qalisa iJoão Browser lapho iWindows iqala</translation>
 <translation id="4400772909124543403">Asikho isibuyekezo esitholakalayo</translation>
-<translation id="4407044323746248786">Phuma ku-Chromium noma kunjalo?</translation>
+<translation id="7463042547966071103">Phuma ku-João Browser noma kunjalo?</translation>
 <translation id="4413205837991854510">Bonisa Isinqamuleli Sokusesha Umfanekiso Njalo</translation>
-<translation id="4415566066719264597">Vumela i-Chromium isebenze ngemuva</translation>
-<translation id="4419831163359812184">{NUM_EXTENSIONS,plural, =1{IChromium incoma ukuthi usisuse. <ph name="BEGIN_LINK" />Funda kabanzi mayelana nezandiso ezisekelwayo<ph name="END_LINK" />}one{IChromium incoma ukuthi uzisuse. <ph name="BEGIN_LINK" />Funda kabanzi mayelana nezandiso ezisekelwayo<ph name="END_LINK" />}other{IChromium incoma ukuthi uzisuse. <ph name="BEGIN_LINK" />Funda kabanzi mayelana nezandiso ezisekelwayo<ph name="END_LINK" />}}</translation>
-<translation id="4423735387467980091">Yenza ngokwezifiso uphinde ulawule i-Chromium</translation>
+<translation id="4736206301215400753">Vumela i-João Browser isebenze ngemuva</translation>
+<translation id="821847589110998911">{NUM_EXTENSIONS,plural, =1{IJoão Browser incoma ukuthi usisuse. <ph name="BEGIN_LINK" />Funda kabanzi mayelana nezandiso ezisekelwayo<ph name="END_LINK" />}one{IJoão Browser incoma ukuthi uzisuse. <ph name="BEGIN_LINK" />Funda kabanzi mayelana nezandiso ezisekelwayo<ph name="END_LINK" />}other{IJoão Browser incoma ukuthi uzisuse. <ph name="BEGIN_LINK" />Funda kabanzi mayelana nezandiso ezisekelwayo<ph name="END_LINK" />}}</translation>
+<translation id="5305058100936019600">Yenza ngokwezifiso uphinde ulawule i-João Browser</translation>
 <translation id="4427306783828095590">Isivikelo esithuthukisiwe senza okuningi ukuvimba ubugebengu bokweba imininingwane ebucayi kanye uhlelo olungayilungele ikhompyutha</translation>
 <translation id="4434353761996769206">Iphutha lesifaki: <ph name="INSTALLER_ERROR" /></translation>
-<translation id="4438870983368648614">U-<ph name="MANAGER" /> uphatha iChromium</translation>
-<translation id="444069871276811466">Faka iphrofayela yeChromium</translation>
+<translation id="3461955321878243607">U-<ph name="MANAGER" /> uphatha iJoão Browser</translation>
+<translation id="3379477508903866078">Faka iphrofayela yeJoão Browser</translation>
 <translation id="4447409407328223819">Mayelana ne-Chrome Yokuhlola</translation>
-<translation id="4470974262661801543">Ukuze usebenzise futhi ulondoloze idatha yeChromium kuGoogle Account yakho, faka umushwana wakho wokungena</translation>
+<translation id="4074057296993529937">Ukuze usebenzise futhi ulondoloze idatha yeJoão Browser kuGoogle Account yakho, faka umushwana wakho wokungena</translation>
 <translation id="4493028449971051158">Iphutha ekuqaliseni: sicela usebenzise isifaki njengomlawuli.</translation>
 <translation id="4501471624619070934">Ukufaka kuhlulekile ngoba ukufinyelela kukhawulelwe kuleli zwe.</translation>
-<translation id="4510853178268397146">Lesi sandiso asikashicileli izindlela zangasese zokuziphatha, njengokuthi siyiqoqa futhi siyisebenzise kanjani idatha. I-Chromium incoma ukuthi usisuse.</translation>
-<translation id="452711251841752011">Siyakwamukela ku-Chromium; iwindi elisha lesiphequluli livuliwe</translation>
-<translation id="4531137820806573936">I-Chromium idinga imvume yokumepha indawo ekuzungezile futhi ilandelele izandla zakho</translation>
-<translation id="4536805923587466102">Usuvele ungene ngemvume njengo-<ph name="USER_EMAIL_ADDRESS" /> kwenye iphrofayela ye-Chromium</translation>
+<translation id="8624811527667906941">Lesi sandiso asikashicileli izindlela zangasese zokuziphatha, njengokuthi siyiqoqa futhi siyisebenzise kanjani idatha. I-João Browser incoma ukuthi usisuse.</translation>
+<translation id="5571435860030744559">Siyakwamukela ku-João Browser; iwindi elisha lesiphequluli livuliwe</translation>
+<translation id="8132016625974854930">I-João Browser idinga imvume yokumepha indawo ekuzungezile futhi ilandelele izandla zakho</translation>
+<translation id="6599071882590417739">Usuvele ungene ngemvume njengo-<ph name="USER_EMAIL_ADDRESS" /> kwenye iphrofayela ye-João Browser</translation>
 <translation id="4548534452171747496">IChromium ilayisha ngaphambilini amakhasi okwenza ukubhrawuza nokusesha kusheshe. <ph name="BEGIN_LINK" />Funda kabanzi mayelana namakhasi okulayisha kuqala<ph name="END_LINK" /></translation>
 <translation id="4549180975214802957">Uthuthukisa ukuphepha ku-inthanethi kwawo wonke umuntu uma ubika isayithi ocabanga ukuthi liyingozi.</translation>
-<translation id="4570813286784708942">I-Chromium ivimbele lokhu kudawuniloda ngoba uvale Ukuphequlula Okuphephile futhi ifayela alikwazi ukuqinisekiswa</translation>
-<translation id="4583692638088316420">Zama iGoogle Lens ngeChromium efonini yakho</translation>
+<translation id="202208802191333704">I-João Browser ivimbele lokhu kudawuniloda ngoba uvale Ukuphequlula Okuphephile futhi ifayela alikwazi ukuqinisekiswa</translation>
+<translation id="3128308674776200516">Zama iGoogle Lens ngeJoão Browser efonini yakho</translation>
 <translation id="4594305310729380060">Kusiphathi Sephasiwedi kule divayisi</translation>
-<translation id="459535195905078186">Izinhlelo zokusebenza ze-Chromium</translation>
+<translation id="7653380076752216509">Izinhlelo zokusebenza ze-João Browser</translation>
 <translation id="4598116752460667024">Sesha noma iyiphi inqubo ohlwini.</translation>
 <translation id="4613863813562375431">Uhlobo lwe-ChromiumOS</translation>
 <translation id="4621240073146040695">Icishe isesikhathini! Qalisa kabusha i-Chromium ukuze uqedele ukubuyekeza.</translation>
-<translation id="4625064703209785397">Isheshisa amasayithi anenjini yeChromium V8 kodwa yenza iChromium ingabi namandla okumelana nokuhlaselwa.</translation>
-<translation id="4665829708273112819">Isexwayiso: I-Chromium ayikwazi ukuvimbela izandiso kusuka ekurekhodeni umlando wakho wokudlulisa amehlo. Ukuze ukhubaze lesi sandiso kumodi ye-incognito, yekisa ukukhetha le nketho.</translation>
+<translation id="1497446027991908251">Isheshisa amasayithi anenjini yeJoão Browser V8 kodwa yenza iJoão Browser ingabi namandla okumelana nokuhlaselwa.</translation>
+<translation id="7523749920868634278">Isexwayiso: I-João Browser ayikwazi ukuvimbela izandiso kusuka ekurekhodeni umlando wakho wokudlulisa amehlo. Ukuze ukhubaze lesi sandiso kumodi ye-incognito, yekisa ukukhetha le nketho.</translation>
 <translation id="4673151026126227699">Uma futhi wabelana ngemibiko yokusetshenziswa kwe-Chromium, leyo mibiko ihlanganisa nama-URL owavakashelayo</translation>
 <translation id="4673710618874938871">Ungene ngemvume njengo-<ph name="USER_NAME" />, ubulungu. Vula imenyu ye-akhawunti</translation>
-<translation id="4677944499843243528">Iphrofayela ibukeka isetshenziswa enye inqubo ye-Chromium (<ph name="PROCESS_ID" />) kwenye ikhompyutha (<ph name="HOST_NAME" />). I-Chromium ikhiye iphrofayela ukuze ingamosheki. Uma uqinisekile ukuthi azikho ezinye izinqubo ezisebenzisa le phrofayela, ungavula iphrofayela uphinde uqalise i-Chromium.</translation>
+<translation id="6608258642372806522">Iphrofayela ibukeka isetshenziswa enye inqubo ye-João Browser (<ph name="PROCESS_ID" />) kwenye ikhompyutha (<ph name="HOST_NAME" />). I-João Browser ikhiye iphrofayela ukuze ingamosheki. Uma uqinisekile ukuthi azikho ezinye izinqubo ezisebenzisa le phrofayela, ungavula iphrofayela uphinde uqalise i-João Browser.</translation>
 <translation id="4680828127924988555">Khansela Ukufaka</translation>
-<translation id="469259825538636168">Enye idatha yakho yeChromium ayikalondolozwa kuGoogle Account. Zama ukulinda imizuzu embalwa ngaphambi kokuphuma ngemvume. Uma uphuma ngemvume manje, le datha izosulwa.</translation>
-<translation id="4708193446201257833">Ngenkathi ungene ngemvume, ungasebenzisa amaphasiwedi akho nokuningi ukusuka kuGoogle Account yakho kuChromium. I-<ph name="SHORTCUT" /> ingashintsha amasethingi wakho wamasevisi eGoogle.</translation>
-<translation id="4708774505295300557">Umuntu othile ungene ngemvume ngaphambilini ku-Chromium kule khompuyutha njengo-<ph name="ACCOUNT_EMAIL_LAST" />. Sicela udale umsebenzisi omusha we-Chromium ukuze ugcine ulwazi lwakho luhlukile.</translation>
+<translation id="3912572071294857936">Enye idatha yakho yeJoão Browser ayikalondolozwa kuGoogle Account. Zama ukulinda imizuzu embalwa ngaphambi kokuphuma ngemvume. Uma uphuma ngemvume manje, le datha izosulwa.</translation>
+<translation id="1077152188344040592">Ngenkathi ungene ngemvume, ungasebenzisa amaphasiwedi akho nokuningi ukusuka kuGoogle Account yakho kuJoão Browser. I-<ph name="SHORTCUT" /> ingashintsha amasethingi wakho wamasevisi eGoogle.</translation>
+<translation id="5729536702149847030">Umuntu othile ungene ngemvume ngaphambilini ku-João Browser kule khompuyutha njengo-<ph name="ACCOUNT_EMAIL_LAST" />. Sicela udale umsebenzisi omusha we-João Browser ukuze ugcine ulwazi lwakho luhlukile.</translation>
 <translation id="4724676981607797757">Ukufaka kuhlulekile ngenxa yephutha lephrothokholi engasekelwe.</translation>
-<translation id="4746050847053251315">Phuma ku-Chromium noma kunjalo?</translation>
-<translation id="4748217263233248895">Isibuyekezo esibalulekile sokuvikela se-Chromium sisanda kufakwa. Qalisa kabusha manje bese sizobuyisela amathebhu akho.</translation>
+<translation id="6273241729694500032">Phuma ku-João Browser noma kunjalo?</translation>
+<translation id="3239680024825449390">Isibuyekezo esibalulekile sokuvikela se-João Browser sisanda kufakwa. Qalisa kabusha manje bese sizobuyisela amathebhu akho.</translation>
 <translation id="4771701986670315895">Awukavakashi kamuva nje. IChromium isuse i-<ph name="PERMISSION_1" />, i-<ph name="PERMISSION_2" />, nokunye okungu-<ph name="COUNT" /> okwengeziwe</translation>
-<translation id="4786083865378785874">Uma iGemini kuChromium ivuliwe, iphaneli eseceleni ihlala ivuliwe uma usungula amathebhu amasha</translation>
+<translation id="1908292729364083164">Uma iGemini kuJoão Browser ivuliwe, iphaneli eseceleni ihlala ivuliwe uma usungula amathebhu amasha</translation>
 <translation id="479167709087336770">Lokhu kusebenzisa isihloli sokupeleta esifanayo naleso esisetshenziswe kusesho lwe-Google. Umbhalo owuthayiphayo kusiphequluli uthunyelwa ku-Google. Ungahlala ushintsha le mpatho kuzilungiselelo.</translation>
-<translation id="4814736265800133385">Sebenzisa i-Chromium ngaphandle kwe-akhawunti</translation>
-<translation id="4888717733111232871">Umyalo obambeke ngaphakathi we-Chromium wokuvumela ithrafikhi ye-mDNS.</translation>
-<translation id="4893347770495441059">Qalisa kabusha ukuze Ubuyekeze i-&amp;Chromium</translation>
+<translation id="189382710647501724">Sebenzisa i-João Browser ngaphandle kwe-akhawunti</translation>
+<translation id="4456919965836032212">Umyalo obambeke ngaphakathi we-João Browser wokuvumela ithrafikhi ye-mDNS.</translation>
+<translation id="3486986778673504636">Qalisa kabusha ukuze Ubuyekeze i-&amp;João Browser</translation>
 <translation id="4918086044614829423">Yamukela</translation>
 <translation id="4918844574251943176">Umfanekiso ukopishiwe</translation>
-<translation id="4943838377383847465">I-Chromium kumodi yasemuva.</translation>
-<translation id="494490797786467921">Chofoza ukuze uvale ibhokisi lokungena ngemvume leChromium</translation>
-<translation id="4950660488495335294">Ngamaphrofayela weChromium ungahlukanisa zonke izinto zakho zeChromium. Sungula amaphrofayela wabangane nomndeni, noma uhlukanise phakathi komsebenzi nobumnandi.</translation>
-<translation id="4987820182225656817">Izihambeli zingasebenzisa i-Chromium ngaphandle kokushiya noma yini ngemuva.</translation>
-<translation id="4992938037305302429">I-akhawunti Yakho kuChromium</translation>
-<translation id="4994636714258228724">Zingeze ngokwakho ku-Chromium</translation>
+<translation id="1571932028747131277">I-João Browser kumodi yasemuva.</translation>
+<translation id="7612124006067933008">Chofoza ukuze uvale ibhokisi lokungena ngemvume leJoão Browser</translation>
+<translation id="2598788273876744576">Ngamaphrofayela weJoão Browser ungahlukanisa zonke izinto zakho zeJoão Browser. Sungula amaphrofayela wabangane nomndeni, noma uhlukanise phakathi komsebenzi nobumnandi.</translation>
+<translation id="2115498792600385171">Izihambeli zingasebenzisa i-João Browser ngaphandle kokushiya noma yini ngemuva.</translation>
+<translation id="6870732303439257966">I-akhawunti Yakho kuJoão Browser</translation>
+<translation id="4366792189726044065">Zingeze ngokwakho ku-João Browser</translation>
 <translation id="504699503110800016">Vula imenyu yakho konke</translation>
-<translation id="5074496654342756568">Finyelela zonke izintandokazi zakho zeGoogle ngeChromium ku-<ph name="DEVICE_TYPE" /> yakho</translation>
-<translation id="5123973130450702873">IChromium idinga imvume ukuze ilandelele izandla zakho</translation>
+<translation id="4340125167559705618">Finyelela zonke izintandokazi zakho zeGoogle ngeJoão Browser ku-<ph name="DEVICE_TYPE" /> yakho</translation>
+<translation id="4916697359431064123">IJoão Browser idinga imvume ukuze ilandelele izandla zakho</translation>
 <translation id="5141988424377517949">Awukavakashi kamuva nje. IChromium isuse i-<ph name="PERMISSION_1" />, i-<ph name="PERMISSION_2" />, i-<ph name="PERMISSION_3" />.</translation>
 <translation id="5174969993834422967">Uvamise ukuvimba izaziso. Ukuze uvumele leli sayithi ukuthi likwazise, chofoza isithonjana sesaziso ekhoneni elingakwesokudla lebha yendawo yakho.</translation>
 <translation id="5174983315706567306">Asikho isikhala sediski esanele.</translation>
-<translation id="5187123684706427865">I-akhawunti yeChromium idinga ukuqinisekiswa kabusha</translation>
-<translation id="5223510345050543907">Qhubeka lapho ugcine khona ngeChromium ku-iOS.</translation>
-<translation id="5231355151045086930">Phuma ngemvume ku-Chromium</translation>
+<translation id="961070648267203077">I-akhawunti yeJoão Browser idinga ukuqinisekiswa kabusha</translation>
+<translation id="69363826605946518">Qhubeka lapho ugcine khona ngeJoão Browser ku-iOS.</translation>
+<translation id="471694954923709047">Phuma ngemvume ku-João Browser</translation>
 <translation id="5234764350956374838">Cashisa</translation>
-<translation id="5249261924633168472">Vula ilinki kuwindi leChromium Inco&amp;gnito</translation>
-<translation id="5276305953263010518">Thola i-app yeChromium ukuze ulondoloze amaphasiwedi usendleleni</translation>
+<translation id="5782956358171235578">Vula ilinki kuwindi leJoão Browser Inco&amp;gnito</translation>
+<translation id="903712329052383264">Thola i-app yeJoão Browser ukuze ulondoloze amaphasiwedi usendleleni</translation>
 <translation id="5277894862589591112">Ukuze ufake izinguquko zakho, qalisa kabusha i-Chromium</translation>
 <translation id="5286907366254680517">Okutholiwe</translation>
-<translation id="5289287148052354622">Thola i-app yeChromium</translation>
+<translation id="5593827909938092728">Thola i-app yeJoão Browser</translation>
 <translation id="5294316920224716406">Uma ubhrawuza ngemodi ye-Incognito, i-Chromium izokuxwayisa ngaphambi kokulayisha isayithi isebenzisa uxhumo olungavikelekile.</translation>
-<translation id="5313228254328109263">Isevisi Yangaphakathi Yesibuyekezi SeChromium</translation>
+<translation id="1066981078513393795">Isevisi Yangaphakathi Yesibuyekezi SeJoão Browser</translation>
 <translation id="5324450571874973775">Zisebenzise kanye nezinye izakhi zeGemini kuChromium</translation>
 <translation id="5346389065299425353">Julisa usesho lwakho ngokufaka amathebhu amaningi, amafayela, namathuluzi</translation>
-<translation id="5348677704241861105">Thola amazwibela asheshayo ale dokhumenti bese ubuza imibuzo ngeGemini kuChromium</translation>
+<translation id="1884203704972162365">Thola amazwibela asheshayo ale dokhumenti bese ubuza imibuzo ngeGemini kuJoão Browser</translation>
 <translation id="5352264705793813212">I-Chromium ithole izincomo ezithile zokuphepha zokubuyekeza kwakho</translation>
-<translation id="5352361688875342522">Amanye Amaphrofayela e-Chromium</translation>
-<translation id="535243042947607642">IChromiumOS ayikwazanga ukulondoloza idatha yeChromium kuGoogle Account yakho ngoba imininingwane yakho yokungena ngemvume ku-akhawunti iphelelwe yisikhathi</translation>
-<translation id="5358375970380395591">Ungena ngemvume nge-akhawunti ephethwe futhi unikeza umlawuli wayo ukulawula okungaphezulu kwephrofayela yakho ye-Chromium. Idatha yakho ye-Chromium, efana nezinhlelo zakho zokusebenza, amabhukhimakhi, umlando, amaphasiwedi, nezinye izilungiselelo zizoboshezelwa unaphakade ku-<ph name="USER_NAME" />. Uzokwazi ukususa le datha nge-Ideshibhodi yama-Akhawunti we-Google, kodwa ngeke uze ukwazi ukuhlobanisa le datha nenye i-akhawunti. <ph name="LEARN_MORE" /></translation>
+<translation id="4819697639570429319">Amanye Amaphrofayela e-João Browser</translation>
+<translation id="7878591304929138776">IChromiumOS ayikwazanga ukulondoloza idatha yeJoão Browser kuGoogle Account yakho ngoba imininingwane yakho yokungena ngemvume ku-akhawunti iphelelwe yisikhathi</translation>
+<translation id="5249614051186670898">Ungena ngemvume nge-akhawunti ephethwe futhi unikeza umlawuli wayo ukulawula okungaphezulu kwephrofayela yakho ye-João Browser. Idatha yakho ye-João Browser, efana nezinhlelo zakho zokusebenza, amabhukhimakhi, umlando, amaphasiwedi, nezinye izilungiselelo zizoboshezelwa unaphakade ku-<ph name="USER_NAME" />. Uzokwazi ukususa le datha nge-Ideshibhodi yama-Akhawunti we-Google, kodwa ngeke uze ukwazi ukuhlobanisa le datha nenye i-akhawunti. <ph name="LEARN_MORE" /></translation>
 <translation id="5368118228313795342">Ikhodi eyengeziwe: <ph name="EXTRA_CODE" />.</translation>
 <translation id="5377622451696208284">Ukuze uthole ukwenza ngokomuntu ngamunye, okufaka i-Chromium Kumsebenzi Wewebhu nowe-App</translation>
-<translation id="5383439451358640070">Funda ukuthi kungani i-Chromium ivimba amanye amafayela</translation>
+<translation id="108952623091824942">Funda ukuthi kungani i-João Browser ivimba amanye amafayela</translation>
 <translation id="5386450000063123300">Ibuyekeza i-Chromium (<ph name="PROGRESS_PERCENT" />)</translation>
 <translation id="538767207339317086">Vumela ukungena ngemvume kwe-Chromium</translation>
-<translation id="5405650547142096840">Susa kusuka  ku-Chromium</translation>
-<translation id="5424544524441439284">Yehlisa indlela yokusebenza kodwa kwenza iChromium imelane nakakhulu nokuhlaselwa</translation>
-<translation id="5427571867875391349">Setha i-Chromium njengesiphequluli sakho esizenzakalelayo</translation>
-<translation id="5438241569118040789"><ph name="PAGE_TITLE" /> - Chromium Beta</translation>
-<translation id="5460618461609401056">{NUM_TABS,plural, =1{IChromium Incoma Ukumisa Ithebhu Enciphisa Ijubane Lebhrawuza Yakho}one{IChromium Incoma Ukumisa Amathebhu Anciphisa Ijubane Lebhrawuza Yakho}other{IChromium Incoma Ukumisa Amathebhu Anciphisa Ijubane Lebhrawuza Yakho}}</translation>
-<translation id="5473971139929175403">I-Chromium kungenzeka ingasebenzi ngokufanelekile ngoba ayisasekelwa kule sistimu yokusatshalaliswa kwe-Linux</translation>
-<translation id="5475924890392386523">I-Chromium ivimbele lokhu kudawuniloda ngoba ifayela lingalimaza ama-akhawunti wakho omuntu siqu nawenethiwekhi yokuxhumana nomphakathi</translation>
-<translation id="549669000822060376">Sicela ulinde ngenkathi i-Chromium ifaka izibuyekezo zesistimu zakamuva.</translation>
-<translation id="5496810170689441661">I-Chromium izama ukuhlela amaphasiwedi. Thayipha iphasiwedi yakho ye-Windows ukuze uvumele lokhu.</translation>
-<translation id="549975168243349205">Sebenza ngaphandle kokuphazamiseka ngama-app akho ayintandokazi njengeGoogle Drive neYouTube usendleleni ngeChromium.</translation>
+<translation id="1265086181910844216">Susa kusuka  ku-João Browser</translation>
+<translation id="1500700851187484222">Yehlisa indlela yokusebenza kodwa kwenza iJoão Browser imelane nakakhulu nokuhlaselwa</translation>
+<translation id="6665657403278704382">Setha i-João Browser njengesiphequluli sakho esizenzakalelayo</translation>
+<translation id="3520901681432894293"><ph name="PAGE_TITLE" /> - João Browser Beta</translation>
+<translation id="5994273394215159270">{NUM_TABS,plural, =1{IJoão Browser Incoma Ukumisa Ithebhu Enciphisa Ijubane Lebhrawuza Yakho}one{IJoão Browser Incoma Ukumisa Amathebhu Anciphisa Ijubane Lebhrawuza Yakho}other{IJoão Browser Incoma Ukumisa Amathebhu Anciphisa Ijubane Lebhrawuza Yakho}}</translation>
+<translation id="646791423998269453">I-João Browser kungenzeka ingasebenzi ngokufanelekile ngoba ayisasekelwa kule sistimu yokusatshalaliswa kwe-Linux</translation>
+<translation id="7249139852479053716">I-João Browser ivimbele lokhu kudawuniloda ngoba ifayela lingalimaza ama-akhawunti wakho omuntu siqu nawenethiwekhi yokuxhumana nomphakathi</translation>
+<translation id="478612683981218420">Sicela ulinde ngenkathi i-João Browser ifaka izibuyekezo zesistimu zakamuva.</translation>
+<translation id="3466187211963597724">I-João Browser izama ukuhlela amaphasiwedi. Thayipha iphasiwedi yakho ye-Windows ukuze uvumele lokhu.</translation>
+<translation id="3133978491361824131">Sebenza ngaphandle kokuphazamiseka ngama-app akho ayintandokazi njengeGoogle Drive neYouTube usendleleni ngeJoão Browser.</translation>
 <translation id="5524890928877629608">ikhona elingaphezulu ngakwesokunxele lendawo yokusesha: ngakwesokunxele okungu-<ph name="LEFT" />%, phezulu okungu<ph name="TOP" />%</translation>
 <translation id="5527463683072221100">Vula ama-PDF ku-Chromium</translation>
 <translation id="5536164441519929134">Buza<ph name="LINE_BREAK" />mayelana nale thebhu</translation>
-<translation id="555970465369471303">Ukuvikeleka, iChromium ivala ukulungiselela kweJavaScript uma uvakashela isayithi okokuqala ngqa.
+<translation id="3902123582863904748">Ukuvikeleka, iJoão Browser ivala ukulungiselela kweJavaScript uma uvakashela isayithi okokuqala ngqa.
 
 Uma leli khasi lingasebenzi njengoba kulindelekile, zama ukuvumela ukulungiselela.</translation>
-<translation id="5575874067957905201">Bonisa iGemini kuChromium kubha yemenyu yeMac bese uvula isinqamuleli sekhibhodi</translation>
-<translation id="5576587363991567745">U-<ph name="EXISTING_USER" /> usevele ungene ngemvume. Ukuze ugcine ukubhrawuza kwakho kuhlukile, ngena ngemvume kuChromium kuphrofayela yakho njengo-<ph name="USER_EMAIL_ADDRESS" /> Uzophinde uthole ulwazi lwakho olulondoloziwe nokuningi ku-<ph name="DEVICE" />.</translation>
+<translation id="5924481826213021755">Bonisa iGemini kuJoão Browser kubha yemenyu yeMac bese uvula isinqamuleli sekhibhodi</translation>
+<translation id="4988760628116707723">U-<ph name="EXISTING_USER" /> usevele ungene ngemvume. Ukuze ugcine ukubhrawuza kwakho kuhlukile, ngena ngemvume kuJoão Browser kuphrofayela yakho njengo-<ph name="USER_EMAIL_ADDRESS" /> Uzophinde uthole ulwazi lwakho olulondoloziwe nokuningi ku-<ph name="DEVICE" />.</translation>
 <translation id="5579324208890605088">Iphutha ekuqaliseni: sicela usebenzise isifaki njengomsebenzisi ovamile, hhayi njengomlawuli.</translation>
-<translation id="5580770360767802657">Sebenzisa iChromium ngokuzenzakalelayo futhi uyenze iphinwe</translation>
+<translation id="697769674160644707">Sebenzisa iJoão Browser ngokuzenzakalelayo futhi uyenze iphinwe</translation>
 <translation id="5596627076506792578">Izinketho eziningi</translation>
 <translation id="5605834417512968703">Khetha noma yini ukuze useshe Ngosesho Lomfanekiso noma ucindezele u-escape ukuze uphume Kusesho Lomfanekiso</translation>
 <translation id="5618818588972826921">Khetha noma yimuphi umbhalo noma isithombe ukuze useshe Ngosesho Lwezithombe noma cindezela u-escape ukuze uphume Oseshweni Lwezithombe</translation>
-<translation id="5623402015214259806">{0,plural, =0{Isibuyekezo se-Chromium siyatholakala}=1{Isibuyekezo se-Chromium siyatholakala}one{Isibuyekezo se-Chromium sitholakala ngezinsuku ezingu-#}other{Isibuyekezo se-Chromium sitholakala ngezinsuku ezingu-#}}</translation>
+<translation id="2497422928854452258">{0,plural, =0{Isibuyekezo se-João Browser siyatholakala}=1{Isibuyekezo se-João Browser siyatholakala}one{Isibuyekezo se-João Browser sitholakala ngezinsuku ezingu-#}other{Isibuyekezo se-João Browser sitholakala ngezinsuku ezingu-#}}</translation>
 <translation id="5643865575100044307">Yisule njalo idatha yesayithi kudivayisi yakho lapho uvala i-Chromium</translation>
-<translation id="5653831366781983928">Sicela uqalise kabusha i-Chromium manje</translation>
+<translation id="620465883043431255">Sicela uqalise kabusha i-João Browser manje</translation>
 <translation id="5690427481109656848">I-Google LLC</translation>
 <translation id="5698481217667032250">Veza i-Chromium ngalolu limi</translation>
 <translation id="569897634095159764">Ayikwazi ukuxhuma ku-inthanethi Iseva elibamba idinga ukufakazela ubuqiniso.</translation>
 <translation id="5768371961535086509">IChromium ikhulula inkumbulo kumathebhu angasebenzi. Lokhu kunikeza amathebhu asebenzayo namanye ama-app izinsiza zekhompyutha ezengeziwe futhi kugcina iChromium ishesha. Amathebhu akho angasebenzi aphinde asebenze ngokuzenzekela uma ubuyela kuwo. <ph name="BEGIN_LINK" />Funda kabanzi mayelana Nesilondolozi Senkumbulo<ph name="END_LINK" /></translation>
-<translation id="5775198138441669627">Uma ukhohlwa umushwana wakho wokungena noma ufuna ukushintsha le sethingi, <ph name="SETTINGS_LINK" /> idatha yeChromium ku-akhawunti yakho</translation>
-<translation id="5800158606660203929">Yenza ngokwezifiso uphinde ulawule i-Chromium. Setha i-Chromium njengokwakho okuzenzakalelayo.</translation>
-<translation id="5802618941556161431">Gcina amaphasiwedi wakho, amabhukhimakhi, nomlando kuvunyelaniswe ngokuphelele kuwo wonke amadivayisi ngokusetha iChromium njengebhrawuza yakho ezenzakalelayo.</translation>
+<translation id="8866372822266732235">Uma ukhohlwa umushwana wakho wokungena noma ufuna ukushintsha le sethingi, <ph name="SETTINGS_LINK" /> idatha yeJoão Browser ku-akhawunti yakho</translation>
+<translation id="2106070764285625641">Yenza ngokwezifiso uphinde ulawule i-João Browser. Setha i-João Browser njengokwakho okuzenzakalelayo.</translation>
+<translation id="9077878413488413377">Gcina amaphasiwedi wakho, amabhukhimakhi, nomlando kuvunyelaniswe ngokuphelele kuwo wonke amadivayisi ngokusetha iJoão Browser njengebhrawuza yakho ezenzakalelayo.</translation>
 <translation id="5809516625706423866">Ayikwazi ukuxhuma ku-inthanethi I-HTTP 401 Ayigunyaziwe. Sicela uchekhe ukulungiselelwa kommeleli wakho.</translation>
-<translation id="5817952762723416573">Isheshisa amasayithi ngenjini yeChromium V8 kodwa yenza iChromium imelane kancane nokuhlaselwa. Le sethingi livaliwe.</translation>
-<translation id="5821520528363214608">Ukuze usebenzise futhi ulondoloze idatha yeChromium kuGoogle Account yakho, buyekeza iChromium</translation>
+<translation id="614221876503883218">Isheshisa amasayithi ngenjini yeJoão Browser V8 kodwa yenza iJoão Browser imelane kancane nokuhlaselwa. Le sethingi livaliwe.</translation>
+<translation id="8788365803279840995">Ukuze usebenzise futhi ulondoloze idatha yeJoão Browser kuGoogle Account yakho, buyekeza iJoão Browser</translation>
 <translation id="5824893331272123205">Ayikwazanga ukulayisha leli phaneli, zama futhi</translation>
-<translation id="5862307444128926510">Siyakwamukela ku-Chromium</translation>
+<translation id="5805760187441013922">Siyakwamukela ku-João Browser</translation>
 <translation id="5867606647614813312">Ivula izakhi ezengeziwe ukuze inikeze izivikelo eziqinile zeChromium</translation>
 <translation id="5871205389137001634">Chofoza ukuze uphume Kusesho Lomfanekiso</translation>
-<translation id="5883558403894052917">I-Chromium ithole ukuthi lezi zinto zinohlelo olungayilungele ikhompyutha</translation>
+<translation id="8367098380158627809">I-João Browser ithole ukuthi lezi zinto zinohlelo olungayilungele ikhompyutha</translation>
 <translation id="5889361821821684993">I-Chromium ihlale ihlola ukuze iqinisekise ukuthi ibhrawuza inamasethingi aphephe kakhulu. Sizokwazisa uma kukhona okudinga ukubuyekezwa.</translation>
 <translation id="5895138241574237353">Qalisa kabusha</translation>
 <translation id="5903106910045431592"><ph name="PAGE_TITLE" /> - Inethiwekhi Yokugena ngemvume</translation>
 <translation id="5924017743176219022">Ixhuma Ku-inthanethi...</translation>
-<translation id="5939553720811388432">Masilungiselele iChromium yakho</translation>
+<translation id="7627350220326904504">Masilungiselele iJoão Browser yakho</translation>
 <translation id="5941711191222866238">Nciphisa</translation>
-<translation id="5949225980829865667">Ukuze uthole le bhukhimakhi nokuningi kuwo wonke amadivayisi akho, ngena ngemvume kuChromium</translation>
-<translation id="5953657885167112863">Yenza iChromium Yakho</translation>
+<translation id="8680863040348007215">Ukuze uthole le bhukhimakhi nokuningi kuwo wonke amadivayisi akho, ngena ngemvume kuJoão Browser</translation>
+<translation id="2008232276062354182">Yenza iJoão Browser Yakho</translation>
 <translation id="5960071705175224773">Amasethingi akho ashintshwe yi-app engaziwa</translation>
 <translation id="5977420883993828287">Kuphiniwe! Sebenzisa Imisebenzi Engokomongo futhi kubha yamathuluzi</translation>
-<translation id="5986585015444752010">{COUNT,plural, =1{Inhlangano yakho ivala i-Chromium ngokuzenzekelayo uma ingasetshenziswanga umzuzu o-1.}one{Inhlangano yakho ivala i-Chromium ngokuzenzekelayo uma ingasetshenziswanga imizuzu engu-#.}other{Inhlangano yakho ivala i-Chromium ngokuzenzekelayo uma ingasetshenziswanga imizuzu engu-#.}}</translation>
-<translation id="5987687638152509985">Buyekeza i-Chromium ukuze uqale ukuvumelanisa</translation>
+<translation id="5889362640603897718">{COUNT,plural, =1{Inhlangano yakho ivala i-João Browser ngokuzenzekelayo uma ingasetshenziswanga umzuzu o-1.}one{Inhlangano yakho ivala i-João Browser ngokuzenzekelayo uma ingasetshenziswanga imizuzu engu-#.}other{Inhlangano yakho ivala i-João Browser ngokuzenzekelayo uma ingasetshenziswanga imizuzu engu-#.}}</translation>
+<translation id="4971097497342057998">Buyekeza i-João Browser ukuze uqale ukuvumelanisa</translation>
 <translation id="5990360079535151574">Ukusukela kunkinobho ethi "Imisebenzi Engokomongo" kubha yamathuluzi, ungaphinde uvule Imisebenzi Engokomongo ukuze ubuze imibuzo ngenkathi ubhrawuza</translation>
 <translation id="6003112304606738118">Iyadawuniloda... Kusele amahora angu-<ph name="HOURS" /></translation>
 <translation id="6009821354356307391">Cela ukulandelela</translation>
 <translation id="6040143037577758943">Vala</translation>
-<translation id="6044357424127037044">Thola okwengeziwe ngokuthenga ku-inthanethi uma usebenzisa i-app yeChromium ku-<ph name="DEVICE_TYPE" /> yakho</translation>
+<translation id="2100398097168307292">Thola okwengeziwe ngokuthenga ku-inthanethi uma usebenzisa i-app yeJoão Browser ku-<ph name="DEVICE_TYPE" /> yakho</translation>
 <translation id="6058380562449900225">Ukuvikela idatha lakho vumela i-Chromium isuse izimvume kumasayithi ongakawavakasheli muva nje. Ayizimisi izaziso.</translation>
-<translation id="6063093106622310249">&amp;Vula ku-Chromium</translation>
+<translation id="4735359759698689867">&amp;Vula ku-João Browser</translation>
 <translation id="6069027071882229820">Kopisha njengesithombe</translation>
-<translation id="6072279588547424923">I-<ph name="EXTENSION_NAME" /> ingezwe ku-Chromium</translation>
-<translation id="6096348254544841612">Enza ngendlela oyifisayo uphinde ulawule i-Chromium. Isibuyekezo siyatholakala.</translation>
-<translation id="6107893135096467929">Kuvuliwe • I-Chromium ayikwazi ukuqinisekisa ukuthi lesi sandiso sivela kuphi</translation>
-<translation id="611228897408671387">I-akhawunti yakho kuChromium</translation>
-<translation id="6119438414301547735">Vumela isandiso ukuze ubonise izicelo zokufinyelela kubha yamathuluzi ye-Chromium</translation>
-<translation id="6129621093834146363">I-<ph name="FILE_NAME" /> iyingozi, ngakho-ke i-Chromium iyivimbile.</translation>
-<translation id="6132897690380286411">I-Chromium izovala maduzane futhi isule idatha</translation>
-<translation id="6145820983052037069">Ungashintsha phakathi kwamaphrofayela we-Chromium lapha</translation>
+<translation id="2274675514456642321">I-<ph name="EXTENSION_NAME" /> ingezwe ku-João Browser</translation>
+<translation id="147381942282490529">Enza ngendlela oyifisayo uphinde ulawule i-João Browser. Isibuyekezo siyatholakala.</translation>
+<translation id="8775234022739879423">Kuvuliwe • I-João Browser ayikwazi ukuqinisekisa ukuthi lesi sandiso sivela kuphi</translation>
+<translation id="6634821567165410381">I-akhawunti yakho kuJoão Browser</translation>
+<translation id="4398707227122702993">Vumela isandiso ukuze ubonise izicelo zokufinyelela kubha yamathuluzi ye-João Browser</translation>
+<translation id="5370941509199989624">I-<ph name="FILE_NAME" /> iyingozi, ngakho-ke i-João Browser iyivimbile.</translation>
+<translation id="5119118887583954582">I-João Browser izovala maduzane futhi isule idatha</translation>
+<translation id="576637711620229618">Ungashintsha phakathi kwamaphrofayela we-João Browser lapha</translation>
 <translation id="615103374448673771">Uma uvumela amakhukhi, i-Chromium ingase iwasebenzise lapho ilayisha kusengaphambili</translation>
 <translation id="6165508094623778733">Funda kabanzi</translation>
-<translation id="6173308241973263798">Sula idatha yeChromium e-akhawuntini yakho</translation>
-<translation id="6174920971222007286">Leli fayela kungenzeka libe nobungozi<ph name="LINE_BREAK" />I-Chromium ingakuhlolela lokhu okudawunilodwayo uma unikeza iphasiwedi. Ulwazi mayelana nefayela luthunyelwa kokuthi Ukuphequlula ngokuphephile kwe-Google, kodwa okuqukethwe kufayela kanye nephasiwedi kusala kudivayisi yakho.</translation>
+<translation id="3738215896821824918">Sula idatha yeJoão Browser e-akhawuntini yakho</translation>
+<translation id="2145111683361496197">Leli fayela kungenzeka libe nobungozi<ph name="LINE_BREAK" />I-João Browser ingakuhlolela lokhu okudawunilodwayo uma unikeza iphasiwedi. Ulwazi mayelana nefayela luthunyelwa kokuthi Ukuphequlula ngokuphephile kwe-Google, kodwa okuqukethwe kufayela kanye nephasiwedi kusala kudivayisi yakho.</translation>
 <translation id="6182736845697986886">Ukufaka kuhlulekile ngenxa yephutha langaphakathi leseva yokubuyekeza.</translation>
-<translation id="6183079672144801177">Yenza isiqinisekiso sokuthi ungene ngemvume ku-Chromium ku-<ph name="TARGET_DEVICE_NAME" /> yakho bese uzama ukuthumela futhi.</translation>
-<translation id="6212496753309875659">Le khompyutha isivele inenguqulo yakamuva kakhulu ye-Chromium. Uma isofthiwe ingasebenzi, sicela ukhiphe i-Chromium uphinde uzame futhi.</translation>
-<translation id="6219195342503754812">{0,plural, =0{I-Chromium izoqalisa kabusha manje}=1{I-Chromium izoqalisa kabusha kusekhondi elingu-1}one{I-Chromium izoqalisa kabusha kumasekhondi angu-#}other{I-Chromium izoqalisa kabusha kumasekhondi angu-#}}</translation>
-<translation id="6241367896540709610">I-Chromium idinga imvume yokufinyelela kusitoreji ukuze idawunilode amafayela</translation>
+<translation id="6050294746023477088">Yenza isiqinisekiso sokuthi ungene ngemvume ku-João Browser ku-<ph name="TARGET_DEVICE_NAME" /> yakho bese uzama ukuthumela futhi.</translation>
+<translation id="3395167674702947885">Le khompyutha isivele inenguqulo yakamuva kakhulu ye-João Browser. Uma isofthiwe ingasebenzi, sicela ukhiphe i-João Browser uphinde uzame futhi.</translation>
+<translation id="4384214545531685923">{0,plural, =0{I-João Browser izoqalisa kabusha manje}=1{I-João Browser izoqalisa kabusha kusekhondi elingu-1}one{I-João Browser izoqalisa kabusha kumasekhondi angu-#}other{I-João Browser izoqalisa kabusha kumasekhondi angu-#}}</translation>
+<translation id="5880255774989397049">I-João Browser idinga imvume yokufinyelela kusitoreji ukuze idawunilode amafayela</translation>
 <translation id="6245734527075554892">Kuhlola ama-URL anohlu lwamasayithi angaphephile agcinwe ku-Chromium</translation>
-<translation id="6248213926982192922">Yenza i-Chromium ibe yisiphequluli esizenzakalelayo</translation>
+<translation id="1959823478027154444">Yenza i-João Browser ibe yisiphequluli esizenzakalelayo</translation>
 <translation id="6248988683584659830">Izilungiselelo zosesho</translation>
-<translation id="6261803579884938625">Thola izakhi zokuphepha ezihamba phambili zeGoogle usendleleni, nge-app yeChromium efonini yakho</translation>
-<translation id="6268381023930128611">Phuma ku-Chromium?</translation>
-<translation id="6270547683008298381">Lawa mathebhu asebenzisa izinsiza ezengeziwe. Ukuze uthuthukise ukusebenza kwakho, vumela iChromium iwenze angasebenzi.</translation>
-<translation id="6281746429495226318">Yenza ngokwezifiso iphrofayela yakho ye-Chromium</translation>
+<translation id="9191635841540101343">Thola izakhi zokuphepha ezihamba phambili zeGoogle usendleleni, nge-app yeJoão Browser efonini yakho</translation>
+<translation id="538350741885862188">Phuma ku-João Browser?</translation>
+<translation id="161121067714522736">Lawa mathebhu asebenzisa izinsiza ezengeziwe. Ukuze uthuthukise ukusebenza kwakho, vumela iJoão Browser iwenze angasebenzi.</translation>
+<translation id="2095090272560293574">Yenza ngokwezifiso iphrofayela yakho ye-João Browser</translation>
 <translation id="6290827346642914212">Qama iphrofayela lakho le-Chromium</translation>
-<translation id="6294831894865512704">Isandiso sifuna ukuthi ungene kuChromium</translation>
-<translation id="6295779123002464101">I-<ph name="FILE_NAME" /> kungenzeka ibe ingozi, ngakho-ke i-Chromium iyivimbile.</translation>
-<translation id="6309712487085796862">I-Chromium isebenzisa ikhamela yakho.</translation>
-<translation id="6333502561965082103">Okunye ukusebenza ku-Chromium kuyaqhubeka. Sicela uzame futhi emuva kwesikhathi.</translation>
-<translation id="6334986366598267305">Manje kulula ukusebenzisa i-Chromium nge-Akhawunti yakho ye-Google nakumakhompyutha abiwe.</translation>
-<translation id="6347002662287820329">Thola ukufinyelela okulula ezakhini ozaziyo, ozithandayo, futhi ozethembayo ngokusetha iChromium njengebhrawuza yakho evuleka ngokuzenzakalelayo.</translation>
-<translation id="6347933965114150440">Isinqamuleli se-Chromium</translation>
-<translation id="6366160072964553914">I-Chromium ivimbele lokhu kudawunilodwa ngoba ifayela alivamile ukudawunilodwa futhi lingase libe yingozi</translation>
-<translation id="6373523479360886564">Ingabe uqinisekile ukuthi ufuna ukukhipha i-Chromium?</translation>
+<translation id="6472525517562723285">Isandiso sifuna ukuthi ungene kuJoão Browser</translation>
+<translation id="2069878195899746465">I-<ph name="FILE_NAME" /> kungenzeka ibe ingozi, ngakho-ke i-João Browser iyivimbile.</translation>
+<translation id="1283909912629029170">I-João Browser isebenzisa ikhamela yakho.</translation>
+<translation id="323902744000752306">Okunye ukusebenza ku-João Browser kuyaqhubeka. Sicela uzame futhi emuva kwesikhathi.</translation>
+<translation id="1292164882596462877">Manje kulula ukusebenzisa i-João Browser nge-Akhawunti yakho ye-Google nakumakhompyutha abiwe.</translation>
+<translation id="6411450594978516531">Thola ukufinyelela okulula ezakhini ozaziyo, ozithandayo, futhi ozethembayo ngokusetha iJoão Browser njengebhrawuza yakho evuleka ngokuzenzakalelayo.</translation>
+<translation id="3344301749774719950">Isinqamuleli se-João Browser</translation>
+<translation id="8395825163097750991">I-João Browser ivimbele lokhu kudawunilodwa ngoba ifayela alivamile ukudawunilodwa futhi lingase libe yingozi</translation>
+<translation id="7683737657427846440">Ingabe uqinisekile ukuthi ufuna ukukhipha i-João Browser?</translation>
 <translation id="6375219077595103062">Engeza isinqamuleli Kusiphathi Sephasiwedi</translation>
 <translation id="6388799252195623474">ngisize ngalokhu</translation>
-<translation id="6390800440335263989">Ukuze uqhubeke, ngena ngemvume kuChromium njengo-<ph name="EMAIL" />. Lokhu kuqinisekisa ukuthi unezinqubomgomo zenhlangano yakho.</translation>
-<translation id="6400112897226594999">Ilogo ye-Chromium ngaphakathi kwesikrini sekhompyutha.</translation>
-<translation id="6403826409255603130">I-Chromium yisiphequluli sewebhu esiqalisa amakhasi wewebhu nezinhlelo zokusebenza ngesivinini sombani. Iyashesha, izinzile, futhi isebenziseka kalula. Dlulisa amehlo kuwebhu ngokuvikeleke kakhulu ngokuvikelwa kuhlelo olungayilungele ikhompyutha nobugebengu bokweba imininingwane ebucayi eyakhelwe ku-Chromium.</translation>
-<translation id="6414624068245092115">Ukuze uqinisekise ukuthi ungakwazi njalo ukusebenzisa futhi ulondoloze idatha yeChromium kuGoogle Account yakho, qinisekisa ukuthi nguwe</translation>
-<translation id="642132557830635295">IChromium iyashesha ukuqalisa futhi izakhi ezisebenzisa iJavaScript kufanele zisebenze ngendlela eziklanywe ngayo</translation>
+<translation id="6966523531135953867">Ukuze uqhubeke, ngena ngemvume kuJoão Browser njengo-<ph name="EMAIL" />. Lokhu kuqinisekisa ukuthi unezinqubomgomo zenhlangano yakho.</translation>
+<translation id="5146608242127807773">Ilogo ye-João Browser ngaphakathi kwesikrini sekhompyutha.</translation>
+<translation id="6361476216650509195">I-João Browser yisiphequluli sewebhu esiqalisa amakhasi wewebhu nezinhlelo zokusebenza ngesivinini sombani. Iyashesha, izinzile, futhi isebenziseka kalula. Dlulisa amehlo kuwebhu ngokuvikeleke kakhulu ngokuvikelwa kuhlelo olungayilungele ikhompyutha nobugebengu bokweba imininingwane ebucayi eyakhelwe ku-João Browser.</translation>
+<translation id="7864687914956920860">Ukuze uqinisekise ukuthi ungakwazi njalo ukusebenzisa futhi ulondoloze idatha yeJoão Browser kuGoogle Account yakho, qinisekisa ukuthi nguwe</translation>
+<translation id="1160920197193662978">IJoão Browser iyashesha ukuqalisa futhi izakhi ezisebenzisa iJavaScript kufanele zisebenze ngendlela eziklanywe ngayo</translation>
 <translation id="6436260184216827876">Usesho Lomfanekiso alutholakali. Zama futhi kamuva.</translation>
 <translation id="6442900851116057561">Qalisa kabusha i-ChromiumOS</translation>
 <translation id="6443470774889161065">I-Chromium ilayisha kusengaphambili amakhasi engeziwe ongase uwavakashele, ukuze alayishe ngokushesha kakhudlwana lapho uwavakashela</translation>
-<translation id="6450948450282634257">Dawuniloda iChromium efonini yakho ukuze ulandelele izintengo futhi uthole izexwayiso uma intengo yehla kunoma yiliphi isayithi</translation>
-<translation id="645458117210240797">Kuvaliwe • I-Chromium ayikwazi ukuqinisekisa ukuthi lesi sandiso sivela kuphi</translation>
-<translation id="6455857529632101747">Siyakwamukela kumaphrofayela we-Chromium</translation>
-<translation id="6460614424172581323">Ngokuzayo uma uvula iChromium ku-<ph name="DEVICE_TYPE" /> yakho, uzobona umyalelo wokusebenzisa amaqembu amathebhu.</translation>
-<translation id="6466344609055215035">Susa I-akhawunti kuChromium</translation>
-<translation id="6475912303565314141">Iphinde ilawule ukuthi iliphi ikhasi eliboniswa lapho uqala i-Chromium.</translation>
+<translation id="3730564967922511625">Dawuniloda iJoão Browser efonini yakho ukuze ulandelele izintengo futhi uthole izexwayiso uma intengo yehla kunoma yiliphi isayithi</translation>
+<translation id="3753019081686930624">Kuvaliwe • I-João Browser ayikwazi ukuqinisekisa ukuthi lesi sandiso sivela kuphi</translation>
+<translation id="5444641426058108434">Siyakwamukela kumaphrofayela we-João Browser</translation>
+<translation id="5103470775766355478">Ngokuzayo uma uvula iJoão Browser ku-<ph name="DEVICE_TYPE" /> yakho, uzobona umyalelo wokusebenzisa amaqembu amathebhu.</translation>
+<translation id="9087231386723579740">Susa I-akhawunti kuJoão Browser</translation>
+<translation id="4984395209542302039">Iphinde ilawule ukuthi iliphi ikhasi eliboniswa lapho uqala i-João Browser.</translation>
 <translation id="648319183876919572">Ukubhrawuza Ngokuphepha Okugqamile kwenza okuningi ukukuvikela kumawebhusayithi ayingozi nakokudawunilodiwe</translation>
-<translation id="6510925080656968729">Khipha i-Chromium</translation>
-<translation id="651535675648445253">Izinqamuleli zivulwe ku-Chromium</translation>
-<translation id="6539122709674868420">Inhlangano yakho ivala i-Chromium uma ingasetshenziswa isikhathi esingu-<ph name="TIMEOUT_DURATION" />. Idatha yokubhrawuza isuliwe. Lokhu kungase kuhlanganise umlando, ukugcwalisa ngokuzenzakalelayo, nokudawuniloda.</translation>
-<translation id="6542839706527980775">Iphrofayela ngalinye linolwazi lwalo lwe-Chromium njengamabhukhimakhi, umlando, amaphasiwedi, nokuningi</translation>
+<translation id="1524792685704191751">Khipha i-João Browser</translation>
+<translation id="6637504267182028286">Izinqamuleli zivulwe ku-João Browser</translation>
+<translation id="1478247638436966279">Inhlangano yakho ivala i-João Browser uma ingasetshenziswa isikhathi esingu-<ph name="TIMEOUT_DURATION" />. Idatha yokubhrawuza isuliwe. Lokhu kungase kuhlanganise umlando, ukugcwalisa ngokuzenzakalelayo, nokudawuniloda.</translation>
+<translation id="1311233187253046133">Iphrofayela ngalinye linolwazi lwalo lwe-João Browser njengamabhukhimakhi, umlando, amaphasiwedi, nokuningi</translation>
 <translation id="6563921047760808519">Funda kabanzi mayelana <ph name="BEGIN_LINK" />nokuthi i-Chromium igcina kanjani idatha yakho iyimfihlo<ph name="END_LINK" /></translation>
-<translation id="6564039629497156115">Izinguquko kule sethingi zizosetshenziswa uma iChromium iqala kabusha.</translation>
-<translation id="6567032987737689854">Lawula izandiso zakho ngokuchofoza Izandiso kumenyu eyinhloko yeChromium.</translation>
-<translation id="656935081669708576">Ungashintsha ukuze ubone amaphasiwedi kusuka kwenye iphrofayela ye-Chromium</translation>
-<translation id="6569556444379005948">Sebenzisa i-app yeChromium ukuze usebenzise amathuluzi e-AI ahamba phambili usendleleni</translation>
+<translation id="1643078533228697915">Izinguquko kule sethingi zizosetshenziswa uma iJoão Browser iqala kabusha.</translation>
+<translation id="1918630514771863338">Lawula izandiso zakho ngokuchofoza Izandiso kumenyu eyinhloko yeJoão Browser.</translation>
+<translation id="4229328298978407243">Ungashintsha ukuze ubone amaphasiwedi kusuka kwenye iphrofayela ye-João Browser</translation>
+<translation id="7717252965531997879">Sebenzisa i-app yeJoão Browser ukuze usebenzise amathuluzi e-AI ahamba phambili usendleleni</translation>
 <translation id="6570579332384693436">Ukuze kulungiswe amaphutha okupeletwa, i-Chromium ithumela umbhalo owuthayiphayo kuzinkambu zombhalo ku-Google</translation>
-<translation id="6598877126913850652">Iya kuzilungiselelo zesaziso se-Chromium</translation>
+<translation id="5374627817618267090">Iya kuzilungiselelo zesaziso se-João Browser</translation>
 <translation id="6600016381025017075">Sesha noma yini kuleli khasi</translation>
-<translation id="6613594504749178791">Izinguquko zakho zizosebenza ngesikhathi esilandelayo uma uqalisa kabusha i-Chromium.</translation>
-<translation id="6637908313088374648">IChromium manje iqala ukusebenza lapho iWindows iqala ukuze uqale ukubhrawuza ngokushesha. Ungavala lokhu kumasethingi.</translation>
-<translation id="6648212540664651655">Qhubeka lapho ogcine khona: IChromium ibuyisele amathebhu esikhathi esedlule Ungakuvala lokhu ku-</translation>
-<translation id="665732753414869868">I-Chromium idinga imvume yekhamera ukudala imephu ye-3D yendawo yakho ekuzungezile</translation>
+<translation id="264335610358256197">Izinguquko zakho zizosebenza ngesikhathi esilandelayo uma uqalisa kabusha i-João Browser.</translation>
+<translation id="2657584510687441826">IJoão Browser manje iqala ukusebenza lapho iWindows iqala ukuze uqale ukubhrawuza ngokushesha. Ungavala lokhu kumasethingi.</translation>
+<translation id="5482413402708094860">Qhubeka lapho ogcine khona: IJoão Browser ibuyisele amathebhu esikhathi esedlule Ungakuvala lokhu ku-</translation>
+<translation id="5022765692226673603">I-João Browser idinga imvume yekhamera ukudala imephu ye-3D yendawo yakho ekuzungezile</translation>
 <translation id="6669284030132180248">Uma futhi ulondoloza amabhukhimakhi ku-Google Account yakho, ungakwazi ukulandelela izintengo zomkhiqizo ku-Chromium futhi waziswe uma intengo yehla.</translation>
 <translation id="6676384891291319759">Finyelela i-inthanethi?</translation>
 <translation id="668175097507315160">I-ChromiumOS ayikwazanga ukuvumelanisa idatha yakho yenxa yephutha lokungena ngemvume.</translation>
-<translation id="6691132793308828750">Susa idatha yale app kusukela kuChromium</translation>
-<translation id="6709350901466051922">I-Chromium idinga imvume yemakrofoni kule sayithi</translation>
+<translation id="3982573751008180181">Susa idatha yale app kusukela kuJoão Browser</translation>
+<translation id="5613723096388999601">I-João Browser idinga imvume yemakrofoni kule sayithi</translation>
 <translation id="6712881677154121168">Iphutha lokudawuniloda: <ph name="DOWNLOAD_ERROR" />.</translation>
-<translation id="6717134281241384636">Iphrofayela yakho ayikwazi ukusetshenziswa ngoba isuka kunguqulo entsha ye-Chromium. 
+<translation id="9190188975825967506">Iphrofayela yakho ayikwazi ukusetshenziswa ngoba isuka kunguqulo entsha ye-João Browser.&#32;
 
-Ezinye izici kungenzeka zingatholakali. Sicela ucacise umkhombandlela wephrofayela ehlukile noma usebenzise inguqulo entsha ye-Chromium.</translation>
+Ezinye izici kungenzeka zingatholakali. Sicela ucacise umkhombandlela wephrofayela ehlukile noma usebenzise inguqulo entsha ye-João Browser.</translation>
 <translation id="6729124504294600478">Ukuze uthole ukwenza ngokomuntu ngamunye nezinye izakhi, ezifaka i-Chromium Kumsebenzi wewebhu nowe-app nakumasevisi alinkiwe e-Google</translation>
-<translation id="6734291798041940871">I-Chromium isivele ifakiwe kubo bonke abasebenzisi kukhompuyutha yakho.</translation>
-<translation id="6742093177587589736">Ukuze uthole amabhukhimakhi nokuningi kuwo wonke amadivayisi akho, ngena ngemvume kuChromium. Le bhokhimakhi izolondolozwa kuGoogle Account yakho ngemva kokungena ngemvume.</translation>
-<translation id="6751374565094704799">Isheshisa amasayithi ngenjini yeChromium V8 kodwa yenza iChromium imelane kancane nokuhlaselwa. Le sethingi livuliwe.</translation>
-<translation id="6754665438209053659">{count,plural, =1{Enye idatha yakho yeChromium ayikalondolozwa kuGoogle Account yakho njengamanje. Zama ukulinda imizuzu embalwa ngaphambi kokuphuma ngemvume. Uma uphuma ngemvume manje, le datha (into e-1) izosulwa.}one{Enye idatha yakho yeChromium ayikalondolozwa kuGoogle Account yakho njengamanje. Zama ukulinda imizuzu embalwa ngaphambi kokuphuma ngemvume. Uma uphuma ngemvume manje, le datha (izinto ezingu-{count}) izosulwa.}other{Enye idatha yakho yeChromium ayikalondolozwa kuGoogle Account yakho njengamanje. Zama ukulinda imizuzu embalwa ngaphambi kokuphuma ngemvume. Uma uphuma ngemvume manje, le datha (izinto ezingu-{count}) izosulwa.}}</translation>
-<translation id="67706546131546258">I-Chromium incoma ukuthi uskene leli fayela ngenxa yokuthi kungenzeka ukuthi liyingozi.</translation>
+<translation id="6957684879859415418">I-João Browser isivele ifakiwe kubo bonke abasebenzisi kukhompuyutha yakho.</translation>
+<translation id="4411262692912917677">Ukuze uthole amabhukhimakhi nokuningi kuwo wonke amadivayisi akho, ngena ngemvume kuJoão Browser. Le bhokhimakhi izolondolozwa kuGoogle Account yakho ngemva kokungena ngemvume.</translation>
+<translation id="6064901610880747710">Isheshisa amasayithi ngenjini yeJoão Browser V8 kodwa yenza iJoão Browser imelane kancane nokuhlaselwa. Le sethingi livuliwe.</translation>
+<translation id="4530735110472079436">{count,plural, =1{Enye idatha yakho yeJoão Browser ayikalondolozwa kuGoogle Account yakho njengamanje. Zama ukulinda imizuzu embalwa ngaphambi kokuphuma ngemvume. Uma uphuma ngemvume manje, le datha (into e-1) izosulwa.}one{Enye idatha yakho yeJoão Browser ayikalondolozwa kuGoogle Account yakho njengamanje. Zama ukulinda imizuzu embalwa ngaphambi kokuphuma ngemvume. Uma uphuma ngemvume manje, le datha (izinto ezingu-{count}) izosulwa.}other{Enye idatha yakho yeJoão Browser ayikalondolozwa kuGoogle Account yakho njengamanje. Zama ukulinda imizuzu embalwa ngaphambi kokuphuma ngemvume. Uma uphuma ngemvume manje, le datha (izinto ezingu-{count}) izosulwa.}}</translation>
+<translation id="9176853308971176490">I-João Browser incoma ukuthi uskene leli fayela ngenxa yokuthi kungenzeka ukuthi liyingozi.</translation>
 <translation id="6779406956731413166">I-ChromiumOS yenziwa yenzeke yi-<ph name="BEGIN_LINK_CROS_OSS" />isofthiwe yomthombo ovulekile<ph name="END_LINK_CROS_OSS" /> engeziwe.</translation>
 <translation id="6831043979455480757">Humusha</translation>
-<translation id="6847869444787758381">I-Chromium ikuvumela kuthi wazi amaphasiwedi akho afakwe engcupheni</translation>
+<translation id="6412488898785231889">I-João Browser ikuvumela kuthi wazi amaphasiwedi akho afakwe engcupheni</translation>
 <translation id="684888714667046800">Ayikwazi ukuxhuma ku-inthanethi. Uma usebenzisa uhlelo lokuvikela, sicela uqinisekise ukuthi i-<ph name="PRODUCT_EXE_NAME" /> ikuhlelo lwabagunyaziwe.</translation>
-<translation id="6857782730669500492">I-Chromium - <ph name="PAGE_TITLE" /></translation>
+<translation id="6750640664545078431">I-João Browser - <ph name="PAGE_TITLE" /></translation>
 <translation id="6859580922007887573">Ithebhu yokuqhubeka</translation>
 <translation id="6862030660799253820">Sesha lesi sithombe ngesakhi esithi Ukusesha Ngezithombe</translation>
-<translation id="6873893289264747459">I-Chromium ithole ukuthi i-"<ph name="EXTENSION_NAME" />" inohlelo olungayilungele ikhompyutha</translation>
+<translation id="4260365383290377081">I-João Browser ithole ukuthi i-"<ph name="EXTENSION_NAME" />" inohlelo olungayilungele ikhompyutha</translation>
 <translation id="6877155553248388166">ikhona elingezansi ngakwesokudla lendawo yokusesha: ngakwesokudla okungu-<ph name="RIGHT" />%, ngezansi okungu-<ph name="BOTTOM" />%</translation>
 <translation id="6896758677409633944">Kopisha</translation>
 <translation id="6898028264630240901">Ungaphina Imisebenzi Engokomongo ukuze ubuze imibuzo kalula njengoba ubhrawuza</translation>
-<translation id="6901631050894301805">Setha iChromium njengebhrawuza evuleka ngokuzenzekela yakho uphinde uyiphine ku-taskbar yakho</translation>
-<translation id="6909503629704372277">&amp;Lawula amaphrofayela eChromium</translation>
-<translation id="6919942714452658456">Lesi senzo sizokwenza lokhu:
+<translation id="6985817498888719203">Setha iJoão Browser njengebhrawuza evuleka ngokuzenzekela yakho uphinde uyiphine ku-taskbar yakho</translation>
+<translation id="5277424858974213042">&amp;Lawula amaphrofayela eJoão Browser</translation>
+<translation id="2726137364317931343">Lesi senzo sizokwenza lokhu:
           <ph name="LINE_BREAKS" />
             • Setha kabusha ikhasi lakho lokuqalisa, ikhasi lethebhu entsha, injini yokusesha namathebhu aphiniwe
             <ph name="LINE_BREAK" />
@@ -553,206 +553,206 @@ Ezinye izici kungenzeka zingatholakali. Sicela ucacise umkhombandlela wephrofaye
             <ph name="LINE_BREAK" />
             • Sula amakhukhi nenye idatha yesikhashana yesayithi
             <ph name="LINE_BREAK" />
-            • Setha kabusha izinqamuleli zeChromium
+            • Setha kabusha izinqamuleli zeJoão Browser
             <ph name="LINE_BREAKS" />
             Amabhukhimakhi, umlando, namaphasiwedi alondoloziwe ngeke aze athinteke.</translation>
-<translation id="6948031725951063910">Ufinyelele umkhawulo weChromium wamabhukhimakhi angu-<ph name="BOOKMARK_LIMIT" />, ngakho amanye amabhukhimakhi akho awakalondolozwa kuGoogle Account yakho okwamanje.
+<translation id="2901988969322822496">Ufinyelele umkhawulo weJoão Browser wamabhukhimakhi angu-<ph name="BOOKMARK_LIMIT" />, ngakho amanye amabhukhimakhi akho awakalondolozwa kuGoogle Account yakho okwamanje.
 
 Amabhukhimakhi amasha awakwazi ukulondolozwa e-akhawuntini yakho uze usule amanye. Uma uphuma ngemvume manje, amabhukhimakhi angalondoloziwe azosulwa.</translation>
-<translation id="6964305034639999644">Vula isixhumanisi kuwindi le-Chromium inco&amp;gnito</translation>
+<translation id="6203410920314218280">Vula isixhumanisi kuwindi le-João Browser inco&amp;gnito</translation>
 <translation id="6965382102122355670">KULUNGILE</translation>
 <translation id="6985329841647292029">Imigomo ye-ChromiumOS</translation>
-<translation id="7003299027384820442">Bhala umushwana wokungena ozowusebenzisa futhi ulondoloze idatha yeChromium ku-akhawunti yakho, <ph name="ACCOUNT_EMAIL" /></translation>
+<translation id="8064285182627814996">Bhala umushwana wokungena ozowusebenzisa futhi ulondoloze idatha yeJoão Browser ku-akhawunti yakho, <ph name="ACCOUNT_EMAIL" /></translation>
 <translation id="7011190694940573312">Ukufakwa kwehlulekile ngenxa yokuthi lolu hlobo lwesistimu yokusebenza alusekelwe.</translation>
 <translation id="7024536598735240744">Iphutha lokuvula: <ph name="UNPACK_ERROR" />.</translation>
-<translation id="7045244423563602563">Yenza i-Chromium Ibe Ngeyakho</translation>
+<translation id="181803036615530330">Yenza i-João Browser Ibe Ngeyakho</translation>
 <translation id="7047386856539490735">Ingabe ibe wusizo le miphumela?</translation>
-<translation id="705851970750939768">Buyekeza i-Chromium</translation>
-<translation id="7067091210845072982">Uma isithombe singanayo incazelo ephelele, i-Chromium izozama ukukunikezela eyodwa. Ukuze udale izincazelo, izithombe zithunyelwa ku-Google.</translation>
-<translation id="7074836723476134809">Thola amandla e-AI uma usebenzisa i-app yeChromium ku-<ph name="DEVICE_TYPE" /> yakho</translation>
-<translation id="7134687062119989071">Thatha amaphasiwedi akho, amathebhu nokuningi usendleleni nge-app yeChromium efonini yakho</translation>
+<translation id="2478245051737698828">Buyekeza i-João Browser</translation>
+<translation id="452909342278940733">Uma isithombe singanayo incazelo ephelele, i-João Browser izozama ukukunikezela eyodwa. Ukuze udale izincazelo, izithombe zithunyelwa ku-Google.</translation>
+<translation id="8606769615526968368">Thola amandla e-AI uma usebenzisa i-app yeJoão Browser ku-<ph name="DEVICE_TYPE" /> yakho</translation>
+<translation id="2061960765882453684">Thatha amaphasiwedi akho, amathebhu nokuningi usendleleni nge-app yeJoão Browser efonini yakho</translation>
 <translation id="7141270731789036260">Yenza i-Chrome ibe ngokwezifiso ukuze ihlolwe</translation>
 <translation id="7147227333672430807">Ungasebenzisa iChromium noma nini lapho uchofoza amalinki emiyalezweni, amadokhumenti, namanye ama-app</translation>
-<translation id="7163519456498498587">Susa <ph name="EXTENSION_NAME" /> kuChromium</translation>
-<translation id="7173822816570314652">Inhlangano yakho isula idatha ye-Chromium uma ingasetshenziswa isikhathi esingu-<ph name="TIMEOUT_DURATION" />. Lokhu kungase kuhlanganise umlando, ukugcwalisa ngokuzenzakalelayo, nokudawuniloda.</translation>
-<translation id="718435575166326686">I-Chromium idinga imvume yekhamera kule sayithi</translation>
-<translation id="7196312274710523067">Ayikwazanga ukuqalisa i-Chromium. Zama futhi.</translation>
-<translation id="7204669035546236137">Buza noma yini, lapho ukhona, ngeGemini kuChromium</translation>
-<translation id="7213008767289637091">Gcina iChromium Edokhini yakho ukuze ufike kuyo ngokushesha noma nini</translation>
-<translation id="7213407614656404070">Sebenzisa i-Chromium noma nini lapho uchofoza amalinki emiyalezweni, kumadokhumenti, nakwamanye ama-app</translation>
+<translation id="6949173677980969871">Susa <ph name="EXTENSION_NAME" /> kuJoão Browser</translation>
+<translation id="3556355753960287061">Inhlangano yakho isula idatha ye-João Browser uma ingasetshenziswa isikhathi esingu-<ph name="TIMEOUT_DURATION" />. Lokhu kungase kuhlanganise umlando, ukugcwalisa ngokuzenzakalelayo, nokudawuniloda.</translation>
+<translation id="8689006320829658442">I-João Browser idinga imvume yekhamera kule sayithi</translation>
+<translation id="7501884108538572227">Ayikwazanga ukuqalisa i-João Browser. Zama futhi.</translation>
+<translation id="5484563502710761706">Buza noma yini, lapho ukhona, ngeGemini kuJoão Browser</translation>
+<translation id="3823264355161086552">Gcina iJoão Browser Edokhini yakho ukuze ufike kuyo ngokushesha noma nini</translation>
+<translation id="9153902741226700840">Sebenzisa i-João Browser noma nini lapho uchofoza amalinki emiyalezweni, kumadokhumenti, nakwamanye ama-app</translation>
 <translation id="7216228761061470870">Uma usebenzisa Usesho Lomfanekiso kudeskithophu, isihloko sekhasi, i-URL, nekhontenti, okuhlanganisa ama-PDF, kuthunyelwa kuseva</translation>
-<translation id="7223968959479464213">Isiphathi somsebenzi - I-Chromium</translation>
-<translation id="7227958669698166857">U-<ph name="EXISTING_USER" /> usevele ungene ngemvume. Ukuze ugcine ukubhrawuza kwakho kuhlukile, ngena ngemvume kuChromium kuphrofayela yakho njengo-<ph name="USER_EMAIL_ADDRESS" /> Uzothola nemininingwane yakho elondoloziwe nokuningi kuwo wonke amadivayisi akho.</translation>
-<translation id="7252276985725323153">Qala ukubhrawuza ngokushesha: IChromium manje ingaqala lapho iWindows iqala.</translation>
+<translation id="7950844619283784703">Isiphathi somsebenzi - I-João Browser</translation>
+<translation id="133513825972536773">U-<ph name="EXISTING_USER" /> usevele ungene ngemvume. Ukuze ugcine ukubhrawuza kwakho kuhlukile, ngena ngemvume kuJoão Browser kuphrofayela yakho njengo-<ph name="USER_EMAIL_ADDRESS" /> Uzothola nemininingwane yakho elondoloziwe nokuningi kuwo wonke amadivayisi akho.</translation>
+<translation id="4558982617284733740">Qala ukubhrawuza ngokushesha: IJoão Browser manje ingaqala lapho iWindows iqala.</translation>
 <translation id="7274695763216404502">Kuphiniwe! Sebenzisa Usesho Lomfanekiso futhi kubha yamathuluzi</translation>
 <translation id="7288567540154601580">Amathebhu nezandiso</translation>
-<translation id="7295544978856094497">{NUM_EXTENSIONS,plural, =1{I-Chromium incoma ukuthi usisuse}one{I-Chromium incoma ukuthi uzisuse}other{I-Chromium incoma ukuthi uzisuse}}</translation>
-<translation id="7296334833518879294">Ukuze wabelane ngomsindo wohlelo, vula Amasethingi Ohlelo bese uvumela okuthi 'Ukurekhodwa Komsindo Wohlelo Kuphela' kuChromium. Ngemva kwalokho kuzodingeka uqale kabusha iChromium.</translation>
+<translation id="5494571279964989269">{NUM_EXTENSIONS,plural, =1{I-João Browser incoma ukuthi usisuse}one{I-João Browser incoma ukuthi uzisuse}other{I-João Browser incoma ukuthi uzisuse}}</translation>
+<translation id="2269053214123323740">Ukuze wabelane ngomsindo wohlelo, vula Amasethingi Ohlelo bese uvumela okuthi 'Ukurekhodwa Komsindo Wohlelo Kuphela' kuJoão Browser. Ngemva kwalokho kuzodingeka uqale kabusha iJoão Browser.</translation>
 <translation id="731795002583552498">Ibuyekeza i-Chromium</translation>
-<translation id="7318036098707714271">Ifayela lakho lokuncamelayo limoshakele noma alivumelekile.
+<translation id="9065168747010082551">Ifayela lakho lokuncamelayo limoshakele noma alivumelekile.
 
-I-Chromium ayikwazi ukubuyisela izilungiselelo zakho.</translation>
+I-João Browser ayikwazi ukubuyisela izilungiselelo zakho.</translation>
 <translation id="7324051657739063017">Ungavula kabusha Imisebenzi Engokomongo ukuze ubuze imibuzo ngesikhathi ubhrawuza</translation>
-<translation id="734373864078049451">Iwebhu yakho, amabhukhimakhi, nezinye izinto ze-Chromium zihlala lapha.</translation>
+<translation id="4159250197688136733">Iwebhu yakho, amabhukhimakhi, nezinye izinto ze-João Browser zihlala lapha.</translation>
 <translation id="7347827960336370838">Ngumuntu onomushwana wakho wokungena kuphela ongafunda idatha yakho ebetheliwe. Umshwana wokungena awuthunyelwa noma ulondolozwe yiGoogle. Uma ukhohlwa umushwana wakho wokungena noma ufuna ukushintsha le sethingi <ph name="BEGIN_LINK" />susa idatha yeChromium ku-akhawunti yakho<ph name="END_LINK" />.</translation>
-<translation id="7349591376906416160">Umlawuli wakho wesistimu ulungiselele i-Chromium ukuthi ivule i-<ph name="ALTERNATIVE_BROWSER_NAME" /> ukuze ifinyelele ku-<ph name="TARGET_URL_HOSTNAME" />.</translation>
+<translation id="1062903713270840396">Umlawuli wakho wesistimu ulungiselele i-João Browser ukuthi ivule i-<ph name="ALTERNATIVE_BROWSER_NAME" /> ukuze ifinyelele ku-<ph name="TARGET_URL_HOSTNAME" />.</translation>
 <translation id="7352651011704765696">Okuthile akuhambanga kahle</translation>
-<translation id="7368826207863345663">Ukuze uthole izibuyekezo ezizayo zeChromium, uzodinga imacOS 13 noma eyakamuva. Le khompyutha isebenzisa imacOS 12.</translation>
+<translation id="5817362738974335084">Ukuze uthole izibuyekezo ezizayo zeJoão Browser, uzodinga imacOS 13 noma eyakamuva. Le khompyutha isebenzisa imacOS 12.</translation>
 <translation id="7376384068949534168">Awukavakashi kamuva nje. IChromium isuse i-<ph name="PERMISSION_1" />, i-<ph name="PERMISSION_2" /></translation>
 <translation id="73786666777299047">Vula isitolo sewebhu se-Chrome</translation>
-<translation id="7394275517973019558">Bonisa iGemini kuChromium kugqoko lwesistimu</translation>
+<translation id="5724625487458697703">Bonisa iGemini kuJoão Browser kugqoko lwesistimu</translation>
 <translation id="7401687852903179959">Sesha Le Vidiyo Ngosesho Lwesithombe</translation>
-<translation id="7407655596887111931">IChromium manje isiyibhrawuza evuleka ngokuzenzekela yakho</translation>
-<translation id="7413153308467572558">Qhubeka lapho ogcine khona: IChromium ingabuyisela amathebhu akho njalo lapho uqala kabusha Ukuze ukuvale lokhu, iya ku-</translation>
-<translation id="7427879960656355200">Ngenisa Amaphasiwedi KuChromium</translation>
-<translation id="744815265653811511">1. Chofoza okuthi <ph name="BUTTON_LABEL" /> ngezansi
+<translation id="1088684725931971005">IJoão Browser manje isiyibhrawuza evuleka ngokuzenzekela yakho</translation>
+<translation id="7479848806300971661">Qhubeka lapho ogcine khona: IJoão Browser ingabuyisela amathebhu akho njalo lapho uqala kabusha Ukuze ukuvale lokhu, iya ku-</translation>
+<translation id="1258077876605261365">Ngenisa Amaphasiwedi KuJoão Browser</translation>
+<translation id="5293062713751091377">1. Chofoza okuthi <ph name="BUTTON_LABEL" /> ngezansi
 2. Chofoza okuthi <ph name="BUTTON_2" /> kumasethingi akho eWindows
-3. Chofoza okuthi <ph name="BUTTON_3" /> esazisweni seWindows ukuze uphine iChromium kutaskbar yakho ukuze ufinyelele ngokushesha</translation>
-<translation id="7449453770951226939"><ph name="PAGE_TITLE" /> - Chromium Dev</translation>
+3. Chofoza okuthi <ph name="BUTTON_3" /> esazisweni seWindows ukuze uphine iJoão Browser kutaskbar yakho ukuze ufinyelele ngokushesha</translation>
+<translation id="1941496545060769345"><ph name="PAGE_TITLE" /> - João Browser Dev</translation>
 <translation id="7450541714075000668">Umbhalo okopishiwe</translation>
 <translation id="7458892263350425044">Ukuze usebenzise imakrofoni yakho, nikeza iChromium ukufinyelela <ph name="BEGIN_LINK" />amasethingi ohlelo<ph name="END_LINK" /></translation>
-<translation id="7461356015007898716">Ukuze uthole izibuyekezo zesikhathi esizayo ze-Chromium, uzodinga i-Windows 10 noma yakamuva. Le khompyutha isebenzisa i-Windows 7.</translation>
+<translation id="5422859338435319909">Ukuze uthole izibuyekezo zesikhathi esizayo ze-João Browser, uzodinga i-Windows 10 noma yakamuva. Le khompyutha isebenzisa i-Windows 7.</translation>
 <translation id="7467949745582939695">Qalisa kabusha i-Chromium?</translation>
-<translation id="7483335560992089831">Ayikwazi ukufaka inguqulo ye-Chromium efana nale esebenzayo okwamanje. Sicela uvale i-Chromium uphinde uzame futhi.</translation>
+<translation id="7707324976708178089">Ayikwazi ukufaka inguqulo ye-João Browser efana nale esebenzayo okwamanje. Sicela uvale i-João Browser uphinde uzame futhi.</translation>
 <translation id="7510190804000607802">Isikhumbuzi: Okungcono kakhulu kweGoogle ephaketheni lakho</translation>
 <translation id="751935028865900641">Amasayithi cishe azosebenza njengokulindelwe. Uzophuma ngemvume kumasayithi amaningi uma uvala wonke amawindi e-Chromium, ngaphandle kwe-Google Account yakho uma ungene ngemvume ku-Chromium.</translation>
-<translation id="753534427205733210">{0,plural, =1{I-Chromium izoqalisa kabusha kuminithi elingu-1}one{I-Chromium izoqalisa kabusha emaminithini angu-#}other{I-Chromium izoqalisa kabusha emaminithini angu-#}}</translation>
+<translation id="5325102834460669866">{0,plural, =1{I-João Browser izoqalisa kabusha kuminithi elingu-1}one{I-João Browser izoqalisa kabusha emaminithini angu-#}other{I-João Browser izoqalisa kabusha emaminithini angu-#}}</translation>
 <translation id="7565444033145385702">Ukuvikela idatha lakho vumela iChromium isuse izimvume emasayithini ongakawavakasheli muva nje.</translation>
-<translation id="7583104404158659071">Qalisa iChromium ngokuzenzekelayo ukuze uqale ukubhrawuza ngokushesha.</translation>
+<translation id="8099958128052689767">Qalisa iJoão Browser ngokuzenzekelayo ukuze uqale ukubhrawuza ngokushesha.</translation>
 <translation id="7583399374488819119">Isifaki Se-<ph name="COMPANY_NAME" /></translation>
-<translation id="761356813943268536">I-Chromium isebenzisa ikhamela yakho nemakrofoni.</translation>
-<translation id="7617377681829253106">I-Chromium ibe ngcono nakakhulu</translation>
-<translation id="7622753900276619808">Manje unezakhi eziningi ezitholakala kuChromium</translation>
+<translation id="7125257608567714221">I-João Browser isebenzisa ikhamela yakho nemakrofoni.</translation>
+<translation id="227045421902171569">I-João Browser ibe ngcono nakakhulu</translation>
+<translation id="5356567285381070312">Manje unezakhi eziningi ezitholakala kuJoão Browser</translation>
 <translation id="7624307931717240213">Sisebenzisa ulwazi ukuthuthukisa le sevisi. Bheka Inqubomgomo Yobumfihlo kanye Nemigomo Yesevisi.</translation>
 <translation id="7649070708921625228">Usizo</translation>
-<translation id="7650134251917003571">Thola i-App yeChromium</translation>
+<translation id="5714374331629713291">Thola i-App yeJoão Browser</translation>
 <translation id="7658239707568436148">Khansela</translation>
-<translation id="7686590090926151193">I-Chromium akusona isiphequluli sakho esizenzakalelayo</translation>
-<translation id="7689606757190482937">Vumelanisa uphinde wenze kube ngeyakho i-Chromium kumadivayisi akho wonkana</translation>
+<translation id="549378870470819535">I-João Browser akusona isiphequluli sakho esizenzakalelayo</translation>
+<translation id="6574348346278803862">Vumelanisa uphinde wenze kube ngeyakho i-João Browser kumadivayisi akho wonkana</translation>
 <translation id="7699779824407626136">Isibuyekezo se-Chromium</translation>
-<translation id="7700735928747402058">Umsebenzi wakho uvikelekile kuChromium</translation>
+<translation id="3304080024230377341">Umsebenzi wakho uvikelekile kuJoão Browser</translation>
 <translation id="7716950018788545737">Imisebenzi iqediwe.</translation>
 <translation id="77283119132245232">Inikeza amasevisi okulandelela isistimu ku-<ph name="BROWSER_NAME" />. Uma le sevisi ikhutshaziwe, ukusebenza kokulandelela okusungulwe yibhrawuza ngeke kuhlanganise imisebenzi yobubanzi besistimu njengokushintshwa kokuqukethwe kanye nemisebenzi esikulungele yochungechunge.</translation>
 <translation id="7745317241717453663">Lokhu kuzosusa idatha yakho yokuphequlula kusukela kule divayisi. Ukuze uthole idatha yakho emuva kwesikhathi, ngena ngemvume ku-Chromium njengo-<ph name="USER_EMAIL" />.</translation>
 <translation id="7747138024166251722">Isifaki asikwazanga ukudala umkhombandlela wesikhashana. Sicela uhlolele isikhala esikhululekile sediski nemvume ukuze ufake isofthiwe.</translation>
-<translation id="7747820849741499258">Sesha ku-Chromium</translation>
-<translation id="7750130090210923118">Setha Kabusha kuChromium Ezenzakalelayo</translation>
-<translation id="7752521946322750699">Ukuze uvikele umsebenzi wakho kuChromium, inhlangano yakho izokwazi ukubuka noma ukulawula ulwazi oluthile uma ungene ngemvume kuChromium.</translation>
-<translation id="7781047659465034537">Setha iChromium njengokuzenzakalelayo bese uyiphina ku-taskbar</translation>
-<translation id="7786760609782648049">Yenza i-Chromium isheshe</translation>
-<translation id="7790626492778995050"><ph name="PAGE_TITLE" /> - Chromium Canary</translation>
+<translation id="4713120944298974980">Sesha ku-João Browser</translation>
+<translation id="5804390944809171853">Setha Kabusha kuJoão Browser Ezenzakalelayo</translation>
+<translation id="6930487390575519812">Ukuze uvikele umsebenzi wakho kuJoão Browser, inhlangano yakho izokwazi ukubuka noma ukulawula ulwazi oluthile uma ungene ngemvume kuJoão Browser.</translation>
+<translation id="5214761769821670245">Setha iJoão Browser njengokuzenzakalelayo bese uyiphina ku-taskbar</translation>
+<translation id="1294697217796985566">Yenza i-João Browser isheshe</translation>
+<translation id="1278345486417353853"><ph name="PAGE_TITLE" /> - João Browser Canary</translation>
 <translation id="7803986347287457849">Kwenze kube nzima kubantu abanokufinyelela kuthrafikhi yakho ye-inthanethi ukuze babone ukuthi imaphi amasayithi owavakashelayo. I-Chromium isebenzisa ukuxhuma okuvikelekile ukuze ibheke ikheli lasesizindeni se-inthanethi lesayithi ku-DNS (Isistimu Yokwetha Isizinda).</translation>
 <translation id="7810005234485217901">Ungaphina Usesho Lomfanekiso ukuze lufinyeleleke kalula</translation>
-<translation id="7828947555739565424">Iphrofayela ye-Chromium enale akhawunti isikhona akakade kule divayisi</translation>
+<translation id="489728561211958943">Iphrofayela ye-João Browser enale akhawunti isikhona akakade kule divayisi</translation>
 <translation id="7845233973568007926">Siyabonga ngokufaka. Kufanele uqalise kabusha ikhompyutha yakho ngaphambi kokusebenzisa i-<ph name="BUNDLE_NAME" />.</translation>
-<translation id="7847673590271334840">Injini yakho yokusesha ishintshwe ngaphandle kweChromium. Ukuze ikuvikele, iChromium iyisetha kabusha ibuyele kokuzenzakalelayo kwayo kwasekuqaleni. <ph name="LEARN_MORE_LINK" /></translation>
-<translation id="7853661403199074278">Yenza iChromium ngokwesifiso sakho ukuze uyinikeze ukubukeka okusha</translation>
+<translation id="5294768452950207882">Injini yakho yokusesha ishintshwe ngaphandle kweJoão Browser. Ukuze ikuvikele, iJoão Browser iyisetha kabusha ibuyele kokuzenzakalelayo kwayo kwasekuqaleni. <ph name="LEARN_MORE_LINK" /></translation>
+<translation id="3244974069468656925">Yenza iJoão Browser ngokwesifiso sakho ukuze uyinikeze ukubukeka okusha</translation>
 <translation id="7859018312476869945">Uma uthayipha ibha yekheli noma ibhokisi losesho, i-Chromium ithumela lokho okuthayiphayo kunjini yakho yosesho yokuzenzakalelayo ukuze uthole iziphakamiso ezingcono. Lokhu kuvaliwe ku-Incognito.</translation>
-<translation id="7867198900892795913">I-Chromium ayikwazanga ukubuyekezela kwinguqulo yakamuva, ngakho-ke uyalahlekelwa kuzici ezintsha nokulungiswa kokuphepha.</translation>
+<translation id="6517519572778941051">I-João Browser ayikwazanga ukubuyekezela kwinguqulo yakamuva, ngakho-ke uyalahlekelwa kuzici ezintsha nokulungiswa kokuphepha.</translation>
 <translation id="7872446069773932638">Iyadawuniloda... kusele imizuzwana engu-<ph name="SECONDS" /></translation>
 <translation id="7873537467422636035">Uma ukhohlwa umushwana wakho wokungena noma ufuna ukushintsha le sethingi, <ph name="BEGIN_LINK" />sula idatha yeChromium ku-akhawunti yakho<ph name="END_LINK" />.</translation>
-<translation id="7874369989024033742">Vula ngokushesha iGemini kuChromium noma nini lapho uyidinga</translation>
-<translation id="7888981273428720788">Setha i-Chromium njengokwakho okuzenzakalelayo</translation>
+<translation id="1722038268139386345">Vula ngokushesha iGemini kuJoão Browser noma nini lapho uyidinga</translation>
+<translation id="8344320926817290924">Setha i-João Browser njengokwakho okuzenzakalelayo</translation>
 <translation id="7934340546140346950">IChromium ithuthukisa ukuxhuma okungavikelekile ku-HTTPS ngokuzenzekelayo lapho kungenzeka</translation>
-<translation id="7937630085815544518">Ubukade ungene ngemvume ku-Chromium njengo-<ph name="USER_EMAIL_ADDRESS" />. Sicela usebenzise i-akhawunti efanayo ukuze uphinde ungene ngemvume futhi.</translation>
-<translation id="7944602660083060118">U-<ph name="EXISTING_USER" /> usevele ungene ngemvume. Ukuze ugcine ukubhrawuza kwakho kuhlukile, ngena ngemvume kuChromium kuphrofayela yakho njengo-<ph name="USER_EMAIL_ADDRESS" /> Uzothola namabhukhimakhi wakho nokuningi kuwo wonke amadivayisi wakho.</translation>
+<translation id="3755057387338907970">Ubukade ungene ngemvume ku-João Browser njengo-<ph name="USER_EMAIL_ADDRESS" />. Sicela usebenzise i-akhawunti efanayo ukuze uphinde ungene ngemvume futhi.</translation>
+<translation id="929903348843569380">U-<ph name="EXISTING_USER" /> usevele ungene ngemvume. Ukuze ugcine ukubhrawuza kwakho kuhlukile, ngena ngemvume kuJoão Browser kuphrofayela yakho njengo-<ph name="USER_EMAIL_ADDRESS" /> Uzothola namabhukhimakhi wakho nokuningi kuwo wonke amadivayisi wakho.</translation>
 <translation id="7975919845073681630">Lokhu ukufakwa kwesibili kwe-Chromium, futhi akukwazi ukwenziwa isiphequluli sakho esizenzakalelayo.</translation>
-<translation id="7997934263947464652">Izandiso, ama-app, namatimu asuka emithonjeni engaziwa angalimaza idivayisi yakho. I-Chromium incoma ukuzifaka kuphela zisuka ku-<ph name="IDS_EXTENSION_WEB_STORE_TITLE" /></translation>
-<translation id="8000759043835159571">Thola okungcono kakhulu kweGoogle nge-app yeChromium efonini yakho <ph name="DEVICE_TYPE" /></translation>
+<translation id="8905411496853397218">Izandiso, ama-app, namatimu asuka emithonjeni engaziwa angalimaza idivayisi yakho. I-João Browser incoma ukuzifaka kuphela zisuka ku-<ph name="IDS_EXTENSION_WEB_STORE_TITLE" /></translation>
+<translation id="6306672714476596428">Thola okungcono kakhulu kweGoogle nge-app yeJoão Browser efonini yakho <ph name="DEVICE_TYPE" /></translation>
 <translation id="8004582292198964060">Isiphequluli</translation>
 <translation id="8010081455002666927">Thola ngokuzenzakalela</translation>
-<translation id="8013436988911883588">Uma i-Chromium inokufinyelela, amawebhusayithi azokwazi ukukucela ukufinyelela.</translation>
-<translation id="8031714377769448844">Phina iChromium ku-taskbar yakho ukuze ufike kuyo ngokushesha noma nini</translation>
+<translation id="2172829664765531568">Uma i-João Browser inokufinyelela, amawebhusayithi azokwazi ukukucela ukufinyelela.</translation>
+<translation id="74641100973032765">Phina iJoão Browser ku-taskbar yakho ukuze ufike kuyo ngokushesha noma nini</translation>
 <translation id="80471789339884597">Siyabonga ngokufaka. Kufanele uqalise kabusha wonke amabhrawuza akho ngaphambi kokusebenzisa i-<ph name="BUNDLE_NAME" />.</translation>
 <translation id="8054112667659782652">Bonisa Isinqamuleli Sokusesha Umfanekiso Njalo</translation>
 <translation id="8069447462453318634">Khetha okuthi "Phina kubha yamathuluzi"</translation>
-<translation id="8077498902115777962">Vala iChromium esebenza ngemuva kuma-app</translation>
+<translation id="5039671129725402518">Vala iJoão Browser esebenza ngemuva kuma-app</translation>
 <translation id="80790299200510644">Ukusesha Umfanekiso</translation>
 <translation id="8086881907087796310">Ukufakwa kwehlulekile ngenxa yokuthi ikhompyutha yakho ayihlangabezani nezimfuneko zenani elincane lehadiwe.</translation>
 <translation id="8096472344908884505"><ph name="PAGE_TITLE" /> - I-Google Chrome Yokuhlola</translation>
-<translation id="8105840573057009683">I-Chromium idinga imvume yendawo kule sayithi</translation>
-<translation id="8107060931443639922">Ngokuzayo uma uvula iChromium ku-<ph name="DEVICE_TYPE" /> yakho, uzobona umyalelo wokusebenzisa izexwayiso zokulandelela intengo.</translation>
-<translation id="8117908349476699973">Thola izexwayiso zokwehla kwentengo ezintweni onentshisekelo kuzo nge-app yeChromium efonini yakho</translation>
+<translation id="2430877582155731716">I-João Browser idinga imvume yendawo kule sayithi</translation>
+<translation id="8298045348217323">Ngokuzayo uma uvula iJoão Browser ku-<ph name="DEVICE_TYPE" /> yakho, uzobona umyalelo wokusebenzisa izexwayiso zokulandelela intengo.</translation>
+<translation id="3827347991254458074">Thola izexwayiso zokwehla kwentengo ezintweni onentshisekelo kuzo nge-app yeJoão Browser efonini yakho</translation>
 <translation id="8118331347066725040">Thumela impendulo yokusesha nge-Lens</translation>
-<translation id="8130609355518033382">Yenza iChromium ibe ngeyakho</translation>
+<translation id="2580039965224265556">Yenza iJoão Browser ibe ngeyakho</translation>
 <translation id="8133124826068723441">I-ChromiumOS ayikwazanga ukuvumelanisa idatha yakho ngoba Ukuvumelanisa akutholakali kusizinda sakho.</translation>
 <translation id="813913629614996137">Iyaqalisa...</translation>
-<translation id="8161503455832158203">Vula iGemini kuChromium ngesinqamuleli sekhibhodi.</translation>
-<translation id="8164014945047474187">Imigomo Yesevisi Eyengeziwe yeChromium</translation>
-<translation id="81770708095080097">Leli fayela liyingozi, ngakho-ke i-Chromium iyivimbile.</translation>
+<translation id="7940955011992997426">Vula iGemini kuJoão Browser ngesinqamuleli sekhibhodi.</translation>
+<translation id="7560319627203819845">Imigomo Yesevisi Eyengeziwe yeJoão Browser</translation>
+<translation id="7133741820744999589">Leli fayela liyingozi, ngakho-ke i-João Browser iyivimbile.</translation>
 <translation id="8177472873527554730">Asikwazi ukuthola ikhontenti kuleli khasi</translation>
 <translation id="8200109504272824693">Bhala umushwana wokungena ozowusebenzisa futhi ulondoloze idatha yeChromium e-akhawuntini yakho, <ph name="USER_EMAIL" /></translation>
 <translation id="820759916613250543">Sesha Lesi sithombe Ngosesho Lomfanekiso</translation>
 <translation id="8221491193165283816">Uvamise ukuvimba izaziso. Ukuze uvumele leli sayithi ukuthi likwazise, chofoza lapha.</translation>
 <translation id="8223363452568144035">Ukuze usebenzise ikhamera yakho, nikeza iChromium ukufinyelela <ph name="BEGIN_LINK" />amasethingi ohlelo<ph name="END_LINK" /></translation>
-<translation id="8232193495299001329">I-Chromium ayikwazi ukuqinisekisa ukuthi lesi sandiso sivelaphi, futhi kungenzeka ukuthi asiphephile. Sisuse ku-Chromium ukuze singasakwazi ukubona nokushintsha idatha yakho kumasayithi owavakashelayo, okufaka phakathi ulwazi lomuntu siqu.</translation>
-<translation id="8248265253516264921">Uma isithombe singanayo incazelo ephelele, i-Chromium izozama ukukunikezela eyodwa. Ukuze udale izincazelo, izithombe zithunyelwa ku-Google. Ungavala lokhu kuzilungiselelo noma kunini.</translation>
-<translation id="8254601181414348851">Ngena ngemvume ku-Chromium kuphrofayela entsha?</translation>
-<translation id="8262224117913639129">U-<ph name="EXISTING_USER" /> usevele ungene ngemvume. Ukuze ugcine ukubhrawuza kwakho kuhlukile, ngena ngemvume kuChromium kuphrofayela yakho njengo-<ph name="USER_EMAIL_ADDRESS" /> Uzophinde uthole amaphasiwedi wakho nokuningi ku-<ph name="DEVICE" />.</translation>
-<translation id="8277334259226003205">Bonisa iGemini kuChromium kugqoko lwesistimu bese uvula isinqamuleli sekhibhodi</translation>
+<translation id="8132864687089402359">I-João Browser ayikwazi ukuqinisekisa ukuthi lesi sandiso sivelaphi, futhi kungenzeka ukuthi asiphephile. Sisuse ku-João Browser ukuze singasakwazi ukubona nokushintsha idatha yakho kumasayithi owavakashelayo, okufaka phakathi ulwazi lomuntu siqu.</translation>
+<translation id="7600652022483599804">Uma isithombe singanayo incazelo ephelele, i-João Browser izozama ukukunikezela eyodwa. Ukuze udale izincazelo, izithombe zithunyelwa ku-Google. Ungavala lokhu kuzilungiselelo noma kunini.</translation>
+<translation id="8703735741562140394">Ngena ngemvume ku-João Browser kuphrofayela entsha?</translation>
+<translation id="2830039647655087365">U-<ph name="EXISTING_USER" /> usevele ungene ngemvume. Ukuze ugcine ukubhrawuza kwakho kuhlukile, ngena ngemvume kuJoão Browser kuphrofayela yakho njengo-<ph name="USER_EMAIL_ADDRESS" /> Uzophinde uthole amaphasiwedi wakho nokuningi ku-<ph name="DEVICE" />.</translation>
+<translation id="1802935470126307750">Bonisa iGemini kuJoão Browser kugqoko lwesistimu bese uvula isinqamuleli sekhibhodi</translation>
 <translation id="8286943863733751221"><ph name="BEGIN_LINK" />I-Chromium ikuxwayisa<ph name="END_LINK" /> mayelana namasayithi angaphephile kanye nokudawunilodiwe</translation>
 <translation id="8295827201165805317">Awukavakashi kamuva nje. IChromium isuse i-<ph name="PERMISSION" />.</translation>
-<translation id="8296236834352487533">Thenga, humusha futhi uhlonze okubonayo ngekhamera yakho ku-app yeChromium iOS</translation>
-<translation id="8310603974518734211">Ikhodi ye-QR yokungena ngemvume kuChromium njengo-<ph name="USER_NAME" /></translation>
+<translation id="481989138594406896">Thenga, humusha futhi uhlonze okubonayo ngekhamera yakho ku-app yeJoão Browser iOS</translation>
+<translation id="5242426961520127942">Ikhodi ye-QR yokungena ngemvume kuJoão Browser njengo-<ph name="USER_NAME" /></translation>
 <translation id="8313851650939857356">Iphutha ekuqaliseni: <ph name="STARTUP_ERROR" />.</translation>
-<translation id="8318772038038596122">Inhlangano yakho ivala i-Chromium uma ingasetshenziswa isikhathi esingu-<ph name="TIMEOUT_DURATION" />.</translation>
+<translation id="3644336211313412429">Inhlangano yakho ivala i-João Browser uma ingasetshenziswa isikhathi esingu-<ph name="TIMEOUT_DURATION" />.</translation>
 <translation id="8321888067342493336">Londoloza njengesithombe</translation>
-<translation id="8340674089072921962"><ph name="USER_EMAIL_ADDRESS" /> ngaphambilini ibisebenzisa i-Chromium</translation>
+<translation id="3150519286474936594"><ph name="USER_EMAIL_ADDRESS" /> ngaphambilini ibisebenzisa i-João Browser</translation>
 <translation id="8351551329754447960">Sebenzisa Amakhono kuChromium</translation>
-<translation id="8359544530202147897">Buyekeza iChromium ukuze uqhubeke usebenzisa idatha yeChromium kuGoogle Account yakho, <ph name="ACCOUNT_EMAIL" /></translation>
-<translation id="8360718212975266891">Ukuze uthole izibuyekezo zesikhathi esizayo ze-Chromium, uzodinga i-Windows 10 noma yakamuva. Le khompyutha isebenzisa i-Windows 8.</translation>
+<translation id="4566781614303801262">Buyekeza iJoão Browser ukuze uqhubeke usebenzisa idatha yeJoão Browser kuGoogle Account yakho, <ph name="ACCOUNT_EMAIL" /></translation>
+<translation id="8404636483124146663">Ukuze uthole izibuyekezo zesikhathi esizayo ze-João Browser, uzodinga i-Windows 10 noma yakamuva. Le khompyutha isebenzisa i-Windows 8.</translation>
 <translation id="8362914115861174987">Humushela ku-</translation>
 <translation id="8367705492654390392">Buza noma ngabe yini</translation>
 <translation id="8370517070665726704">© <ph name="YEAR" /> Google LLC. Wonke amalungelo agodliwe.</translation>
-<translation id="8372327902843331129">Ukuze uthole amaphasiwedi akho kanye nokwengeziwe kuwo wonke amadivayisi akho, ngena ngemvume kuChromium. Le phasiwedi izolondolozwa kuGoogle Account yakho ngemva kokungena ngemvume.</translation>
-<translation id="837460953767177950">Khona-ke kuzodingeka uqale kabusha iChromium.</translation>
-<translation id="8397248745433792218">IChromium incoma ukuthi usisuse. <ph name="BEGIN_LINK" />Funda kabanzi mayelana nezandiso ezisekelwayo<ph name="END_LINK" /></translation>
-<translation id="8401454788024434101">Lesi sandiso sisuswe ukushicilela ngunjiniyela waso, futhi kungenzeka sibe esingaphephile. Sisuse ku-Chromium ukuze singasakwazi ukubona nokushintsha idatha yakho kumasayithi owavakashelayo, okufaka phakathi ulwazi lwakho lomuntu siqu.</translation>
-<translation id="8416884904046428725">IChromium idinga ukuqinisekisa ukuthi uwena ngaphambi kokuthi idatha ethile ilondolozwe kuGoogle Account yakho futhi isetshenziswe kuwo wonke amadivayisi akho. Uma uphuma ngemvume manje, le datha izosulwa.</translation>
-<translation id="8417404458978023919">{0,plural, =1{Qalisa kabusha i-Chromium phakathi kosuku}one{Qalisa kabusha i-Chromium phakathi kwezinsuku ezingu-#}other{Qalisa kabusha i-Chromium phakathi kwezinsuku ezingu-#}}</translation>
+<translation id="8954225380790220359">Ukuze uthole amaphasiwedi akho kanye nokwengeziwe kuwo wonke amadivayisi akho, ngena ngemvume kuJoão Browser. Le phasiwedi izolondolozwa kuGoogle Account yakho ngemva kokungena ngemvume.</translation>
+<translation id="208035402574338948">Khona-ke kuzodingeka uqale kabusha iJoão Browser.</translation>
+<translation id="7458698097055456629">IJoão Browser incoma ukuthi usisuse. <ph name="BEGIN_LINK" />Funda kabanzi mayelana nezandiso ezisekelwayo<ph name="END_LINK" /></translation>
+<translation id="3428558977667883100">Lesi sandiso sisuswe ukushicilela ngunjiniyela waso, futhi kungenzeka sibe esingaphephile. Sisuse ku-João Browser ukuze singasakwazi ukubona nokushintsha idatha yakho kumasayithi owavakashelayo, okufaka phakathi ulwazi lwakho lomuntu siqu.</translation>
+<translation id="5012944467031125860">IJoão Browser idinga ukuqinisekisa ukuthi uwena ngaphambi kokuthi idatha ethile ilondolozwe kuGoogle Account yakho futhi isetshenziswe kuwo wonke amadivayisi akho. Uma uphuma ngemvume manje, le datha izosulwa.</translation>
+<translation id="8822543678238892300">{0,plural, =1{Qalisa kabusha i-João Browser phakathi kosuku}one{Qalisa kabusha i-João Browser phakathi kwezinsuku ezingu-#}other{Qalisa kabusha i-João Browser phakathi kwezinsuku ezingu-#}}</translation>
 <translation id="8438543370129609977">Uma usebenzisa Usesho Lomfanekiso, isihloko sekhasi, i-URL, nokuqukethwe, okubandakanya ama-PDF, kuthunyelwa kuseva. <ph name="LEARN_MORE" /></translation>
-<translation id="8447525028100794994">Funda kabanzi mayelana nokusesha ngeSearch Yezithombe kuChromium</translation>
-<translation id="8453117565092476964">Ingobo yomlando yesifaki yonakele noma ayivumelekile. Sicela ulande futhi i-Chromium.</translation>
-<translation id="8458614432758743027">I-Chromium idinga i-Windows 7 noma ngaphezulu.</translation>
+<translation id="4307944272317199640">Funda kabanzi mayelana nokusesha ngeSearch Yezithombe kuJoão Browser</translation>
+<translation id="6024135746436350583">Ingobo yomlando yesifaki yonakele noma ayivumelekile. Sicela ulande futhi i-João Browser.</translation>
+<translation id="4933173390191738516">I-João Browser idinga i-Windows 7 noma ngaphezulu.</translation>
 <translation id="8463672209299734063">Ongakukhetha: Siza ekuthuthukiseni izakhi nokusebenza kwe-ChromiumOS ngokuthumela ngokuzenzekelayo idatha yokusetshenziswa neyokuxilonga ku-Google.</translation>
-<translation id="8471947159125090285">Ukuze usebenzise futhi ulondoloze idatha yeChromium kuGoogle Account yakho, qinisekisa ukuthi nguwe.</translation>
+<translation id="4499703930846496679">Ukuze usebenzise futhi ulondoloze idatha yeJoão Browser kuGoogle Account yakho, qinisekisa ukuthi nguwe.</translation>
 <translation id="8482493977473846331">Ibonisa isiqondiso sokungena ngemvume kuChromium</translation>
-<translation id="8493179195440786826">I-Chromium ayikho kudethi</translation>
+<translation id="2129903037617090425">I-João Browser ayikho kudethi</translation>
 <translation id="850264194101621529">Siyabonga ngokukhetha iChromium njengebhrawuza yakho evuleka ngokuzenzekela!</translation>
 <translation id="8522801943730206384">I-Chromium ingahlola amaphasiwedi akho lapho uwalondoloza khona</translation>
 <translation id="8525579356836940628">Ukufaka Kumisiwe</translation>
-<translation id="8545729292258443488">Sebenzisa amaphasiwedi akho, amathebhu nokuningi usendleleni nge-app yeChromium efonini yakho <ph name="DEVICE_TYPE" /></translation>
+<translation id="2445505893586445499">Sebenzisa amaphasiwedi akho, amathebhu nokuningi usendleleni nge-app yeJoão Browser efonini yakho <ph name="DEVICE_TYPE" /></translation>
 <translation id="8548787790260785208">Thola isexwayiso uma iChromium ithola ukuthi enye yamaphasiwedi akho yephula isivumelwano sedatha esisesidlangalaleni</translation>
 <translation id="8555465886620020932">Iphutha lesevisi: <ph name="SERVICE_ERROR" />.</translation>
-<translation id="8556055872671007529">Ezinye izakhi zeChromium nezandiso ziza nezinqamuleli. Ungakhetha ukuwavula futhi.</translation>
+<translation id="8871890913961794658">Ezinye izakhi zeJoão Browser nezandiso ziza nezinqamuleli. Ungakhetha ukuwavula futhi.</translation>
 <translation id="8556420416730706394">Ungaphina Usesho Lomfanekiso ukuze lufinyeleleke kalula; chofoza inkinobho ethi Phina phezulu kwephaneli eseceleni</translation>
 <translation id="856656450041460113">Sesha uhlu lwezilimi</translation>
-<translation id="8576826849825683917">Izinhlangano eziningi ziphatha iChromium</translation>
+<translation id="9044172203094901282">Izinhlangano eziningi ziphatha iJoão Browser</translation>
 <translation id="8586442755830160949">Copyright <ph name="YEAR" /> Ababhali be-Chromium. Wonke amalungelo agciniwe.</translation>
 <translation id="8601359445272098721">Okusha! Ungahumusha kokubili umbhalo nezithombe esikrinini sakho ngokukhetha inkinobho ethi "humusha isikrini"</translation>
-<translation id="8619360774459241877">Iqalisa i-Chromium...</translation>
+<translation id="1071663705626404814">Iqalisa i-João Browser...</translation>
 <translation id="8624541899164515475">Amasethingi, avuleka kuthebhu entsha.</translation>
 <translation id="8648201657708811153">I-Google Chrome Yokuhlola ayikwazi ukwenziwa ibhrawuza yakho yokuzenzakalelayo.</translation>
-<translation id="8697124171261953979">Iphinda ilawule ukuthi yiliphi ikhasi eliboniswayo uma uqala i-Chromium noma usesho kusuka ku-Omnibox.</translation>
-<translation id="8704119203788522458">Lena yi-Chromium yakho</translation>
+<translation id="5975137268566279898">Iphinda ilawule ukuthi yiliphi ikhasi eliboniswayo uma uqala i-João Browser noma usesho kusuka ku-Omnibox.</translation>
+<translation id="6358904712334248114">Lena yi-João Browser yakho</translation>
 <translation id="8712637175834984815">Ngiyitholile</translation>
-<translation id="8719993436687031146">Ngena ngemvume ku-Chromium?</translation>
+<translation id="5380190167074430719">Ngena ngemvume ku-João Browser?</translation>
 <translation id="8747073452963259673">ikhona elingezansi ngakwesokunxele lendawo yokusesha: ngakwesokudla okungu-<ph name="LEFT" />%, ngezansi okungu-<ph name="BOTTOM" />%</translation>
 <translation id="878572486461146056">Iphutha lokufaka: Umlawuli wenethiwekhi yakho usebenzise Inqubomgomo Yeqembu evimbela ukufakwa: <ph name="INSTALL_ERROR" /></translation>
 <translation id="8813277370772331957">Ngikhumbuze ngesinye isikhathi</translation>
-<translation id="8816416449795340678">Yabelana ngale dokhumenti ngeGemini kuChromium ukuze uthole amazwibela asheshayo futhi ubuze imibuzo elandelayo</translation>
-<translation id="8818550178040858407">Ngena Ngemvume ku-Chromium?</translation>
+<translation id="8871607387186266158">Yabelana ngale dokhumenti ngeGemini kuJoão Browser ukuze uthole amazwibela asheshayo futhi ubuze imibuzo elandelayo</translation>
+<translation id="3009329613270131861">Ngena Ngemvume ku-João Browser?</translation>
 <translation id="8823401858233292222">Yenza iChromium ibe yibhrawuza evuleka ngokuzenzekelayo bese uyiphina ku-taskbar</translation>
 <translation id="8826492472752484139">Chofoza okluthi “Isiphathi Sephasiwedi”</translation>
 <translation id="8833697763442816810">Isistimu ye-ChromiumOS</translation>
 <translation id="8852026904190808918">Lolu limi lusetshenziselwa ukubonisa amamenyu, amasethingi, izexwayiso, nomunye umbhalo kuChromium</translation>
 <translation id="8862326446509486874">Awunawo amalungelo afanele wokufakwa okukuleveli yesistimu. Zama ukuqalisa isifaki futhi njengomlawuli.</translation>
-<translation id="8876044221123442390">Faka Iphrofayela yeChromium</translation>
-<translation id="8890569919834781711">IChromiumOS ayikwazanga ukulondoloza idatha yeChromium kuGoogle Account yakho ngenxa yephutha lokungena ngemvume</translation>
-<translation id="8891709362986793894">Inhlangano yakho ifuna ungene ngemvume kuChromium</translation>
-<translation id="8907580949721785412">I-Chromium izama ukubonisa amaphasiwedi. Thayipha iphasiwedi yakho ye-Windows ukuze uvumele lokhu.</translation>
-<translation id="8932992523185907506">IChromium ayiseyona ibhrawuza yakho evuleka ngokuzenzekela. Yenza iChromium ibe yibhrawuza evuleka ngokuzenzekela?</translation>
-<translation id="8941642502866065432">Ayikwazi ukubuyekeza i-Chromium</translation>
+<translation id="6821836710312478344">Faka Iphrofayela yeJoão Browser</translation>
+<translation id="5139769635207740615">IChromiumOS ayikwazanga ukulondoloza idatha yeJoão Browser kuGoogle Account yakho ngenxa yephutha lokungena ngemvume</translation>
+<translation id="6814613825007700341">Inhlangano yakho ifuna ungene ngemvume kuJoão Browser</translation>
+<translation id="1009831347869773172">I-João Browser izama ukubonisa amaphasiwedi. Thayipha iphasiwedi yakho ye-Windows ukuze uvumele lokhu.</translation>
+<translation id="690637523240192979">IJoão Browser ayiseyona ibhrawuza yakho evuleka ngokuzenzekela. Yenza iJoão Browser ibe yibhrawuza evuleka ngokuzenzekela?</translation>
+<translation id="225046375773654931">Ayikwazi ukubuyekeza i-João Browser</translation>
 <translation id="8944232836376404813">Lesi senzo sizokwenza lokhu:
           <ph name="LINE_BREAKS" />
             • Setha kabusha ikhasi lakho lokuqalisa, ikhasi lethebhu entsha, injini yokusesha namathebhu aphiniwe
@@ -762,39 +762,39 @@ I-Chromium ayikwazi ukubuyisela izilungiselelo zakho.</translation>
             • Sula amakhukhi nenye idatha yesikhashana yesayithi
             <ph name="LINE_BREAKS" />
             Amabhukhimakhi, umlando, namaphasiwedi alondoloziwe ngeke aze athinteke.</translation>
-<translation id="897581876605952338">Ilogo ye-Chromium Enterprise</translation>
-<translation id="8980139959902937527">Yenza iGoogle iphephe usendleleni nge-app yeChromium ku-<ph name="DEVICE_TYPE" /> yakho</translation>
-<translation id="8981150672034878610">Ayikwazi ukuqala iChromium ngoba kukhona okungahambanga kahle lapho uvula iphrofayela yakho. Zama ukuqala kabusha iChromium.</translation>
-<translation id="8988036198400390003">Phatha amaphrofayela e-Chromium</translation>
-<translation id="8993855408334954620">Sebenzisa ikhibhodi yakho ukuze ufune phakathi kweGemini kuChromium nethebhu yakho evuliwe.</translation>
+<translation id="4349474976990059197">Ilogo ye-João Browser Enterprise</translation>
+<translation id="3227699293368317033">Yenza iGoogle iphephe usendleleni nge-app yeJoão Browser ku-<ph name="DEVICE_TYPE" /> yakho</translation>
+<translation id="6527164294507620103">Ayikwazi ukuqala iJoão Browser ngoba kukhona okungahambanga kahle lapho uvula iphrofayela yakho. Zama ukuqala kabusha iJoão Browser.</translation>
+<translation id="6741767563284518125">Phatha amaphrofayela e-João Browser</translation>
+<translation id="3101491883380219087">Sebenzisa ikhibhodi yakho ukuze ufune phakathi kweGemini kuJoão Browser nethebhu yakho evuliwe.</translation>
 <translation id="9018218886431812662">Ukufaka kuqedile</translation>
-<translation id="9019929317751753759">Ukuze senze i-Chromium iphephe, sikhubaza isandiso esilandelayo esingafakiwe kuhlu lwe-<ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> futhi kungenzeka singezwe ngaphandle kolwazi lakho.</translation>
-<translation id="9022552996538154597">Ngena ngemvume ku-Chromium</translation>
-<translation id="904366664621834601">I-Chromium ivimbele lokhu kudawuniloda ngoba ifayela lengobo yomlando lihlanganisa namanye amafayela angase afihle uhlelo olungayilungele ikhompyutha</translation>
-<translation id="9053882453960391422">Gcina amaphasiwedi akho, amabhukhimakhi, nomlando kuvunyelaniswe ngokuphelele kuwo wonke amadivayisi. Finyelela kalula izakhi ozaziyo nozithandayo ngokubuyekeza ibhrawuza yakho evuleka ngokuzenzakalelayo ibe yiChromium. IChromium izophinwa kutaskbar yakho ukuze ifinyeleleke ngokushesha.</translation>
-<translation id="9056398481763999048">Sebenzisa amathuluzi e-AI ahamba phambili eGoogle nge-app yeChromium efonini yakho</translation>
+<translation id="3370247132646333337">Ukuze senze i-João Browser iphephe, sikhubaza isandiso esilandelayo esingafakiwe kuhlu lwe-<ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> futhi kungenzeka singezwe ngaphandle kolwazi lakho.</translation>
+<translation id="1940116386572548863">Ngena ngemvume ku-João Browser</translation>
+<translation id="8381652653666868014">I-João Browser ivimbele lokhu kudawuniloda ngoba ifayela lengobo yomlando lihlanganisa namanye amafayela angase afihle uhlelo olungayilungele ikhompyutha</translation>
+<translation id="8374335201144490555">Gcina amaphasiwedi akho, amabhukhimakhi, nomlando kuvunyelaniswe ngokuphelele kuwo wonke amadivayisi. Finyelela kalula izakhi ozaziyo nozithandayo ngokubuyekeza ibhrawuza yakho evuleka ngokuzenzakalelayo ibe yiJoão Browser. IJoão Browser izophinwa kutaskbar yakho ukuze ifinyeleleke ngokushesha.</translation>
+<translation id="6176486087616698123">Sebenzisa amathuluzi e-AI ahamba phambili eGoogle nge-app yeJoão Browser efonini yakho</translation>
 <translation id="9062666675513499497">Ngena ngemvume ku-Chromium uma ungena ngemvume kwamanye amasevisi e-Google</translation>
-<translation id="9078733879136747090">I-Chromium ivalwe ngokuzenzekelayo</translation>
-<translation id="9089354809943900324">I-Chromium ayikho kudethi</translation>
-<translation id="9093206154853821181">{0,plural, =1{I-Chromium izoqalisa kabusha phakathi kwehora}one{I-Chromium izoqalisa kabusha emahoreni angu-#}other{I-Chromium izoqalisa kabusha emahoreni angu-#}}</translation>
+<translation id="724802823738504651">I-João Browser ivalwe ngokuzenzekelayo</translation>
+<translation id="2689333215784698609">I-João Browser ayikho kudethi</translation>
+<translation id="8049510467237146160">{0,plural, =1{I-João Browser izoqalisa kabusha phakathi kwehora}one{I-João Browser izoqalisa kabusha emahoreni angu-#}other{I-João Browser izoqalisa kabusha emahoreni angu-#}}</translation>
 <translation id="9106236359747881194">Khetha umbhalo ozowusesha</translation>
-<translation id="9106612006984859720">Ukuze uthole izibuyekezo zesikhathi esizayo ze-Chromium, uzodinga i-Windows 10 noma yakamuva. Le khompyutha isebenzisa i-Windows 8.1.</translation>
-<translation id="91086099826398415">Vula isixhumanisi ku&amp;thebhu entsha ye-Chromium</translation>
+<translation id="8558551666630075184">Ukuze uthole izibuyekezo zesikhathi esizayo ze-João Browser, uzodinga i-Windows 10 noma yakamuva. Le khompyutha isebenzisa i-Windows 8.1.</translation>
+<translation id="1194819784870407331">Vula isixhumanisi ku&amp;thebhu entsha ye-João Browser</translation>
 <translation id="911206726377975832">Phinda ususe idatha yakho yokudlulisa amehlo?</translation>
 <translation id="9134482777260927479">Usizo lomsebenzi wasekhaya</translation>
 <translation id="9148058034647219655">Phuma</translation>
-<translation id="9155105544013854680">Qhubeka lapho ogcine khona: IChromium ingabuyisela amathebhu akho njalo lapho uqala kabusha. Ukuze ukuvule lokhu, iya ku-</translation>
-<translation id="9158494823179993217">Umlawuli wesistimu yakho ulungise i-Chromium ukuthi ivule esinye isiphequluli ukufinyelela i-<ph name="TARGET_URL_HOSTNAME" />.</translation>
-<translation id="9185526690718004400">Qalisa kabusha ukuze ubuyekeze i-&amp;Chromium</translation>
-<translation id="9190841055450128916">I-Chromium (mDNS-In)</translation>
-<translation id="924957577793602335">Yenza i-Chromium Ibe ngeyakho</translation>
-<translation id="93478295209880648">I-Chromium kungenzeka ingasebenzi kahle ngoba ayisasekelwa ku-Windows XP noma ku-Windows Vista</translation>
-<translation id="945098430667185067">Thola izakhi zokuphepha ezihamba phambili zeGoogle usendleleni ngeChromium.</translation>
+<translation id="548951409840319583">Qhubeka lapho ogcine khona: IJoão Browser ingabuyisela amathebhu akho njalo lapho uqala kabusha. Ukuze ukuvule lokhu, iya ku-</translation>
+<translation id="7614949510548815395">Umlawuli wesistimu yakho ulungise i-João Browser ukuthi ivule esinye isiphequluli ukufinyelela i-<ph name="TARGET_URL_HOSTNAME" />.</translation>
+<translation id="3441698750089879771">Qalisa kabusha ukuze ubuyekeze i-&amp;João Browser</translation>
+<translation id="369689859238510548">I-João Browser (mDNS-In)</translation>
+<translation id="8336832914816665097">Yenza i-João Browser Ibe ngeyakho</translation>
+<translation id="7698429329590050365">I-João Browser kungenzeka ingasebenzi kahle ngoba ayisasekelwa ku-Windows XP noma ku-Windows Vista</translation>
+<translation id="190261805571697214">Thola izakhi zokuphepha ezihamba phambili zeGoogle usendleleni ngeJoão Browser.</translation>
 <translation id="945522503751344254">Thumela impendulo</translation>
-<translation id="965162752251293939">Ubani osebenzisa i-Chromium?</translation>
-<translation id="967427899662692980">Thola ukuvikeleka okuqine kakhulu kwe-Chromium</translation>
+<translation id="5554799509799759090">Ubani osebenzisa i-João Browser?</translation>
+<translation id="9153108844196984904">Thola ukuvikeleka okuqine kakhulu kwe-João Browser</translation>
 <translation id="983803489796659991">Ukufaka kuhlulekile ngoba iseva yokubuyekeza ayinayo idatha ye-hash ye-application.</translation>
-<translation id="985498048907240953">Sebenzisa i-Chromium Ngaphandle kwe-Akhawunti</translation>
+<translation id="6230710687825107323">Sebenzisa i-João Browser Ngaphandle kwe-Akhawunti</translation>
 <translation id="985602178874221306">Ababhali be-Chromium</translation>
 <translation id="989970834842471429">Khetha noma yimuphi umbhalo noma isithombe ukuze useshe Ngosesho Lomfanekiso</translation>
 <translation id="992780518932311116">Ukuze usebenzise indawo yakho, nikeza iChromium ukufinyelela <ph name="BEGIN_LINK" />amasethingi ohlelo<ph name="END_LINK" /></translation>

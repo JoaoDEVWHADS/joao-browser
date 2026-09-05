@@ -3,275 +3,275 @@
 <translationbundle lang="is">
 <translation id="1026101648481255140">Halda uppsetningu áfram</translation>
 <translation id="1029669172902658969">Endurræstu til að uppfæra &amp;ChromiumOS</translation>
-<translation id="1040916596585577953">Chromium mælir með að þú farir yfir þessa viðbót</translation>
+<translation id="4711726241445951349">João Browser mælir með að þú farir yfir þessa viðbót</translation>
 <translation id="1042552502243217427">Þegar vefsvæði biður um að forhlaða tenglum á lokaðan hátt á síðunni sinni notar Chromium Google-þjóna. Þetta kemur í veg fyrir að forhlaðna vefsvæðið geti auðkennt þig en Google lærir að þekkja hvaða vefsvæðum er forhlaðið.</translation>
 <translation id="1051793555070215510">Taktu þátt í örstuttri könnun til að hjálpa okkur að bæta huliðsstillingu.</translation>
 <translation id="1065672644894730302">Ekki er tókst að lesa kjörstillingarnar þínar.
 
 Sumir eiginleikar kunna að vera óaðgengilegir og breytingar á kjörstillingum verða ekki vistaðar.</translation>
-<translation id="1083934481477628225">Foreldri þitt hefur slökkt á „Heimildum fyrir vefsvæði, forrit og viðbætur" fyrir Chromium</translation>
-<translation id="1090946077924227754">Til að leita að tilteknum eiginleika eða viðbót Chromium skaltu slá flýtileiðina inn í veffangastikuna og ýta svo á valinn flýtilykil</translation>
-<translation id="1098493699368672217">Sýna leit með Chromium í kerfisbakka og kveikja á flýtilykli</translation>
-<translation id="1104942323762546749">Chromium vill flytja út aðgangsorðin þín. Sláðu inn Windows-aðgangsorðið þitt til að leyfa það.</translation>
+<translation id="3937976866851867994">Foreldri þitt hefur slökkt á „Heimildum fyrir vefsvæði, forrit og viðbætur" fyrir João Browser</translation>
+<translation id="8626021334348319355">Til að leita að tilteknum eiginleika eða viðbót João Browser skaltu slá flýtileiðina inn í veffangastikuna og ýta svo á valinn flýtilykil</translation>
+<translation id="571817873405657554">Sýna leit með João Browser í kerfisbakka og kveikja á flýtilykli</translation>
+<translation id="9157778882771986870">João Browser vill flytja út aðgangsorðin þín. Sláðu inn Windows-aðgangsorðið þitt til að leyfa það.</translation>
 <translation id="112640046208448578">Berðu kennsl á hluti eða staði og afritaðu eða þýddu texta. Þegar þú notar myndaleit er skjámynd af síðunni send til þjónsins. <ph name="LEARN_MORE" /></translation>
 <translation id="113122355610423240">Chromium er sjálfgefni vafrinn þinn</translation>
 <translation id="1131805035311359397"><ph name="BEGIN_LINK" />Skráðu þig inn á Chromium<ph name="END_LINK" /> til að athuga hvort aðgangsorðin þín séu óhult fyrir öryggisbrotum og öðrum öryggisvandamálum.</translation>
-<translation id="1153368717515616349">Smelltu á Chromium-valmyndina</translation>
+<translation id="2795895511109336240">Smelltu á João Browser-valmyndina</translation>
 <translation id="1157985233335035034">Nýleg tungumál</translation>
 <translation id="1184145431117212167">Uppsetning mistókst því að þín útgáfa af Windows er ekki studd.</translation>
 <translation id="1185134272377778587">Um Chromium</translation>
-<translation id="1186645291482254714">Fáðu verðrakningartilkynningar með Chromium í símanum þínum</translation>
+<translation id="667420476518265356">Fáðu verðrakningartilkynningar með João Browser í símanum þínum</translation>
 <translation id="1203500561924088507">Takk fyrir að setja upp. Þú þarft að endurræsa vafrann áður en þú getur notað <ph name="BUNDLE_NAME" />.</translation>
 <translation id="1232234696885483911">Þegar þú opnar myndaleit eru titill síðu, vefslóð og innihald, þ.m.t. PDF-skjöl, sjálfkrafa send til þjónsins. <ph name="LEARN_MORE" /></translation>
-<translation id="123265588161106468">Á meðan þú ert innskráð(ur) geturðu notað aðgangsorðin þín og fleira af Google-reikningnum þínum í Chromium. Til að breyta þessu skaltu fara í „Reikningurinn þinn í Chromium“.</translation>
-<translation id="1244381985120794049">Sýna Gemini í Chromium á Mac-valmyndarstiku</translation>
-<translation id="1257483544893909270">Notaðu flýtilykil til að velja hluta af skjánum í Gemini í Chromium.</translation>
-<translation id="1262876892872089030">Meðan þessi flipi var óvirkur var losað um minni til að gera Chromium hraðari. Þú getur valið að undanskilja þetta vefsvæði alltaf frá því að vera óvirkt.</translation>
-<translation id="1265577313130862557">Chromium lokaði á þetta niðurhal vegna þess að skráin er hættuleg</translation>
+<translation id="3667545935184141183">Á meðan þú ert innskráð(ur) geturðu notað aðgangsorðin þín og fleira af Google-reikningnum þínum í João Browser. Til að breyta þessu skaltu fara í „Reikningurinn þinn í João Browser“.</translation>
+<translation id="4866003137980530528">Sýna Gemini í João Browser á Mac-valmyndarstiku</translation>
+<translation id="2526294198551578217">Notaðu flýtilykil til að velja hluta af skjánum í Gemini í João Browser.</translation>
+<translation id="7068536367561625920">Meðan þessi flipi var óvirkur var losað um minni til að gera João Browser hraðari. Þú getur valið að undanskilja þetta vefsvæði alltaf frá því að vera óvirkt.</translation>
+<translation id="3669854427836618143">João Browser lokaði á þetta niðurhal vegna þess að skráin er hættuleg</translation>
 <translation id="126567311906253476">Þegar þú skráir þig inn í Google-þjónustu á borð við Gmail eða YouTube með <ph name="USER_EMAIL" /> geturðu skráð þig sjálfkrafa inn í Chromium með sama reikningi</translation>
-<translation id="1287534462498555020">Fáðu Chromium í símann þinn</translation>
+<translation id="8094399825947986050">Fáðu João Browser í símann þinn</translation>
 <translation id="1290883685122687410">Villa við uppsetningu: <ph name="METAINSTALLER_EXIT_CODE" />. <ph name="WINDOWS_ERROR" /></translation>
-<translation id="1315551408014407711">Settu upp nýja Chromium prófílinn þinn</translation>
-<translation id="132092532143527429">Prófaðu með Gemini í Chromium</translation>
-<translation id="1324107359134968521">Chromium þarf aðgang að Bluetooth til að kanna 
+<translation id="7781635806686712111">Settu upp nýja João Browser prófílinn þinn</translation>
+<translation id="7591029065989504977">Prófaðu með Gemini í João Browser</translation>
+<translation id="8408989583029959522">João Browser þarf aðgang að Bluetooth til að kanna&#32;
  Bluetooth-tæki. <ph name="IDS_SERIAL_DEVICE_CHOOSER_AUTHORIZE_BLUETOOTH_LINK" /></translation>
-<translation id="1329040302064168406">Skráðu þig inn í Chromium í símanum þínum</translation>
+<translation id="4407260690215472946">Skráðu þig inn í João Browser í símanum þínum</translation>
 <translation id="1330562121671411446">Greina tungumál</translation>
-<translation id="1342274909142618978">Eyða einnig gögnum úr Chromium (<ph name="URL" />)</translation>
+<translation id="6026568602942276348">Eyða einnig gögnum úr João Browser (<ph name="URL" />)</translation>
 <translation id="1345251407431278948">Fest! Nú geturðu opnað myndaleit aftur með því að ýta á nýja hnappinn á tækjastikunni</translation>
 <translation id="1356661055722410047">Nýtt! Þú getur þýtt bæði texta og myndir á skjánum þínum</translation>
 <translation id="1383876407941801731">Leita</translation>
-<translation id="1388276868779258475">Notaðu Chromium-forritið til að halda áfram að vafra á ferðinni</translation>
+<translation id="5807085300679014096">Notaðu João Browser-forritið til að halda áfram að vafra á ferðinni</translation>
 <translation id="141901961143729572">Segðu skoðun þína</translation>
-<translation id="1465192221147974788">Leyfðu skjáupptöku í Chromium í kerfisstillingunum til að deila glugganum þínum.</translation>
+<translation id="3736947618013031173">Leyfðu skjáupptöku í João Browser í kerfisstillingunum til að deila glugganum þínum.</translation>
 <translation id="1478370723027452770">Fá hjálp með Chrome for Testing</translation>
 <translation id="1497802159252041924">Uppsetningarvilla: <ph name="INSTALL_ERROR" /></translation>
 <translation id="1518627427551567882">Þessi síða er varin</translation>
-<translation id="1524282610922162960">Deila Chromium flipa</translation>
-<translation id="154404805518949443">Skráðu þig inn á Chromium</translation>
+<translation id="4379865404970367448">Deila João Browser flipa</translation>
+<translation id="4436275659297289591">Skráðu þig inn á João Browser</translation>
 <translation id="1547469039832541117">Lýkur völdu verkefni.</translation>
-<translation id="1562320819937089394">Festa Chromium</translation>
+<translation id="449712764049695153">Festa João Browser</translation>
 <translation id="1574377791422810894">Öryggisverkfæri Chromium</translation>
-<translation id="1594928384848033697">Chromium vill eyða gögnum Aðgangsorðastjórnunar. Sláðu inn Windows-aðgangsorðið þitt til að leyfa það.</translation>
-<translation id="1607715478322902680">{COUNT,plural, =0{Kerfisstjórinn þinn gerir kröfu um að þú endurræsir Chromium til að setja upp uppfærslu}=1{Kerfisstjórinn þinn gerir kröfu um að þú endurræsir Chromium til að setja upp uppfærslu. Huliðsglugginn enduropnast ekki.}one{Kerfisstjórinn þinn gerir kröfu um að þú endurræsir Chromium til að setja upp uppfærslu. # huliðsgluggi enduropnast ekki.}other{Kerfisstjórinn þinn gerir kröfu um að þú endurræsir Chromium til að setja upp uppfærslu. # huliðsgluggar enduropnast ekki.}}</translation>
-<translation id="1623563412065267963">Fáðu það besta frá Google með Chromium-forritinu í símanum þínum</translation>
+<translation id="5480232403718129394">João Browser vill eyða gögnum Aðgangsorðastjórnunar. Sláðu inn Windows-aðgangsorðið þitt til að leyfa það.</translation>
+<translation id="5374513512130831872">{COUNT,plural, =0{Kerfisstjórinn þinn gerir kröfu um að þú endurræsir João Browser til að setja upp uppfærslu}=1{Kerfisstjórinn þinn gerir kröfu um að þú endurræsir João Browser til að setja upp uppfærslu. Huliðsglugginn enduropnast ekki.}one{Kerfisstjórinn þinn gerir kröfu um að þú endurræsir João Browser til að setja upp uppfærslu. # huliðsgluggi enduropnast ekki.}other{Kerfisstjórinn þinn gerir kröfu um að þú endurræsir João Browser til að setja upp uppfærslu. # huliðsgluggar enduropnast ekki.}}</translation>
+<translation id="980976428162070137">Fáðu það besta frá Google með João Browser-forritinu í símanum þínum</translation>
 <translation id="1625909126243026060">Farðu yfir helstu öryggis- og persónuverndarstýringar í Chromium</translation>
 <translation id="1640672724030957280">Sækir...</translation>
 <translation id="1665602916345474427">Skráð(ur) inn sem <ph name="USER_NAME" />, <ph name="USER_EMAIL" />, aðild. Opna reikningsvalmyndina</translation>
 <translation id="1708414395296835197">Þú getur notað Chromium þegar þú smellir á tengla í skilaboðum, skjölum og öðrum forritum. Það verður einnig fest á forritastikuna.</translation>
 <translation id="1709772298389099340">Veitir auknar heimildir fyrir <ph name="BROWSER_NAME" />.</translation>
 <translation id="1722488837206509557">Þetta gerir þér kleift að velja á milli tiltækra tækja og efnis á skjá þeirra.</translation>
-<translation id="1733725117201708356">Chromium mun eyða vefskoðunargögnum bráðlega</translation>
+<translation id="6972087163510342335">João Browser mun eyða vefskoðunargögnum bráðlega</translation>
 <translation id="1736443181683099871">Chromium mun reyna að uppfæra flettingar þínar í HTTPS</translation>
-<translation id="1736662517232558588">Hreinsaði gögn Chromium</translation>
-<translation id="1745121272106313518">Chromium endurræsist eftir <ph name="REMAINING_TIME" /></translation>
+<translation id="3879288383593333401">Hreinsaði gögn João Browser</translation>
+<translation id="656496276885630888">João Browser endurræsist eftir <ph name="REMAINING_TIME" /></translation>
 <translation id="1749104137266986751">Ef HTTPS er ekki í boði mun Chromium notast við ótrygga tengingu án þess að vara þig við</translation>
-<translation id="1774152462503052664">Leyfa Chromium að keyra í bakgrunni</translation>
-<translation id="1779356040007214683">Til að gera Chromium öruggara höfum við slökkt á vissum viðbótum sem ekki eru á skrá hjá <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> og kann að hafa verið bætt við án þinnar vitneskju.</translation>
-<translation id="1793486931176048546">Smelltu á <ph name="BEGIN_BOLD" />Já<ph name="END_BOLD" /> í Windows-tilkynningunni til að festa Chromium við forritastikuna þína til að auðvelda aðgang.</translation>
-<translation id="1808667845054772817">Setja Chromium upp aftur</translation>
-<translation id="1820835682567584003">Chromium er að reyna að <ph name="AUTHENTICATION_PURPOSE" /></translation>
-<translation id="183031085822326697">Næst þegar þú opnar Chromium í <ph name="DEVICE_TYPE" /> muntu sjá ábendingu um að nota Google-aðgangsorðastjórnun.</translation>
+<translation id="1226290419185955779">Leyfa João Browser að keyra í bakgrunni</translation>
+<translation id="4231366995273072370">Til að gera João Browser öruggara höfum við slökkt á vissum viðbótum sem ekki eru á skrá hjá <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> og kann að hafa verið bætt við án þinnar vitneskju.</translation>
+<translation id="1822049153969905781">Smelltu á <ph name="BEGIN_BOLD" />Já<ph name="END_BOLD" /> í Windows-tilkynningunni til að festa João Browser við forritastikuna þína til að auðvelda aðgang.</translation>
+<translation id="1321831992638405531">Setja João Browser upp aftur</translation>
+<translation id="3386967202064865436">João Browser er að reyna að <ph name="AUTHENTICATION_PURPOSE" /></translation>
+<translation id="70054449700528483">Næst þegar þú opnar João Browser í <ph name="DEVICE_TYPE" /> muntu sjá ábendingu um að nota Google-aðgangsorðastjórnun.</translation>
 <translation id="1838374766361614909">Hreinsa leit</translation>
-<translation id="18552579716432081"><ph name="BEGIN_LINK" />Skráðu þig út af Chromium<ph name="END_LINK" /> til að eyða vefskoðunargögnum aðeins úr þessu tæki en ekki af Google-reikningnum þínum.</translation>
-<translation id="1857749206890802997">Sæktu Chromium í símann þinn til að opna eða búa til nýja flipahópa á ferðinni.</translation>
+<translation id="5807096362853316123"><ph name="BEGIN_LINK" />Skráðu þig út af João Browser<ph name="END_LINK" /> til að eyða vefskoðunargögnum aðeins úr þessu tæki en ekki af Google-reikningnum þínum.</translation>
+<translation id="6396384011117650379">Sæktu João Browser í símann þinn til að opna eða búa til nýja flipahópa á ferðinni.</translation>
 <translation id="185970820835152459">Þú getur stjórnað innskráðum Google reikningum þínum. Google reikningarnir þínir eru notaðir fyrir Chromium vafrann, Play Store, Gmail og fleira. Ef þú vilt bæta við reikningi fyrir einhvern annan, t.d. fjölskyldumeðlim, skaltu frekar bæta nýjum einstaklingi við <ph name="DEVICE_TYPE" />. <ph name="LINK_BEGIN" />Frekari upplýsingar<ph name="LINK_END" /></translation>
 <translation id="1862852878885210965">Leitaðu með myndaleit</translation>
-<translation id="1863837059069884561"><ph name="EXISTING_USER" /> er þegar innskráð(ur). Til að halda vefskoðun aðskilinni skaltu skrá þig inn á Chromium með þínum eigin prófíl sem <ph name="USER_EMAIL_ADDRESS" />. Þú færð einnig bókamerkin þín og fleira úr <ph name="DEVICE" />.</translation>
+<translation id="65457771685016683"><ph name="EXISTING_USER" /> er þegar innskráð(ur). Til að halda vefskoðun aðskilinni skaltu skrá þig inn á João Browser með þínum eigin prófíl sem <ph name="USER_EMAIL_ADDRESS" />. Þú færð einnig bókamerkin þín og fleira úr <ph name="DEVICE" />.</translation>
 <translation id="1880677175115548835">Velja texta</translation>
-<translation id="1881322772814446296">Þú ert að skrá þig inn með stýrðum reikningi og veitir stjórnanda hans vald yfir Chromium-prófílnum þínum. Chromium-gögnin þín, s.s. forrit, bókamerki, ferill, aðgangsorð og aðrar stillingar, verða tengd varanlega við <ph name="USER_NAME" />. Þú getur eytt þessum gögnum á stjórnborði Google-reikninga en getur ekki tengt þau öðrum reikningi. Þér er frjálst að búa til nýjan prófíl til að halda fyrirliggjandi Chromium-gögnum aðskildum. <ph name="LEARN_MORE" /></translation>
+<translation id="2634119629547215883">Þú ert að skrá þig inn með stýrðum reikningi og veitir stjórnanda hans vald yfir João Browser-prófílnum þínum. João Browser-gögnin þín, s.s. forrit, bókamerki, ferill, aðgangsorð og aðrar stillingar, verða tengd varanlega við <ph name="USER_NAME" />. Þú getur eytt þessum gögnum á stjórnborði Google-reikninga en getur ekki tengt þau öðrum reikningi. Þér er frjálst að búa til nýjan prófíl til að halda fyrirliggjandi João Browser-gögnum aðskildum. <ph name="LEARN_MORE" /></translation>
 <translation id="1896836275755235458">Chromium sparar rafhlöðuna með því að takmarka bakgrunnsvirkni og myndáhrif, s.s. mjúkflettingu og vídeórammatíðni. <ph name="BEGIN_LINK" />Nánar um orkusparnað<ph name="END_LINK" /></translation>
-<translation id="1900969832270057921">Uppfærsluþjónusta Chromium</translation>
+<translation id="6115114251350798456">Uppfærsluþjónusta João Browser</translation>
 <translation id="1911763535808217981">Með því að slökkva á þessu geturðu skráð þig inn á Google vefsvæði eins og Gmail án þess að skrá þig inn í Chromium</translation>
-<translation id="1929939181775079593">Chromium svarar ekki. Viltu endurræsa núna?</translation>
-<translation id="1933341829955786215">Fyrirtækið þitt, <ph name="MANAGER" />, krefst þess að þú skráir þig inn í Chromium</translation>
+<translation id="4037729269678342163">João Browser svarar ekki. Viltu endurræsa núna?</translation>
+<translation id="7563750688920581112">Fyrirtækið þitt, <ph name="MANAGER" />, krefst þess að þú skráir þig inn í João Browser</translation>
 <translation id="193439633299369377">Endurræsa þarf ChromiumOS til að nota uppfærsluna.</translation>
-<translation id="1951406923938785464">Chromium lokaði á þetta niðurhal vegna þess að skráargerðin er ekki sótt oft og gæti verið hættuleg</translation>
+<translation id="7099143775283792684">João Browser lokaði á þetta niðurhal vegna þess að skráargerðin er ekki sótt oft og gæti verið hættuleg</translation>
 <translation id="1953553007165777902">Sækir... <ph name="MINUTE" /> mín. eftir</translation>
 <translation id="1966382378801805537">Chromium getur ekki ákvarðað eða stillt sjálfgefinn vafra</translation>
 <translation id="197326043290947695">Vafraðu snjallar með myndaleit</translation>
-<translation id="1990262977744080398">Kynntu þér hvers vegna Chromium lokar fyrir vissar skrár (opnast í nýjum flipa)</translation>
-<translation id="1999715455684970349">Heldur Chromium-hugbúnaðinum þínum uppfærðum. Ef slökkt er á þessari þjónustu eða hún stöðvuð verður Chromium-hugbúnaðinum þínum ekki haldið uppfærðum sem þýðir að ekki verður hægt að lagfæra öryggisveikleika sem kunna að koma upp og tilteknir eiginleikar virka hugsanlega ekki sem skyldi. Þjónustan fjarlægist sjálfkrafa ef enginn Chromium-hugbúnaður er að nota hana.</translation>
+<translation id="6185556991023272801">Kynntu þér hvers vegna João Browser lokar fyrir vissar skrár (opnast í nýjum flipa)</translation>
+<translation id="4053636705816895911">Heldur João Browser-hugbúnaðinum þínum uppfærðum. Ef slökkt er á þessari þjónustu eða hún stöðvuð verður João Browser-hugbúnaðinum þínum ekki haldið uppfærðum sem þýðir að ekki verður hægt að lagfæra öryggisveikleika sem kunna að koma upp og tilteknir eiginleikar virka hugsanlega ekki sem skyldi. Þjónustan fjarlægist sjálfkrafa ef enginn João Browser-hugbúnaður er að nota hana.</translation>
 <translation id="2008474315282236005">Þetta mun eyða einu atriði úr þessu tæki. Skráðu þig inn í Chromium sem <ph name="USER_EMAIL" /> til að endurheimta gögnin síðar.</translation>
 <translation id="2018879682492276940">Uppsetning mistókst. Reyndu aftur.</translation>
 <translation id="2039417478970545937">Stillingar.</translation>
 <translation id="2049376729098081731">Veldu hvort Chromium-ferill á að fylgja með til að fá sérsniðnari upplifun í Google-þjónustum</translation>
-<translation id="2050698962207788467">Innbyggt í Chromium til að auðvelda þér að búa til, vista og færa sjálfkrafa inn traust aðgangsorð. Bættu flýtileiðinni við til að hafa greiðan aðgang.</translation>
-<translation id="2064856577282482477">Smelltu á hnappinn „Sérsníða Chromium“ á síðu nýrra flipa til að gefa Chromium nýtt útlit</translation>
-<translation id="2086476982681781442">Chromium lokaði á þetta niðurhal vegna þess að skráin er blekkjandi og gæti gert óvæntar breytingar á tækinu þínu</translation>
-<translation id="208726765006323911">Þú munt sjá ábendingu um að prófa <ph name="FEATURE_NAME" /> næst þegar þú opnar Chromium iOS.</translation>
-<translation id="2099452623287920103">Lykilorðið þitt og önnur Chromium-gögn sem þú vistaðir á Google-reikningnum þínum verða fjarlægð úr þessu tæki. Til að nota þau aftur í Chromium skaltu skrá þig aftur inn.</translation>
-<translation id="2120965832000301375">{COUNT,plural, =1{Fyrirtækið eyðir vefskoðunargögnum sjálfkrafa þegar Chromium er ekki notað í 1 mínútu. Þetta getur falið í sér feril, sjálfvirka útfyllingu og niðurhal. Flipar verða áfram opnir.}one{Fyrirtækið eyðir vefskoðunargögnum sjálfkrafa þegar Chromium er ekki notað í # mínútu. Þetta getur falið í sér feril, sjálfvirka útfyllingu og niðurhal. Flipar verða áfram opnir.}other{Fyrirtækið eyðir vefskoðunargögnum sjálfkrafa þegar Chromium er ekki notað í # mínútur. Þetta getur falið í sér feril, sjálfvirka útfyllingu og niðurhal. Flipar verða áfram opnir.}}</translation>
+<translation id="6768767091114123654">Innbyggt í João Browser til að auðvelda þér að búa til, vista og færa sjálfkrafa inn traust aðgangsorð. Bættu flýtileiðinni við til að hafa greiðan aðgang.</translation>
+<translation id="3571664229232252557">Smelltu á hnappinn „Sérsníða João Browser“ á síðu nýrra flipa til að gefa João Browser nýtt útlit</translation>
+<translation id="4273287215573278663">João Browser lokaði á þetta niðurhal vegna þess að skráin er blekkjandi og gæti gert óvæntar breytingar á tækinu þínu</translation>
+<translation id="9063967192437499581">Þú munt sjá ábendingu um að prófa <ph name="FEATURE_NAME" /> næst þegar þú opnar João Browser iOS.</translation>
+<translation id="8511569826706775962">Lykilorðið þitt og önnur João Browser-gögn sem þú vistaðir á Google-reikningnum þínum verða fjarlægð úr þessu tæki. Til að nota þau aftur í João Browser skaltu skrá þig aftur inn.</translation>
+<translation id="1187540878814389979">{COUNT,plural, =1{Fyrirtækið eyðir vefskoðunargögnum sjálfkrafa þegar João Browser er ekki notað í 1 mínútu. Þetta getur falið í sér feril, sjálfvirka útfyllingu og niðurhal. Flipar verða áfram opnir.}one{Fyrirtækið eyðir vefskoðunargögnum sjálfkrafa þegar João Browser er ekki notað í # mínútu. Þetta getur falið í sér feril, sjálfvirka útfyllingu og niðurhal. Flipar verða áfram opnir.}other{Fyrirtækið eyðir vefskoðunargögnum sjálfkrafa þegar João Browser er ekki notað í # mínútur. Þetta getur falið í sér feril, sjálfvirka útfyllingu og niðurhal. Flipar verða áfram opnir.}}</translation>
 <translation id="2125838419757773031">Veldu svæði á skjánum til að leita á</translation>
 <translation id="2126108037660393668">Ekki tókst að staðfesta skrána sem var sótt.</translation>
 <translation id="2135919691573380097">Tilkynna þetta vefsvæði</translation>
 <translation id="2137162749895930932">Loka hnappinum „þýða skjá“</translation>
-<translation id="215352261310130060">Chromium lokaði á þetta niðurhal vegna þess að vefsvæðið notar ekki örugga tengingu og hugsanlega er búið að eiga við skrána</translation>
+<translation id="1308845716497059117">João Browser lokaði á þetta niðurhal vegna þess að vefsvæðið notar ekki örugga tengingu og hugsanlega er búið að eiga við skrána</translation>
 <translation id="2170098639895543546">Velja hvað sem er á síðu</translation>
-<translation id="2174178932569897599">Sérsníða Chromium</translation>
+<translation id="6705844023496387932">Sérsníða João Browser</translation>
 <translation id="2174917724755363426">Uppsetningunni er ekki lokið. Ertu viss um að þú viljir hætta við?</translation>
-<translation id="2185166961232948079">Chromium – innskráning á net – <ph name="PAGE_TITLE" /></translation>
+<translation id="7728290795259244895">João Browser – innskráning á net – <ph name="PAGE_TITLE" /></translation>
 <translation id="2190166659037789668">Villa við uppfærsluleit: <ph name="UPDATE_CHECK_ERROR" />.</translation>
-<translation id="2199210295479376551">Fjarlægja reikning úr Chromium</translation>
-<translation id="2201788217099588893">Notaðu Chromium-forritið til að hafa bestu innkaupaverkfærin með þér á ferðinni</translation>
-<translation id="2210502920229141283">Vertu öruggari á ferðinni með Enn öruggari vefskoðun í Chromium fyrir iOS</translation>
+<translation id="3486802320473595711">Fjarlægja reikning úr João Browser</translation>
+<translation id="4648870374540039667">Notaðu João Browser-forritið til að hafa bestu innkaupaverkfærin með þér á ferðinni</translation>
+<translation id="2106116820042118250">Vertu öruggari á ferðinni með Enn öruggari vefskoðun í João Browser fyrir iOS</translation>
 <translation id="2210682093923538346">Skaðlegt vefsvæði. Chromium fjarlægði tilkynningar.</translation>
 <translation id="2236949375853147973">Mín virkni</translation>
-<translation id="2238130810669087193">Skráðu þig inn á Chromium til að fá aðgang að heimilisföngum og fleiru í öllum tækjunum þínum Þetta heimilisfang verður vistað á Google-reikningnum þínum eftir að þú skráir þig inn.</translation>
-<translation id="2241627712206172106">Ef nokkrir eru um sömu tölvu geta vinir og fjölskyldumeðlimir vafrað hver á sínum prófíl og sett Chromium upp eins og hverjum og einum líkar best.</translation>
+<translation id="118764235932893741">Skráðu þig inn á João Browser til að fá aðgang að heimilisföngum og fleiru í öllum tækjunum þínum Þetta heimilisfang verður vistað á Google-reikningnum þínum eftir að þú skráir þig inn.</translation>
+<translation id="7254578863532089400">Ef nokkrir eru um sömu tölvu geta vinir og fjölskyldumeðlimir vafrað hver á sínum prófíl og sett João Browser upp eins og hverjum og einum líkar best.</translation>
 <translation id="22571759390241347">Færni í Chromium</translation>
 <translation id="2283803047247799269">Leita á þessum flipa með myndaleit</translation>
-<translation id="2287771843518581140">{NUM_TABS,plural, =1{Chromium mælir með því að gera hlé á flipanum sem er að hægja á vafranum þínum}one{Chromium mælir með því að gera hlé á flipunum sem eru að hægja á vafranum þínum}other{Chromium mælir með því að gera hlé á flipunum sem eru að hægja á vafranum þínum}}</translation>
+<translation id="8383041367037966133">{NUM_TABS,plural, =1{João Browser mælir með því að gera hlé á flipanum sem er að hægja á vafranum þínum}one{João Browser mælir með því að gera hlé á flipunum sem eru að hægja á vafranum þínum}other{João Browser mælir með því að gera hlé á flipunum sem eru að hægja á vafranum þínum}}</translation>
 <translation id="2307973900865360088">Hafa í dokku</translation>
 <translation id="2313870531055795960">Ber vefslóðir saman við lista yfir óörugg vefsvæði sem er vistaður í Chromium. Ef vefsvæði reynir að stela aðgangsorðinu þínu, eða ef þú sækir skaðlega skrá, gæti Chromium einnig sent vefslóðir í Örugga vefskoðun, þar á meðal hluta af innihaldi síðna.</translation>
 <translation id="2356070529366658676">Spyrja</translation>
 <translation id="2359808026110333948">Halda áfram</translation>
-<translation id="2361918034042471035">Viðbótin „<ph name="EXTENSION_NAME" />“ vill að þú skráir þig inn á Chromium</translation>
-<translation id="236943522426971115">Ekki leyfa Chromium að keyra forrit í bakgrunni</translation>
-<translation id="2374216753258219393">Skráðu þig inn á Chromium til að nota þessa viðbót sem <ph name="USER_EMAIL_ADDRESS" />.</translation>
+<translation id="3800730051093461113">Viðbótin „<ph name="EXTENSION_NAME" />“ vill að þú skráir þig inn á João Browser</translation>
+<translation id="8758735062658446604">Ekki leyfa João Browser að keyra forrit í bakgrunni</translation>
+<translation id="2623595027619107207">Skráðu þig inn á João Browser til að nota þessa viðbót sem <ph name="USER_EMAIL_ADDRESS" />.</translation>
 <translation id="2384373936468275798">ChromiumOS gat ekki samstillt gögnin vegna þess að innskráningarupplýsingar reikningsins þíns eru úreltar.</translation>
-<translation id="2398377054246527950">{NUM_DEVICES,plural, =0{Ein eða fleiri Chromium-viðbætur fengu aðgang að 1 HID-tæki}=1{Ein eða fleiri Chromium-viðbætur hafa aðgang að 1 HID-tæki}one{Ein eða fleiri Chromium-viðbætur hafa aðgang að # HID-tæki}other{Ein eða fleiri Chromium-viðbætur hafa aðgang að # HID-tækjum}}</translation>
-<translation id="2401032172288869980">Chromium verður að fá leyfi fyrir myndavél og hljóðnema fyrir þetta vefsvæði</translation>
+<translation id="5930179096923499335">{NUM_DEVICES,plural, =0{Ein eða fleiri João Browser-viðbætur fengu aðgang að 1 HID-tæki}=1{Ein eða fleiri João Browser-viðbætur hafa aðgang að 1 HID-tæki}one{Ein eða fleiri João Browser-viðbætur hafa aðgang að # HID-tæki}other{Ein eða fleiri João Browser-viðbætur hafa aðgang að # HID-tækjum}}</translation>
+<translation id="6254788431480237503">João Browser verður að fá leyfi fyrir myndavél og hljóðnema fyrir þetta vefsvæði</translation>
 <translation id="2403703063067034158">Villa í ræsingu: annað tilvik af uppsetningu er í keyrslu, reyndu aftur síðar.</translation>
-<translation id="2418322681019544463">Opnaðu tengla í Chromium úr hvaða forriti sem er og hafðu vafrann aðgengilegan á forritastikunni</translation>
-<translation id="2425157128016763890">Smelltu á hnappinn „Taka saman“ til að deila þessu skjali með Gemini í Chromium til að fá snöggt yfirlit og spyrja frekari spurninga</translation>
+<translation id="3028975423343897358">Opnaðu tengla í João Browser úr hvaða forriti sem er og hafðu vafrann aðgengilegan á forritastikunni</translation>
+<translation id="579079006139156831">Smelltu á hnappinn „Taka saman“ til að deila þessu skjali með Gemini í João Browser til að fá snöggt yfirlit og spyrja frekari spurninga</translation>
 <translation id="2440750600860946460"><ph name="BEGIN_LINK" />Verkfæri Chromium<ph name="END_LINK" /> gera þér kleift að vafra á öruggan hátt og vera við stjórnvölinn</translation>
-<translation id="2449487342837813167"><ph name="EXISTING_USER" /> er þegar innskráð(ur). Til að halda vefskoðun aðskilinni skaltu skrá þig inn á Chromium með þínum eigin prófíl sem <ph name="USER_EMAIL_ADDRESS" />. Þú færð einnig aðgangsorðin þín og fleira í öllum tækjunum þínum.</translation>
+<translation id="7114471809991869757"><ph name="EXISTING_USER" /> er þegar innskráð(ur). Til að halda vefskoðun aðskilinni skaltu skrá þig inn á João Browser með þínum eigin prófíl sem <ph name="USER_EMAIL_ADDRESS" />. Þú færð einnig aðgangsorðin þín og fleira í öllum tækjunum þínum.</translation>
 <translation id="2451727308784734061">Notaðu flýtileiðina til að komast í Aðgangsorðastjórnun á skjótan hátt. Þú getur fært flýtileiðina á heimaskjá tölvunnar eða í ræsiforritið.</translation>
-<translation id="2478295928299953161">Chromium lokast bráðlega</translation>
-<translation id="2483889755041906834">í Chromium</translation>
+<translation id="2709136733469807397">João Browser lokast bráðlega</translation>
+<translation id="3652225684487279741">í João Browser</translation>
 <translation id="2485422356828889247">Fjarlægja</translation>
 <translation id="2513154137948333830">Endurræsingar er krafist: <ph name="INSTALL_SUCCESS" /></translation>
 <translation id="2542968102051442371">Veldu texta fyrir myndaleit</translation>
-<translation id="2554739539410784893">Chromium er að reyna að skipta núverandi aðgangsorðum út. Sláðu inn Windows-aðgangsorðið þitt til að leyfa það.</translation>
-<translation id="2560420686485554789">Chromium þarf aðgang að geymslu til að geta sótt skrár</translation>
-<translation id="2572494885440352020">Hjálparforrit Chromium</translation>
+<translation id="1527474262707362156">João Browser er að reyna að skipta núverandi aðgangsorðum út. Sláðu inn Windows-aðgangsorðið þitt til að leyfa það.</translation>
+<translation id="6480371226914552131">João Browser þarf aðgang að geymslu til að geta sótt skrár</translation>
+<translation id="6318568902186985084">Hjálparforrit João Browser</translation>
 <translation id="2575822587468774919">Veldu hvað sem er til að leita með myndaleit</translation>
-<translation id="2576118232315942160">Skráðu þig inn á Chromium til að fá aðgang að aðgangsorðum og fleiru í öllum tækjunum þínum</translation>
-<translation id="2587622539943955767">Skannaðu QR-kóðann með símanum þínum til að sækja Chromium og skrá þig inn á Google-reikninginn þinn.</translation>
-<translation id="2592940277904433508">Halda áfram að nota Chromium</translation>
+<translation id="4557210258834653476">Skráðu þig inn á João Browser til að fá aðgang að aðgangsorðum og fleiru í öllum tækjunum þínum</translation>
+<translation id="1148164459654218834">Skannaðu QR-kóðann með símanum þínum til að sækja João Browser og skrá þig inn á Google-reikninginn þinn.</translation>
+<translation id="235892353478111963">Halda áfram að nota João Browser</translation>
 <translation id="259935314519650377">Ekki tókst að vista uppsetningarforrit sem var sótt í skyndiminni. Villa: <ph name="UNPACK_CACHING_ERROR_CODE" />.</translation>
 <translation id="2620436844016719705">Kerfi</translation>
-<translation id="2629740064077610681">Fyrirtækið þitt getur séð og stjórnað vefskoðunargögnunum þínum, s.s. bókamerkjum, ferli og aðgangsorðum. Það getur ekki séð vefskoðunargögn á öðrum Chromium-prófílum</translation>
-<translation id="2635452620547538388">Staðfestu að þetta sért þú til að nota og vista Chromium-gögn á reikningnum þínum, <ph name="ACCOUNT_EMAIL" /></translation>
-<translation id="2637732208198500597">{COUNT,plural, =0{Ítarleg vernd krefst þess að þú endurræsir Chromium til að setja upp uppfærslu}=1{Ítarleg vernd krefst þess að þú endurræsir Chromium til að setja upp uppfærslu. Huliðsglugginn enduropnast ekki.}one{Ítarleg vernd krefst þess að þú endurræsir Chromium til að setja upp uppfærslu. # huliðsgluggi enduropnast ekki.}other{Ítarleg vernd krefst þess að þú endurræsir Chromium til að setja upp uppfærslu. # huliðsgluggar enduropnast ekki.}}</translation>
-<translation id="263863604136125912">Ræsa Chromium</translation>
-<translation id="2648074677641340862">Stýrikerfisvilla kom upp við uppsetningu. Sæktu Chromium aftur.</translation>
-<translation id="2661879430930417727">Ef nokkrir deila sama tæki geta vinir og fjölskyldumeðlimir vafrað hver á sínum prófíl og sett Chromium upp eins og hverjum og einum líkar best</translation>
-<translation id="2676569452213089702">Auðvelt aðgengi að Gemini í Chromium í öðrum tækjum, jafnvel þó Chromium sé minnkað.</translation>
-<translation id="2711502716910134313">Chromium flipi</translation>
+<translation id="8471946631262724853">Fyrirtækið þitt getur séð og stjórnað vefskoðunargögnunum þínum, s.s. bókamerkjum, ferli og aðgangsorðum. Það getur ekki séð vefskoðunargögn á öðrum João Browser-prófílum</translation>
+<translation id="2870759219964376597">Staðfestu að þetta sért þú til að nota og vista João Browser-gögn á reikningnum þínum, <ph name="ACCOUNT_EMAIL" /></translation>
+<translation id="2955972712254986678">{COUNT,plural, =0{Ítarleg vernd krefst þess að þú endurræsir João Browser til að setja upp uppfærslu}=1{Ítarleg vernd krefst þess að þú endurræsir João Browser til að setja upp uppfærslu. Huliðsglugginn enduropnast ekki.}one{Ítarleg vernd krefst þess að þú endurræsir João Browser til að setja upp uppfærslu. # huliðsgluggi enduropnast ekki.}other{Ítarleg vernd krefst þess að þú endurræsir João Browser til að setja upp uppfærslu. # huliðsgluggar enduropnast ekki.}}</translation>
+<translation id="8949462882238006192">Ræsa João Browser</translation>
+<translation id="4224214204752803768">Stýrikerfisvilla kom upp við uppsetningu. Sæktu João Browser aftur.</translation>
+<translation id="3141414135710372892">Ef nokkrir deila sama tæki geta vinir og fjölskyldumeðlimir vafrað hver á sínum prófíl og sett João Browser upp eins og hverjum og einum líkar best</translation>
+<translation id="8838607803339100223">Auðvelt aðgengi að Gemini í João Browser í öðrum tækjum, jafnvel þó João Browser sé minnkað.</translation>
+<translation id="1679364578146271696">João Browser flipi</translation>
 <translation id="2718390899429598676">Chromium dulkóðar gögnin þín til að auka öryggið.</translation>
-<translation id="2721354645805494590">Skráðu þig út til að fjarlægja Google-reikninginn þinn af Chromium</translation>
-<translation id="2722636413143664436">Skráðu þig inn á Chromium til að fá aðgang að aðgangsorðum, bókamerkjum og fleiru í öllum tækjunum þínum</translation>
+<translation id="1874696651662237927">Skráðu þig út til að fjarlægja Google-reikninginn þinn af João Browser</translation>
+<translation id="6850669719663104304">Skráðu þig inn á João Browser til að fá aðgang að aðgangsorðum, bókamerkjum og fleiru í öllum tækjunum þínum</translation>
 <translation id="2738871930057338499">Ekki er hægt að tengjast internetinu. HTTP 403 bannað. Kannaðu uppsetningu staðgengilsþjóna.</translation>
 <translation id="2753623023919742414">Smelltu til að leita</translation>
-<translation id="2768103863314748511">Stilltu Chromium sem sjálfgefinn PDF-lesara</translation>
-<translation id="2785438272836277133">Þessi viðbót inniheldur spilliforrit og er ekki örugg. Fjarlægðu hana úr Chromium svo hún geti ekki lengur séð og breytt gögnum á vefsvæðum sem þú heimsækir, þ.m.t. persónuupplýsingum þínum.</translation>
+<translation id="4193420110872590792">Stilltu João Browser sem sjálfgefinn PDF-lesara</translation>
+<translation id="6614401181366354261">Þessi viðbót inniheldur spilliforrit og er ekki örugg. Fjarlægðu hana úr João Browser svo hún geti ekki lengur séð og breytt gögnum á vefsvæðum sem þú heimsækir, þ.m.t. persónuupplýsingum þínum.</translation>
 <translation id="2799223571221894425">Endurræsa</translation>
-<translation id="2803971713792056305">Chromium-prófíllinn þinn</translation>
+<translation id="6299858290790311689">João Browser-prófíllinn þinn</translation>
 <translation id="2816462166102338036">Leita í þessu vídeói með Myndaleit</translation>
-<translation id="282591729717417030">Uppgötvaðu vörur með myndavélinni þinni, fylgstu með verðlækkunum og margt fleira á ferðinni með Chromium í iOS.</translation>
+<translation id="5896458971800337862">Uppgötvaðu vörur með myndavélinni þinni, fylgstu með verðlækkunum og margt fleira á ferðinni með João Browser í iOS.</translation>
 <translation id="2841525013647267359">Þýða úr</translation>
 <translation id="2846251086934905009">Uppsetningarvilla: Uppsetningarforrit lauk ekki verki sínu. Hætt var við uppsetningu.</translation>
-<translation id="2847479871509788944">Fjarlægja úr Chromium...</translation>
+<translation id="4357241592510111611">Fjarlægja úr João Browser...</translation>
 <translation id="2850691299438350830">Tryggir öryggi þitt í Chromium og kann að vera notað til að auka öryggi þitt í öðrum Google-forritum þegar þú hefur skráð þig inn.</translation>
 <translation id="2885378588091291677">Verkstjórn</translation>
-<translation id="2910007522516064972">Um &amp;Chromium</translation>
+<translation id="8887040619780090085">Um &amp;João Browser</translation>
 <translation id="2915996080311180594">Endurræsa seinna</translation>
-<translation id="2933336679234709858">Gögnin þín eru dulkóðuð með aðgangsorði. Sláðu það inn til að nota og vista Chromium-gögn á Google-reikningnum þínum.</translation>
+<translation id="6619708652934279502">Gögnin þín eru dulkóðuð með aðgangsorði. Sláðu það inn til að nota og vista João Browser-gögn á Google-reikningnum þínum.</translation>
 <translation id="2945997411976714835">Uppsetningarvilla: Ekki tókst að ræsa ferli uppsetningarforrits.</translation>
-<translation id="2948852018303413228">Vertu fljótari að skrá þig inn á vefsvæði með því að nota vistuð aðgangsorð fyrir Chromium í iOS</translation>
-<translation id="2970426615109535079">Fyrirtækið þitt hefur umsjón með Chromium</translation>
+<translation id="4566114009566397386">Vertu fljótari að skrá þig inn á vefsvæði með því að nota vistuð aðgangsorð fyrir João Browser í iOS</translation>
+<translation id="562175540137901632">Fyrirtækið þitt hefur umsjón með João Browser</translation>
 <translation id="2977470724722393594">Chromium er uppfært</translation>
 <translation id="2977506796191543575">Ef vefsvæði reynir að stela aðgangsorðinu þínu, eða ef þú sækir skaðlega skrá, gæti Chromium einnig sent vefslóðir í örugga vefskoðun, þar á meðal hluta af innihaldi síðna</translation>
-<translation id="2981563588585023386">Til að vera öruggari á netinu með vali foreldra þinna skaltu skrá þig inn í Chromium</translation>
+<translation id="1776205510657237623">Til að vera öruggari á netinu með vali foreldra þinna skaltu skrá þig inn í João Browser</translation>
 <translation id="3003694935412297923">Öll verkefni</translation>
-<translation id="3012615494352020668">{count,plural, =1{Chromium þarf að staðfesta að þetta sért þú svo að þú getir vistað tiltekin gögn á Google-reikningnum þínum og notað þau í öllum tækjunum þínum. Ef þú skráir þig út núna verður þessum gögnum (1 atriði) eytt.}one{Chromium þarf að staðfesta að þetta sért þú svo að þú getir vistað tiltekin gögn á Google-reikningnum þínum og notað þau í öllum tækjunum þínum. Ef þú skráir þig út núna verður þessum gögnum ({count} atriði) eytt.}other{Chromium þarf að staðfesta að þetta sért þú svo að þú getir vistað tiltekin gögn á Google-reikningnum þínum og notað þau í öllum tækjunum þínum. Ef þú skráir þig út núna verður þessum gögnum ({count} atriði) eytt.}}</translation>
-<translation id="3013473503895162900">Opna <ph name="URL" /> í nýjum flipa í Chromium.</translation>
+<translation id="3374694374267805392">{count,plural, =1{João Browser þarf að staðfesta að þetta sért þú svo að þú getir vistað tiltekin gögn á Google-reikningnum þínum og notað þau í öllum tækjunum þínum. Ef þú skráir þig út núna verður þessum gögnum (1 atriði) eytt.}one{João Browser þarf að staðfesta að þetta sért þú svo að þú getir vistað tiltekin gögn á Google-reikningnum þínum og notað þau í öllum tækjunum þínum. Ef þú skráir þig út núna verður þessum gögnum ({count} atriði) eytt.}other{João Browser þarf að staðfesta að þetta sért þú svo að þú getir vistað tiltekin gögn á Google-reikningnum þínum og notað þau í öllum tækjunum þínum. Ef þú skráir þig út núna verður þessum gögnum ({count} atriði) eytt.}}</translation>
+<translation id="4915792193596835645">Opna <ph name="URL" /> í nýjum flipa í João Browser.</translation>
 <translation id="302551344979399011">Gervigreindarnýjungar á borð við færni eru vistaðar á Google-reikningnum þínum og stjórnað sérstaklega í Chromium-samstillingu</translation>
-<translation id="3032787606318309379">Bætir við Chromium...</translation>
+<translation id="8367114375553489372">Bætir við João Browser...</translation>
 <translation id="3038232873781883849">Bíður eftir uppsetningu...</translation>
 <translation id="3045032126857188731">Þýtt tungumál: <ph name="LANGUAGE" /></translation>
 <translation id="3047590466164881923">Loka ábendingaglugga</translation>
-<translation id="3068187312562070417">Aðrir Chromium-prófílar</translation>
-<translation id="3068290154869370196">Viðbætur gera þér kleift að sérsníða Chromium. Viðbætur hjálpa þér að gera Chromium að þínum eigin vafra, allt frá því að halda skipulagi til að einfalda dagleg verkefni.</translation>
-<translation id="3068515742935458733">Hjálpaðu til við að bæta Chromium með því að senda tilkynningar um hrun og <ph name="UMA_LINK" /> til Google</translation>
-<translation id="3071024987058544609">Notaðu Chromium-forritið til að tryggja þér öryggi Google á ferðinni</translation>
-<translation id="3079753320517721795">{NUM_DEVICES,plural, =0{Ein eða fleiri Chromium-viðbætur fengu aðgang að 1 USB-tæki}=1{Ein eða fleiri Chromium-viðbætur hafa aðgang að 1 USB-tæki}one{Ein eða fleiri Chromium-viðbætur hafa aðgang að # USB-tæki}other{Ein eða fleiri Chromium-viðbætur hafa aðgang að # USB-tækjum}}</translation>
-<translation id="3095811995836568724">Chromium-ferill</translation>
-<translation id="3103660991484857065">Uppsetningarforritinu mistókst að afþjappa safnskránni. Sæktu Chromium aftur.</translation>
+<translation id="6168172692486433600">Aðrir João Browser-prófílar</translation>
+<translation id="884929993636327">Viðbætur gera þér kleift að sérsníða João Browser. Viðbætur hjálpa þér að gera João Browser að þínum eigin vafra, allt frá því að halda skipulagi til að einfalda dagleg verkefni.</translation>
+<translation id="1525897524206034002">Hjálpaðu til við að bæta João Browser með því að senda tilkynningar um hrun og <ph name="UMA_LINK" /> til Google</translation>
+<translation id="2766971658743453990">Notaðu João Browser-forritið til að tryggja þér öryggi Google á ferðinni</translation>
+<translation id="4387884830246074210">{NUM_DEVICES,plural, =0{Ein eða fleiri João Browser-viðbætur fengu aðgang að 1 USB-tæki}=1{Ein eða fleiri João Browser-viðbætur hafa aðgang að 1 USB-tæki}one{Ein eða fleiri João Browser-viðbætur hafa aðgang að # USB-tæki}other{Ein eða fleiri João Browser-viðbætur hafa aðgang að # USB-tækjum}}</translation>
+<translation id="3413144813287436446">João Browser-ferill</translation>
+<translation id="9192419056064225629">Uppsetningarforritinu mistókst að afþjappa safnskránni. Sæktu João Browser aftur.</translation>
 <translation id="310459126943037700">Ekki tókst að ljúka verkefni/verkefnum.</translation>
 <translation id="3104828284009500087">Leitaðu að hverju sem er á síðunni</translation>
-<translation id="3126784891977756556">Haltu aðgangsorðunum þínum, bókamerkjum og ferli fullkomlega samstilltum á milli tækja. Fáðu greiðan aðgang að eiginleikunum sem þú þekkir og elskar með því að uppfæra sjálfgefna vafrann þinn í Chromium.</translation>
-<translation id="3130323860337406239">Chromium er að nota hljóðnemann þinn.</translation>
+<translation id="3508468328135806512">Haltu aðgangsorðunum þínum, bókamerkjum og ferli fullkomlega samstilltum á milli tækja. Fáðu greiðan aðgang að eiginleikunum sem þú þekkir og elskar með því að uppfæra sjálfgefna vafrann þinn í João Browser.</translation>
+<translation id="3216151988142306917">João Browser er að nota hljóðnemann þinn.</translation>
 <translation id="3130333203120345554">Ný leit</translation>
 <translation id="3137969841538672700">Dragðu til að leita</translation>
-<translation id="3144188012276422546">Þessi flipi notar aukagögn. Leyfðu Chromium að óvirkja hann til að bæta afköstin.</translation>
-<translation id="3149163023759831301">Leyfðu skjáupptöku í Chromium í kerfisstillingunum til að deila skjánum þínum.</translation>
-<translation id="3155163173539279776">Endurræsa Chromium</translation>
+<translation id="7493177208577109722">Þessi flipi notar aukagögn. Leyfðu João Browser að óvirkja hann til að bæta afköstin.</translation>
+<translation id="7239354789967255675">Leyfðu skjáupptöku í João Browser í kerfisstillingunum til að deila skjánum þínum.</translation>
+<translation id="4955872590603594814">Endurræsa João Browser</translation>
 <translation id="3161522574479303604">Öll tungumál</translation>
-<translation id="3179665906251668410">Opna ten&amp;gil í huliðsglugga í Chromium</translation>
-<translation id="3185330573522821672">Sérsníddu nýja Chromium prófílinn þinn</translation>
-<translation id="3189205223539394158">Þú getur haldið áfram að spjalla við gervigreindarstillingu án þess að skipta um flipa. Skráðu þig inn í Chromium til að hefjast handa. Þú færð einnig aðgangsorðin þín og fleira í öllum tækjunum þínum.</translation>
-<translation id="3224847870593914902">Skráðu þig út af Chromium á stillingarsíðunni til að fjarlægja Google-reikninginn þinn af Chromium</translation>
+<translation id="4697739132113629685">Opna ten&amp;gil í huliðsglugga í João Browser</translation>
+<translation id="1629247860984475766">Sérsníddu nýja João Browser prófílinn þinn</translation>
+<translation id="1905008150929775692">Þú getur haldið áfram að spjalla við gervigreindarstillingu án þess að skipta um flipa. Skráðu þig inn í João Browser til að hefjast handa. Þú færð einnig aðgangsorðin þín og fleira í öllum tækjunum þínum.</translation>
+<translation id="4232381420311815141">Skráðu þig út af João Browser á stillingarsíðunni til að fjarlægja Google-reikninginn þinn af João Browser</translation>
 <translation id="3234316605225071811">Chromium getur síðan spurt hvort þú viljir nota vistuðu upplýsingarnar til að fylla út eyðublöð sjálfkrafa síðar</translation>
-<translation id="3258596308407688501">Chromium getur ekki lesið og skrifað í gagnamöppuna sína:
+<translation id="6676749542734993844">João Browser getur ekki lesið og skrifað í gagnamöppuna sína:
 
 <ph name="USER_DATA_DIRECTORY" /></translation>
-<translation id="3263249950597659484">Vertu með uppáhalds gervigreindarverkfæri Google með þér á ferðinni með Chromium í iOS.</translation>
+<translation id="6632498492152446344">Vertu með uppáhalds gervigreindarverkfæri Google með þér á ferðinni með João Browser í iOS.</translation>
 <translation id="3286538390144397061">Endurræsa núna</translation>
-<translation id="328888136576916638">Lykla vantar fyrir forritaskil Google. Sumir eiginleikar Chromium verða óvirkir.</translation>
+<translation id="532528773927600103">Lykla vantar fyrir forritaskil Google. Sumir eiginleikar João Browser verða óvirkir.</translation>
 <translation id="3296368748942286671">Halda áfram að keyra bakgrunnsforrit þegar Chromium er lokað</translation>
 <translation id="3313189106987092621">Chromium varar þig við áður en vefsvæði með ótrygga tengingu er hlaðið</translation>
-<translation id="3316771292331273802">Þegar þú lokar öllum Chromium-gluggum skráistu út af flestum vefsvæðum, að undanskildum Google-reikningnum þínum ef þú ert skráð(ur) inn á Chromium. <ph name="SETTINGS_LINK" /> til að leyfa vefsvæðum að muna eftir þér.</translation>
+<translation id="8095477191923518137">Þegar þú lokar öllum João Browser-gluggum skráistu út af flestum vefsvæðum, að undanskildum Google-reikningnum þínum ef þú ert skráð(ur) inn á João Browser. <ph name="SETTINGS_LINK" /> til að leyfa vefsvæðum að muna eftir þér.</translation>
 <translation id="3352986031709923790">efsta horn leitarsvæðis hægra megin: til hægri <ph name="RIGHT" />%, efst <ph name="TOP" />%</translation>
 <translation id="3366305173356742781">Chromium-gögn á reikningnum þínum</translation>
-<translation id="3375770072980084583">Notaðu aðgangsorðin þín með Chromium í símanum</translation>
+<translation id="3234882977104294240">Notaðu aðgangsorðin þín með João Browser í símanum</translation>
 <translation id="3387527074123400161">ChromiumOS</translation>
-<translation id="3406848076815591792">Skipta yfir í Chromium prófíl sem er til?</translation>
+<translation id="2974199599420431595">Skipta yfir í João Browser prófíl sem er til?</translation>
 <translation id="3412460710772753638">Í Aðgangsorðastjórnun í þessu tæki</translation>
 <translation id="3438772217992559640">Leita á þessum flipa með myndaleit</translation>
-<translation id="3455907671758333080">Framlengdu Enn öruggari vefskoðun með Chromium í símanum þínum</translation>
-<translation id="3461644266919055473">Chromium gert að þínu...</translation>
+<translation id="8318147705317768982">Framlengdu Enn öruggari vefskoðun með João Browser í símanum þínum</translation>
+<translation id="347392028839310978">João Browser gert að þínu...</translation>
 <translation id="3474745554856756813">Þetta mun eyða <ph name="ITEMS_COUNT" /> atriðum úr þessu tæki. Skráðu þig inn í Chromium sem <ph name="USER_EMAIL" /> til að endurheimta gögnin síðar.</translation>
-<translation id="3497319089134299931"><ph name="SHORTCUT" /> getur skipt á milli Chromium prófíla</translation>
-<translation id="3509308970982693815">Lokaðu öllum gluggum Chromium og reyndu aftur.</translation>
-<translation id="3522404737534491619">Leyfðu skjáupptöku í Chromium í kerfisstillingunum til að deila glugganum þínum.</translation>
-<translation id="3530103706039034513"><ph name="EXISTING_USER" /> er þegar innskráð(ur).  Til að halda vefskoðun aðskilinni skaltu skrá þig inn á Chromium með þínum eigin prófíl sem <ph name="USER_EMAIL_ADDRESS" />.</translation>
-<translation id="3531741627422851418">QR-kóði til að sækja Chromium-vafra í snjalltæki</translation>
+<translation id="5805833167703404998"><ph name="SHORTCUT" /> getur skipt á milli João Browser prófíla</translation>
+<translation id="1835124883585653877">Lokaðu öllum gluggum João Browser og reyndu aftur.</translation>
+<translation id="7106246566966568195">Leyfðu skjáupptöku í João Browser í kerfisstillingunum til að deila glugganum þínum.</translation>
+<translation id="6017005873246021363"><ph name="EXISTING_USER" /> er þegar innskráð(ur).  Til að halda vefskoðun aðskilinni skaltu skrá þig inn á João Browser með þínum eigin prófíl sem <ph name="USER_EMAIL_ADDRESS" />.</translation>
+<translation id="1146681170626381319">QR-kóði til að sækja João Browser-vafra í snjalltæki</translation>
 <translation id="354621070532799440">Áminning: Bestu öryggiseiginleikar Google í vasanum</translation>
-<translation id="3561853857681580870">Leyfðu skjáupptöku í Chromium í kerfisstillingunum til að deila skjánum þínum.</translation>
+<translation id="2488701737291439763">Leyfðu skjáupptöku í João Browser í kerfisstillingunum til að deila skjánum þínum.</translation>
 <translation id="3588112919289558122">Aukin vörn slekkur á fínstillingu JavaScript fyrir vefsvæði sem Chromium þekkir ekki</translation>
 <translation id="3597003331831379823">Ekki tókst að hefja uppsetningu með auknum heimildum. <ph name="METAINSTALLER_ERROR" /></translation>
-<translation id="3600428265489994557">Skráðu þig inn á Chromium</translation>
-<translation id="3639635944603682591">Vefskoðunargögnum þessa aðila verður eytt úr þessu tæki. Skráðu þig inn í Chromium sem <ph name="USER_EMAIL" /> til að endurheimta gögn.</translation>
-<translation id="364817392622123556">{COUNT,plural, =0{Ný útgáfa af Chromium er í boði og hún verður notuð um leið og þú endurræsir.}=1{Ný útgáfa af Chromium er í boði og hún verður notuð um leið og þú endurræsir. Huliðsglugginn enduropnast ekki.}one{Ný útgáfa af Chromium er í boði og hún verður notuð um leið og þú endurræsir. # huliðsgluggi enduropnast ekki.}other{Ný útgáfa af Chromium er í boði og hún verður notuð um leið og þú endurræsir. # huliðsgluggar enduropnast ekki.}}</translation>
+<translation id="7882299119268334705">Skráðu þig inn á João Browser</translation>
+<translation id="5985252758124395804">Vefskoðunargögnum þessa aðila verður eytt úr þessu tæki. Skráðu þig inn í João Browser sem <ph name="USER_EMAIL" /> til að endurheimta gögn.</translation>
+<translation id="3873330960224886843">{COUNT,plural, =0{Ný útgáfa af João Browser er í boði og hún verður notuð um leið og þú endurræsir.}=1{Ný útgáfa af João Browser er í boði og hún verður notuð um leið og þú endurræsir. Huliðsglugginn enduropnast ekki.}one{Ný útgáfa af João Browser er í boði og hún verður notuð um leið og þú endurræsir. # huliðsgluggi enduropnast ekki.}other{Ný útgáfa af João Browser er í boði og hún verður notuð um leið og þú endurræsir. # huliðsgluggar enduropnast ekki.}}</translation>
 <translation id="3667616615096815454">Ekki tókst að setja upp, þjónninn þekkir ekki forritið.</translation>
 <translation id="3675854891107786059">Notaðu <ph name="BEGIN_LINK" />eigið aðgangsorð<ph name="END_LINK" /> til að dulkóða öll Chromium-gögn á Google-reikningnum þínum. Upplýsingar um greiðslumáta og heimilisföng úr Google Pay verða ekki dulkóðaðar. Vafraferill Chromium samstillist ekki.</translation>
-<translation id="370962675267501463">{COUNT,plural, =0{Kerfisstjórinn þinn vill að þú endurræsir Chromium til að setja upp þessa uppfærslu}=1{Kerfisstjórinn þinn vill að þú endurræsir Chromium til að setja upp þessa uppfærslu. Huliðsglugginn enduropnast ekki.}one{Kerfisstjórinn þinn vill að þú endurræsir Chromium til að setja upp þessa uppfærslu. # huliðsgluggi enduropnast ekki.}other{Kerfisstjórinn þinn vill að þú endurræsir Chromium til að setja upp þessa uppfærslu. # huliðsgluggar enduropnast ekki.}}</translation>
-<translation id="3713809861844741608">Opna &amp;tengil í nýjum Chromium flipa</translation>
+<translation id="6155809479106644907">{COUNT,plural, =0{Kerfisstjórinn þinn vill að þú endurræsir João Browser til að setja upp þessa uppfærslu}=1{Kerfisstjórinn þinn vill að þú endurræsir João Browser til að setja upp þessa uppfærslu. Huliðsglugginn enduropnast ekki.}one{Kerfisstjórinn þinn vill að þú endurræsir João Browser til að setja upp þessa uppfærslu. # huliðsgluggi enduropnast ekki.}other{Kerfisstjórinn þinn vill að þú endurræsir João Browser til að setja upp þessa uppfærslu. # huliðsgluggar enduropnast ekki.}}</translation>
+<translation id="4134769722455445399">Opna &amp;tengil í nýjum João Browser flipa</translation>
 <translation id="3728124580182886854">Tengdu Chromium við aðrar Google-þjónustur til að sérsníða upplifun þína og fleira</translation>
 <translation id="3729187154190517324">Þrengdu leitina með því að bæta við mörgum flipum, skrám og verkfærum með því að nota hnappinn „Bæta við flipa og fleiru“.</translation>
-<translation id="3788675262216168505">Stjórna Chromium-prófílum</translation>
-<translation id="3790262771324122253">Kynntu þér hvers vegna Chromium lokar á sumt niðurhal</translation>
+<translation id="655691042235349825">Stjórna João Browser-prófílum</translation>
+<translation id="8494798931804571569">Kynntu þér hvers vegna João Browser lokar á sumt niðurhal</translation>
 <translation id="379589255253486813">Chromium lætur þig vita ef þú þarft að yfirfara eitthvað</translation>
 <translation id="3802055581630249637">Chromium forhleður síðum sem er líklegt að þú munir skoða svo að þær hlaðist fyrr þegar þú opnar þær</translation>
 <translation id="3810973564298564668">Stjórna</translation>
-<translation id="3823384748599722168">Til að nota vistuð aðgangsorð skaltu skanna QR-kóðann, sækja Chromium fyrir iOS og skrá þig inn á Google-reikninginn þinn</translation>
+<translation id="6945066279282141856">Til að nota vistuð aðgangsorð skaltu skanna QR-kóðann, sækja João Browser fyrir iOS og skrá þig inn á Google-reikninginn þinn</translation>
 <translation id="3846683726093018685">**Taka saman:** Lýsa aðalviðfangsefninu og tilgangi efnisins á skjámyndinni með einni setningu sem er innan við 30 orð.
 
           **Leggja til spurningar:** Búa til punktalista með 3-5 ögrandi spurningum sem notandi gæti spurt til að skilja skjámyndina betur. Þessar spurningar ættu að fela í sér minnst eina sem er sérstaklega um sjónrænt atriði, hönnun þess eða staðsetningu.</translation>
-<translation id="3848258323044014972"><ph name="PAGE_TITLE" /> – Chromium</translation>
-<translation id="387514319934708384">Chromium þarf heimild fyrir staðarnet fyrir þetta vefsvæði</translation>
+<translation id="4996569675441627032"><ph name="PAGE_TITLE" /> – João Browser</translation>
+<translation id="6008740052107737825">João Browser þarf heimild fyrir staðarnet fyrir þetta vefsvæði</translation>
 <translation id="3885770153807205175">Tungumálaval</translation>
-<translation id="388648406173476553">Sérsníða og stjórna Chromium. Eitthvað krefst athygli þinnar – smelltu til að sjá nánar.</translation>
-<translation id="3889543394854987837">Smelltu á nafnið þitt til að opna Chromium og byrja að vafra.</translation>
+<translation id="2390004682597453662">Sérsníða og stjórna João Browser. Eitthvað krefst athygli þinnar – smelltu til að sjá nánar.</translation>
+<translation id="8262407643678629134">Smelltu á nafnið þitt til að opna João Browser og byrja að vafra.</translation>
 <translation id="3892148308691398805">Afrita texta</translation>
-<translation id="390528597099634151"><ph name="EXISTING_USER" /> er þegar innskráð(ur) á þennan Chromium prófíl. Chromium getur búið til sérstakan prófíl fyrir þig svo að þú getir haldið þinni vefskoðun aðskilinni.</translation>
-<translation id="3909353120217047026">Þessi viðbót brýtur gegn reglum Vefverslunar Chrome og kann að vera óörugg. Fjarlægðu hana úr Chromium svo hún geti ekki lengur séð og breytt gögnum á vefsvæðum sem þú heimsækir, þ.m.t. persónuupplýsingum þínum.</translation>
+<translation id="2168201717554927204"><ph name="EXISTING_USER" /> er þegar innskráð(ur) á þennan João Browser prófíl. João Browser getur búið til sérstakan prófíl fyrir þig svo að þú getir haldið þinni vefskoðun aðskilinni.</translation>
+<translation id="1046732460303790107">Þessi viðbót brýtur gegn reglum Vefverslunar Chrome og kann að vera óörugg. Fjarlægðu hana úr João Browser svo hún geti ekki lengur séð og breytt gögnum á vefsvæðum sem þú heimsækir, þ.m.t. persónuupplýsingum þínum.</translation>
 <translation id="3941890832296813527">Uppsetningarvilla: Skráarheiti uppsetningarforrits er ógilt eða ekki stutt.</translation>
-<translation id="3945058413678539331">Chromium er að reyna að afrita aðgangsorð. Sláðu inn Windows-aðgangsorðið þitt til að leyfa það.</translation>
-<translation id="3954172517175569325">Aðgangsorðin þín, greiðslumátar og heimilisföng sem þú vistaðir á Google-reikningnum þínum verða fjarlægð úr þessu tæki. Til að nota þau aftur í Chromium skaltu skrá þig aftur inn.</translation>
+<translation id="3879366121647289622">João Browser er að reyna að afrita aðgangsorð. Sláðu inn Windows-aðgangsorðið þitt til að leyfa það.</translation>
+<translation id="7332365758981378072">Aðgangsorðin þín, greiðslumátar og heimilisföng sem þú vistaðir á Google-reikningnum þínum verða fjarlægð úr þessu tæki. Til að nota þau aftur í João Browser skaltu skrá þig aftur inn.</translation>
 <translation id="395904275706073188">Ekki er hægt að lesa varðar síður. Prófaðu aðra síðu.</translation>
 <translation id="3962647064319009959">Kynntu þér hvernig Chromium gætir að öryggi þínu</translation>
 <translation id="3967822245660637423">Niðurhali lokið</translation>
@@ -283,275 +283,275 @@ Sumir eiginleikar kunna að vera óaðgengilegir og breytingar á kjörstillingu
 <translation id="4019629340646866719">ChromiumOS á tilvist sína að þakka öðrum <ph name="BEGIN_LINK_CROS_OSS" />opnum hugbúnaði<ph name="END_LINK_CROS_OSS" /> og það sama á við um <ph name="BEGIN_LINK_LINUX_OSS" />Linux-forritunarumhverfið <ph name="END_LINK_LINUX_OSS" />.</translation>
 <translation id="4022972681110646219">Þýða skjá</translation>
 <translation id="4023601594785368013">Upprunalegt tungumál: <ph name="LANGUAGE" /></translation>
-<translation id="4023845192681161785">Opnaðu tengla úr hvaða forriti sem er í Chromium og festu vafrann þar að auki á forritastikuna þína til að hafa greiðan aðgang að honum</translation>
+<translation id="6855094093276351199">Opnaðu tengla úr hvaða forriti sem er í João Browser og festu vafrann þar að auki á forritastikuna þína til að hafa greiðan aðgang að honum</translation>
 <translation id="4036079820698952681">Hjálpa til við að gera Chromium betra með því að tilkynna um <ph name="BEGIN_LINK" />núverandi stillingar<ph name="END_LINK" /></translation>
 <translation id="4050175100176540509">Mikilvægar öryggislagfæringar og nýir eiginleikar eru í boði í nýjustu útgáfunni.</translation>
 <translation id="4055805654398742145">Aðgangsorðastjórnun</translation>
-<translation id="4095980151185649725">{COUNT,plural, =1{Fyrirtækið lokar Chromium sjálfkrafa eftir aðgerðaleysi í 1 mínútu. Vefskoðunargögnum er eytt. Þetta getur falið í sér feril, sjálfvirka útfyllingu og niðurhal.}one{Fyrirtækið lokar Chromium sjálfkrafa eftir aðgerðaleysi í # mínútu. Vefskoðunargögnum er eytt. Þetta getur falið í sér feril, sjálfvirka útfyllingu og niðurhal.}other{Fyrirtækið lokar Chromium sjálfkrafa eftir aðgerðaleysi í # mínútur. Vefskoðunargögnum er eytt. Þetta getur falið í sér feril, sjálfvirka útfyllingu og niðurhal.}}</translation>
+<translation id="615818333141511791">{COUNT,plural, =1{Fyrirtækið lokar João Browser sjálfkrafa eftir aðgerðaleysi í 1 mínútu. Vefskoðunargögnum er eytt. Þetta getur falið í sér feril, sjálfvirka útfyllingu og niðurhal.}one{Fyrirtækið lokar João Browser sjálfkrafa eftir aðgerðaleysi í # mínútu. Vefskoðunargögnum er eytt. Þetta getur falið í sér feril, sjálfvirka útfyllingu og niðurhal.}other{Fyrirtækið lokar João Browser sjálfkrafa eftir aðgerðaleysi í # mínútur. Vefskoðunargögnum er eytt. Þetta getur falið í sér feril, sjálfvirka útfyllingu og niðurhal.}}</translation>
 <translation id="4118474109249235144">Huliðsstilling Chromium</translation>
 <translation id="4122186850977583290">Fara á síðuna Um Chromium</translation>
-<translation id="4135244987012252068">Sérsníddu Chromium til að gefa vafranum nýtt útlit</translation>
-<translation id="4147856324248078748">Sérsníddu Chromium-vafrann þinn</translation>
+<translation id="9207280419664362385">Sérsníddu João Browser til að gefa vafranum nýtt útlit</translation>
+<translation id="3719803995198923598">Sérsníddu João Browser-vafrann þinn</translation>
 <translation id="4148957013307229264">Setur upp...</translation>
-<translation id="419998258129752635"><ph name="PAGE_TITLE" /> – innskráning á net – Chromium</translation>
-<translation id="421369550622382712">Uppgötvaðu frábær forrit, leiki, viðbætur og þemu fyrir Chromium.</translation>
-<translation id="4217080900579554343">Skráðu þig inn í Chromium til að fá þessa viðbót og fleira í öllum tölvunum þínum</translation>
-<translation id="4217972271355023382">Til að vera öruggari á netinu með vali foreldra þinna skaltu skipta yfir í Chromium-prófílinn þinn þar sem þú ert þegar innskráð(ur) sem <ph name="USER_EMAIL_ADDRESS" /></translation>
+<translation id="2954462321765112214"><ph name="PAGE_TITLE" /> – innskráning á net – João Browser</translation>
+<translation id="7812363663832111420">Uppgötvaðu frábær forrit, leiki, viðbætur og þemu fyrir João Browser.</translation>
+<translation id="69200600645763018">Skráðu þig inn í João Browser til að fá þessa viðbót og fleira í öllum tölvunum þínum</translation>
+<translation id="7505863944027312744">Til að vera öruggari á netinu með vali foreldra þinna skaltu skipta yfir í João Browser-prófílinn þinn þar sem þú ert þegar innskráð(ur) sem <ph name="USER_EMAIL_ADDRESS" /></translation>
 <translation id="4222932583846282852">Hættir við...</translation>
 <translation id="4224210481850767180">Hætt hefur verið við uppsetninguna.</translation>
-<translation id="4230135487732243613">Tengja Chromium gögnin þín við þennan reikning?</translation>
+<translation id="8090594705972340646">Tengja João Browser gögnin þín við þennan reikning?</translation>
 <translation id="4251772536351901305">Varar þig við hættulegum vefsvæðum, jafnvel þeim sem Google hafði enga vitneskju um, með því að greina fleiri gögn frá vefsvæðum en hefðbundin vörn. Þú getur valið að sleppa Chromium-viðvörunum.</translation>
-<translation id="4269093074552541569">Skrá út af Chromium</translation>
+<translation id="5696119579094527589">Skrá út af João Browser</translation>
 <translation id="4271805377592243930">Fá hjálp með Chromium</translation>
 <translation id="4281844954008187215">Þjónustuskilmálar</translation>
-<translation id="4285930937574705105">Uppsetning mistókst vegna ótilgreindrar villu. Ef Chromium er í gangi eins og er skaltu loka því og reyna aftur.</translation>
-<translation id="4298125729853015961">Flytja aðgangsorð út úr Chromium</translation>
+<translation id="1245307320228150348">Uppsetning mistókst vegna ótilgreindrar villu. Ef João Browser er í gangi eins og er skaltu loka því og reyna aftur.</translation>
+<translation id="7405356088321579627">Flytja aðgangsorð út úr João Browser</translation>
 <translation id="4304713468139749426">Aðgangsorðastjórnun</translation>
 <translation id="4334241893986177674">Leita að þessari skjámynd</translation>
-<translation id="4368547723231502008">Leita og spyrja spurninga hvar sem er, jafnvel þó Chromium sé minnkað</translation>
-<translation id="4384331407722351213">Ræsa Chromium þegar Windows ræsist</translation>
+<translation id="5785541112027363087">Leita og spyrja spurninga hvar sem er, jafnvel þó João Browser sé minnkað</translation>
+<translation id="212570256141568951">Ræsa João Browser þegar Windows ræsist</translation>
 <translation id="4400772909124543403">Engin uppfærsla er tiltæk</translation>
-<translation id="4407044323746248786">Viltu samt loka Chromium?</translation>
+<translation id="7463042547966071103">Viltu samt loka João Browser?</translation>
 <translation id="4413205837991854510">Alltaf sýna flýtileið myndaleitar</translation>
-<translation id="4415566066719264597">Leyfa Chromium að keyra í bakgrunni</translation>
-<translation id="4419831163359812184">{NUM_EXTENSIONS,plural, =1{Chromium mælir með að þú fjarlægir hana. <ph name="BEGIN_LINK" />Nánar um studdar viðbætur<ph name="END_LINK" />}one{Chromium mælir með að þú fjarlægir þær. <ph name="BEGIN_LINK" />Nánar um studdar viðbætur<ph name="END_LINK" />}other{Chromium mælir með að þú fjarlægir þær. <ph name="BEGIN_LINK" />Nánar um studdar viðbætur<ph name="END_LINK" />}}</translation>
-<translation id="4423735387467980091">Sérsníða og stjórna Chromium</translation>
+<translation id="4736206301215400753">Leyfa João Browser að keyra í bakgrunni</translation>
+<translation id="821847589110998911">{NUM_EXTENSIONS,plural, =1{João Browser mælir með að þú fjarlægir hana. <ph name="BEGIN_LINK" />Nánar um studdar viðbætur<ph name="END_LINK" />}one{João Browser mælir með að þú fjarlægir þær. <ph name="BEGIN_LINK" />Nánar um studdar viðbætur<ph name="END_LINK" />}other{João Browser mælir með að þú fjarlægir þær. <ph name="BEGIN_LINK" />Nánar um studdar viðbætur<ph name="END_LINK" />}}</translation>
+<translation id="5305058100936019600">Sérsníða og stjórna João Browser</translation>
 <translation id="4427306783828095590">Aukin vernd gengur lengra í að loka á vefveiðar og spilliforrit</translation>
 <translation id="4434353761996769206">Uppsetningarvilla: <ph name="INSTALLER_ERROR" /></translation>
-<translation id="4438870983368648614"><ph name="MANAGER" /> hefur umsjón með Chromium</translation>
-<translation id="444069871276811466">Bæta við Chromium-prófíl</translation>
+<translation id="3461955321878243607"><ph name="MANAGER" /> hefur umsjón með João Browser</translation>
+<translation id="3379477508903866078">Bæta við João Browser-prófíl</translation>
 <translation id="4447409407328223819">Um Chrome for Testing</translation>
-<translation id="4470974262661801543">Sláðu inn aðgangsorðið þitt til að nota og vista Chromium-gögn á Google-reikningnum þínum.</translation>
+<translation id="4074057296993529937">Sláðu inn aðgangsorðið þitt til að nota og vista João Browser-gögn á Google-reikningnum þínum.</translation>
 <translation id="4493028449971051158">Villa í ræsingu: keyrðu uppsetningarforritið sem kerfisstjóri.</translation>
 <translation id="4501471624619070934">Uppsetning mistókst vegna þess að aðgangur er takmarkaður í landinu.</translation>
-<translation id="4510853178268397146">Þessi viðbót hefur ekki gefið út vinnureglur um persónuvernd, svo sem hvernig hún safnar og notar gögn. Chromium mælir með að þú fjarlægir hana.</translation>
-<translation id="452711251841752011">Velkomin(n) í Chromium; nýr vafragluggi opnaður</translation>
-<translation id="4531137820806573936">Chromium þarfnast heimildar til að kortleggja umhverfið þitt og rekja handahreyfingarnar þínar</translation>
-<translation id="4536805923587466102">Þú ert þegar skráð(ur) inn sem <ph name="USER_EMAIL_ADDRESS" /> á öðrum Chromium-prófíl</translation>
+<translation id="8624811527667906941">Þessi viðbót hefur ekki gefið út vinnureglur um persónuvernd, svo sem hvernig hún safnar og notar gögn. João Browser mælir með að þú fjarlægir hana.</translation>
+<translation id="5571435860030744559">Velkomin(n) í João Browser; nýr vafragluggi opnaður</translation>
+<translation id="8132016625974854930">João Browser þarfnast heimildar til að kortleggja umhverfið þitt og rekja handahreyfingarnar þínar</translation>
+<translation id="6599071882590417739">Þú ert þegar skráð(ur) inn sem <ph name="USER_EMAIL_ADDRESS" /> á öðrum João Browser-prófíl</translation>
 <translation id="4548534452171747496">Chromium forhleður síðum sem tryggir þér hraða vefskoðun og leit. <ph name="BEGIN_LINK" />Nánar um að forhlaða síðum<ph name="END_LINK" /></translation>
 <translation id="4549180975214802957">Auktu netöryggi allra með því að tilkynna vefsvæði sem þú telur að sé skaðlegt.</translation>
-<translation id="4570813286784708942">Chromium lokaði á þetta niðurhal vegna þess að þú slökktir á öruggri vefskoðun og ekki er hægt að staðfesta skrána</translation>
-<translation id="4583692638088316420">Prófaðu Google-linsu með Chromium í símanum þínum</translation>
+<translation id="202208802191333704">João Browser lokaði á þetta niðurhal vegna þess að þú slökktir á öruggri vefskoðun og ekki er hægt að staðfesta skrána</translation>
+<translation id="3128308674776200516">Prófaðu Google-linsu með João Browser í símanum þínum</translation>
 <translation id="4594305310729380060">Í Aðgangsorðastjórnun í þessu tæki</translation>
-<translation id="459535195905078186">Chromium forrit</translation>
+<translation id="7653380076752216509">João Browser forrit</translation>
 <translation id="4598116752460667024">Leitaðu að hvaða ferli sem er á listanum.</translation>
 <translation id="4613863813562375431">Útgáfa ChromiumOS</translation>
 <translation id="4621240073146040695">Næstum uppfært! Endurræstu Chromium til að ljúka uppfærslunni.</translation>
-<translation id="4625064703209785397">Styttir hleðslutíma vefsvæða með V8-vél Chromium en gerir Chromium örlítið berskjaldaðri gagnvart árásum</translation>
-<translation id="4665829708273112819">Viðvörun: Chromium getur ekki komið í veg fyrir að viðbætur skrái vafraferilinn þinn. Afturkallaðu þennan valkost til að gera þessa viðbót óvirka í huliðsstillingu.</translation>
+<translation id="1497446027991908251">Styttir hleðslutíma vefsvæða með V8-vél João Browser en gerir João Browser örlítið berskjaldaðri gagnvart árásum</translation>
+<translation id="7523749920868634278">Viðvörun: João Browser getur ekki komið í veg fyrir að viðbætur skrái vafraferilinn þinn. Afturkallaðu þennan valkost til að gera þessa viðbót óvirka í huliðsstillingu.</translation>
 <translation id="4673151026126227699">Ef þú deilir einnig Chromium notkunarskýrslum innihalda þær skýrslur vefslóðirnar sem þú opnar</translation>
 <translation id="4673710618874938871">Skráð(ur) inn sem <ph name="USER_NAME" />, aðild. Opna reikningsvalmyndina</translation>
-<translation id="4677944499843243528">Annað Chromium-ferli (<ph name="PROCESS_ID" />) virðist vera að nota þennan prófíl í annarri tölvu (<ph name="HOST_NAME" />). Chromium hefur læst prófílnum svo að hann skemmist ekki. Ef þú ert viss um að engin önnur ferli séu að nota þennan prófíl geturðu tekið hann úr lás og endurræst Chromium.</translation>
+<translation id="6608258642372806522">Annað João Browser-ferli (<ph name="PROCESS_ID" />) virðist vera að nota þennan prófíl í annarri tölvu (<ph name="HOST_NAME" />). João Browser hefur læst prófílnum svo að hann skemmist ekki. Ef þú ert viss um að engin önnur ferli séu að nota þennan prófíl geturðu tekið hann úr lás og endurræst João Browser.</translation>
 <translation id="4680828127924988555">Hætta við uppsetningu</translation>
-<translation id="469259825538636168">Einhver Chromium-gögn hafa ekki enn verið vistuð á Google-reikningnum þínum. Prófaðu að bíða í nokkrar mínútur áður en þú skráir þig út. Ef þú skráir þig út núna verður þessum gögnum eytt.</translation>
-<translation id="4708193446201257833">Á meðan þú ert innskráð(ur) geturðu notað aðgangsorðin þín og fleira af Google-reikningnum þínum í Chromium. <ph name="SHORTCUT" /> getur breytt stillingum þínum fyrir Google-þjónustur.</translation>
-<translation id="4708774505295300557">Einhver skráði sig inn á Chromium úr þessari tölvu sem <ph name="ACCOUNT_EMAIL_LAST" />. Stofnaðu nýjan notanda í Chromium til að halda þínum upplýsingum aðskildum frá hinum notandanum.</translation>
+<translation id="3912572071294857936">Einhver João Browser-gögn hafa ekki enn verið vistuð á Google-reikningnum þínum. Prófaðu að bíða í nokkrar mínútur áður en þú skráir þig út. Ef þú skráir þig út núna verður þessum gögnum eytt.</translation>
+<translation id="1077152188344040592">Á meðan þú ert innskráð(ur) geturðu notað aðgangsorðin þín og fleira af Google-reikningnum þínum í João Browser. <ph name="SHORTCUT" /> getur breytt stillingum þínum fyrir Google-þjónustur.</translation>
+<translation id="5729536702149847030">Einhver skráði sig inn á João Browser úr þessari tölvu sem <ph name="ACCOUNT_EMAIL_LAST" />. Stofnaðu nýjan notanda í João Browser til að halda þínum upplýsingum aðskildum frá hinum notandanum.</translation>
 <translation id="4724676981607797757">Uppsetning mistókst vegna villu sem tengist óstuddri samskiptareglu.</translation>
-<translation id="4746050847053251315">Viltu samt loka Chromium?</translation>
-<translation id="4748217263233248895">Sérstök öryggisuppfærsla fyrir Chromium var tekin í notkun. Endurræstu núna og við opnum flipana þína aftur.</translation>
+<translation id="6273241729694500032">Viltu samt loka João Browser?</translation>
+<translation id="3239680024825449390">Sérstök öryggisuppfærsla fyrir João Browser var tekin í notkun. Endurræstu núna og við opnum flipana þína aftur.</translation>
 <translation id="4771701986670315895">Þú hefur ekki skoðað vefsvæðið nýlega. Chromium fjarlægði <ph name="PERMISSION_1" />, <ph name="PERMISSION_2" /> og <ph name="COUNT" /> til viðbótar.</translation>
-<translation id="4786083865378785874">Ef Gemini í Chromium er opið verður hliðarglugginn áfram opinn þegar nýir flipar eru búnir til</translation>
+<translation id="1908292729364083164">Ef Gemini í João Browser er opið verður hliðarglugginn áfram opinn þegar nýir flipar eru búnir til</translation>
 <translation id="479167709087336770">Þetta notar sömu ritvilluleit og er notuð í Google-leit. Textinn sem þú skrifar í vafranum er sendur til Google. Þú getur alltaf breytt þessu í stillingunum.</translation>
-<translation id="4814736265800133385">Nota Chromium án reiknings</translation>
-<translation id="4888717733111232871">Regla á innleið til að láta Chromium leyfa mDNS-umferð.</translation>
-<translation id="4893347770495441059">Endurræstu til að uppfæra &amp;Chromium</translation>
+<translation id="189382710647501724">Nota João Browser án reiknings</translation>
+<translation id="4456919965836032212">Regla á innleið til að láta João Browser leyfa mDNS-umferð.</translation>
+<translation id="3486986778673504636">Endurræstu til að uppfæra &amp;João Browser</translation>
 <translation id="4918086044614829423">Samþykkja</translation>
 <translation id="4918844574251943176">Mynd afrituð</translation>
-<translation id="4943838377383847465">Chromium er í bakgrunnsstillingu.</translation>
-<translation id="494490797786467921">Smelltu til að loka innskráningarglugga Chromium</translation>
-<translation id="4950660488495335294">Þú getur aðskilið allt efnið þitt á Chromium með Chromium-prófílum. Stofnaðu prófíla fyrir vini og fjölskyldu eða skiptu á milli vinnu og afþreyingar.</translation>
-<translation id="4987820182225656817">Gestir geta notað Chromium án þess að skilja eftir sig nokkur spor.</translation>
-<translation id="4992938037305302429">Reikningurinn þinn í Chromium</translation>
-<translation id="4994636714258228724">Bættu þér við Chromium</translation>
+<translation id="1571932028747131277">João Browser er í bakgrunnsstillingu.</translation>
+<translation id="7612124006067933008">Smelltu til að loka innskráningarglugga João Browser</translation>
+<translation id="2598788273876744576">Þú getur aðskilið allt efnið þitt á João Browser með João Browser-prófílum. Stofnaðu prófíla fyrir vini og fjölskyldu eða skiptu á milli vinnu og afþreyingar.</translation>
+<translation id="2115498792600385171">Gestir geta notað João Browser án þess að skilja eftir sig nokkur spor.</translation>
+<translation id="6870732303439257966">Reikningurinn þinn í João Browser</translation>
+<translation id="4366792189726044065">Bættu þér við João Browser</translation>
 <translation id="504699503110800016">Opna aukavalmynd</translation>
-<translation id="5074496654342756568">Fáðu aðgang að öllu uppáhaldsefni þínu í Google með Chromium í <ph name="DEVICE_TYPE" /></translation>
-<translation id="5123973130450702873">Chromium þarf heimild til að rekja handahreyfingar þínar</translation>
+<translation id="4340125167559705618">Fáðu aðgang að öllu uppáhaldsefni þínu í Google með João Browser í <ph name="DEVICE_TYPE" /></translation>
+<translation id="4916697359431064123">João Browser þarf heimild til að rekja handahreyfingar þínar</translation>
 <translation id="5141988424377517949">Þú hefur ekki skoðað vefsvæðið nýlega. Chromium fjarlægði <ph name="PERMISSION_1" />, <ph name="PERMISSION_2" />, <ph name="PERMISSION_3" />.</translation>
 <translation id="5174969993834422967">Þú lokar yfirleitt á tilkynningar. Smelltu á tilkynningatáknið í hægra horni veffangastikunnar til að leyfa vefsvæðinu að senda þér tilkynningar.</translation>
 <translation id="5174983315706567306">Ekki nægilegt diskpláss.</translation>
-<translation id="5187123684706427865">Chromium-reikningur þarfnast endurauðkenningar</translation>
-<translation id="5223510345050543907">Haltu áfram þar sem frá var horfið með Chromium í iOS.</translation>
-<translation id="5231355151045086930">Skrá út af Chromium</translation>
+<translation id="961070648267203077">João Browser-reikningur þarfnast endurauðkenningar</translation>
+<translation id="69363826605946518">Haltu áfram þar sem frá var horfið með João Browser í iOS.</translation>
+<translation id="471694954923709047">Skrá út af João Browser</translation>
 <translation id="5234764350956374838">Hunsa</translation>
-<translation id="5249261924633168472">Opna tengil í huliðsglugga í Chromium</translation>
-<translation id="5276305953263010518">Sæktu Chromium-forritið til að vista aðgangsorð á ferðinni</translation>
+<translation id="5782956358171235578">Opna tengil í huliðsglugga í João Browser</translation>
+<translation id="903712329052383264">Sæktu João Browser-forritið til að vista aðgangsorð á ferðinni</translation>
 <translation id="5277894862589591112">Endurræstu Chromium til að breytingarnar taki gildi</translation>
 <translation id="5286907366254680517">Greint</translation>
-<translation id="5289287148052354622">Sækja Chromium-forritið</translation>
+<translation id="5593827909938092728">Sækja João Browser-forritið</translation>
 <translation id="5294316920224716406">Þegar vafrað er í huliðsstillingu mun Chromium vara þig við áður en vefsvæði með ótrygga tengingu er hlaðið</translation>
-<translation id="5296581118566748922">Leita með Chromium</translation>
-<translation id="5313228254328109263">Innri uppfærsluþjónusta Chromium</translation>
+<translation id="6915803918427878418">Leita með João Browser</translation>
+<translation id="1066981078513393795">Innri uppfærsluþjónusta João Browser</translation>
 <translation id="5324450571874973775">Notaðu hana samhliða öðrum Gemini-eiginleikum í Chromium</translation>
 <translation id="5346389065299425353">Dýpkaðu leitina þína með því að bæta við mörgum flipum, skrám og verkfærum</translation>
-<translation id="5348677704241861105">Fáðu snöggt yfirlit yfir þetta skjal og spyrðu spurninga með Gemini í Chromium</translation>
+<translation id="1884203704972162365">Fáðu snöggt yfirlit yfir þetta skjal og spyrðu spurninga með Gemini í João Browser</translation>
 <translation id="5352264705793813212">Chromium fann öryggistillögur sem þú þarft að fara yfir</translation>
-<translation id="5352361688875342522">Aðrir Chromium-prófílar</translation>
-<translation id="535243042947607642">ChromiumOS gat ekki vistað Chromium-gögn á Google-reikningnum þínum vegna þess að innskráningarupplýsingar reikningsins þíns eru úreltar</translation>
-<translation id="5358375970380395591">Þú ert að skrá þig inn með stýrðum reikningi og veitir stjórnanda hans vald yfir Chromium prófílnum þínum. Chromium gögnin þín, s.s. forrit, bókamerki, ferill, aðgangsorð og aðrar stillingar, verða tengd varanlega við <ph name="USER_NAME" />. Þú getur eytt þessum gögnum á stjórnborði Google-reikninga en getur ekki tengt þau öðrum reikningi. <ph name="LEARN_MORE" /></translation>
+<translation id="4819697639570429319">Aðrir João Browser-prófílar</translation>
+<translation id="7878591304929138776">ChromiumOS gat ekki vistað João Browser-gögn á Google-reikningnum þínum vegna þess að innskráningarupplýsingar reikningsins þíns eru úreltar</translation>
+<translation id="5249614051186670898">Þú ert að skrá þig inn með stýrðum reikningi og veitir stjórnanda hans vald yfir João Browser prófílnum þínum. João Browser gögnin þín, s.s. forrit, bókamerki, ferill, aðgangsorð og aðrar stillingar, verða tengd varanlega við <ph name="USER_NAME" />. Þú getur eytt þessum gögnum á stjórnborði Google-reikninga en getur ekki tengt þau öðrum reikningi. <ph name="LEARN_MORE" /></translation>
 <translation id="5368118228313795342">Viðbótarkóði: <ph name="EXTRA_CODE" />.</translation>
 <translation id="5377622451696208284">Hafðu Chromium með í vef- og forritavirkni til að fá aðgang að sérsniði</translation>
-<translation id="5383439451358640070">Kynntu þér hvers vegna Chromium lokar á sumar skrár</translation>
+<translation id="108952623091824942">Kynntu þér hvers vegna João Browser lokar á sumar skrár</translation>
 <translation id="5386450000063123300">Uppfærir Chromium (<ph name="PROGRESS_PERCENT" />)</translation>
 <translation id="538767207339317086">Leyfa innskráningu í Chromium</translation>
-<translation id="5405650547142096840">Fjarlægja úr Chromium</translation>
-<translation id="5424544524441439284">Dregur úr afköstum en auðveldar Chromium að verjast árásum</translation>
-<translation id="5427571867875391349">Stilla Chromium sem sjálfgefinn vafra</translation>
-<translation id="5438241569118040789"><ph name="PAGE_TITLE" /> - tilraunaútgáfa Chromium</translation>
-<translation id="5460618461609401056">{NUM_TABS,plural, =1{Chromium mælir með því að gera hlé á flipanum sem er að hægja á vafranum þínum}one{Chromium mælir með því að gera hlé á flipunum sem eru að hægja á vafranum þínum}other{Chromium mælir með því að gera hlé á flipunum sem eru að hægja á vafranum þínum}}</translation>
-<translation id="5473971139929175403">Vera kann að Chromium virki ekki sem skyldi vegna þess að það er ekki lengur stutt í þessu Linux-kerfi.</translation>
-<translation id="5475924890392386523">Chromium lokaði á þetta niðurhal vegna þess að skráin getur skaðað persónulega reikninga og samfélagsmiðlareikninga þína</translation>
-<translation id="549669000822060376">Bíddu á meðan Chromium setur upp nýjustu kerfisuppfærslunar.</translation>
-<translation id="5496810170689441661">Chromium er að reyna að breyta aðgangsorðum. Sláðu inn Windows-aðgangsorðið þitt til að leyfa það.</translation>
-<translation id="549975168243349205">Notaðu uppáhaldsforritin þín, t.d. Google Drive og YouTube, á ferðinni með Chromium.</translation>
+<translation id="1265086181910844216">Fjarlægja úr João Browser</translation>
+<translation id="1500700851187484222">Dregur úr afköstum en auðveldar João Browser að verjast árásum</translation>
+<translation id="6665657403278704382">Stilla João Browser sem sjálfgefinn vafra</translation>
+<translation id="3520901681432894293"><ph name="PAGE_TITLE" /> - tilraunaútgáfa João Browser</translation>
+<translation id="5994273394215159270">{NUM_TABS,plural, =1{João Browser mælir með því að gera hlé á flipanum sem er að hægja á vafranum þínum}one{João Browser mælir með því að gera hlé á flipunum sem eru að hægja á vafranum þínum}other{João Browser mælir með því að gera hlé á flipunum sem eru að hægja á vafranum þínum}}</translation>
+<translation id="646791423998269453">Vera kann að João Browser virki ekki sem skyldi vegna þess að það er ekki lengur stutt í þessu Linux-kerfi.</translation>
+<translation id="7249139852479053716">João Browser lokaði á þetta niðurhal vegna þess að skráin getur skaðað persónulega reikninga og samfélagsmiðlareikninga þína</translation>
+<translation id="478612683981218420">Bíddu á meðan João Browser setur upp nýjustu kerfisuppfærslunar.</translation>
+<translation id="3466187211963597724">João Browser er að reyna að breyta aðgangsorðum. Sláðu inn Windows-aðgangsorðið þitt til að leyfa það.</translation>
+<translation id="3133978491361824131">Notaðu uppáhaldsforritin þín, t.d. Google Drive og YouTube, á ferðinni með João Browser.</translation>
 <translation id="5524890928877629608">efsta horn leitarsvæðis vinstra megin: til vinstri <ph name="LEFT" />%, efst <ph name="TOP" />%</translation>
 <translation id="5527463683072221100">Opna PDF-skjöl í Chromium</translation>
 <translation id="5536164441519929134">Spyrðu<ph name="LINE_BREAK" />um þennan flipa</translation>
-<translation id="555970465369471303">Af öryggisástæðum slekkur Chromium á fínstillingu JavaScript þegar þú opnar vefsvæði í fyrsta skipti.
+<translation id="3902123582863904748">Af öryggisástæðum slekkur João Browser á fínstillingu JavaScript þegar þú opnar vefsvæði í fyrsta skipti.
 
 Ef þessi síða virkar ekki sem skyldi skaltu prófa að leyfa fínstillingu.</translation>
-<translation id="5575874067957905201">Sýna Gemini í Chromium á Mac-valmyndarstiku og kveikja á flýtilykli</translation>
-<translation id="5576587363991567745"><ph name="EXISTING_USER" /> er þegar innskráð(ur). Til að halda vefskoðun aðskilinni skaltu skrá þig inn á Chromium með þínum eigin prófíl sem <ph name="USER_EMAIL_ADDRESS" />. Þú færð einnig vistuðu upplýsingarnar þínar og fleira úr <ph name="DEVICE" />.</translation>
+<translation id="5924481826213021755">Sýna Gemini í João Browser á Mac-valmyndarstiku og kveikja á flýtilykli</translation>
+<translation id="4988760628116707723"><ph name="EXISTING_USER" /> er þegar innskráð(ur). Til að halda vefskoðun aðskilinni skaltu skrá þig inn á João Browser með þínum eigin prófíl sem <ph name="USER_EMAIL_ADDRESS" />. Þú færð einnig vistuðu upplýsingarnar þínar og fleira úr <ph name="DEVICE" />.</translation>
 <translation id="5579324208890605088">Villa í ræsingu: keyrðu uppsetningarforritið sem venjulegur notandi, ekki sem kerfisstjóri.</translation>
-<translation id="5580770360767802657">Notaðu Chromium sem sjálfgefinn vafra og festu hann</translation>
+<translation id="697769674160644707">Notaðu João Browser sem sjálfgefinn vafra og festu hann</translation>
 <translation id="5596627076506792578">Fleiri valkostir</translation>
 <translation id="5605834417512968703">Veldu hvað sem er til að leita með myndaleit eða ýttu á „Esc“ til að loka myndaleitinni</translation>
 <translation id="5618818588972826921">Veldu hvaða texta eða mynd sem er til að leita með myndaleit eða ýttu á „Esc“ til að loka myndaleitinni</translation>
-<translation id="5623402015214259806">{0,plural, =0{Uppfærsla er í boði fyrir Chromium}=1{Uppfærsla er í boði fyrir Chromium}one{Uppfærsla hefur verið í boði fyrir Chromium í # dag}other{Uppfærsla hefur verið í boði fyrir Chromium í # daga}}</translation>
+<translation id="2497422928854452258">{0,plural, =0{Uppfærsla er í boði fyrir João Browser}=1{Uppfærsla er í boði fyrir João Browser}one{Uppfærsla hefur verið í boði fyrir João Browser í # dag}other{Uppfærsla hefur verið í boði fyrir João Browser í # daga}}</translation>
 <translation id="5643865575100044307">Ávallt eyða vefsvæðagögnum úr tækinu þegar þú lokar Chromium</translation>
-<translation id="5653831366781983928">Endurræstu Chromium núna</translation>
+<translation id="620465883043431255">Endurræstu João Browser núna</translation>
 <translation id="5690427481109656848">Google LLC</translation>
 <translation id="5698481217667032250">Birta Chromium á þessu tungumáli</translation>
 <translation id="569897634095159764">Ekki er hægt að tengjast internetinu. Staðgengilsþjónninn krefst auðkenningar.</translation>
 <translation id="5768371961535086509">Chromium endurheimtir minni úr óvirkum flipum. Þetta veitir virkum flipum og öðrum forritum meiri tölvugögn og heldur Chromium hröðum. Óvirkir flipar virkjast aftur sjálfkrafa þegar þú opnar þá. <ph name="BEGIN_LINK" />Nánar um minnissparnað<ph name="END_LINK" /></translation>
-<translation id="5775198138441669627">Ef þú gleymdir aðgangsorðinu þínu eða vilt breyta þessari stillingu skaltu <ph name="SETTINGS_LINK" /> Chromium-gögnin á reikningnum þínum.</translation>
-<translation id="5800158606660203929">Sérsníddu og stjórnaðu Chromium. Stilltu Chromium sem sjálfgefinn vafra.</translation>
-<translation id="5802618941556161431">Samstilltu aðgangsorðin þín, bókamerki og feril á milli tækja með því að velja Chromium sem sjálfgefinn vafra.</translation>
+<translation id="8866372822266732235">Ef þú gleymdir aðgangsorðinu þínu eða vilt breyta þessari stillingu skaltu <ph name="SETTINGS_LINK" /> João Browser-gögnin á reikningnum þínum.</translation>
+<translation id="2106070764285625641">Sérsníddu og stjórnaðu João Browser. Stilltu João Browser sem sjálfgefinn vafra.</translation>
+<translation id="9077878413488413377">Samstilltu aðgangsorðin þín, bókamerki og feril á milli tækja með því að velja João Browser sem sjálfgefinn vafra.</translation>
 <translation id="5809516625706423866">Ekki er hægt að tengjast internetinu. HTTP 403 óheimilt. Kannaðu uppsetningu staðgengilsþjóna.</translation>
-<translation id="5817952762723416573">Styttir hleðslutíma vefsvæða með V8-vél Chromium en gerir Chromium örlítið berskjaldaðri gagnvart árásum. Slökkt er á þessari stillingu.</translation>
-<translation id="5821520528363214608">Til að nota og vista Chromium-gögn á Google-reikningnum þínum skaltu uppfæra Chromium</translation>
+<translation id="614221876503883218">Styttir hleðslutíma vefsvæða með V8-vél João Browser en gerir João Browser örlítið berskjaldaðri gagnvart árásum. Slökkt er á þessari stillingu.</translation>
+<translation id="8788365803279840995">Til að nota og vista João Browser-gögn á Google-reikningnum þínum skaltu uppfæra João Browser</translation>
 <translation id="5824893331272123205">Ekki tókst að hlaða glugganum, reyndu aftur</translation>
-<translation id="5862307444128926510">Velkomin(n) í Chromium</translation>
+<translation id="5805760187441013922">Velkomin(n) í João Browser</translation>
 <translation id="5867606647614813312">Kveikir á viðbótareiginleikum til að veita öflugustu vörn Chromium</translation>
 <translation id="5871205389137001634">Smelltu til að loka myndaleit</translation>
-<translation id="5883558403894052917">Chromium komst að því að eftirfarandi atriði innihalda spilliforrit:</translation>
+<translation id="8367098380158627809">João Browser komst að því að eftirfarandi atriði innihalda spilliforrit:</translation>
 <translation id="5889361821821684993">Chromium athugar reglulega hvort vafrinn þinn sé með öruggustu stillingarnar. Við látum þig vita ef þú þarft að yfirfara eitthvað.</translation>
 <translation id="5895138241574237353">Endurræsa</translation>
 <translation id="5903106910045431592"><ph name="PAGE_TITLE" /> – innskráning á net</translation>
 <translation id="5924017743176219022">Tengist internetinu…</translation>
-<translation id="5939553720811388432">Gerum Chromium klárt</translation>
+<translation id="7627350220326904504">Gerum João Browser klárt</translation>
 <translation id="5941711191222866238">Minnka</translation>
-<translation id="5949225980829865667">Skráðu þig inn í Chromium til að fá þetta bókamerki og fleiri í öllum tækjunum þínum</translation>
-<translation id="5953657885167112863">Gerðu Chromium-vafrann að þínum</translation>
+<translation id="8680863040348007215">Skráðu þig inn í João Browser til að fá þetta bókamerki og fleiri í öllum tækjunum þínum</translation>
+<translation id="2008232276062354182">Gerðu João Browser-vafrann að þínum</translation>
 <translation id="5960071705175224773">Óþekkt forrit breytti stillingunum þínum</translation>
 <translation id="5977420883993828287">Fest! Notaðu samhengismiðuð verkefni aftur af tækjastikunni</translation>
-<translation id="5986585015444752010">{COUNT,plural, =1{Fyrirtækið lokar Chromium sjálfkrafa eftir aðgerðaleysi í 1 mínútu.}one{Fyrirtækið lokar Chromium sjálfkrafa eftir aðgerðaleysi í # mínútu.}other{Fyrirtækið lokar Chromium sjálfkrafa eftir aðgerðaleysi í # mínútur.}}</translation>
-<translation id="5987687638152509985">Uppfærðu Chromium til að hefja samstillingu</translation>
+<translation id="5889362640603897718">{COUNT,plural, =1{Fyrirtækið lokar João Browser sjálfkrafa eftir aðgerðaleysi í 1 mínútu.}one{Fyrirtækið lokar João Browser sjálfkrafa eftir aðgerðaleysi í # mínútu.}other{Fyrirtækið lokar João Browser sjálfkrafa eftir aðgerðaleysi í # mínútur.}}</translation>
+<translation id="4971097497342057998">Uppfærðu João Browser til að hefja samstillingu</translation>
 <translation id="5990360079535151574">Með hnappnum „Samhengismiðuð verkefni“ á tækjastikunni getur þú opnað samhengismiðuð verkefni aftur til að spyrja spurninga á meðan þú vafrar</translation>
 <translation id="6003112304606738118">Sækir... <ph name="HOURS" /> klst. eftir</translation>
 <translation id="6009821354356307391">Spyrja framhaldsspurningar</translation>
 <translation id="6040143037577758943">Loka</translation>
-<translation id="6044357424127037044">Fáðu meira út úr netverslun þegar þú notar Chromium-forritið í <ph name="DEVICE_TYPE" /></translation>
+<translation id="2100398097168307292">Fáðu meira út úr netverslun þegar þú notar João Browser-forritið í <ph name="DEVICE_TYPE" /></translation>
 <translation id="6058380562449900225">Til að vernda gögnin þín skaltu leyfa Chromium að fjarlægja heimildir vefsvæða sem þú hefur ekki opnað nýlega. Stöðvar ekki tilkynningar.</translation>
-<translation id="6063093106622310249">&amp;Opna í Chromium</translation>
+<translation id="4735359759698689867">&amp;Opna í João Browser</translation>
 <translation id="6069027071882229820">Afrita sem mynd</translation>
-<translation id="6072279588547424923"><ph name="EXTENSION_NAME" /> hefur verið bætt við Chromium</translation>
-<translation id="6096348254544841612">Sérstilltu og stjórnaðu Chromium. Uppfærsla er í boði.</translation>
-<translation id="6107893135096467929">Kveikt • Chromium getur ekki staðfest hvaðan þessi viðbót kemur</translation>
-<translation id="611228897408671387">Reikningurinn þinn í Chromium</translation>
-<translation id="6119438414301547735">Leyfa viðbót að sýna aðgangsbeiðnir í tækjastiku Chromium</translation>
-<translation id="6129621093834146363"><ph name="FILE_NAME" /> er skaðleg skrá og Chromium útilokaði hana.</translation>
-<translation id="6132897690380286411">Chromium mun bráðlega lokast og eyða gögnum</translation>
-<translation id="6145820983052037069">Hér geturðu skipt á milli Chromium prófíla</translation>
+<translation id="2274675514456642321"><ph name="EXTENSION_NAME" /> hefur verið bætt við João Browser</translation>
+<translation id="147381942282490529">Sérstilltu og stjórnaðu João Browser. Uppfærsla er í boði.</translation>
+<translation id="8775234022739879423">Kveikt • João Browser getur ekki staðfest hvaðan þessi viðbót kemur</translation>
+<translation id="6634821567165410381">Reikningurinn þinn í João Browser</translation>
+<translation id="4398707227122702993">Leyfa viðbót að sýna aðgangsbeiðnir í tækjastiku João Browser</translation>
+<translation id="5370941509199989624"><ph name="FILE_NAME" /> er skaðleg skrá og João Browser útilokaði hana.</translation>
+<translation id="5119118887583954582">João Browser mun bráðlega lokast og eyða gögnum</translation>
+<translation id="576637711620229618">Hér geturðu skipt á milli João Browser prófíla</translation>
 <translation id="615103374448673771">Ef þú leyfir fótspor kann Chromium að nota þau við forhleðslu</translation>
 <translation id="6165508094623778733">Frekari upplýsingar</translation>
-<translation id="6173308241973263798">Eyddu Chromium-gögnum af reikningnum þínum</translation>
-<translation id="6174920971222007286">Þessi skrá kann að vera hættuleg<ph name="LINE_BREAK" />Chromium getur athugað niðurhalið fyrir þig ef þú gefur upp aðgangsorðið. Upplýsingar um skrána verða sendar í örugga vefskoðun Google en efni og aðgangsorð hennar verða eftir í tækinu þínu.</translation>
+<translation id="3738215896821824918">Eyddu João Browser-gögnum af reikningnum þínum</translation>
+<translation id="2145111683361496197">Þessi skrá kann að vera hættuleg<ph name="LINE_BREAK" />João Browser getur athugað niðurhalið fyrir þig ef þú gefur upp aðgangsorðið. Upplýsingar um skrána verða sendar í örugga vefskoðun Google en efni og aðgangsorð hennar verða eftir í tækinu þínu.</translation>
 <translation id="6182736845697986886">Uppsetning mistókst vegna innri villu uppfærsluþjóns.</translation>
-<translation id="6183079672144801177">Vertu viss um að þú sért skráð(ur) inn á Chromium í <ph name="TARGET_DEVICE_NAME" /> og reyndu svo að senda aftur.</translation>
-<translation id="6212496753309875659">Á þessari tölvu er þegar nýrri útgáfa af Chromium. Ef hugbúnaðurinn virkar ekki skaltu fjarlægja Chromium og reyna aftur.</translation>
-<translation id="6219195342503754812">{0,plural, =0{Chromium verður endurræst núna}=1{Chromium verður endurræst eftir 1 sekúndu}one{Chromium verður endurræst eftir # sekúndu}other{Chromium verður endurræst eftir # sekúndur}}</translation>
-<translation id="6241367896540709610">Chromium verður að fá aðgang að geymslurými til að sækja skrár</translation>
+<translation id="6050294746023477088">Vertu viss um að þú sért skráð(ur) inn á João Browser í <ph name="TARGET_DEVICE_NAME" /> og reyndu svo að senda aftur.</translation>
+<translation id="3395167674702947885">Á þessari tölvu er þegar nýrri útgáfa af João Browser. Ef hugbúnaðurinn virkar ekki skaltu fjarlægja João Browser og reyna aftur.</translation>
+<translation id="4384214545531685923">{0,plural, =0{João Browser verður endurræst núna}=1{João Browser verður endurræst eftir 1 sekúndu}one{João Browser verður endurræst eftir # sekúndu}other{João Browser verður endurræst eftir # sekúndur}}</translation>
+<translation id="5880255774989397049">João Browser verður að fá aðgang að geymslurými til að sækja skrár</translation>
 <translation id="6245734527075554892">Ber vefslóðir saman við lista yfir óörugg vefsvæði sem er vistaður í Chromium</translation>
-<translation id="6248213926982192922">Gera Chromium að sjálfgefnum vafra</translation>
+<translation id="1959823478027154444">Gera João Browser að sjálfgefnum vafra</translation>
 <translation id="6248988683584659830">Leitarstillingar</translation>
-<translation id="6261803579884938625">Fáðu bestu öryggiseiginleika Google á ferðinni með Chromium-forritinu í símanum þínum</translation>
-<translation id="6268381023930128611">Skrá út af Chromium?</translation>
-<translation id="6270547683008298381">Þessir flipar nota aukagögn. Leyfðu Chromium að óvirkja þá til að bæta afköstin.</translation>
-<translation id="6281746429495226318">Sérsníða Chromium prófílinn þinn</translation>
+<translation id="9191635841540101343">Fáðu bestu öryggiseiginleika Google á ferðinni með João Browser-forritinu í símanum þínum</translation>
+<translation id="538350741885862188">Skrá út af João Browser?</translation>
+<translation id="161121067714522736">Þessir flipar nota aukagögn. Leyfðu João Browser að óvirkja þá til að bæta afköstin.</translation>
+<translation id="2095090272560293574">Sérsníða João Browser prófílinn þinn</translation>
 <translation id="6290827346642914212">Gefðu Chromium prófílnum þínum heiti</translation>
-<translation id="6294831894865512704">Viðbót vill að þú skráir þig inn á Chromium</translation>
-<translation id="6295779123002464101"><ph name="FILE_NAME" /> gæti verið skaðleg skrá og Chromium útilokaði hana.</translation>
-<translation id="6309712487085796862">Chromium er að nota myndavélina þína.</translation>
-<translation id="6333502561965082103">Önnur aðgerð er í gangi í Chromium. Reyndu aftur síðar.</translation>
-<translation id="6334986366598267305">Nú er auðveldara að nota Chromium með Google reikningnum þínum og í samnýttum tölvum.</translation>
-<translation id="6347002662287820329">Fáðu greiðan aðgang að eiginleikunum sem þú þekkir, elskar og treystir með því að stilla Chromium sem sjálfgefinn vafra.</translation>
-<translation id="6347933965114150440">Chromium-flýtilykill</translation>
-<translation id="6366160072964553914">Chromium lokaði á þetta niðurhal vegna þess að skráin er ekki sótt oft og gæti verið hættuleg</translation>
-<translation id="6373523479360886564">Viltu örugglega fjarlægja Chromium?</translation>
+<translation id="6472525517562723285">Viðbót vill að þú skráir þig inn á João Browser</translation>
+<translation id="2069878195899746465"><ph name="FILE_NAME" /> gæti verið skaðleg skrá og João Browser útilokaði hana.</translation>
+<translation id="1283909912629029170">João Browser er að nota myndavélina þína.</translation>
+<translation id="323902744000752306">Önnur aðgerð er í gangi í João Browser. Reyndu aftur síðar.</translation>
+<translation id="1292164882596462877">Nú er auðveldara að nota João Browser með Google reikningnum þínum og í samnýttum tölvum.</translation>
+<translation id="6411450594978516531">Fáðu greiðan aðgang að eiginleikunum sem þú þekkir, elskar og treystir með því að stilla João Browser sem sjálfgefinn vafra.</translation>
+<translation id="3344301749774719950">João Browser-flýtilykill</translation>
+<translation id="8395825163097750991">João Browser lokaði á þetta niðurhal vegna þess að skráin er ekki sótt oft og gæti verið hættuleg</translation>
+<translation id="7683737657427846440">Viltu örugglega fjarlægja João Browser?</translation>
 <translation id="6375219077595103062">Bættu við flýtileið í Aðgangsorðastjórnun</translation>
 <translation id="6388799252195623474">hjálpa mér með þetta</translation>
-<translation id="6390800440335263989">Skráðu þig inn í Chromium sem <ph name="EMAIL" /> til að halda áfram. Það tryggir að reglur fyrirtækisins þíns gildi.</translation>
-<translation id="6400112897226594999">Chromium-lógó á tölvuskjá.</translation>
-<translation id="6403826409255603130">Chromium er vafri sem keyrir vefsíður og forrit með ótrúlegum hraða. Hann er hraðvirkur, stöðugur og einfaldur í notkun. Notaðu vefinn á öruggari hátt með innbyggðri vernd Chromium gegn spilliforritum og vefveiðum.</translation>
-<translation id="6414624068245092115">Staðfestu að þetta sért þú til að ganga úr skugga um að þú getir alltaf notað og vistað Chromium-gögn á Google-reikningnum þínum</translation>
-<translation id="642132557830635295">Chromium virkar hraðar og eiginleikar sem nota JavaScript ættu að virka sem skyldi (ráðlagt)</translation>
+<translation id="6966523531135953867">Skráðu þig inn í João Browser sem <ph name="EMAIL" /> til að halda áfram. Það tryggir að reglur fyrirtækisins þíns gildi.</translation>
+<translation id="5146608242127807773">João Browser-lógó á tölvuskjá.</translation>
+<translation id="6361476216650509195">João Browser er vafri sem keyrir vefsíður og forrit með ótrúlegum hraða. Hann er hraðvirkur, stöðugur og einfaldur í notkun. Notaðu vefinn á öruggari hátt með innbyggðri vernd João Browser gegn spilliforritum og vefveiðum.</translation>
+<translation id="7864687914956920860">Staðfestu að þetta sért þú til að ganga úr skugga um að þú getir alltaf notað og vistað João Browser-gögn á Google-reikningnum þínum</translation>
+<translation id="1160920197193662978">João Browser virkar hraðar og eiginleikar sem nota JavaScript ættu að virka sem skyldi (ráðlagt)</translation>
 <translation id="6436260184216827876">Myndaleit er ekki í boði. Reyndu aftur síðar.</translation>
 <translation id="6442900851116057561">Endurræsa ChromiumOS</translation>
 <translation id="6443470774889161065">Chromium forhleður fleiri síðum sem er líklegt að þú munir skoða svo að þær hlaðist fyrr þegar þú opnar þær</translation>
-<translation id="6450948450282634257">Sæktu Chromium í símanum þínum til að rekja verð og fá tilkynningar þegar verðið lækkar á einhverri síðu</translation>
-<translation id="645458117210240797">Slökkt • Chromium getur ekki staðfest hvaðan þessi viðbót kemur</translation>
-<translation id="6455857529632101747">Velkomin(n) í Chromium prófíla</translation>
-<translation id="6460614424172581323">Næst þegar þú opnar Chromium í <ph name="DEVICE_TYPE" /> muntu sjá ábendingu um að nota flipahópa.</translation>
-<translation id="6466344609055215035">Fjarlægja reikning úr Chromium</translation>
-<translation id="6475912303565314141">Stýrir því einnig hvaða síða birtist þegar þú ræsir Chromium.</translation>
+<translation id="3730564967922511625">Sæktu João Browser í símanum þínum til að rekja verð og fá tilkynningar þegar verðið lækkar á einhverri síðu</translation>
+<translation id="3753019081686930624">Slökkt • João Browser getur ekki staðfest hvaðan þessi viðbót kemur</translation>
+<translation id="5444641426058108434">Velkomin(n) í João Browser prófíla</translation>
+<translation id="5103470775766355478">Næst þegar þú opnar João Browser í <ph name="DEVICE_TYPE" /> muntu sjá ábendingu um að nota flipahópa.</translation>
+<translation id="9087231386723579740">Fjarlægja reikning úr João Browser</translation>
+<translation id="4984395209542302039">Stýrir því einnig hvaða síða birtist þegar þú ræsir João Browser.</translation>
 <translation id="648319183876919572">Enn öruggari vefskoðun gerir viðbótarráðstafanir til að vernda þig gegn skaðlegum vefsvæðum og niðurhali</translation>
-<translation id="6510925080656968729">Fjarlægja Chromium</translation>
-<translation id="651535675648445253">Flýtileiðir opnast í Chromium</translation>
-<translation id="6539122709674868420">Fyrirtækið þitt lokar Chromium eftir aðgerðaleysi í <ph name="TIMEOUT_DURATION" />. Vefskoðunargögnum var eytt. Þetta getur falið í sér feril, sjálfvirka útfyllingu og niðurhal.</translation>
-<translation id="6542839706527980775">Á hverjum prófíl eru geymdar Chromium upplýsingar á borð við bókamerki, feril, aðgangsorð og fleira</translation>
+<translation id="1524792685704191751">Fjarlægja João Browser</translation>
+<translation id="6637504267182028286">Flýtileiðir opnast í João Browser</translation>
+<translation id="1478247638436966279">Fyrirtækið þitt lokar João Browser eftir aðgerðaleysi í <ph name="TIMEOUT_DURATION" />. Vefskoðunargögnum var eytt. Þetta getur falið í sér feril, sjálfvirka útfyllingu og niðurhal.</translation>
+<translation id="1311233187253046133">Á hverjum prófíl eru geymdar João Browser upplýsingar á borð við bókamerki, feril, aðgangsorð og fleira</translation>
 <translation id="6556755379298048869">Leita með flýtilykli.</translation>
 <translation id="6563921047760808519">Nánar um <ph name="BEGIN_LINK" />hvernig Chromium heldur gögnunum þínum leyndum<ph name="END_LINK" /></translation>
-<translation id="6564039629497156115">Breytingar á þessari stillingu taka gildi þegar Chromium endurræsist.</translation>
-<translation id="6567032987737689854">Stjórnaðu viðbótunum þínum með því að smella á „Viðbætur“ á aðalvalmynd Chromium.</translation>
-<translation id="656935081669708576">Þú getur skipt um prófíl til að sjá aðgangsorð frá öðrum Chromium-prófíl</translation>
-<translation id="6569556444379005948">Notaðu Chromium-forritið til að taka bestu gervigreindarverkfærin með þér hvert sem þú ferð</translation>
+<translation id="1643078533228697915">Breytingar á þessari stillingu taka gildi þegar João Browser endurræsist.</translation>
+<translation id="1918630514771863338">Stjórnaðu viðbótunum þínum með því að smella á „Viðbætur“ á aðalvalmynd João Browser.</translation>
+<translation id="4229328298978407243">Þú getur skipt um prófíl til að sjá aðgangsorð frá öðrum João Browser-prófíl</translation>
+<translation id="7717252965531997879">Notaðu João Browser-forritið til að taka bestu gervigreindarverkfærin með þér hvert sem þú ferð</translation>
 <translation id="6570579332384693436">Til að lagfæra stafsetningarvillur sendir Chromium textann sem þú skrifar í textareiti til Google</translation>
-<translation id="6598877126913850652">Fara í tilkynningastillingar Chromium</translation>
+<translation id="5374627817618267090">Fara í tilkynningastillingar João Browser</translation>
 <translation id="6600016381025017075">Leitaðu að hverju sem er á síðunni</translation>
-<translation id="6613594504749178791">Breytingar þínar munu taka gildi næst þegar þú endurræsir Chromium.</translation>
-<translation id="6637908313088374648">Chromium ræsist nú þegar Windows ræsist, svo að þú getur byrjað að vafra samstundis. Þú getur slökkt á þessu í stillingunum.</translation>
-<translation id="6648212540664651655">Haltu áfram þaðan sem frá var horfið: Chromium endurheimtir flipana sem þú varst með opna síðast. Þú getur slökkt á þessu í</translation>
-<translation id="665732753414869868">Chromium verður að fá leyfi fyrir myndavél til að búa til þrívíddarkort af umhverfi þínu</translation>
+<translation id="264335610358256197">Breytingar þínar munu taka gildi næst þegar þú endurræsir João Browser.</translation>
+<translation id="2657584510687441826">João Browser ræsist nú þegar Windows ræsist, svo að þú getur byrjað að vafra samstundis. Þú getur slökkt á þessu í stillingunum.</translation>
+<translation id="5482413402708094860">Haltu áfram þaðan sem frá var horfið: João Browser endurheimtir flipana sem þú varst með opna síðast. Þú getur slökkt á þessu í</translation>
+<translation id="5022765692226673603">João Browser verður að fá leyfi fyrir myndavél til að búa til þrívíddarkort af umhverfi þínu</translation>
 <translation id="6669284030132180248">Ef þú vistar bókamerkin þín einnig á Google-reikningnum þínum geturðu vaktað verð á vörum í Chromium og fengið tilkynningar þegar verð lækka</translation>
 <translation id="6676384891291319759">Aðgangur að internetinu</translation>
 <translation id="668175097507315160">ChromiumOS gat ekki samstillt gögnin þín vegna innskráningarvillu.</translation>
-<translation id="6691132793308828750">Fjarlægja þessi forritsgögn úr Chromium</translation>
-<translation id="6709350901466051922">Chromium verður að fá leyfi fyrir hljóðnema fyrir þetta vefsvæði</translation>
+<translation id="3982573751008180181">Fjarlægja þessi forritsgögn úr João Browser</translation>
+<translation id="5613723096388999601">João Browser verður að fá leyfi fyrir hljóðnema fyrir þetta vefsvæði</translation>
 <translation id="6712881677154121168">Niðurhalsvilla: <ph name="DOWNLOAD_ERROR" />.</translation>
-<translation id="6717134281241384636">Ekki er hægt að nota prófílinn þinn því hann er úr nýrri útgáfu af Chromium.
+<translation id="9190188975825967506">Ekki er hægt að nota prófílinn þinn því hann er úr nýrri útgáfu af João Browser.
 
-Sumir eiginleikar kunna að verða óaðgengilegir. Tilgreindu aðra prófílamöppu eða notaðu nýrri útgáfu af Chromium.</translation>
+Sumir eiginleikar kunna að verða óaðgengilegir. Tilgreindu aðra prófílamöppu eða notaðu nýrri útgáfu af João Browser.</translation>
 <translation id="6729124504294600478">Hafðu Chromium með í vef- og forritavirkni og tengdum Google-þjónustum til að fá aðgang að sérsniði og öðrum eiginleikum</translation>
-<translation id="6734291798041940871">Chromium hefur þegar verið sett upp fyrir alla notendur í tölvunni.</translation>
-<translation id="6742093177587589736">Skráðu þig inn á Chromium til að fá aðgang að bókamerkjum og fleiru í öllum tækjunum þínum Þetta bókamerki verður vistað á Google-reikningnum þínum eftir að þú skráir þig inn.</translation>
-<translation id="6751374565094704799">Styttir hleðslutíma vefsvæða með V8-vél Chromium en gerir Chromium örlítið berskjaldaðri gagnvart árásum. Kveikt er á þessari stillingu.</translation>
-<translation id="6754665438209053659">{count,plural, =1{Einhver Chromium-gögn hafa ekki enn verið vistuð á Google-reikningnum þínum. Prófaðu að bíða í nokkrar mínútur áður en þú skráir þig út. Ef þú skráir þig út núna verður þessum gögnum (1 atriði) eytt.}one{Einhver Chromium-gögn hafa ekki enn verið vistuð á Google-reikningnum þínum. Prófaðu að bíða í nokkrar mínútur áður en þú skráir þig út. Ef þú skráir þig út núna verður þessum gögnum ({count} atriði) eytt.}other{Einhver Chromium-gögn hafa ekki enn verið vistuð á Google-reikningnum þínum. Prófaðu að bíða í nokkrar mínútur áður en þú skráir þig út. Ef þú skráir þig út núna verður þessum gögnum ({count} atriði) eytt.}}</translation>
-<translation id="67706546131546258">Chromium mælir með að skanna þessa skrá þar sem hún gæti verið hættuleg.</translation>
+<translation id="6957684879859415418">João Browser hefur þegar verið sett upp fyrir alla notendur í tölvunni.</translation>
+<translation id="4411262692912917677">Skráðu þig inn á João Browser til að fá aðgang að bókamerkjum og fleiru í öllum tækjunum þínum Þetta bókamerki verður vistað á Google-reikningnum þínum eftir að þú skráir þig inn.</translation>
+<translation id="6064901610880747710">Styttir hleðslutíma vefsvæða með V8-vél João Browser en gerir João Browser örlítið berskjaldaðri gagnvart árásum. Kveikt er á þessari stillingu.</translation>
+<translation id="4530735110472079436">{count,plural, =1{Einhver João Browser-gögn hafa ekki enn verið vistuð á Google-reikningnum þínum. Prófaðu að bíða í nokkrar mínútur áður en þú skráir þig út. Ef þú skráir þig út núna verður þessum gögnum (1 atriði) eytt.}one{Einhver João Browser-gögn hafa ekki enn verið vistuð á Google-reikningnum þínum. Prófaðu að bíða í nokkrar mínútur áður en þú skráir þig út. Ef þú skráir þig út núna verður þessum gögnum ({count} atriði) eytt.}other{Einhver João Browser-gögn hafa ekki enn verið vistuð á Google-reikningnum þínum. Prófaðu að bíða í nokkrar mínútur áður en þú skráir þig út. Ef þú skráir þig út núna verður þessum gögnum ({count} atriði) eytt.}}</translation>
+<translation id="9176853308971176490">João Browser mælir með að skanna þessa skrá þar sem hún gæti verið hættuleg.</translation>
 <translation id="6779406956731413166">ChromiumOS á tilvist sína að þakka öðrum <ph name="BEGIN_LINK_CROS_OSS" />opnum hugbúnaði<ph name="END_LINK_CROS_OSS" />.</translation>
 <translation id="6831043979455480757">Þýða</translation>
-<translation id="6847869444787758381">Chromium lætur þig vita ef aðgangsorðin þín eru einhvern tímann í hættu</translation>
+<translation id="6412488898785231889">João Browser lætur þig vita ef aðgangsorðin þín eru einhvern tímann í hættu</translation>
 <translation id="684888714667046800">Ekki er hægt að tengjast internetinu. Ef þú notar eldvegg skaltu tryggja að <ph name="PRODUCT_EXE_NAME" /> sé á hvíta listanum.</translation>
-<translation id="6857782730669500492">Chromium – <ph name="PAGE_TITLE" /></translation>
+<translation id="6750640664545078431">João Browser – <ph name="PAGE_TITLE" /></translation>
 <translation id="6859580922007887573">Dálkalykill til að halda áfram</translation>
 <translation id="6862030660799253820">Leita á þessari mynd með Myndaleit</translation>
 <translation id="6869568587896659271">Auðveldur aðgangur að vefsvæðum fyrir neðan veffangastikuna</translation>
-<translation id="6873893289264747459">Chromium komst að því að „<ph name="EXTENSION_NAME" />“ inniheldur spilliforrit</translation>
+<translation id="4260365383290377081">João Browser komst að því að „<ph name="EXTENSION_NAME" />“ inniheldur spilliforrit</translation>
 <translation id="6877155553248388166">neðsta horn leitarsvæðis hægra megin: til hægri <ph name="RIGHT" />%, neðst <ph name="BOTTOM" />%</translation>
 <translation id="6896758677409633944">Afrita</translation>
 <translation id="6898028264630240901">Þú getur fest samhengismiðuð verkefni til að spyrja spurninga á meðan þú vafrar</translation>
-<translation id="6901631050894301805">Stilltu Chromium sem sjálfgefinn vafra og festu hann við forritastikuna</translation>
-<translation id="6909503629704372277">&amp;Stjórna Chromium-prófílum</translation>
-<translation id="6919942714452658456">Þessi aðgerð mun:
+<translation id="6985817498888719203">Stilltu João Browser sem sjálfgefinn vafra og festu hann við forritastikuna</translation>
+<translation id="5277424858974213042">&amp;Stjórna João Browser-prófílum</translation>
+<translation id="2726137364317931343">Þessi aðgerð mun:
           <ph name="LINE_BREAKS" />
             • Endurstilla ræsisíðuna þína, síðu nýrra flipa, leitarvél og festa flipa
             <ph name="LINE_BREAK" />
@@ -559,205 +559,205 @@ Sumir eiginleikar kunna að verða óaðgengilegir. Tilgreindu aðra prófílam�
             <ph name="LINE_BREAK" />
             • Eyða fótsporum og öðrum tímabundnum vefsvæðisgögnum
             <ph name="LINE_BREAK" />
-            • Endurstilla flýtileiðir Chromium
+            • Endurstilla flýtileiðir João Browser
             <ph name="LINE_BREAKS" />
             Þetta hefur ekki áhrif á bókamerki, feril og vistuð aðgangsorð.</translation>
-<translation id="6948031725951063910">Þú náðir hámarksfjölda bókamerkja í Chromium (<ph name="BOOKMARK_LIMIT" />) svo að sum bókamerkin þín hafa ekki verið vistuð á Google-reikningnum þínum enn sem komið er.
+<translation id="2901988969322822496">Þú náðir hámarksfjölda bókamerkja í João Browser (<ph name="BOOKMARK_LIMIT" />) svo að sum bókamerkin þín hafa ekki verið vistuð á Google-reikningnum þínum enn sem komið er.
 
 Ekki er hægt að vista ný bókamerki á reikningnum þínum fyrr en þú eyðir einhverjum. Ef þú skráir þig út núna verður óvistuðum bókamerkjum eytt.</translation>
-<translation id="6964305034639999644">Opna tengil í &amp;huliðsglugga í Chromium</translation>
+<translation id="6203410920314218280">Opna tengil í &amp;huliðsglugga í João Browser</translation>
 <translation id="6965382102122355670">Í lagi</translation>
 <translation id="6985329841647292029">Skilmálar ChromiumOS</translation>
-<translation id="7003299027384820442">Sláðu inn aðgangsorðið þitt til að nota og vista Chromium-gögn á reikningnum þínum, <ph name="ACCOUNT_EMAIL" /></translation>
+<translation id="8064285182627814996">Sláðu inn aðgangsorðið þitt til að nota og vista João Browser-gögn á reikningnum þínum, <ph name="ACCOUNT_EMAIL" /></translation>
 <translation id="7011190694940573312">Uppsetning mistókst vegna þess að þessi útgáfa af stýrikerfinu er ekki studd.</translation>
 <translation id="7024536598735240744">Villa við afpökkun: <ph name="UNPACK_ERROR" />.</translation>
-<translation id="7045244423563602563">Lagaðu Chromium að þínum þörfum</translation>
+<translation id="181803036615530330">Lagaðu João Browser að þínum þörfum</translation>
 <translation id="7047386856539490735">Eru þessar niðurstöður gagnlegar?</translation>
-<translation id="705851970750939768">Uppfæra Chromium</translation>
-<translation id="7067091210845072982">Ef gagnlega lýsingu vantar við mynd reynir Chromium að útvega þér lýsingu. Til að búa til lýsingar eru myndir sendar til Google.</translation>
-<translation id="7074836723476134809">Nýttu þér mátt gervigreindar þegar þú notar Chromium-forritið í <ph name="DEVICE_TYPE" /></translation>
-<translation id="7134687062119989071">Hafðu aðgangsorðin þín, flipa og fleira með þér á ferðinni með Chromium-forritinu í símanum</translation>
+<translation id="2478245051737698828">Uppfæra João Browser</translation>
+<translation id="452909342278940733">Ef gagnlega lýsingu vantar við mynd reynir João Browser að útvega þér lýsingu. Til að búa til lýsingar eru myndir sendar til Google.</translation>
+<translation id="8606769615526968368">Nýttu þér mátt gervigreindar þegar þú notar João Browser-forritið í <ph name="DEVICE_TYPE" /></translation>
+<translation id="2061960765882453684">Hafðu aðgangsorðin þín, flipa og fleira með þér á ferðinni með João Browser-forritinu í símanum</translation>
 <translation id="7141270731789036260">Sérsníða Chrome for Testing</translation>
 <translation id="7147227333672430807">Þú getur notað Chromium hvenær sem þú smellir á tengla í skilaboðum, skjölum og öðrum forritum</translation>
-<translation id="7163519456498498587">Fjarlægja <ph name="EXTENSION_NAME" /> úr Chromium</translation>
-<translation id="7173822816570314652">Fyrirtækið þitt eyðir Chromium-gögnum þegar þau eru ekki notuð í <ph name="TIMEOUT_DURATION" />. Þetta getur falið í sér feril, sjálfvirka útfyllingu og niðurhal.</translation>
-<translation id="718435575166326686">Chromium verður að fá leyfi fyrir myndavél fyrir þetta vefsvæði</translation>
-<translation id="7196312274710523067">Ekki var hægt að ræsa Chromium. Reyndu aftur.</translation>
-<translation id="7204669035546236137">Spyrðu að hverju sem er, hvar sem er, með Gemini í Chromium</translation>
-<translation id="7213008767289637091">Hafðu Chromium í dokkunni þinni til að hafa það ávallt við höndina</translation>
-<translation id="7213407614656404070">Notaðu Chromium þegar þú smellir á tengla í skilaboðum, skjölum og öðrum forritum</translation>
+<translation id="6949173677980969871">Fjarlægja <ph name="EXTENSION_NAME" /> úr João Browser</translation>
+<translation id="3556355753960287061">Fyrirtækið þitt eyðir João Browser-gögnum þegar þau eru ekki notuð í <ph name="TIMEOUT_DURATION" />. Þetta getur falið í sér feril, sjálfvirka útfyllingu og niðurhal.</translation>
+<translation id="8689006320829658442">João Browser verður að fá leyfi fyrir myndavél fyrir þetta vefsvæði</translation>
+<translation id="7501884108538572227">Ekki var hægt að ræsa João Browser. Reyndu aftur.</translation>
+<translation id="5484563502710761706">Spyrðu að hverju sem er, hvar sem er, með Gemini í João Browser</translation>
+<translation id="3823264355161086552">Hafðu João Browser í dokkunni þinni til að hafa það ávallt við höndina</translation>
+<translation id="9153902741226700840">Notaðu João Browser þegar þú smellir á tengla í skilaboðum, skjölum og öðrum forritum</translation>
 <translation id="7216228761061470870">Þegar þú notar myndaleit í tölvu verða titill síðu, vefslóð og innihald, að meðtöldum PDF-skjölum, send til þjónsins</translation>
-<translation id="7223968959479464213">Verkstjórn – Chromium</translation>
-<translation id="7227958669698166857"><ph name="EXISTING_USER" /> er þegar innskráð(ur). Til að halda vefskoðun aðskilinni skaltu skrá þig inn á Chromium með þínum eigin prófíl sem <ph name="USER_EMAIL_ADDRESS" />. Þú færð einnig vistuðu upplýsingarnar þínar og fleira í öllum tækjunum þínum.</translation>
-<translation id="7252276985725323153">Byrjaðu að vafra samstundis: Nú getur Chromium ræst þegar Windows ræsist.</translation>
+<translation id="7950844619283784703">Verkstjórn – João Browser</translation>
+<translation id="133513825972536773"><ph name="EXISTING_USER" /> er þegar innskráð(ur). Til að halda vefskoðun aðskilinni skaltu skrá þig inn á João Browser með þínum eigin prófíl sem <ph name="USER_EMAIL_ADDRESS" />. Þú færð einnig vistuðu upplýsingarnar þínar og fleira í öllum tækjunum þínum.</translation>
+<translation id="4558982617284733740">Byrjaðu að vafra samstundis: Nú getur João Browser ræst þegar Windows ræsist.</translation>
 <translation id="7274695763216404502">Fest! Opnaðu myndaleit aftur af tækjastikunni</translation>
 <translation id="7288567540154601580">Flipar og viðbætur</translation>
-<translation id="7295544978856094497">{NUM_EXTENSIONS,plural, =1{Chromium mælir með að þú fjarlægir hana}one{Chromium mælir með að þú fjarlægir þær}other{Chromium mælir með að þú fjarlægir þær}}</translation>
-<translation id="7296334833518879294">Til að deila kerfishljóði skaltu opna kerfisstillingarnar og leyfa „Aðeins upptaka kerfishljóðs“ fyrir Chromium. Þú þarft að endurræsa Chromium í kjölfarið.</translation>
+<translation id="5494571279964989269">{NUM_EXTENSIONS,plural, =1{João Browser mælir með að þú fjarlægir hana}one{João Browser mælir með að þú fjarlægir þær}other{João Browser mælir með að þú fjarlægir þær}}</translation>
+<translation id="2269053214123323740">Til að deila kerfishljóði skaltu opna kerfisstillingarnar og leyfa „Aðeins upptaka kerfishljóðs“ fyrir João Browser. Þú þarft að endurræsa João Browser í kjölfarið.</translation>
 <translation id="731795002583552498">Uppfærir Chromium</translation>
-<translation id="7318036098707714271">Kjörstillingaskráin þín er skemmd eða ógild.
+<translation id="9065168747010082551">Kjörstillingaskráin þín er skemmd eða ógild.
 
-Chromium getur ekki endurheimt stillingarnar þínar.</translation>
+João Browser getur ekki endurheimt stillingarnar þínar.</translation>
 <translation id="7324051657739063017">Þú getur opnað samhengismiðuð verkefni aftur til að spyrja spurninga á meðan þú vafrar</translation>
-<translation id="734373864078049451">Hér er vefefnið þitt, bókamerkin og annað dót úr Chromium.</translation>
+<translation id="4159250197688136733">Hér er vefefnið þitt, bókamerkin og annað dót úr João Browser.</translation>
 <translation id="7347827960336370838">Aðeins einstaklingar sem eru með aðgangsorðið þitt geta lesið dulkóðuðu gögnin þín. Aðgangsorðið er hvorki sent til né vistað hjá Google. Ef þú gleymir aðgangsorðinu eða vilt breyta þessari stillingu þarftu að <ph name="BEGIN_LINK" />eyða Chromium-gögnunum á reikningnum þínum<ph name="END_LINK" />.</translation>
-<translation id="7349591376906416160">Kerfisstjórinn hefur stillt Google Chromium á að opna <ph name="ALTERNATIVE_BROWSER_NAME" /> til að fá aðgang að <ph name="TARGET_URL_HOSTNAME" />.</translation>
+<translation id="1062903713270840396">Kerfisstjórinn hefur stillt Google João Browser á að opna <ph name="ALTERNATIVE_BROWSER_NAME" /> til að fá aðgang að <ph name="TARGET_URL_HOSTNAME" />.</translation>
 <translation id="7352651011704765696">Eitthvað fór úrskeiðis</translation>
-<translation id="7368826207863345663">Til að halda áfram að fá uppfærslur fyrir Chromium þarftu macOS 13 eða nýrri útgáfu. Þessi tölva notar macOS 12.</translation>
+<translation id="5817362738974335084">Til að halda áfram að fá uppfærslur fyrir João Browser þarftu macOS 13 eða nýrri útgáfu. Þessi tölva notar macOS 12.</translation>
 <translation id="7376384068949534168">Þú hefur ekki skoðað vefsvæðið nýlega. Chromium fjarlægði <ph name="PERMISSION_1" />, <ph name="PERMISSION_2" /></translation>
 <translation id="73786666777299047">Opna vefverslun Chrome</translation>
-<translation id="7394275517973019558">Sýna Gemini í Chromium í kerfisbakka</translation>
+<translation id="5724625487458697703">Sýna Gemini í João Browser í kerfisbakka</translation>
 <translation id="7401687852903179959">Leita í þessu vídeói með Myndaleit</translation>
-<translation id="7407655596887111931">Chromium er nú sjálfgefni vafrinn þinn</translation>
-<translation id="7413153308467572558">Haltu áfram þaðan sem frá var horfið: Chromium endurheimtir flipana þína í hvert skipti sem þú hefst handa. Þú getur slökkt á þessu í</translation>
-<translation id="7427879960656355200">Flytja aðgangsorð inn í Chromium</translation>
-<translation id="744815265653811511">1. Smelltu á <ph name="BUTTON_LABEL" /> hér fyrir neðan
-2. Smelltu á <ph name="BUTTON_2" /> í Windows-stillingunum Smelltu á <ph name="BUTTON_3" /> í Windows-tilkynningunni til að festa Chromium við forritastikuna þína til að auðvelda aðgang</translation>
-<translation id="7449453770951226939"><ph name="PAGE_TITLE" /> - Chromium Dev</translation>
+<translation id="1088684725931971005">João Browser er nú sjálfgefni vafrinn þinn</translation>
+<translation id="7479848806300971661">Haltu áfram þaðan sem frá var horfið: João Browser endurheimtir flipana þína í hvert skipti sem þú hefst handa. Þú getur slökkt á þessu í</translation>
+<translation id="1258077876605261365">Flytja aðgangsorð inn í João Browser</translation>
+<translation id="5293062713751091377">1. Smelltu á <ph name="BUTTON_LABEL" /> hér fyrir neðan
+2. Smelltu á <ph name="BUTTON_2" /> í Windows-stillingunum Smelltu á <ph name="BUTTON_3" /> í Windows-tilkynningunni til að festa João Browser við forritastikuna þína til að auðvelda aðgang</translation>
+<translation id="1941496545060769345"><ph name="PAGE_TITLE" /> - João Browser Dev</translation>
 <translation id="7450541714075000668">Texti afritaður</translation>
 <translation id="7458892263350425044">Veittu Chromium aðgang að hljóðnemanum þínum í <ph name="BEGIN_LINK" />kerfisstillingum<ph name="END_LINK" /> til að geta notað hann</translation>
-<translation id="7461356015007898716">Til að fá frekari uppfærslur á Chromium þarftu Windows 10 eða nýrri útgáfu. Þessi tölva notar Windows 7.</translation>
+<translation id="5422859338435319909">Til að fá frekari uppfærslur á João Browser þarftu Windows 10 eða nýrri útgáfu. Þessi tölva notar Windows 7.</translation>
 <translation id="7467949745582939695">Endurræsa Chromium?</translation>
-<translation id="7483335560992089831">Ekki er hægt að setja upp sömu útgáfu Chromium og er nú þegar í gangi. Lokaðu Chromium og reyndu aftur.</translation>
+<translation id="7707324976708178089">Ekki er hægt að setja upp sömu útgáfu João Browser og er nú þegar í gangi. Lokaðu João Browser og reyndu aftur.</translation>
 <translation id="7510190804000607802">Áminning: Bestu eiginleikar Google í vasanum</translation>
 <translation id="751935028865900641">Vefsvæði munu líklega virka sem skyldi. Þú skráist út af flestum vefsvæðum þegar þú lokar öllum Chromium-gluggum en ekki út af Google-reikningnum þínum ef þú hefur skráð þig inn á Chromium.</translation>
-<translation id="753534427205733210">{0,plural, =1{Chromium verður endurræst eftir 1 mínútu}one{Chromium verður endurræst eftir # mínútu}other{Chromium verður endurræst eftir # mínútur}}</translation>
+<translation id="5325102834460669866">{0,plural, =1{João Browser verður endurræst eftir 1 mínútu}one{João Browser verður endurræst eftir # mínútu}other{João Browser verður endurræst eftir # mínútur}}</translation>
 <translation id="7565444033145385702">Til að vernda gögnin þín skaltu leyfa Chromium að fjarlægja heimildir vefsvæða sem þú hefur ekki opnað nýlega.</translation>
-<translation id="7583104404158659071">Ræstu Chromium sjálfkrafa til að byrja að skoða vefinn í hvelli.</translation>
+<translation id="8099958128052689767">Ræstu João Browser sjálfkrafa til að byrja að skoða vefinn í hvelli.</translation>
 <translation id="7583399374488819119">Uppsetningarforrit <ph name="COMPANY_NAME" /></translation>
-<translation id="761356813943268536">Chromium er að nota myndavélina þína og hljóðnema.</translation>
-<translation id="7617377681829253106">Chromium er nú enn betra</translation>
-<translation id="7622753900276619808">Nú standa fleiri eiginleikar þér til boða í Chromium</translation>
+<translation id="7125257608567714221">João Browser er að nota myndavélina þína og hljóðnema.</translation>
+<translation id="227045421902171569">João Browser er nú enn betra</translation>
+<translation id="5356567285381070312">Nú standa fleiri eiginleikar þér til boða í João Browser</translation>
 <translation id="7624307931717240213">Við notum upplýsingar til að bæta þessa þjónustu. Sjá persónuverndarstefnu og þjónustuskilmála.</translation>
 <translation id="7649070708921625228">Hjálp</translation>
-<translation id="7650134251917003571">Sækja Chromium-forritið</translation>
+<translation id="5714374331629713291">Sækja João Browser-forritið</translation>
 <translation id="7658239707568436148">Hætta við</translation>
-<translation id="7686590090926151193">Chromium er ekki sjálfgefinn vafri</translation>
-<translation id="7689606757190482937">Samstilltu Chromium á milli tækja og gerðu það að þínu</translation>
+<translation id="549378870470819535">João Browser er ekki sjálfgefinn vafri</translation>
+<translation id="6574348346278803862">Samstilltu João Browser á milli tækja og gerðu það að þínu</translation>
 <translation id="7699779824407626136">Chromium-uppfærsla</translation>
-<translation id="7700735928747402058">Vinnan þín er örugg í Chromium</translation>
+<translation id="3304080024230377341">Vinnan þín er örugg í João Browser</translation>
 <translation id="7716950018788545737">Verkefni/verkefnum lauk.</translation>
 <translation id="77283119132245232">Sér <ph name="BROWSER_NAME" /> fyrir kerfisrakningarþjónustu. Ef slökkt er á þessari þjónustu munu afkastaspor sem búin eru til af vafranum ekki innihalda viðburði úr öllu kerfinu eins og samhengisskipti og tilbúna þráðarviðburði.</translation>
 <translation id="7745317241717453663">Þetta mun eyða vefskoðunargögnunum þínum úr þessu tæki. Skráðu þig inn í Chromium sem <ph name="USER_EMAIL" /> til að endurheimta gögnin síðar.</translation>
 <translation id="7747138024166251722">Uppsetningarforritið gat ekki búið til tímabundna möppu. Athugaðu laust diskpláss og heimildir fyrir uppsetningu hugbúnaðar.</translation>
-<translation id="7747820849741499258">Leita í Chromium</translation>
-<translation id="7750130090210923118">Endurstilla á sjálfgefið Chromium</translation>
-<translation id="7752521946322750699">Til að tryggja öryggi vinnu þinnar í Chromium mun fyrirtækið þitt geta skoðað eða stjórnað tilteknum upplýsingum þegar þú ert skráð(ur) inn á Chromium.</translation>
-<translation id="7781047659465034537">Stilltu Chromium sem sjálfgefinn vafra og festu hann við forritastikuna</translation>
-<translation id="7786760609782648049">Láttu Chromium vinna hraðar</translation>
-<translation id="7790626492778995050"><ph name="PAGE_TITLE" /> - Chromium Canary</translation>
+<translation id="4713120944298974980">Leita í João Browser</translation>
+<translation id="5804390944809171853">Endurstilla á sjálfgefið João Browser</translation>
+<translation id="6930487390575519812">Til að tryggja öryggi vinnu þinnar í João Browser mun fyrirtækið þitt geta skoðað eða stjórnað tilteknum upplýsingum þegar þú ert skráð(ur) inn á João Browser.</translation>
+<translation id="5214761769821670245">Stilltu João Browser sem sjálfgefinn vafra og festu hann við forritastikuna</translation>
+<translation id="1294697217796985566">Láttu João Browser vinna hraðar</translation>
+<translation id="1278345486417353853"><ph name="PAGE_TITLE" /> - João Browser Canary</translation>
 <translation id="7803986347287457849">Gerðu fólki með aðgang að netumferðinni þinni erfiðara fyrir að sjá hvaða vefsvæði þú skoðar. Chromium notar örugga tengingu til að finna IP-tölu vefsvæðis í DNS (nafnakerfi léna).</translation>
 <translation id="7810005234485217901">Þú getur fest myndaleit til að hafa greiðan aðgang að henni</translation>
-<translation id="7828947555739565424">Chromium prófíll með þessum reikningi er þegar til í þessu tæki</translation>
+<translation id="489728561211958943">João Browser prófíll með þessum reikningi er þegar til í þessu tæki</translation>
 <translation id="7845233973568007926">Takk fyrir að setja upp. Þú þarft að endurræsa tölvuna áður en þú getur notað <ph name="BUNDLE_NAME" />.</translation>
-<translation id="7847673590271334840">Leitarvélinni þinni var breytt utan Chromium. Chromium endurstillti hana á upphafleg sjálfgefin gildi til að vernda þig. <ph name="LEARN_MORE_LINK" /></translation>
-<translation id="7853661403199074278">Sérsníddu Chromium til að gefa honum nýtt útlit</translation>
+<translation id="5294768452950207882">Leitarvélinni þinni var breytt utan João Browser. João Browser endurstillti hana á upphafleg sjálfgefin gildi til að vernda þig. <ph name="LEARN_MORE_LINK" /></translation>
+<translation id="3244974069468656925">Sérsníddu João Browser til að gefa honum nýtt útlit</translation>
 <translation id="7859018312476869945">Þegar þú skrifar í veffangastiku eða leitarreit sendir Chromium það sem þú skrifar á sjálfgefna leitarvél til að fá betri tillögur. Slökkt er á þessu í huliðsstillingu.</translation>
-<translation id="7867198900892795913">Ekki var hægt að uppfæra Chromium í nýjustu útgáfu og þú ferð því á mis við nýja eiginleika og öryggislagfæringar.</translation>
+<translation id="6517519572778941051">Ekki var hægt að uppfæra João Browser í nýjustu útgáfu og þú ferð því á mis við nýja eiginleika og öryggislagfæringar.</translation>
 <translation id="7872446069773932638">Sækir... <ph name="SECONDS" /> sek. eftir</translation>
 <translation id="7873537467422636035">Ef þú gleymdir aðgangsorðinu eða vilt breyta þessari stillingu skaltu <ph name="BEGIN_LINK" />eyða Chromium-gögnunum á reikningnum þínum<ph name="END_LINK" /></translation>
-<translation id="7874369989024033742">Opnaðu Gemini hratt í Chromium hvenær sem þú þarft</translation>
-<translation id="7888981273428720788">Stilltu Chromium sem sjálfgefinn vafra</translation>
+<translation id="1722038268139386345">Opnaðu Gemini hratt í João Browser hvenær sem þú þarft</translation>
+<translation id="8344320926817290924">Stilltu João Browser sem sjálfgefinn vafra</translation>
 <translation id="7934340546140346950">Chromium uppfærir óöruggar tengingar sjálfkrafa í HTTPS þegar hægt er</translation>
-<translation id="7937630085815544518">Þú varst skráð(ur) inn í Chromium sem <ph name="USER_EMAIL_ADDRESS" />. Notaðu sama reikning til að skrá þig inn aftur.</translation>
-<translation id="7944602660083060118"><ph name="EXISTING_USER" /> er þegar innskráð(ur). Til að halda vefskoðun aðskilinni skaltu skrá þig inn á Chromium með þínum eigin prófíl sem <ph name="USER_EMAIL_ADDRESS" />. Þú færð einnig bókamerkin þín og fleira í öllum tækjunum þínum.</translation>
+<translation id="3755057387338907970">Þú varst skráð(ur) inn í João Browser sem <ph name="USER_EMAIL_ADDRESS" />. Notaðu sama reikning til að skrá þig inn aftur.</translation>
+<translation id="929903348843569380"><ph name="EXISTING_USER" /> er þegar innskráð(ur). Til að halda vefskoðun aðskilinni skaltu skrá þig inn á João Browser með þínum eigin prófíl sem <ph name="USER_EMAIL_ADDRESS" />. Þú færð einnig bókamerkin þín og fleira í öllum tækjunum þínum.</translation>
 <translation id="7975919845073681630">Þetta er aukaleg uppsetning á Chromium sem ekki er hægt að gera að sjálfgefnum vafra.</translation>
-<translation id="7997934263947464652">Viðbætur, forrit og þemu frá óþekktum uppruna geta skaðað tækið þitt. Chromium mælir með að sækja slíkar skrár aðeins í <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /></translation>
-<translation id="8000759043835159571">Fáðu það besta frá Google með Chromium-forritinu í <ph name="DEVICE_TYPE" /></translation>
+<translation id="8905411496853397218">Viðbætur, forrit og þemu frá óþekktum uppruna geta skaðað tækið þitt. João Browser mælir með að sækja slíkar skrár aðeins í <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /></translation>
+<translation id="6306672714476596428">Fáðu það besta frá Google með João Browser-forritinu í <ph name="DEVICE_TYPE" /></translation>
 <translation id="8004582292198964060">Vafri</translation>
 <translation id="8010081455002666927">Greina sjálfkrafa</translation>
-<translation id="8013436988911883588">Þegar Chromium hefur aðgang munu vefsvæði geta beðið þig um aðgang.</translation>
-<translation id="8031714377769448844">Festu Chromium við forritastikuna til að hafa það ávallt við höndina</translation>
+<translation id="2172829664765531568">Þegar João Browser hefur aðgang munu vefsvæði geta beðið þig um aðgang.</translation>
+<translation id="74641100973032765">Festu João Browser við forritastikuna til að hafa það ávallt við höndina</translation>
 <translation id="80471789339884597">Takk fyrir að setja upp. Þú þarft að endurræsa alla vafra áður en þú getur notað <ph name="BUNDLE_NAME" />.</translation>
 <translation id="8054112667659782652">Alltaf sýna flýtileið myndaleitar</translation>
 <translation id="8069447462453318634">Veldu „Festa við verkfæri“</translation>
-<translation id="8077498902115777962">Ekki leyfa Chromium að keyra forrit í bakgrunni</translation>
+<translation id="5039671129725402518">Ekki leyfa João Browser að keyra forrit í bakgrunni</translation>
 <translation id="80790299200510644">Myndaleit</translation>
 <translation id="8086881907087796310">Uppsetning mistókst vegna þess að tölvan þín uppfyllir ekki lágmarksskilyrði um vélbúnað.</translation>
 <translation id="8096472344908884505"><ph name="PAGE_TITLE" /> - Google Chrome for Testing</translation>
-<translation id="8105840573057009683">Chromium verður að fá staðsetningarheimild fyrir þetta vefsvæði</translation>
-<translation id="8107060931443639922">Næst þegar þú opnar Chromium í <ph name="DEVICE_TYPE" /> muntu sjá ábendingu um að kveikja á verðrakningartilkynningum.</translation>
-<translation id="8117908349476699973">Fáðu tilkynningar um verðlækkanir á vörum sem þú hefur áhuga á með Chromium-forritinu í símanum þínum</translation>
+<translation id="2430877582155731716">João Browser verður að fá staðsetningarheimild fyrir þetta vefsvæði</translation>
+<translation id="8298045348217323">Næst þegar þú opnar João Browser í <ph name="DEVICE_TYPE" /> muntu sjá ábendingu um að kveikja á verðrakningartilkynningum.</translation>
+<translation id="3827347991254458074">Fáðu tilkynningar um verðlækkanir á vörum sem þú hefur áhuga á með João Browser-forritinu í símanum þínum</translation>
 <translation id="8118331347066725040">Senda ábendingu vegna leitar með Linsu</translation>
-<translation id="8130609355518033382">Gerðu Chromium-vafrann að þínum</translation>
+<translation id="2580039965224265556">Gerðu João Browser-vafrann að þínum</translation>
 <translation id="8133124826068723441">ChromiumOS gat ekki samstillt gögnin þín vegna þess að samstilling er ekki í boði fyrir lénið þitt.</translation>
 <translation id="813913629614996137">Frumstillir...</translation>
-<translation id="8161503455832158203">Opnaðu Gemini í Chromium með flýtilykli.</translation>
-<translation id="8164014945047474187">Viðbótarþjónustuskilmálar Chromium</translation>
-<translation id="81770708095080097">Þessi skrá er hættuleg og þess vegna útilokaði Chromium hana.</translation>
+<translation id="7940955011992997426">Opnaðu Gemini í João Browser með flýtilykli.</translation>
+<translation id="7560319627203819845">Viðbótarþjónustuskilmálar João Browser</translation>
+<translation id="7133741820744999589">Þessi skrá er hættuleg og þess vegna útilokaði João Browser hana.</translation>
 <translation id="8177472873527554730">Ekki tókst að finna efni á síðu</translation>
 <translation id="8200109504272824693">Sláðu inn aðgangsorðið þitt til að nota og vista Chromium-gögn á reikningnum þínum, <ph name="USER_EMAIL" /></translation>
 <translation id="820759916613250543">Leita að þessari mynd með myndaleit</translation>
 <translation id="8221491193165283816">Þú lokar yfirleitt á tilkynningar. Ef þú vilt leyfa þessu vefsvæði að birta þér tilkynningar skaltu smella hér.</translation>
 <translation id="8223363452568144035">Veittu Chromium aðgang að myndavélinni þinni í <ph name="BEGIN_LINK" />kerfisstillingum<ph name="END_LINK" /> til að geta notað hana</translation>
-<translation id="8232193495299001329">Chromium getur ekki staðfest hvaðan þessi viðbót kemur og hún gæti verið óörugg. Fjarlægðu hana úr Chromium svo hún geti ekki lengur séð og breytt gögnum á vefsvæðum sem þú heimsækir, þ.m.t. persónuupplýsingum.</translation>
-<translation id="8248265253516264921">Ef gagnlega lýsingu vantar við mynd reynir Chromium að útvega þér lýsingu. Til að búa til lýsingar eru myndir sendar til Google. Þú getur slökkt á þessu hvenær sem er í stillingunum.</translation>
-<translation id="8254601181414348851">Skrá þig inn á Chromium með nýjum prófíl?</translation>
-<translation id="8262224117913639129"><ph name="EXISTING_USER" /> er þegar innskráð(ur). Til að halda vefskoðun aðskilinni skaltu skrá þig inn á Chromium með þínum eigin prófíl sem <ph name="USER_EMAIL_ADDRESS" />. Þú færð einnig aðgangsorðin þín og fleira úr <ph name="DEVICE" />.</translation>
-<translation id="8277334259226003205">Sýna Gemini í Chromium í kerfisbakka og kveikja á flýtilykli</translation>
+<translation id="8132864687089402359">João Browser getur ekki staðfest hvaðan þessi viðbót kemur og hún gæti verið óörugg. Fjarlægðu hana úr João Browser svo hún geti ekki lengur séð og breytt gögnum á vefsvæðum sem þú heimsækir, þ.m.t. persónuupplýsingum.</translation>
+<translation id="7600652022483599804">Ef gagnlega lýsingu vantar við mynd reynir João Browser að útvega þér lýsingu. Til að búa til lýsingar eru myndir sendar til Google. Þú getur slökkt á þessu hvenær sem er í stillingunum.</translation>
+<translation id="8703735741562140394">Skrá þig inn á João Browser með nýjum prófíl?</translation>
+<translation id="2830039647655087365"><ph name="EXISTING_USER" /> er þegar innskráð(ur). Til að halda vefskoðun aðskilinni skaltu skrá þig inn á João Browser með þínum eigin prófíl sem <ph name="USER_EMAIL_ADDRESS" />. Þú færð einnig aðgangsorðin þín og fleira úr <ph name="DEVICE" />.</translation>
+<translation id="1802935470126307750">Sýna Gemini í João Browser í kerfisbakka og kveikja á flýtilykli</translation>
 <translation id="8286943863733751221"><ph name="BEGIN_LINK" />Chromium varar þig við<ph name="END_LINK" /> ótraustum vefsvæðum og niðurhali</translation>
 <translation id="8295827201165805317">Þú hefur ekki skoðað vefsvæðið nýlega. Chromium fjarlægði <ph name="PERMISSION" />.</translation>
-<translation id="8296236834352487533">Notaðu myndavélina þína í Chromium iOS-forritinu til að versla, þýða og bera kennsl á það sem þú sérð</translation>
-<translation id="8310603974518734211">QR-kóði til að skrá þig inn í Chromium sem <ph name="USER_NAME" /></translation>
+<translation id="481989138594406896">Notaðu myndavélina þína í João Browser iOS-forritinu til að versla, þýða og bera kennsl á það sem þú sérð</translation>
+<translation id="5242426961520127942">QR-kóði til að skrá þig inn í João Browser sem <ph name="USER_NAME" /></translation>
 <translation id="8313851650939857356">Villa í ræsingu: <ph name="STARTUP_ERROR" />.</translation>
-<translation id="8318772038038596122">Fyrirtækið þitt lokar Chromium eftir aðgerðaleysi í <ph name="TIMEOUT_DURATION" />.</translation>
+<translation id="3644336211313412429">Fyrirtækið þitt lokar João Browser eftir aðgerðaleysi í <ph name="TIMEOUT_DURATION" />.</translation>
 <translation id="8321888067342493336">Vista sem mynd</translation>
-<translation id="8340674089072921962"><ph name="USER_EMAIL_ADDRESS" /> var áður að nota Chromium</translation>
+<translation id="3150519286474936594"><ph name="USER_EMAIL_ADDRESS" /> var áður að nota João Browser</translation>
 <translation id="8351551329754447960">Kveikja á færni í Chromium</translation>
-<translation id="8359544530202147897">Uppfærðu Chromium til að halda áfram að nota Chromium-gögnin á Google-reikningnum þínum, <ph name="ACCOUNT_EMAIL" /></translation>
-<translation id="8360718212975266891">Til að fá frekari uppfærslur á Chromium þarftu Windows 10 eða nýrri útgáfu. Þessi tölva notar Windows 8.</translation>
+<translation id="4566781614303801262">Uppfærðu João Browser til að halda áfram að nota João Browser-gögnin á Google-reikningnum þínum, <ph name="ACCOUNT_EMAIL" /></translation>
+<translation id="8404636483124146663">Til að fá frekari uppfærslur á João Browser þarftu Windows 10 eða nýrri útgáfu. Þessi tölva notar Windows 8.</translation>
 <translation id="8362914115861174987">Þýða yfir á</translation>
 <translation id="8367705492654390392">Spurðu að hverju sem er</translation>
 <translation id="8370517070665726704">Höfundarréttur <ph name="YEAR" /> Google LLC. Öll réttindi áskilin.</translation>
-<translation id="8372327902843331129">Skráðu þig inn á Chromium til að fá aðgang að aðgangsorðum og fleiru í öllum tækjunum þínum. Þetta aðgangsorð verður vistað á Google-reikningnum þínum eftir að þú skráir þig inn.</translation>
-<translation id="837460953767177950">Þú þarft að endurræsa Chromium í kjölfarið.</translation>
-<translation id="8397248745433792218">Chromium mælir með að þú fjarlægir hana. <ph name="BEGIN_LINK" />Nánar um studdar viðbætur<ph name="END_LINK" /></translation>
-<translation id="8401454788024434101">Útgefandi þessarar viðbótar afturkallaði hana og hún kann að vera óörugg. Fjarlægðu hana úr Chromium svo hún geti ekki lengur séð og breytt gögnum á vefsvæðum sem þú heimsækir, þ.m.t. persónuupplýsingum þínum.</translation>
-<translation id="8416884904046428725">Chromium þarf að staðfesta að þetta sért þú svo að þú getir vistað tiltekin gögn á Google-reikningnum þínum og notað þau í öllum tækjunum þínum. Ef þú skráir þig út núna verður þessum gögnum eytt.</translation>
-<translation id="8417404458978023919">{0,plural, =1{Endurræstu Chromium innan dags}one{Endurræstu Chromium innan # dags}other{Endurræstu Chromium innan # daga}}</translation>
+<translation id="8954225380790220359">Skráðu þig inn á João Browser til að fá aðgang að aðgangsorðum og fleiru í öllum tækjunum þínum. Þetta aðgangsorð verður vistað á Google-reikningnum þínum eftir að þú skráir þig inn.</translation>
+<translation id="208035402574338948">Þú þarft að endurræsa João Browser í kjölfarið.</translation>
+<translation id="7458698097055456629">João Browser mælir með að þú fjarlægir hana. <ph name="BEGIN_LINK" />Nánar um studdar viðbætur<ph name="END_LINK" /></translation>
+<translation id="3428558977667883100">Útgefandi þessarar viðbótar afturkallaði hana og hún kann að vera óörugg. Fjarlægðu hana úr João Browser svo hún geti ekki lengur séð og breytt gögnum á vefsvæðum sem þú heimsækir, þ.m.t. persónuupplýsingum þínum.</translation>
+<translation id="5012944467031125860">João Browser þarf að staðfesta að þetta sért þú svo að þú getir vistað tiltekin gögn á Google-reikningnum þínum og notað þau í öllum tækjunum þínum. Ef þú skráir þig út núna verður þessum gögnum eytt.</translation>
+<translation id="8822543678238892300">{0,plural, =1{Endurræstu João Browser innan dags}one{Endurræstu João Browser innan # dags}other{Endurræstu João Browser innan # daga}}</translation>
 <translation id="8438543370129609977">Þegar þú notar myndaleit verða titill síðu, vefslóð og innihald, að meðtöldum PDF-skjölum, send til þjónsins. <ph name="LEARN_MORE" /></translation>
-<translation id="8447525028100794994">Nánar um myndaleit í Chromium</translation>
-<translation id="8453117565092476964">Uppsetningarsafnskráin er skemmd eða ógild. Sæktu Chromium aftur.</translation>
-<translation id="8458614432758743027">Chromium krefst Windows 10 eða nýrri útgáfu.</translation>
+<translation id="4307944272317199640">Nánar um myndaleit í João Browser</translation>
+<translation id="6024135746436350583">Uppsetningarsafnskráin er skemmd eða ógild. Sæktu João Browser aftur.</translation>
+<translation id="4933173390191738516">João Browser krefst Windows 10 eða nýrri útgáfu.</translation>
 <translation id="8463672209299734063">Valfrjálst: Hjálpa til við að bæta eiginleika og afköst ChromiumOS með því að senda greiningar- og notkunargögn sjálfkrafa til Google.</translation>
-<translation id="8471947159125090285">Staðfestu að þetta sért þú til að nota og vista Chromium-gögn á Google-reikningnum þínum</translation>
+<translation id="4499703930846496679">Staðfestu að þetta sért þú til að nota og vista João Browser-gögn á Google-reikningnum þínum</translation>
 <translation id="8482493977473846331">Sýna innskráningartilkynningar í Chromium</translation>
-<translation id="8493179195440786826">Chromium er úrelt</translation>
+<translation id="2129903037617090425">João Browser er úrelt</translation>
 <translation id="850264194101621529">Takk fyrir að velja Chromium sem sjálfgefinn vafra!</translation>
 <translation id="8522801943730206384">Chromium getur athugað aðgangsorðin þín þegar þú vistar þau</translation>
 <translation id="8525579356836940628">Uppsetning var stöðvuð</translation>
-<translation id="8545729292258443488">Hafðu aðgangsorðin þín, flipa og fleira með þér á ferðinni með Chromium-forritinu í <ph name="DEVICE_TYPE" /></translation>
+<translation id="2445505893586445499">Hafðu aðgangsorðin þín, flipa og fleira með þér á ferðinni með João Browser-forritinu í <ph name="DEVICE_TYPE" /></translation>
 <translation id="8548787790260785208">Fáðu viðvörun ef Chromium finnur eitt aðgangsorðanna þinna í almennu öryggisbroti</translation>
 <translation id="8555465886620020932">Þjónustuvilla: <ph name="SERVICE_ERROR" />.</translation>
-<translation id="8556055872671007529">Sumir eiginleikar og viðbætur Chromium eru með flýtileiðir. Þú getur valið að kveikja aftur á þeim.</translation>
+<translation id="8871890913961794658">Sumir eiginleikar og viðbætur João Browser eru með flýtileiðir. Þú getur valið að kveikja aftur á þeim.</translation>
 <translation id="8556420416730706394">Þú getur fest myndaleit til að hafa greiðan aðgang að henni: Smelltu á hnappinn „Festa“ efst í hliðarglugganum</translation>
 <translation id="856656450041460113">Leita í lista tungumála</translation>
-<translation id="8576826849825683917">Mörg fyrirtæki hafa umsjón með Chromium</translation>
+<translation id="9044172203094901282">Mörg fyrirtæki hafa umsjón með João Browser</translation>
 <translation id="8586442755830160949">Höfundarréttur <ph name="YEAR" /> höfundar Chromium. Allur réttur áskilinn.</translation>
 <translation id="8601359445272098721">Nýtt! Þú getur þýtt bæði texta og myndir á skjánum þínum með því að velja hnappinn „þýða skjá“</translation>
-<translation id="8619360774459241877">Ræsir Chromium...</translation>
+<translation id="1071663705626404814">Ræsir João Browser...</translation>
 <translation id="8624541899164515475">Stillingar, opnast í nýjum flipa.</translation>
 <translation id="8648201657708811153">Ekki er hægt að gera Google Chrome for Testing að sjálfgefna vafranum þínum.</translation>
-<translation id="8697124171261953979">Það stýrir því einnig hvaða síða opnast þegar þú ræsir Chromium eða leitar í veffangastikunni.</translation>
-<translation id="8704119203788522458">Chromium er þitt</translation>
+<translation id="5975137268566279898">Það stýrir því einnig hvaða síða opnast þegar þú ræsir João Browser eða leitar í veffangastikunni.</translation>
+<translation id="6358904712334248114">João Browser er þitt</translation>
 <translation id="8712637175834984815">Ég skil</translation>
-<translation id="8719993436687031146">Skrá þig inn á Chromium?</translation>
+<translation id="5380190167074430719">Skrá þig inn á João Browser?</translation>
 <translation id="8747073452963259673">neðsta horn leitarsvæðis vinstra megin: til vinstri <ph name="LEFT" />%, neðst <ph name="BOTTOM" />%</translation>
 <translation id="878572486461146056">Uppsetningarvilla: Kerfisstjórinn hefur notað hópreglu sem kemur í veg fyrir uppsetningu: <ph name="INSTALL_ERROR" /></translation>
 <translation id="8813277370772331957">Minna mig á seinna</translation>
-<translation id="8816416449795340678">Deildu þessu skjali með Gemini í Chromium til að fá snöggt yfirlit og spyrja frekari spurninga</translation>
-<translation id="8818550178040858407">Skrá þig inn í Chromium?</translation>
+<translation id="8871607387186266158">Deildu þessu skjali með Gemini í João Browser til að fá snöggt yfirlit og spyrja frekari spurninga</translation>
+<translation id="3009329613270131861">Skrá þig inn í João Browser?</translation>
 <translation id="8823401858233292222">Gerðu Chromium að sjálfgefnum vafra og festu hann á forritastikuna</translation>
 <translation id="8826492472752484139">Smelltu á „Aðgangsorðastjórnun“</translation>
 <translation id="8833697763442816810">ChromiumOS kerfi</translation>
 <translation id="8852026904190808918">Þetta tungumál er notað til að birta valmyndir, stillingar, viðvaranir og annan texta í Chromium</translation>
 <translation id="8862326446509486874">Þú hefur ekki tilskilin réttindi til uppsetningar fyrir kerfið allt. Prófaðu að keyra uppsetningarforritið aftur sem stjórnandi.</translation>
-<translation id="8876044221123442390">Bæta við Chromium-prófíl</translation>
-<translation id="8890569919834781711">ChromiumOS gat ekki vistað Chromium-gögn á Google-reikningnum þínum vegna innskráningarvillu</translation>
-<translation id="8891709362986793894">Fyrirtækið þitt krefst þess að þú skráir þig inn í Chromium</translation>
-<translation id="8907580949721785412">Chromium er að reyna að sýna aðgangsorð. Sláðu inn Windows-aðgangsorðið þitt til að heimila þetta.</translation>
-<translation id="8932992523185907506">Chromium er ekki lengur sjálfgefni vafrinn þinn. Gera Chromium að sjálfgefnum vafra?</translation>
-<translation id="8941642502866065432">Ekki var hægt að uppfæra Chromium</translation>
+<translation id="6821836710312478344">Bæta við João Browser-prófíl</translation>
+<translation id="5139769635207740615">ChromiumOS gat ekki vistað João Browser-gögn á Google-reikningnum þínum vegna innskráningarvillu</translation>
+<translation id="6814613825007700341">Fyrirtækið þitt krefst þess að þú skráir þig inn í João Browser</translation>
+<translation id="1009831347869773172">João Browser er að reyna að sýna aðgangsorð. Sláðu inn Windows-aðgangsorðið þitt til að heimila þetta.</translation>
+<translation id="690637523240192979">João Browser er ekki lengur sjálfgefni vafrinn þinn. Gera João Browser að sjálfgefnum vafra?</translation>
+<translation id="225046375773654931">Ekki var hægt að uppfæra João Browser</translation>
 <translation id="8944232836376404813">Þessi aðgerð mun:
           <ph name="LINE_BREAKS" />
             • Endurstilla ræsisíðuna, síðu nýrra flipa, leitarvél og festa flipa
@@ -767,41 +767,41 @@ Chromium getur ekki endurheimt stillingarnar þínar.</translation>
             • Eyða fótsporum og öðrum tímabundnum vefsvæðisgögnum
             <ph name="LINE_BREAKS" />
             Þetta hefur ekki áhrif á bókamerki, feril og vistuð aðgangsorð.</translation>
-<translation id="8966875421152977384">Sýna flýtileiðir á Chromium-vefsvæði</translation>
-<translation id="897581876605952338">Lógó Chromium Enterprise</translation>
-<translation id="8980139959902937527">Nýttu þér öryggi Google á ferðinni með Chromium-forritinu í <ph name="DEVICE_TYPE" /></translation>
-<translation id="8981150672034878610">Gat ekki ræst Chromium þar sem eitthvað fór úrskeiðis við að opna prófílinn þinn Prófaðu að endurræsa Chromium.</translation>
-<translation id="8988036198400390003">Stjórna Chromium-prófílum</translation>
-<translation id="8993855408334954620">Notaðu lyklaborðið til að fletta á milli Gemini í Chromium og opna flipans.</translation>
+<translation id="4960303269157380091">Sýna flýtileiðir á João Browser-vefsvæði</translation>
+<translation id="4349474976990059197">Lógó João Browser Enterprise</translation>
+<translation id="3227699293368317033">Nýttu þér öryggi Google á ferðinni með João Browser-forritinu í <ph name="DEVICE_TYPE" /></translation>
+<translation id="6527164294507620103">Gat ekki ræst João Browser þar sem eitthvað fór úrskeiðis við að opna prófílinn þinn Prófaðu að endurræsa João Browser.</translation>
+<translation id="6741767563284518125">Stjórna João Browser-prófílum</translation>
+<translation id="3101491883380219087">Notaðu lyklaborðið til að fletta á milli Gemini í João Browser og opna flipans.</translation>
 <translation id="9018218886431812662">Uppsetningu lokið</translation>
-<translation id="9019929317751753759">Til að gera Chromium öruggara höfum við slökkt á eftirfarandi viðbót sem ekki er á skrá hjá <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> og kann að hafa verið bætt við án þinnar vitneskju.</translation>
-<translation id="9022552996538154597">Skráðu þig inn á Chromium</translation>
-<translation id="9035791714111278917">Sýna leit með Chromium á Mac-valmyndarstiku og kveikja á flýtilykli</translation>
-<translation id="904366664621834601">Chromium lokaði á þetta niðurhal vegna þess að safnskráin getur innihaldið aðrar skrár sem geta falið spilliforrit</translation>
-<translation id="9053882453960391422">Haltu aðgangsorðunum þínum, bókamerkjum og ferli fullkomlega samstilltum á milli tækja. Fáðu greiðan aðgang að eiginleikunum sem þú þekkir og elskar með því að uppfæra sjálfgefna vafrann þinn í Chromium. Chromium verður festur við forritastikuna þína til að auðvelda aðgang.</translation>
-<translation id="9056398481763999048">Notaðu bestu gervigreindarverkfæri Google með Chromium-forritinu í símanum þínum</translation>
+<translation id="3370247132646333337">Til að gera João Browser öruggara höfum við slökkt á eftirfarandi viðbót sem ekki er á skrá hjá <ph name="IDS_EXTENSION_WEB_STORE_TITLE" /> og kann að hafa verið bætt við án þinnar vitneskju.</translation>
+<translation id="1940116386572548863">Skráðu þig inn á João Browser</translation>
+<translation id="5471723344588240291">Sýna leit með João Browser á Mac-valmyndarstiku og kveikja á flýtilykli</translation>
+<translation id="8381652653666868014">João Browser lokaði á þetta niðurhal vegna þess að safnskráin getur innihaldið aðrar skrár sem geta falið spilliforrit</translation>
+<translation id="8374335201144490555">Haltu aðgangsorðunum þínum, bókamerkjum og ferli fullkomlega samstilltum á milli tækja. Fáðu greiðan aðgang að eiginleikunum sem þú þekkir og elskar með því að uppfæra sjálfgefna vafrann þinn í João Browser. João Browser verður festur við forritastikuna þína til að auðvelda aðgang.</translation>
+<translation id="6176486087616698123">Notaðu bestu gervigreindarverkfæri Google með João Browser-forritinu í símanum þínum</translation>
 <translation id="9062666675513499497">Skráðu þig inn í Chromium þegar þú skráir þig inn í aðrar Google-þjónustur</translation>
-<translation id="9078733879136747090">Chromium var lokað sjálfkrafa</translation>
-<translation id="9089354809943900324">Chromium er úrelt</translation>
-<translation id="9093206154853821181">{0,plural, =1{Chromium verður endurræst eftir klukkustund}one{Chromium verður endurræst eftir # klukkustund}other{Chromium verður endurræst eftir # klukkustundir}}</translation>
+<translation id="724802823738504651">João Browser var lokað sjálfkrafa</translation>
+<translation id="2689333215784698609">João Browser er úrelt</translation>
+<translation id="8049510467237146160">{0,plural, =1{João Browser verður endurræst eftir klukkustund}one{João Browser verður endurræst eftir # klukkustund}other{João Browser verður endurræst eftir # klukkustundir}}</translation>
 <translation id="9106236359747881194">Veldu texta til að leita</translation>
-<translation id="9106612006984859720">Til að fá frekari uppfærslur á Chromium þarftu Windows 10 eða nýrri útgáfu. Þessi tölva notar Windows 8.1.</translation>
-<translation id="91086099826398415">Opna tengil í nýjum Chromium &amp;flipa</translation>
+<translation id="8558551666630075184">Til að fá frekari uppfærslur á João Browser þarftu Windows 10 eða nýrri útgáfu. Þessi tölva notar Windows 8.1.</translation>
+<translation id="1194819784870407331">Opna tengil í nýjum João Browser &amp;flipa</translation>
 <translation id="911206726377975832">Eyða líka vafragögnum?</translation>
 <translation id="9134482777260927479">Aðstoð með heimanám</translation>
 <translation id="9148058034647219655">Hætta</translation>
-<translation id="9155105544013854680">Haltu áfram þaðan sem frá var horfið: Chromium getur endurheimt flipana þína í hvert skipti sem þú hefst handa. Þú getur kveikt á þessu í</translation>
-<translation id="9158494823179993217">Kerfisstjórinn þinn hefur stillt Chromium á að opna annan vafra fyrir <ph name="TARGET_URL_HOSTNAME" />.</translation>
-<translation id="9185526690718004400">Endurræstu til að uppfæra &amp;Chromium</translation>
-<translation id="9190841055450128916">Chromium (mDNS-inn)</translation>
-<translation id="924957577793602335">Lagaðu Chromium að þínum þörfum</translation>
-<translation id="93478295209880648">Vera kann að Chromium virki ekki sem skyldi vegna þess að vafrinn er ekki lengur studdur á Windows XP eða Windows Vista</translation>
-<translation id="945098430667185067">Fáðu bestu öryggiseiginleika Google á ferðinni með Chromium.</translation>
+<translation id="548951409840319583">Haltu áfram þaðan sem frá var horfið: João Browser getur endurheimt flipana þína í hvert skipti sem þú hefst handa. Þú getur kveikt á þessu í</translation>
+<translation id="7614949510548815395">Kerfisstjórinn þinn hefur stillt João Browser á að opna annan vafra fyrir <ph name="TARGET_URL_HOSTNAME" />.</translation>
+<translation id="3441698750089879771">Endurræstu til að uppfæra &amp;João Browser</translation>
+<translation id="369689859238510548">João Browser (mDNS-inn)</translation>
+<translation id="8336832914816665097">Lagaðu João Browser að þínum þörfum</translation>
+<translation id="7698429329590050365">Vera kann að João Browser virki ekki sem skyldi vegna þess að vafrinn er ekki lengur studdur á Windows XP eða Windows Vista</translation>
+<translation id="190261805571697214">Fáðu bestu öryggiseiginleika Google á ferðinni með João Browser.</translation>
 <translation id="945522503751344254">Senda ábendingu</translation>
-<translation id="965162752251293939">Hver er að nota Chromium?</translation>
-<translation id="967427899662692980">Njóttu hámarksöryggis Chromium</translation>
+<translation id="5554799509799759090">Hver er að nota João Browser?</translation>
+<translation id="9153108844196984904">Njóttu hámarksöryggis João Browser</translation>
 <translation id="983803489796659991">Uppsetning mistókst vegna þess að uppfærsluþjónninn er ekki með tætigögn fyrir forritið.</translation>
-<translation id="985498048907240953">Nota Chromium án reiknings</translation>
+<translation id="6230710687825107323">Nota João Browser án reiknings</translation>
 <translation id="985602178874221306">Höfundar Chromium</translation>
 <translation id="989970834842471429">Veldu hvaða texta eða mynd sem er til að leita með myndaleit</translation>
 <translation id="992780518932311116">Veittu Chromium aðgang að staðsetningunni þinni í <ph name="BEGIN_LINK" />kerfisstillingum<ph name="END_LINK" /> til að geta notað hana</translation>

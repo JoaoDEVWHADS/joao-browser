@@ -21,7 +21,7 @@ inline constexpr wchar_t kCompanyPathName[] = L"";
 
 // The brand-specific product name to be included as a component of the install
 // and user data directory paths.
-inline constexpr wchar_t kProductPathName[] = L"Chromium";
+inline constexpr wchar_t kProductPathName[] = L"JoaoBrowser";
 
 // The brand-specific safe browsing client name.
 inline constexpr char kSafeBrowsingName[] = "chromium";
@@ -54,23 +54,23 @@ inline constexpr auto kInstallModes = std::to_array<InstallConstants>({
         .logo_suffix = L"",  // No logo suffix for the primary install mode.
         .app_guid =
             L"",  // Empty app_guid since no integration with Google Update.
-        .base_app_name = L"Chromium",              // A distinct base_app_name.
-        .base_app_id = L"Chromium",                // A distinct base_app_id.
-        .browser_prog_id_prefix = L"ChromiumHTM",  // Browser ProgID prefix.
+        .base_app_name = L"João Browser",  // A distinct base_app_name.
+        .base_app_id = L"JoaoBrowser",     // A distinct base_app_id.
+        .browser_prog_id_prefix = L"JoaoBrowserHTM",  // Browser ProgID prefix.
         .browser_prog_id_description =
-            L"Chromium HTML Document",  // Browser ProgID description.
-        .direct_launch_url_scheme = "chromium",
-        .pdf_prog_id_prefix = L"ChromiumPDF",  // PDF ProgID prefix.
+            L"João Browser HTML Document",  // Browser ProgID description.
+        .direct_launch_url_scheme = "joaobrowser",
+        .pdf_prog_id_prefix = L"JoaoBrowserPDF",  // PDF ProgID prefix.
         .pdf_prog_id_description =
-            L"Chromium PDF Document",  // PDF ProgID description.
+            L"João Browser PDF Document",  // PDF ProgID description.
         .active_setup_guid =
-            L"{7D2B3E1D-D096-4594-9D8F-A6667F12E0AC}",  // Active Setup
+            L"{6E1F3EE8-D9F4-58B3-88B2-88458989D5A9}",  // Active Setup
                                                         // GUID.
-        .toast_activator_clsid = {0x635EFA6F,
-                                  0x08D6,
-                                  0x4EC9,
-                                  {0xBD, 0x14, 0x8A, 0x0F, 0xDE, 0x97, 0x51,
-                                   0x59}},  // Toast Activator CLSID.
+        .toast_activator_clsid = {0x64272b7e,
+                                  0x386d,
+                                  0x5c65,
+                                  {0xa3, 0x81, 0xe9, 0x49, 0x08, 0x54, 0x15,
+                                   0xb7}},  // Toast Activator CLSID.
         .elevator_clsid = {0xD133B120,
                            0x6DB4,
                            0x4D6B,
@@ -98,7 +98,8 @@ inline constexpr auto kInstallModes = std::to_array<InstallConstants>({
         .default_channel_name =
             L"",  // Empty default channel name since no update integration.
         .channel_strategy = ChannelStrategy::UNSUPPORTED,
-        .supports_system_level = true,  // Supports system-level installs.
+        // Keep this release per-user until service COM identities are isolated.
+        .supports_system_level = false,
         .supports_set_as_default_browser =
             true,  // Supports in-product set as default browser UX.
         .app_icon_resource_index =
