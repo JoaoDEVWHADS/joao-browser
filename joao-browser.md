@@ -30,7 +30,9 @@ installer.
 ## Validation evidence
 Local checks passed: six package tests, five filter-resource tests, one actual
 HTTP fixture lifecycle test, JavaScript behavioral fixtures, PowerShell parser
-checks, actionlint, GN formatting and git whitespace checks. Earlier branding
+checks, actionlint, GN formatting and git whitespace checks (excluding the
+unaltered, hash-verified upstream EasyList snapshot, whose comments contain
+trailing spaces). Earlier branding
 validation generated 84 locale PAKs with GRIT; ten version utility tests passed.
 These checks do not establish that the Windows browser compiles or runs.
 The workflow now builds/runs portable profile and native rule matcher tests,
