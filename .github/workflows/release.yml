@@ -2,25 +2,53 @@ name: Joao Browser Windows release
 
 on:
   push:
-    tags: ['joao-v*']
+    branches: [main]
   workflow_dispatch:
-    inputs:
-      tag:
-        description: 'Existing tag matching chrome/VERSION, e.g. joao-v155.0.8044.0-1'
-        required: true
-        type: string
 
 permissions:
   contents: read
 
-concurrency:
-  group: joao-browser-release
-  cancel-in-progress: false
-
 jobs:
+  stamp:
+    if: github.repository == 'JoaoDEVWHADS/joao-browser'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    outputs:
+      tag: ${{ steps.version.outputs.tag }}
+      commit: ${{ steps.version.outputs.commit }}
+    steps:
+      # Fetch one trusted source file through the API, not a Chromium checkout.
+      - name: Commit UTC version and tag latest main
+        id: version
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          SOURCE_SHA: ${{ github.sha }}
+        run: |
+          python3 - <<'PY'
+          import base64, json, os, pathlib, subprocess, sys, tempfile
+          from urllib.request import Request, urlopen
+          url = ('https://api.github.com/repos/' + os.environ['GH_REPO'] +
+                 '/contents/tools/joao_browser/stamp_version.py?ref=' + os.environ['SOURCE_SHA'])
+          request = Request(url, headers={
+              'Authorization': 'Bearer ' + os.environ['GH_TOKEN'],
+              'Accept': 'application/vnd.github+json',
+              'User-Agent': 'JoaoBrowserRelease'})
+          with urlopen(request, timeout=60) as response:
+              source = base64.b64decode(json.load(response)['content'])
+          with tempfile.TemporaryDirectory() as directory:
+              script = pathlib.Path(directory) / 'stamp_version.py'
+              script.write_bytes(source)
+              subprocess.run([sys.executable, str(script)], check=True)
+          PY
   windows:
     # A standard hosted runner cannot hold a full Chromium build.
-    # Only trusted tags/manual runs: never run pull-request code on this runner.
+    # Only trusted main/manual runs: never run pull-request code on this runner.
+    # Do not use a concurrency group: GitHub replaces earlier pending runs even
+    # with cancel-in-progress=false. One dedicated runner queues builds instead.
+    needs: stamp
     if: github.repository == 'JoaoDEVWHADS/joao-browser'
     runs-on: [self-hosted, Windows, X64, joao-browser-build]
     # Keep the build below the 24-hour GITHUB_TOKEN lifetime.
@@ -31,17 +59,18 @@ jobs:
       run:
         shell: powershell
     env:
-      RELEASE_TAG: ${{ inputs.tag || github.ref_name }}
+      RELEASE_TAG: ${{ needs.stamp.outputs.tag }}
+      RELEASE_COMMIT: ${{ needs.stamp.outputs.commit }}
     steps:
       - name: Validate release tag
         run: |
-          if ($env:RELEASE_TAG -notmatch '^joao-v[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+(?:-[0-9]+)?$') {
+          if ($env:RELEASE_TAG -notmatch '^joao-v[0-9]{14}$') {
             throw 'Invalid release tag'
           }
       - name: Check out tagged source
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
         with:
-          ref: refs/tags/${{ env.RELEASE_TAG }}
+          ref: ${{ needs.stamp.outputs.commit }}
           path: src
           fetch-depth: 1
           persist-credentials: false
@@ -50,6 +79,7 @@ jobs:
           $ErrorActionPreference = 'Stop'
           $commit = (& git -C src rev-parse HEAD).Trim()
           if ($LASTEXITCODE -ne 0) { throw 'Cannot resolve source commit' }
+          if ($commit -ne $env:RELEASE_COMMIT) { throw 'Stamped source commit mismatch' }
           & ./src/tools/joao_browser/build.ps1 -Tag $env:RELEASE_TAG -Commit $commit
       - name: Publish verified release assets
         env:
