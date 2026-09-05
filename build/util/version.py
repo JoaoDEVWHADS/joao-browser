@@ -25,7 +25,7 @@ def FetchValuesFromFile(values_dict, file_name):
 
     The file must exist, otherwise you get the Python exception from open().
     """
-    with open(file_name, 'r') as f:
+    with open(file_name, 'r', encoding='utf-8') as f:
         for line in f.readlines():
             key, val = line.rstrip('\r\n').split('=', 1)
             values_dict[key] = val
@@ -99,7 +99,7 @@ def SubstFile(file_name, values):
 
     This is like SubstTemplate, except it operates on a file.
     """
-    with open(file_name, 'r') as f:
+    with open(file_name, 'r', encoding='utf-8') as f:
         template = f.read()
     return SubstTemplate(template, values)
 
@@ -111,7 +111,7 @@ def WriteIfChanged(file_name, contents, mode):
     Does nothing if the contents aren't different than the current contents.
     """
     try:
-        with open(file_name, 'r') as f:
+        with open(file_name, 'r', encoding='utf-8') as f:
             old_contents = f.read()
     except EnvironmentError:
         pass
@@ -121,7 +121,7 @@ def WriteIfChanged(file_name, contents, mode):
         ):
             return
         os.unlink(file_name)
-    with open(file_name, 'w') as f:
+    with open(file_name, 'w', encoding='utf-8') as f:
         f.write(contents)
     os.chmod(file_name, mode)
 

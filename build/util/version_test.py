@@ -22,6 +22,31 @@ def _ReplaceArgs(args, *replacements):
 class _VersionTest(unittest.TestCase):
     """Unittests for the version module."""
 
+    def testUtf8BrandingOnLegacyWindowsCodePage(self):
+        real_open = open
+
+        def legacy_open(path, mode='r', **kwargs):
+            kwargs.setdefault('encoding', 'cp1252')
+            return real_open(path, mode, **kwargs)
+
+        with tempfile.TemporaryDirectory() as directory:
+            branding = os.path.join(directory, 'BRANDING')
+            template = os.path.join(directory, 'version.in')
+            output = os.path.join(directory, 'version.rc')
+            with open(branding, 'wb') as stream:
+                stream.write('PRODUCT_FULLNAME=João Browser\n'.encode('utf-8'))
+            with open(template, 'wb') as stream:
+                stream.write(b'@PRODUCT_FULLNAME@')
+            with mock.patch('builtins.open', side_effect=legacy_open):
+                values = {}
+                version.FetchValuesFromFile(values, branding)
+                content = version.SubstFile(template, values)
+                self.assertEqual('João Browser', content)
+                version.WriteIfChanged(output, content, 0o600)
+                version.WriteIfChanged(output, content, 0o600)
+            with open(output, 'rb') as stream:
+                self.assertEqual('João Browser'.encode('utf-8'), stream.read())
+
     _CHROME_VERSION_FILE = os.path.join(
         os.path.dirname(__file__), os.pardir, os.pardir, 'chrome', 'VERSION'
     )
