@@ -1,6 +1,8 @@
 # Joao Browser Windows releases
 
-The workflow builds the tagged source and publishes three artifacts:
+Every push to `main` starts the release workflow. An Ubuntu job commits a UTC
+`YYYYMMDDHHMMSS` version to `version.txt` and tags that exact source before the
+Windows job builds and publishes three artifacts:
 
 - `JoaoBrowser-<tag>-windows-x64-portable.zip`: extract and run `chrome.exe`.
   The `joao_portable` marker enables native adjacent `User Data` storage, including
@@ -19,13 +21,10 @@ The workflow builds the tagged source and publishes three artifacts:
 Both installers support per-user installation only. `--system-level` is
 unsupported; this release does not install machine-wide services.
 
-Installation is per-user only. The native installer rejects `--system-level`;
-machine-wide installation is not supported by this build.
-
 `release-manifest.json` records source/tool revisions and artifact sizes/hashes.
 `SHA256SUMS.txt` covers the artifacts and manifest. Release assets must not be
 replaced: an older online installer will intentionally reject changed bytes.
-Use a new numbered tag for a rebuild. Signing binaries is not configured;
+Request a new timestamped build for a rebuild. Signing binaries is not configured;
 Windows may show an unknown-publisher prompt. Sign the offline payload before
 packaging if signing is added, so its embedded bootstrapper digest stays correct.
 
@@ -58,20 +57,32 @@ is not claimed until a complete Windows run passes.
 
 ## Releasing
 
-Create a tag whose version matches `chrome/VERSION`: `joao-v155.0.8044.0`, or
-`joao-v155.0.8044.0-1` for a numbered rebuild. Pushing that tag starts the workflow;
-manual dispatch accepts an existing tag. The tagged commit must contain the
-workflow and these tools. The workflow creates a draft only after build,
-packaging and the portable runtime smoke test pass; uploads all five assets;
-then publishes it. Upload failure leaves a draft for inspection. Existing
-releases are never overwritten. No release is published merely by committing
-these files locally.
+Push changes to `main`; a lightweight Ubuntu job creates the version commit and
+`joao-vYYYYMMDDHHMMSS` tag automatically. The version commit uses `GITHUB_TOKEN`
+and `[skip ci]` to prevent recursion. Manual workflow dispatch can also request
+a release. The Windows job checks out the stamped commit, builds and validates
+it, then uploads assets into a draft and publishes only after validation passes.
+Existing releases are never overwritten. Repository rules must allow the Actions
+bot to update `main` and create tags; otherwise the version job fails explicitly.
+The Windows runner prerequisite still applies; version stamping alone is not a
+successful browser build. Pushes with several commits produce one workflow run.
+
+`version.txt` is the public release/update identity. Updates are offered only
+from published GitHub releases, never from an unbuilt version on `main`.
+At build time, `build_version.py` maps the timestamp to Windows' four 16-bit
+version fields: engine major, days since 2020-01-01, minutes since midnight,
+seconds. This lets the native installer recognize newer timestamp builds while
+preserving the Chromium engine major. `chrome/VERSION` changes only in the build
+checkout after dependency sync; the committed upstream version remains intact.
+The manifest records the timestamp as `version` and the generated four-part
+version as `chromium_version`. Portable archives retain the adjacent user profile.
 
 For a local Windows build, clone this repository into `<checkout>\src` and run:
 
 ```powershell
 $commit = (git -C C:\joao\src rev-parse HEAD).Trim()
-& C:\joao\src\tools\joao_browser\build.ps1 -Tag joao-v155.0.8044.0 -Commit $commit
+$version = (Get-Content C:\joao\src\version.txt -Raw).Trim()
+& C:\joao\src\tools\joao_browser\build.ps1 -Tag "joao-v$version" -Commit $commit
 ```
 
 Packages appear in `<checkout>\release-<tag>`. This directory must initially be

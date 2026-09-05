@@ -4,6 +4,7 @@
 """Package the native Chromium Windows installer and its portable payload."""
 
 import argparse
+from datetime import datetime
 import hashlib
 import json
 import os
@@ -18,6 +19,16 @@ import zipfile
 REPOSITORY = 'JoaoDEVWHADS/joao-browser'
 REQUIRED_FILES = ('chrome.exe', 'chrome.dll', 'chrome_elf.dll', 'resources.pak',
                   'icudtl.dat', 'locales/en-US.pak')
+
+
+def read_release_version(root, tag):
+    version = (root / 'version.txt').read_text(encoding='ascii').strip()
+    if not re.fullmatch(r'[0-9]{14}', version):
+        raise ValueError('version.txt must contain YYYYMMDDHHMMSS in UTC')
+    datetime.strptime(version, '%Y%m%d%H%M%S')
+    if tag != 'joao-v' + version:
+        raise ValueError('Release tag must match version.txt')
+    return version
 
 
 def sha256(path):
@@ -105,8 +116,7 @@ def main():
     version_values = dict(line.split('=') for line in
                           (root / 'chrome/VERSION').read_text().splitlines())
     version = '.'.join(version_values[key] for key in ('MAJOR', 'MINOR', 'BUILD', 'PATCH'))
-    if not re.fullmatch(r'joao-v' + re.escape(version) + r'(?:-[0-9]+)?', args.tag):
-        raise ValueError(f'Tag must be joao-v{version}, optionally followed by -BUILD_NUMBER')
+    release_version = read_release_version(root, args.tag)
     for commit in (args.commit, args.depot_tools_commit):
         if not re.fullmatch('[0-9a-f]{40}', commit):
             raise ValueError('Source revisions must be full Git commit hashes')
@@ -139,7 +149,8 @@ def main():
                         '/out:' + str(online), str(root / 'tools/joao_browser/OnlineInstaller.cs'),
                         str(metadata)], check=True)
         validate_pe(online)
-    manifest = {'version': version, 'tag': args.tag, 'repository': REPOSITORY,
+    manifest = {'version': release_version, 'chromium_version': version,
+                'tag': args.tag, 'repository': REPOSITORY,
                 'source_commit': args.commit, 'depot_tools_commit': args.depot_tools_commit,
                 'artifacts': {path.name: {'sha256': sha256(path), 'size': path.stat().st_size}
                               for path in (offline, portable, online)}}

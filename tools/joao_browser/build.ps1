@@ -14,7 +14,7 @@ function Invoke-Checked {
     if ($LASTEXITCODE -ne 0) { throw "$Program failed with exit code $LASTEXITCODE" }
 }
 
-if ($Tag -notmatch '^joao-v[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+(?:-[0-9]+)?$') {
+if ($Tag -notmatch '^joao-v[0-9]{14}$') {
     throw 'Invalid release tag.'
 }
 if (($Commit -notmatch '^[0-9a-f]{40}$') -or ($DepotToolsCommit -notmatch '^[0-9a-f]{40}$')) {
@@ -59,6 +59,7 @@ try {
 } finally { Pop-Location }
 Push-Location $source
 try {
+    Invoke-Checked python3.bat @('tools/joao_browser/build_version.py', '--root', $source, '--tag', $Tag)
     $build = Join-Path $source 'out/JoaoRelease'
     New-Item -ItemType Directory -Force -Path $build | Out-Null
     @'
@@ -76,10 +77,11 @@ generate_about_credits = true
 '@ | Set-Content -LiteralPath (Join-Path $build 'args.gn') -Encoding ascii
     Invoke-Checked gn.bat @('gen', 'out/JoaoRelease', '--fail-on-unused-args')
     Invoke-Checked autoninja.bat @('-C', 'out/JoaoRelease', 'mini_installer',
-        'install_static_unittests', 'joao_adblock_unittests')
+        'install_static_unittests', 'joao_adblock_unittests', 'joao_updater_unittests')
     Invoke-Checked (Join-Path $build 'install_static_unittests.exe') @(
         '--gtest_filter=UserDataDir.*Portable*')
     Invoke-Checked (Join-Path $build 'joao_adblock_unittests.exe') @()
+    Invoke-Checked (Join-Path $build 'joao_updater_unittests.exe') @()
     $output = Join-Path $checkout "release-$Tag"
     Invoke-Checked python3.bat @('tools/joao_browser/package.py', '--build-dir', $build,
         '--output-dir', $output, '--tag', $Tag, '--commit', $Commit,
