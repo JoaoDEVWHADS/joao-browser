@@ -40,7 +40,11 @@ Invoke-Checked git @('-C', $depot, 'checkout', '--detach', $DepotToolsCommit)
 $env:DEPOT_TOOLS_UPDATE = '0'
 $env:DEPOT_TOOLS_WIN_TOOLCHAIN = '0'
 $env:PATH = "$depot;$env:PATH"
-# Bootstrap depot_tools from cmd, as required by the Windows build instructions.
+# Disabling updates also bypasses gclient.bat's first-run bootstrap. Generate
+# depot_tools' Git/Python wrappers explicitly while keeping the revision pinned.
+Invoke-Checked (Join-Path $depot 'bootstrap/win_tools.bat') @()
+Invoke-Checked (Join-Path $depot 'git.bat') @('--version')
+Invoke-Checked (Join-Path $depot 'python3.bat') @('--version')
 Invoke-Checked cmd.exe @('/d', '/c', 'gclient --version')
 $gclient = @'
 solutions = [{
