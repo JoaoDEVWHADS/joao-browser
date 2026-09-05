@@ -243,6 +243,9 @@ base::DictValue GetVersionInfo() {
 std::string UpdateStatusToString(VersionUpdater::Status status) {
   std::string status_str;
   switch (status) {
+    case VersionUpdater::UPDATE_AVAILABLE:
+      status_str = "update_available";
+      break;
     case VersionUpdater::CHECKING:
       status_str = "checking";
       break;
@@ -899,6 +902,11 @@ void AboutHandler::SetUpdateStatus(VersionUpdater::Status status,
   event.Set("rollback", rollback);
   event.Set("powerwash", powerwash);
   event.Set("version", version);
+  event.Set("downloadUrl",
+            version_updater_ ? version_updater_->GetDownloadUrl() : "");
+  event.Set("currentVersion", version_updater_
+                                  ? version_updater_->GetCurrentReleaseVersion()
+                                  : "");
   // `base::DictValue` does not support int64_t, so convert to string.
   event.Set("size", base::NumberToString(size));
 #if BUILDFLAG(IS_CHROMEOS)

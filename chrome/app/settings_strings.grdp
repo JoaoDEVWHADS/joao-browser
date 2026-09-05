@@ -2,6 +2,18 @@
 <!-- Settings-specific strings (included from generated_resources.grd). -->
 <grit-part>
   <if expr="not is_android">
+    <message name="IDS_SETTINGS_JOAO_DOWNLOAD_UPDATE" desc="Link to download the newer Joao Browser release.">
+      Download update
+    </message>
+    <message name="IDS_SETTINGS_JOAO_UPDATE_PORTABLE" desc="Instructions for manually applying a portable browser update.">
+      A João Browser update is available. Download the portable ZIP, close the browser, and replace the program files while preserving your User Data folder.
+    </message>
+    <message name="IDS_SETTINGS_JOAO_UPDATE_INSTALLED" desc="Instructions for manually applying an installed browser update.">
+      A João Browser update is available. Download the installer, close the browser, and run the installer to update.
+    </message>
+    <message name="IDS_SETTINGS_JOAO_UPDATE_FAILED" desc="Failure to retrieve a valid published release from GitHub.">
+      Could not check João Browser releases on GitHub. Try again later.
+    </message>
     <!-- Shared across multiple pages -->
     <message name="IDS_SETTINGS_CONTINUE" desc="Label for 'Continue' buttons.">
       Continue

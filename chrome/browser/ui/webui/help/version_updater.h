@@ -40,7 +40,8 @@ class VersionUpdater {
     DISABLED,
     DISABLED_BY_ADMIN,
     UPDATE_TO_ROLLBACK_VERSION_DISALLOWED,
-    DEFERRED
+    DEFERRED,
+    UPDATE_AVAILABLE
   };
 
   // Promotion state (Mac-only).
@@ -85,6 +86,10 @@ class VersionUpdater {
   typedef base::RepeatingCallback<void(PromotionState)> PromoteCallback;
 
   virtual ~VersionUpdater() = default;
+
+  // A validated release asset, available only after a successful update check.
+  virtual std::string GetDownloadUrl() const { return std::string(); }
+  virtual std::string GetCurrentReleaseVersion() const { return std::string(); }
 
   // Sub-classes must implement this method to create the respective
   // specialization. |web_contents| may be null, in which case any required UX

@@ -14,6 +14,7 @@
  */
 export enum UpdateStatus {
   CHECKING = 'checking',
+  UPDATE_AVAILABLE = 'update_available',
   UPDATING = 'updating',
   NEARLY_UPDATED = 'nearly_updated',
   UPDATED = 'updated',
@@ -41,6 +42,8 @@ export interface UpdateStatusChangedEvent {
   connectionTypes?: string;
   version?: string;
   size?: string;
+  downloadUrl?: string;
+  currentVersion?: string;
 }
 
 

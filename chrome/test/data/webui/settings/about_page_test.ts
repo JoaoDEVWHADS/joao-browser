@@ -100,6 +100,27 @@ suite('AllBuilds', function() {
    * Test that the status icon and status message update according to
    * incoming 'update-status-changed' events.
    */
+  test('JoaoReleaseDownloadAndVersion', async function() {
+    const url = 'https://github.com/JoaoDEVWHADS/joao-browser/releases/download/' +
+        'joao-v20260905123059/JoaoBrowser-joao-v20260905123059-windows-x64-portable.zip';
+    webUIListenerCallback('update-status-changed', {
+      status: UpdateStatus.UPDATE_AVAILABLE,
+      progress: 0,
+      message: 'Update available',
+      downloadUrl: url,
+      currentVersion: '20260904120000',
+    });
+    await microtasksFinished();
+    const link = page.shadowRoot.querySelector<HTMLAnchorElement>('#joaoDownloadUpdate')!;
+    assertTrue(isVisible(link));
+    assertEquals(url, link.href);
+    assertTrue(page.shadowRoot.querySelector('#joaoReleaseVersion')!.textContent.includes(
+        '20260904120000'));
+    fireStatusChanged(UpdateStatus.UPDATED);
+    await microtasksFinished();
+    assertFalse(isVisible(link));
+  });
+
   test('IconAndMessageUpdates', async function() {
     const icon = page.shadowRoot.querySelector('cr-icon')!;
     assertTrue(!!icon);

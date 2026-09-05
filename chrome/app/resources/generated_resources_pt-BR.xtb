@@ -10731,4 +10731,8 @@ Isso pode incluir informações sobre softwares instalados, arquivos, seu navega
 <translation id="998347228911661591">Sincronizar seus grupos de guias</translation>
 <translation id="998747458861718449">I&amp;nspecionar</translation>
 <translation id="998852291477823323">As políticas configuradas não permitem esta ação.</translation>
+<translation id="6359005611844377189">Baixar atualização</translation>
+<translation id="94244539741695965">Uma atualização do João Browser está disponível. Baixe o ZIP portátil, feche o navegador e substitua os arquivos do programa preservando a pasta User Data.</translation>
+<translation id="2151387441546728647">Uma atualização do João Browser está disponível. Baixe o instalador, feche o navegador e execute o instalador para atualizar.</translation>
+<translation id="59946225282386832">Não foi possível verificar as releases do João Browser no GitHub. Tente novamente mais tarde.</translation>
 </translationbundle>

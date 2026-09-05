@@ -314,6 +314,7 @@ void AddAboutStrings(content::WebUIDataSource* html_source, Profile* profile) {
       {"aboutPrivacyPolicy", IDS_SETTINGS_ABOUT_PAGE_PRIVACY_POLICY},
 #endif
       {"aboutRelaunch", IDS_SETTINGS_ABOUT_PAGE_RELAUNCH},
+      {"joaoDownloadUpdate", IDS_SETTINGS_JOAO_DOWNLOAD_UPDATE},
       {"aboutUpgradeCheckStarted", IDS_SETTINGS_ABOUT_UPGRADE_CHECK_STARTED},
       {"aboutUpgradeRelaunch", IDS_SETTINGS_UPGRADE_SUCCESSFUL_RELAUNCH},
       {"aboutUpgradeUpdating", IDS_SETTINGS_UPGRADE_UPDATING},
@@ -2106,8 +2107,8 @@ void AddAutofillStrings(content::WebUIDataSource* html_source,
       autofill_client &&
           autofill::MayPerformAutofillAiAction(
               *autofill_client, autofill::AutofillAiAction::kOptIn));
-  // TODO(crbug.com/515356902): Check enable/disable eligibility per entity type,
-  // similar to how it is done on Clank. See crrev.com/c/7847781
+  // TODO(crbug.com/515356902): Check enable/disable eligibility per entity
+  // type, similar to how it is done on Clank. See crrev.com/c/7847781
   html_source->AddBoolean(
       "canEnableOrDisableAutofillAi",
       autofill_client &&

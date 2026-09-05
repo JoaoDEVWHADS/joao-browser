@@ -3,6 +3,40 @@
 # found in the LICENSE file.
 
 import("//chrome/common/features.gni")
+import("//testing/test.gni")
+
+source_set("github_release") {
+  sources = [
+    "github_release.cc",
+    "github_release.h",
+  ]
+  public_deps = [
+    "//base",
+    "//url",
+  ]
+}
+
+action("joao_release_version") {
+  script = "generate_joao_version.py"
+  inputs = [ "//version.txt" ]
+  outputs = [ "$target_gen_dir/joao_release_version.h" ]
+  args = [
+    "--input",
+    rebase_path("//version.txt", root_build_dir),
+    "--output",
+    rebase_path(outputs[0], root_build_dir),
+  ]
+}
+
+test("joao_updater_unittests") {
+  sources = [ "github_release_unittest.cc" ]
+  deps = [
+    ":github_release",
+    "//base/test:run_all_unittests",
+    "//base/test:test_support",
+    "//testing/gtest",
+  ]
+}
 
 source_set("help") {
   public = [ "version_updater.h" ]
@@ -62,7 +96,18 @@ source_set("help") {
         "//ui/gfx",
       ]
     } else {
-      sources = [ "version_updater_basic.cc" ]
+      sources = [ "version_updater_github_win.cc" ]
+      deps += [
+        ":github_release",
+        ":joao_release_version",
+        "//chrome/app:generated_resources_grit",
+        "//chrome/install_static:install_static_util",
+        "//content/public/browser",
+        "//net",
+        "//services/network/public/cpp",
+        "//services/network/public/mojom",
+        "//ui/base",
+      ]
     }
   }
 

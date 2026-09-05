@@ -239,8 +239,18 @@ export class SettingsAboutPageElement extends SettingsAboutPageElementBase
         this.currentUpdateStatusEvent_!.status !== UpdateStatus.DISABLED;
   }
 
+  protected getCurrentReleaseVersion_(): string {
+    return this.currentUpdateStatusEvent_?.currentVersion || '';
+  }
+
+  protected getUpdateDownloadUrl_(): string {
+    return this.currentUpdateStatusEvent_?.status === UpdateStatus.UPDATE_AVAILABLE ?
+        this.currentUpdateStatusEvent_.downloadUrl || '' : '';
+  }
+
   protected shouldShowLearnMoreLink_(): boolean {
-    return this.currentUpdateStatusEvent_!.status === UpdateStatus.FAILED;
+    return !this.getCurrentReleaseVersion_() &&
+        this.currentUpdateStatusEvent_!.status === UpdateStatus.FAILED;
   }
 
   protected getUpdateStatusMessage_(): TrustedHTML {

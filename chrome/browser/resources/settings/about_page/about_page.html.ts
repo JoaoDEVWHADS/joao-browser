@@ -46,6 +46,9 @@ export function getHtml(this: SettingsAboutPageElement) {
           $i18n{learnMore}
         </a>
       </div>
+      <a id="joaoDownloadUpdate" ?hidden="${!this.getUpdateDownloadUrl_()}"
+          href="${this.getUpdateDownloadUrl_()}" target="_blank"
+          rel="noopener noreferrer">$i18n{joaoDownloadUpdate}</a>
       <span id="deprecationWarning"
           ?hidden="${!this.obsoleteSystemInfo_.obsolete}">
         $i18n{aboutObsoleteSystem}
@@ -54,6 +57,12 @@ export function getHtml(this: SettingsAboutPageElement) {
           $i18n{learnMore}
         </a>
       </span>
+</if>
+<if expr="not is_chromeos">
+      <div id="joaoReleaseVersion" class="secondary"
+          ?hidden="${!this.getCurrentReleaseVersion_()}">
+        João Browser ${this.getCurrentReleaseVersion_()}
+      </div>
 </if>
       <div class="secondary">$i18n{aboutBrowserVersion}</div>
     </div>
