@@ -11,6 +11,7 @@
 #include "base/check.h"
 #include "base/check_op.h"
 #include "base/containers/span.h"
+#include "base/feature_list.h"
 #include "base/files/file_enumerator.h"
 #include "base/files/file_util.h"
 #include "base/files/scoped_temp_dir.h"
@@ -26,6 +27,7 @@
 #include "base/threading/scoped_blocking_call.h"
 #include "base/trace_event/trace_event.h"
 #include "base/trace_event/traced_value.h"
+#include "components/joao_adblock/rules.h"
 #include "components/prefs/pref_registry_simple.h"
 #include "components/prefs/pref_service.h"
 #include "components/subresource_filter/content/browser/ruleset_publisher.h"
@@ -201,10 +203,14 @@ std::unique_ptr<RulesetService> RulesetService::Create(
           {base::MayBlock(), base::TaskPriority::USER_BLOCKING,
            base::TaskShutdownBehavior::SKIP_ON_SHUTDOWN}));
 
-  // Runner for tasks that do not influence user experience.
+  // João's first navigation waits for the bundled rules. Keep all indexing and
+  // cleanup on one sequence, but do not delay this work until after startup.
+  const auto priority = base::FeatureList::IsEnabled(kJoaoNativeAdblock)
+                            ? base::TaskPriority::USER_BLOCKING
+                            : base::TaskPriority::BEST_EFFORT;
   scoped_refptr<base::SequencedTaskRunner> background_task_runner(
       base::ThreadPool::CreateSequencedTaskRunner(
-          {base::MayBlock(), base::TaskPriority::BEST_EFFORT,
+          {base::MayBlock(), priority,
            base::TaskShutdownBehavior::SKIP_ON_SHUTDOWN}));
 
   base::FilePath indexed_ruleset_base_dir =
@@ -251,6 +257,61 @@ RulesetService::RulesetService(
 }
 
 RulesetService::~RulesetService() = default;
+
+void RulesetService::InstallJoaoRuleset() {
+  if (joao_ruleset_pending_ || joao_ruleset_ready_) {
+    return;
+  }
+  joao_ruleset_pending_ = true;
+  const auto version = GetMostRecentlyIndexedVersion();
+  if (version.IsCurrentFormatVersion() &&
+      version.content_version == joao_adblock::RulesVersion()) {
+    return;
+  }
+  PrepareAndIndexJoaoRuleset();
+}
+
+base::CallbackListSubscription RulesetService::AddJoaoRulesetReadyCallback(
+    base::OnceCallback<void(bool)> callback) {
+  return joao_ruleset_ready_callbacks_.Add(std::move(callback));
+}
+
+void RulesetService::PrepareAndIndexJoaoRuleset() {
+  joao_reindex_attempted_ = true;
+  background_task_runner_->PostTaskAndReplyWithResult(
+      FROM_HERE,
+      base::BindOnce(
+          &joao_adblock::PrepareRules,
+          indexed_ruleset_base_dir_.DirName().AppendASCII("JoaoAdblock")),
+      base::BindOnce(&RulesetService::OnJoaoRulesPrepared,
+                     weak_ptr_factory_.GetWeakPtr()));
+}
+
+void RulesetService::OnJoaoRulesPrepared(base::FilePath path) {
+  if (path.empty()) {
+    FinishJoaoRulesetInitialization(false);
+    return;
+  }
+  UnindexedRulesetInfo info;
+  info.content_version = std::string(joao_adblock::RulesVersion());
+  info.ruleset_path = std::move(path);
+  // The first navigation waits for these rules. Do not schedule their indexing
+  // through the legacy after-startup queue, which may itself wait for a page.
+  background_task_runner_->PostTaskAndReplyWithResult(
+      FROM_HERE,
+      base::BindOnce(&RulesetService::IndexAndWriteRuleset, config_,
+                     indexed_ruleset_base_dir_, info),
+      base::BindOnce(&RulesetService::OnWrittenRuleset,
+                     weak_ptr_factory_.GetWeakPtr(),
+                     base::BindOnce(&RulesetService::OpenAndPublishRuleset,
+                                    weak_ptr_factory_.GetWeakPtr())));
+}
+
+void RulesetService::FinishJoaoRulesetInitialization(bool success) {
+  joao_ruleset_ready_ = success;
+  joao_ruleset_pending_ = false;
+  joao_ruleset_ready_callbacks_.Notify(success);
+}
 
 void RulesetService::IndexAndStoreAndPublishRulesetIfNeeded(
     const UnindexedRulesetInfo& unindexed_ruleset_info) {
@@ -494,6 +555,9 @@ void RulesetService::OnWrittenRuleset(WriteRulesetCallback result_callback,
                                       const IndexedRulesetVersion& version) {
   CHECK(!result_callback.is_null());
   if (!version.IsValid()) {
+    if (joao_ruleset_pending_) {
+      FinishJoaoRulesetInitialization(false);
+    }
     return;
   }
   version.SaveToPrefs(local_state_);
@@ -510,20 +574,37 @@ void RulesetService::OpenAndPublishRuleset(
   publisher_->TryOpenAndSetRulesetFile(
       file_path, version.checksum,
       base::BindOnce(&RulesetService::OnRulesetSet,
-                     weak_ptr_factory_.GetWeakPtr()));
+                     weak_ptr_factory_.GetWeakPtr(), version));
 }
 
-void RulesetService::OnRulesetSet(RulesetFilePtr file) {
+void RulesetService::OnRulesetSet(const IndexedRulesetVersion& version,
+                                  RulesetFilePtr file) {
+  // A startup open for an older cached bundle can finish after installation of
+  // the current bundle has started. It must neither fail waiting navigations
+  // nor replace the current bundle (or its preferences) when it completes.
+  if ((joao_ruleset_pending_ || joao_ruleset_ready_) &&
+      version.content_version != joao_adblock::RulesVersion()) {
+    return;
+  }
+
   // The file has just been successfully written, so a failure here is unlikely
   // unless |indexed_ruleset_base_dir_| has been tampered with or there are disk
   // errors. Still, restore the invariant that a valid version in preferences
   // always points to an existing version of disk by invalidating the prefs.
   if (!file->IsValid()) {
     IndexedRulesetVersion(config_.filter_tag).SaveToPrefs(local_state_);
+    if (joao_ruleset_pending_ && !joao_reindex_attempted_) {
+      PrepareAndIndexJoaoRuleset();
+    } else if (joao_ruleset_pending_) {
+      FinishJoaoRulesetInitialization(false);
+    }
     return;
   }
 
   publisher_->PublishNewRulesetVersion(std::move(file));
+  if (version.content_version == joao_adblock::RulesVersion()) {
+    FinishJoaoRulesetInitialization(true);
+  }
 }
 
 }  // namespace subresource_filter

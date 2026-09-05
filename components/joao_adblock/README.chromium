@@ -1,0 +1,18 @@
+Name: EasyList
+URL: https://easylist.to/
+Version: 202609051413
+Revision: 836f826b90190c7ae23812d6d5ec6cd7f4f30e4a
+License: CC-BY-SA-3.0
+License File: LICENSE.easylist
+Security Critical: yes
+Shipped: yes
+
+Description:
+EasyList advertising filter data, authored by The EasyList authors
+(https://easylist.to/). Distributed under the Creative Commons
+Attribution-ShareAlike 3.0 option of the upstream dual license.
+
+Local Modifications:
+The source snapshot is unmodified. Build-time conversion embeds rules as C++
+strings and extracts supported cosmetic selectors; runtime network conversion
+uses Chromium's EasyList parser and drops unsupported syntax.

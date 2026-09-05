@@ -59,6 +59,7 @@ static_library("browser") {
     "//components/content_settings/core/browser",
     "//components/content_settings/core/browser:cookie_settings",
     "//components/content_settings/core/common",
+    "//components/joao_adblock:rules",
     "//components/keyed_service/core",
     "//components/prefs",
     "//components/safe_browsing/core/browser/db:database_manager",

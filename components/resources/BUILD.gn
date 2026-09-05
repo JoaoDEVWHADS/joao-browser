@@ -177,10 +177,11 @@ if (generate_about_credits) {
       rebase_path(about_credits_file, root_build_dir),
     ]
 
-    # Defined by downstream projects.
+    notice_dirs = [ "components/joao_adblock" ]
     if (defined(extra_third_party_notice_dirs)) {
-      args += [ "--extra-third-party-dirs=$extra_third_party_notice_dirs" ]
+      notice_dirs += extra_third_party_notice_dirs
     }
+    args += [ "--extra-third-party-dirs=$notice_dirs" ]
   }
 } else {
   copy("about_credits") {

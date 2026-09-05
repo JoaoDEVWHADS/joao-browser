@@ -664,7 +664,8 @@ ContentSubresourceFilterThrottleManager::
   if (IsInSubresourceFilterRoot(&navigation_handle)) {
     auto throttle = ActivationStateComputingNavigationThrottle::CreateForRoot(
         registry, kSafeBrowsingRulesetConfig.uma_tag);
-    if (base::FeatureList::IsEnabled(kAdTagging)) {
+    if (base::FeatureList::IsEnabled(kAdTagging) &&
+        !base::FeatureList::IsEnabled(kJoaoNativeAdblock)) {
       mojom::ActivationState ad_tagging_state;
       ad_tagging_state.activation_level = mojom::ActivationLevel::kDryRun;
       throttle->NotifyPageActivationWithRuleset(EnsureRulesetHandle(),

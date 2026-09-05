@@ -323,6 +323,33 @@ TEST_F(SubresourceFilterAgentTest, RulesetUnset_RulesetNotAvailable) {
       kMainFrameLoadRulesetIsAvailableAnyActivationLevel, 0, 1);
 }
 
+TEST_F(SubresourceFilterAgentTest, JoaoCosmeticsFollowDocumentActivation) {
+  ASSERT_NO_FATAL_FAILURE(
+      SetTestRulesetToDisallowURLsWithPathSuffix(kTestBothURLsPathSuffix));
+  EXPECT_FALSE(agent()->IsFilteringCurrentDocument());
+  ExpectSubresourceFilterGetsInjected();
+  StartLoadAndSetActivationState(mojom::ActivationLevel::kEnabled);
+  EXPECT_TRUE(agent()->IsFilteringCurrentDocument());
+  ASSERT_TRUE(::testing::Mock::VerifyAndClearExpectations(agent()));
+
+  mojom::ActivationState exempt;
+  exempt.activation_level = mojom::ActivationLevel::kEnabled;
+  exempt.filtering_disabled_for_document = true;
+  ExpectSubresourceFilterGetsInjected();
+  StartLoadAndSetActivationState(exempt);
+  EXPECT_FALSE(agent()->IsFilteringCurrentDocument());
+  ASSERT_TRUE(::testing::Mock::VerifyAndClearExpectations(agent()));
+
+  ExpectSubresourceFilterGetsInjected();
+  StartLoadAndSetActivationState(mojom::ActivationLevel::kDryRun);
+  EXPECT_FALSE(agent()->IsFilteringCurrentDocument());
+  ASSERT_TRUE(::testing::Mock::VerifyAndClearExpectations(agent()));
+
+  ExpectNoSubresourceFilterGetsInjected();
+  StartLoadAndSetActivationState(mojom::ActivationLevel::kDisabled);
+  EXPECT_FALSE(agent()->IsFilteringCurrentDocument());
+}
+
 TEST_F(SubresourceFilterAgentTest, DisabledByDefault_NoFilterIsInjected) {
   base::HistogramTester histogram_tester;
   ASSERT_NO_FATAL_FAILURE(

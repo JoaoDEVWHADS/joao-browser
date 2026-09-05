@@ -19,6 +19,7 @@
 #include "base/path_service.h"
 #include "base/values.h"
 #include "base/version.h"
+#include "build/build_config.h"
 #include "chrome/browser/browser_process.h"
 #include "components/component_updater/component_updater_paths.h"
 #include "components/subresource_filter/content/browser/ruleset_service.h"
@@ -154,6 +155,14 @@ SubresourceFilterComponentInstallerPolicy::GetInstallerAttributes() const {
 }
 
 void RegisterSubresourceFilterComponent(ComponentUpdateService* cus) {
+#if BUILDFLAG(IS_WIN)
+  // João ships a full EasyList ruleset. Google's restricted Better Ads ruleset
+  // must not replace it after startup.
+  if (base::FeatureList::IsEnabled(subresource_filter::kJoaoNativeAdblock)) {
+    return;
+  }
+#endif
+
   if (!base::FeatureList::IsEnabled(
           subresource_filter::kSafeBrowsingSubresourceFilter)) {
     return;

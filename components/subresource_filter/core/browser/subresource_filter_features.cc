@@ -21,6 +21,7 @@
 #include "base/synchronization/lock.h"
 #include "base/time/time.h"
 #include "base/trace_event/traced_value.h"
+#include "build/build_config.h"
 #include "components/subresource_filter/core/common/common_features.h"
 #include "components/subresource_filter/core/mojom/subresource_filter.mojom.h"
 
@@ -193,6 +194,15 @@ std::vector<Configuration> ParseEnabledConfigurations() {
   Configuration experimental_config = ParseExperimentalConfiguration(&params);
   configs.push_back(std::move(experimental_config));
 
+#if BUILDFLAG(IS_WIN)
+  if (base::FeatureList::IsEnabled(kSafeBrowsingSubresourceFilter) &&
+      base::FeatureList::IsEnabled(kJoaoNativeAdblock)) {
+    Configuration joao(mojom::ActivationLevel::kEnabled,
+                       ActivationScope::ALL_SITES);
+    joao.activation_conditions.priority = 10000;
+    configs.push_back(std::move(joao));
+  }
+#endif
   return configs;
 }
 

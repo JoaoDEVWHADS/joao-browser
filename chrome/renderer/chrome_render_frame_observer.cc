@@ -15,6 +15,7 @@
 
 #include "base/base_switches.h"
 #include "base/command_line.h"
+#include "base/feature_list.h"
 #include "base/functional/bind.h"
 #include "base/no_destructor.h"
 #include "base/strings/string_number_conversions.h"
@@ -41,12 +42,15 @@
 #include "components/crash/core/common/crash_key.h"
 #include "components/guest_view/buildflags/buildflags.h"
 #include "components/guest_view/renderer/slim_web_view/slim_web_view_bindings.h"
+#include "components/joao_adblock/resources.h"
 #include "components/lens/lens_metadata.mojom.h"
 #include "components/no_state_prefetch/renderer/no_state_prefetch_helper.h"
 #include "components/no_state_prefetch/renderer/no_state_prefetch_utils.h"
 #include "components/offline_pages/buildflags/buildflags.h"
 #include "components/optimization_guide/content/renderer/page_text_agent.h"
 #include "components/page_content_annotations/content/renderer/page_stability_monitor.h"
+#include "components/subresource_filter/content/renderer/subresource_filter_agent.h"
+#include "components/subresource_filter/core/common/common_features.h"
 #include "components/translate/content/renderer/translate_agent.h"
 #include "components/translate/core/common/translate_util.h"
 #include "components/variations/variations_switches.h"
@@ -66,6 +70,7 @@
 #include "third_party/blink/public/platform/browser_interface_broker_proxy.h"
 #include "third_party/blink/public/platform/web_url_request.h"
 #include "third_party/blink/public/web/web_console_message.h"
+#include "third_party/blink/public/platform/scheduler/web_agent_group_scheduler.h"
 #include "third_party/blink/public/web/web_document.h"
 #include "third_party/blink/public/web/web_document_loader.h"
 #include "third_party/blink/public/web/web_element.h"
@@ -73,9 +78,11 @@
 #include "third_party/blink/public/web/web_local_frame.h"
 #include "third_party/blink/public/web/web_local_frame_client.h"
 #include "third_party/blink/public/web/web_node.h"
+#include "third_party/blink/public/web/web_script_source.h"
 #include "third_party/blink/public/web/web_security_policy.h"
 #include "third_party/blink/public/web/web_view.h"
 #include "third_party/libwebp/src/src/webp/decode.h"
+#include "v8/include/v8.h"
 #include "third_party/skia/include/core/SkBitmap.h"
 #include "ui/gfx/codec/jpeg_codec.h"
 #include "ui/gfx/codec/png_codec.h"
@@ -377,6 +384,36 @@ void ChromeRenderFrameObserver::DidCommitProvisionalLoad(
 }
 
 void ChromeRenderFrameObserver::DidClearWindowObject() {
+#if BUILDFLAG(IS_WIN)
+  auto* frame = render_frame()->GetWebFrame();
+  const GURL document_url(frame->GetDocument().Url());
+  auto* ad_filter =
+      subresource_filter::SubresourceFilterAgent::Get(render_frame());
+  if (base::FeatureList::IsEnabled(subresource_filter::kJoaoNativeAdblock) &&
+      document_url.SchemeIsHTTPOrHTTPS() && ad_filter &&
+      ad_filter->IsFilteringCurrentDocument()) {
+    v8::Isolate* isolate = frame->GetAgentGroupScheduler()->Isolate();
+    v8::HandleScope handle_scope(isolate);
+    v8::Local<v8::Value> css_result =
+        frame->ExecuteScriptInIsolatedWorldAndReturnValue(
+            ISOLATED_WORLD_ID_CHROME_INTERNAL,
+            blink::WebScriptSource(
+                blink::WebString::FromUtf8(joao_adblock::kCosmeticScript)),
+            blink::BackForwardCacheAware::kAllow);
+    if (!css_result.IsEmpty() && css_result->IsString()) {
+      v8::String::Utf8Value css(isolate, css_result);
+      if (*css) {
+        frame->GetDocument().InsertStyleSheet(
+            blink::WebString::FromUtf8(std::string_view(*css, css.length())),
+            nullptr, blink::WebCssOrigin::kUser);
+      }
+    }
+    if (document_url.DomainIs("youtube.com")) {
+      frame->ExecuteScript(blink::WebScriptSource(
+          blink::WebString::FromUtf8(joao_adblock::kYoutubeScript)));
+    }
+  }
+#endif
 #if !BUILDFLAG(IS_ANDROID)
   if (process_state::IsInstantProcess()) {
     SearchBoxExtension::Install(render_frame()->GetWebFrame());

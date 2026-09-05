@@ -1,0 +1,46 @@
+# Copyright 2026 The Chromium Authors
+# Use of this source code is governed by a BSD-style license.
+action("resources") {
+  script = "generate_resources.py"
+  inputs = [
+    "easylist.txt",
+    "snapshot.json",
+    "cosmetic.js",
+    "youtube.js",
+  ]
+  outputs = [ "$target_gen_dir/resources.h" ]
+  args = [
+    "--output",
+    rebase_path(outputs[0], root_build_dir),
+  ]
+}
+
+source_set("rules") {
+  sources = [
+    "rules.cc",
+    "rules.h",
+  ]
+  deps = [
+    ":resources",
+    "//base",
+    "//components/subresource_filter/core/common",
+    "//components/subresource_filter/tools/rule_parser",
+    "//third_party/protobuf:protobuf_lite",
+  ]
+}
+
+import("//testing/test.gni")
+
+test("joao_adblock_unittests") {
+  sources = [ "rules_unittest.cc" ]
+  deps = [
+    ":rules",
+    "//base/test:run_all_unittests",
+    "//base/test:test_support",
+    "//components/subresource_filter/core/common",
+    "//components/subresource_filter/tools/rule_parser",
+    "//testing/gtest",
+    "//third_party/protobuf:protobuf_lite",
+    "//url",
+  ]
+}

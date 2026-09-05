@@ -10,6 +10,9 @@
 
 namespace subresource_filter {
 
+// João native filtering; enabled by default on Windows.
+BASE_DECLARE_FEATURE(kJoaoNativeAdblock);
+
 // Enables the tagging of ad frames and resource requests by using the
 // subresource_filter component in dry-run mode.
 BASE_DECLARE_FEATURE(kAdTagging);

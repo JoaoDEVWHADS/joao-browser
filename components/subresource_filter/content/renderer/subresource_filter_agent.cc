@@ -334,6 +334,15 @@ SubresourceFilterAgent::GetInheritedActivationStateForNewDocument() {
   return GetInheritedActivationState(render_frame());
 }
 
+bool SubresourceFilterAgent::IsFilteringCurrentDocument() const {
+  if (!filter_for_last_created_document_) {
+    return false;
+  }
+  const auto& state = filter_for_last_created_document_->activation_state();
+  return state.activation_level == mojom::ActivationLevel::kEnabled &&
+         !state.filtering_disabled_for_document;
+}
+
 void SubresourceFilterAgent::ConstructFilter(
     const mojom::ActivationState activation_state,
     const GURL& url) {

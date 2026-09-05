@@ -34,6 +34,7 @@
 
 #include <memory>
 
+#include "base/callback_list.h"
 #include "base/files/file.h"
 #include "base/files/file_path.h"
 #include "base/files/file_util.h"
@@ -173,6 +174,14 @@ class RulesetService {
     publisher_->SetRulesetPublishedCallbackForTesting(std::move(callback));
   }
 
+  // Installs the compiled João rules on the existing background sequence.
+  void InstallJoaoRuleset();
+
+  bool IsJoaoRulesetReady() const { return joao_ruleset_ready_; }
+  bool IsJoaoRulesetPending() const { return joao_ruleset_pending_; }
+  base::CallbackListSubscription AddJoaoRulesetReadyCallback(
+      base::OnceCallback<void(bool)> callback);
+
   // Indexes, stores, and publishes the given unindexed ruleset, unless its
   // |content_version| matches that of the most recently indexed version, in
   // which case it does nothing. The files comprising the unindexed ruleset
@@ -264,7 +273,10 @@ class RulesetService {
                         const IndexedRulesetVersion& version);
 
   void OpenAndPublishRuleset(const IndexedRulesetVersion& version);
-  void OnRulesetSet(RulesetFilePtr file);
+  void OnRulesetSet(const IndexedRulesetVersion& version, RulesetFilePtr file);
+  void PrepareAndIndexJoaoRuleset();
+  void OnJoaoRulesPrepared(base::FilePath path);
+  void FinishJoaoRulesetInitialization(bool success);
 
   const RulesetConfig config_;
 
@@ -279,6 +291,11 @@ class RulesetService {
   bool is_initialized_;
 
   const base::FilePath indexed_ruleset_base_dir_;
+
+  bool joao_ruleset_pending_ = false;
+  bool joao_ruleset_ready_ = false;
+  bool joao_reindex_attempted_ = false;
+  base::OnceCallbackList<void(bool)> joao_ruleset_ready_callbacks_;
 
   base::WeakPtrFactory<RulesetService> weak_ptr_factory_{this};
 };

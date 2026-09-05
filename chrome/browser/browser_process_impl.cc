@@ -1856,6 +1856,11 @@ void BrowserProcessImpl::CreateSubresourceFilterRulesetService() {
           subresource_filter::kSafeBrowsingRulesetConfig, local_state(),
           user_data_dir,
           subresource_filter::SafeBrowsingRulesetPublisher::Factory());
+#if BUILDFLAG(IS_WIN)
+  if (base::FeatureList::IsEnabled(subresource_filter::kJoaoNativeAdblock)) {
+    subresource_filter_ruleset_service_->InstallJoaoRuleset();
+  }
+#endif
 }
 
 #if !BUILDFLAG(IS_ANDROID)

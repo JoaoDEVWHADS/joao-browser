@@ -51,6 +51,9 @@ class SubresourceFilterAgent
   // in the constructor, so we need an Initialize() method.
   void Initialize();
 
+  // Browser-owned cosmetic filtering follows the same per-document policy.
+  bool IsFilteringCurrentDocument() const;
+
  protected:
   // Below methods are protected virtual so they can be mocked out in tests.
 

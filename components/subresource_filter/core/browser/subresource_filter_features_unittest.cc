@@ -47,12 +47,12 @@ class ScopedExperimentalStateToggle {
 
     switch (feature_state) {
       case base::FeatureList::OVERRIDE_ENABLE_FEATURE:
-        scoped_feature_list_.InitAndEnableFeatureWithParameters(
-            kFeature, variation_params);
+        scoped_feature_list_.InitWithFeaturesAndParameters(
+            {{kFeature, variation_params}}, {kJoaoNativeAdblock});
         break;
 
       case base::FeatureList::OVERRIDE_DISABLE_FEATURE:
-        scoped_feature_list_.InitAndDisableFeature(kFeature);
+        scoped_feature_list_.InitWithFeatures({}, {kFeature, kJoaoNativeAdblock});
         break;
 
       case base::FeatureList::OVERRIDE_USE_DEFAULT:
@@ -115,6 +115,24 @@ void ExpectParamsGeneratePreset(
 }
 
 }  // namespace
+
+#if BUILDFLAG(IS_WIN)
+TEST(JoaoNativeAdblockTest, DefaultsToAllSites) {
+  EXPECT_EQ(base::FEATURE_ENABLED_BY_DEFAULT, kJoaoNativeAdblock.default_state);
+  testing::ScopedSubresourceFilterConfigurator reset(nullptr);
+  base::test::ScopedFeatureList features;
+  features.InitWithFeatures({kSafeBrowsingSubresourceFilter, kJoaoNativeAdblock}, {});
+  const auto configs = GetEnabledConfigurations();
+  ASSERT_FALSE(configs->configs_by_decreasing_priority().empty());
+  const auto& config = configs->configs_by_decreasing_priority().front();
+  EXPECT_EQ(mojom::ActivationLevel::kEnabled,
+            config.activation_options.activation_level);
+  EXPECT_EQ(ActivationScope::ALL_SITES,
+            config.activation_conditions.activation_scope);
+  EXPECT_EQ(ActivationList::NONE,
+            config.activation_conditions.activation_list);
+}
+#endif
 
 class SubresourceFilterFeaturesTest : public ::testing::Test {
  public:

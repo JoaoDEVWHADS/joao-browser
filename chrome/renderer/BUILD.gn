@@ -156,6 +156,7 @@ static_library("renderer") {
     "//components/guest_view/buildflags",
     "//components/heap_profiling/in_process",
     "//components/history_clusters/core",
+    "//components/joao_adblock:resources",
     "//components/language/core/common",
     "//components/lens",
     "//components/lens:lens_mojo",

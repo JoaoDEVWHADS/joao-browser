@@ -666,6 +666,122 @@ TEST_F(SubresourceFilteringRulesetServiceTest, Startup_NoRulesetNotPublished) {
   EXPECT_EQ(0u, mock_publisher()->published_rulesets().size());
 }
 
+TEST_F(SubresourceFilteringRulesetServiceTest,
+       JoaoFirstProfileWaitsUntilRulesArePublished) {
+  bool called = false;
+  auto subscription = service()->AddJoaoRulesetReadyCallback(base::BindOnce(
+      [](bool* called, MockRulesetPublisher* publisher, bool success) {
+        *called = true;
+        EXPECT_TRUE(success);
+        EXPECT_FALSE(publisher->published_rulesets().empty());
+      },
+      &called, mock_publisher()));
+  service()->InstallJoaoRuleset();
+  EXPECT_TRUE(service()->IsJoaoRulesetPending());
+  EXPECT_FALSE(service()->IsJoaoRulesetReady());
+  EXPECT_FALSE(called);
+
+  RunAllUntilIdle();
+  EXPECT_TRUE(called);
+  EXPECT_TRUE(service()->IsJoaoRulesetReady());
+  EXPECT_FALSE(service()->IsJoaoRulesetPending());
+}
+
+TEST_F(SubresourceFilteringRulesetServiceTest,
+       JoaoRulesetFailureReleasesWaitingNavigations) {
+  ASSERT_TRUE(base::CreateDirectory(base_dir().DirName()));
+  ASSERT_TRUE(base::WriteFile(base_dir().DirName().AppendASCII("JoaoAdblock"),
+                              "not a directory"));
+  bool called = false;
+  auto subscription = service()->AddJoaoRulesetReadyCallback(base::BindOnce(
+      [](bool* called, bool success) {
+        *called = true;
+        EXPECT_FALSE(success);
+      },
+      &called));
+  service()->InstallJoaoRuleset();
+  RunAllUntilIdle();
+  EXPECT_TRUE(called);
+  EXPECT_FALSE(service()->IsJoaoRulesetPending());
+  EXPECT_FALSE(service()->IsJoaoRulesetReady());
+  EXPECT_TRUE(mock_publisher()->published_rulesets().empty());
+}
+
+TEST_F(SubresourceFilteringRulesetServiceTest,
+       JoaoMissingCachedIndexIsRebuilt) {
+  service()->InstallJoaoRuleset();
+  RunAllUntilIdle();
+  ASSERT_TRUE(service()->IsJoaoRulesetReady());
+  const auto version = service()->GetMostRecentlyIndexedVersion();
+  ClearRulesetService();
+  RunBlockingUntilIdle();
+  ASSERT_TRUE(base::DeleteFile(GetExpectedRulesetDataFilePath(version)));
+
+  ResetRulesetService();
+  service()->InstallJoaoRuleset();
+  EXPECT_TRUE(service()->IsJoaoRulesetPending());
+  RunAllUntilIdle();
+  EXPECT_TRUE(service()->IsJoaoRulesetReady());
+  EXPECT_FALSE(service()->IsJoaoRulesetPending());
+  EXPECT_TRUE(base::PathExists(GetExpectedRulesetDataFilePath(version)));
+}
+
+TEST_F(SubresourceFilteringRulesetServiceTest,
+       JoaoMissingOlderBundleDoesNotFailCurrentInstallation) {
+  IndexedRulesetVersion old_version(
+      kTestContentVersion1, IndexedRulesetVersion::CurrentFormatVersion(),
+      kSafeBrowsingRulesetConfig.filter_tag);
+  old_version.SaveToPrefs(prefs());
+  ResetRulesetService();
+  bool called = false;
+  auto subscription = service()->AddJoaoRulesetReadyCallback(base::BindOnce(
+      [](bool* called, bool success) {
+        *called = true;
+        EXPECT_TRUE(success);
+      },
+      &called));
+  service()->InstallJoaoRuleset();
+  // Complete only the startup open. Current-bundle preparation is still queued
+  // on the independent background task runner.
+  RunBlockingUntilIdle();
+  EXPECT_FALSE(called);
+  EXPECT_TRUE(service()->IsJoaoRulesetPending());
+  RunAllUntilIdle();
+  EXPECT_TRUE(called);
+  EXPECT_TRUE(service()->IsJoaoRulesetReady());
+  EXPECT_EQ(1u, mock_publisher()->published_rulesets().size());
+}
+
+TEST_F(SubresourceFilteringRulesetServiceTest,
+       JoaoOlderBundleIsNotPublishedDuringCurrentInstallation) {
+  IndexedRulesetVersion old_version(
+      kTestContentVersion1, IndexedRulesetVersion::CurrentFormatVersion(),
+      kSafeBrowsingRulesetConfig.filter_tag);
+  old_version.SaveToPrefs(prefs());
+  WriteRuleset(test_ruleset_1(), old_version);
+  ResetRulesetService();
+  service()->InstallJoaoRuleset();
+  RunBlockingUntilIdle();
+  EXPECT_TRUE(mock_publisher()->published_rulesets().empty());
+  EXPECT_TRUE(service()->IsJoaoRulesetPending());
+  RunAllUntilIdle();
+  EXPECT_TRUE(service()->IsJoaoRulesetReady());
+  EXPECT_EQ(1u, mock_publisher()->published_rulesets().size());
+}
+
+TEST_F(SubresourceFilteringRulesetServiceTest,
+       JoaoCanceledNavigationUnsubscribesBeforePublication) {
+  bool called = false;
+  {
+    auto subscription = service()->AddJoaoRulesetReadyCallback(
+        base::BindOnce([](bool* called, bool) { *called = true; }, &called));
+    service()->InstallJoaoRuleset();
+  }
+  RunAllUntilIdle();
+  EXPECT_TRUE(service()->IsJoaoRulesetReady());
+  EXPECT_FALSE(called);
+}
+
 // It should not normally happen that Local State indicates that a usable
 // version of the ruleset had been stored, yet the file is nowhere to be found,
 // but ensure some sane behavior just in case.
