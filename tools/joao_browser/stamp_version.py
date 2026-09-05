@@ -85,6 +85,11 @@ def stamp(api, now=lambda: datetime.now(timezone.utc), sleep=time.sleep):
                 raise RuntimeError('Release tag already names a different commit') from error
         # GITHUB_TOKEN pushes do not start workflows. An explicit dispatch does,
         # and the new tagged build run cancels this stamping run through concurrency.
+        # Avoid letting an already superseded stamp cancel a newer main push.
+        # This is best effort: GitHub ref updates and dispatch are not atomic.
+        if api('GET', '/git/ref/heads/main')['object']['sha'] != sha:
+            return {'version': version, 'tag': tag, 'commit': sha,
+                    'superseded': 'true'}
         api('POST', '/actions/workflows/release.yml/dispatches', {
             'ref': tag, 'inputs': {'release_tag': tag, 'release_commit': sha}})
         return {'version': version, 'tag': tag, 'commit': sha}
@@ -96,7 +101,9 @@ def main():
     with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as output:
         for name, value in result.items():
             output.write(name + '=' + value + '\n')
-    print('Stamped ' + result['tag'] + ' at ' + result['commit'])
+    print('Stamped ' + result['tag'] + ' at ' + result['commit'] +
+          ('; superseded by newer main, build dispatch skipped'
+           if result.get('superseded') else ''))
 
 
 if __name__ == '__main__':

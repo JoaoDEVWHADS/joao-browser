@@ -16,11 +16,13 @@ NOW = datetime(2026, 9, 5, 15, 0, 0, tzinfo=timezone.utc)
 
 
 class Repository:
-    def __init__(self, conflict=False, forbidden=False, tag_conflict=False):
+    def __init__(self, conflict=False, forbidden=False, tag_conflict=False,
+                 superseded=False):
         self.calls = []
         self.conflict = conflict
         self.forbidden = forbidden
         self.tag_conflict = tag_conflict
+        self.superseded = superseded
         self.parent = 'original'
         self.version = '20260905145959'
         self.commits = 0
@@ -28,6 +30,8 @@ class Repository:
     def __call__(self, method, path, data=None):
         self.calls.append((method, path, data))
         if path == '/git/ref/heads/main':
+            if self.superseded and self.commits:
+                return {'object': {'sha': 'newer-push'}}
             return {'object': {'sha': self.parent}}
         if path.startswith('/git/commits/'):
             return {'tree': {'sha': 'tree-' + self.parent}}
@@ -91,7 +95,7 @@ class StampTest(unittest.TestCase):
         self.assertIn('[skip ci]', commit['message'])
         self.assertIn(('PATCH', '/git/refs/heads/main',
                        {'sha': 'new-1', 'force': False}), api.calls)
-        self.assertEqual(api.calls[-2], ('POST', '/git/refs', {
+        self.assertEqual(api.calls[-3], ('POST', '/git/refs', {
             'ref': 'refs/tags/joao-v20260905150000', 'sha': 'new-1'}))
         dispatches = [call for call in api.calls if call[1].endswith('/dispatches')]
         self.assertEqual(dispatches, [('POST', '/actions/workflows/release.yml/dispatches', {
@@ -113,6 +117,13 @@ class StampTest(unittest.TestCase):
         with self.assertRaises(HTTPError):
             stamp_version.stamp(api, now=lambda: NOW)
         self.assertFalse(any(path == '/git/refs' for _, path, _ in api.calls))
+        self.assertFalse(any(path.endswith('/dispatches') for _, path, _ in api.calls))
+
+    def test_superseded_stamp_does_not_cancel_newer_push(self):
+        api = Repository(superseded=True)
+        result = stamp_version.stamp(api, now=lambda: NOW)
+        self.assertEqual(result['superseded'], 'true')
+        self.assertTrue(any(path == '/git/refs' for _, path, _ in api.calls))
         self.assertFalse(any(path.endswith('/dispatches') for _, path, _ in api.calls))
 
     def test_existing_tag_is_never_replaced(self):
