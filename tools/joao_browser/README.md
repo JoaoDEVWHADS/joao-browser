@@ -38,8 +38,8 @@ summary. It rejects machines with less than Chromium's documented 8 GiB RAM or
 standard runner documents 16 GiB RAM and only 14 GiB SSD; selecting a hosted label
 does not imply that a full Chromium build fits. No paid runner is configured.
 
-The source still requires Visual Studio 2026 >=18.0.0 with C++ ATL/MFC, Windows
-SDK 10.0.28000.2270 and Debugging Tools >=10.0.26100.3323. The hosted image's
+The source uses Visual Studio 2026 >=18.0.0 with C++ ATL/MFC, Windows
+SDK 10.0.26100.0 and Debugging Tools >=10.0.26100.3323. The hosted image's
 installed software can change; consult the job's diagnostics and
 [the source requirements](../../docs/windows_build_instructions.md).
 For a manual build, use a short NTFS path with no spaces, Git long paths,

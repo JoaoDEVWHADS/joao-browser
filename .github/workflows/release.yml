@@ -100,6 +100,7 @@ jobs:
           Get-PSDrive -PSProvider FileSystem | Select-Object Name, Used, Free | Format-Table
           $sdk = Join-Path ${env:ProgramFiles(x86)} 'Windows Kits/10/Include'
           if (Test-Path $sdk) { Get-ChildItem $sdk -Directory | Select-Object Name }
+          if (-not (Test-Path (Join-Path $sdk '10.0.26100.0/um'))) { throw 'Windows SDK 10.0.26100.0 is required.' }
           if ($memoryGiB -lt 8) { throw 'Chromium requires at least 8 GiB RAM.' }
           if ($drive.Free -lt 100GB) {
             throw "Insufficient disk for Chromium: $freeGiB GiB free; source build requires at least 100 GiB before checkout. The standard GitHub-hosted machine cannot fit this build."

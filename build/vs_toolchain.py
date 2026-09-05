@@ -17,7 +17,7 @@ import sys
 
 from gn_helpers import ToGNString
 
-# VS 2026 18 with 10.0.28000.2270 SDK with ARM64 libraries and UWP support.
+# VS 2026 18 with Windows 11 10.0.26100 SDK with ARM64 libraries and UWP support.
 # See go/win-toolchain-reference for instructions about how to update the
 # toolchain.
 #
@@ -60,7 +60,7 @@ from gn_helpers import ToGNString
 #   Make sure any version numbers in the documentation match the code.
 #
 TOOLCHAIN_HASH = '3bfcb536c8'
-SDK_VERSION = '10.0.28000.0'
+SDK_VERSION = '10.0.26100.0'
 
 # Visual Studio versions are listed in descending order of priority.
 # The first version is assumed by this script to be the one that is packaged,
@@ -490,7 +490,7 @@ def _CopyDebugger(target_dir, target_cpu):
     developer's configured symbol server(s).
 
     msdia140.dll is needed for tools like symupload.exe and dump_syms.exe. In
-    SDK version 10.0.28000+, it's also needed for dbghelp.dll.
+    SDK version 10.0.26100+, it's also needed for dbghelp.dll.
     """
     win_sdk_dir = SetEnvironmentAndGetSDKDir()
     if not win_sdk_dir:
