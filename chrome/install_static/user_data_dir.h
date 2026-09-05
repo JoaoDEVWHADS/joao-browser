@@ -11,6 +11,13 @@ namespace install_static {
 
 struct InstallConstants;
 
+// A joao_portable marker next to the executable keeps the profile with the
+// unpacked browser. An absent marker leaves installed-browser behavior intact.
+bool GetPortableUserDataDirectory(std::wstring* result);
+bool GetPortableUserDataDirectoryForExecutable(
+    const std::wstring& executable_path,
+    std::wstring* result);
+
 // Populates |result| with the user data dir, respecting various overrides in
 // the manner of chrome_main_delegate.cc InitializeUserDataDir(). This includes
 // overrides on the command line, overrides by registry policy, and fallback to

@@ -4,6 +4,7 @@
 
 #include <shobjidl.h>
 #include <windows.h>
+
 #include <knownfolders.h>
 #include <shellapi.h>
 #include <shlobj.h>
@@ -15,6 +16,7 @@
 #include "chrome/common/chrome_paths_internal.h"
 #include "chrome/common/chrome_switches.h"
 #include "chrome/install_static/install_util.h"
+#include "chrome/install_static/user_data_dir.h"
 
 namespace chrome {
 
@@ -40,16 +42,28 @@ bool GetUserDirectory(int csidl_folder, base::FilePath* result) {
 }  // namespace
 
 bool GetDefaultUserDataDirectory(base::FilePath* result) {
-  if (!base::PathService::Get(base::DIR_LOCAL_APP_DATA, result))
+  std::wstring portable_directory;
+  if (install_static::GetPortableUserDataDirectory(&portable_directory)) {
+    *result = base::FilePath(portable_directory);
+    return true;
+  }
+  if (!base::PathService::Get(base::DIR_LOCAL_APP_DATA, result)) {
     return false;
+  }
   *result = result->Append(install_static::GetChromeInstallSubDirectory());
   *result = result->Append(chrome::kUserDataDirname);
   return true;
 }
 
 bool GetDefaultRoamingUserDataDirectory(base::FilePath* result) {
-  if (!base::PathService::Get(base::DIR_ROAMING_APP_DATA, result))
+  std::wstring portable_directory;
+  if (install_static::GetPortableUserDataDirectory(&portable_directory)) {
+    *result = base::FilePath(portable_directory);
+    return true;
+  }
+  if (!base::PathService::Get(base::DIR_ROAMING_APP_DATA, result)) {
     return false;
+  }
   *result = result->Append(install_static::GetChromeInstallSubDirectory());
   *result = result->Append(chrome::kUserDataDirname);
   return true;
@@ -62,6 +76,11 @@ void GetUserCacheDirectory(const base::FilePath& profile_dir,
 }
 
 bool GetUserDocumentsDirectory(base::FilePath* result) {
+  std::wstring portable_directory;
+  if (install_static::GetPortableUserDataDirectory(&portable_directory)) {
+    *result = base::FilePath(portable_directory).DirName().Append(L"Documents");
+    return true;
+  }
   return GetUserDirectory(CSIDL_MYDOCUMENTS, result);
 }
 
@@ -70,8 +89,14 @@ bool GetUserDocumentsDirectory(base::FilePath* result) {
 // 'downloads' is not a good idea because Chrome's UI language
 // can be changed.
 bool GetUserDownloadsDirectorySafe(base::FilePath* result) {
-  if (!GetUserDocumentsDirectory(result))
+  std::wstring portable_directory;
+  if (install_static::GetPortableUserDataDirectory(&portable_directory)) {
+    *result = base::FilePath(portable_directory).DirName().Append(L"Downloads");
+    return true;
+  }
+  if (!GetUserDocumentsDirectory(result)) {
     return false;
+  }
 
   *result = result->Append(L"Downloads");
   return true;
@@ -81,6 +106,11 @@ bool GetUserDownloadsDirectorySafe(base::FilePath* result) {
 // "dangerous" folder, callers should validate that the returned path is not
 // dangerous before using it.
 bool GetUserDownloadsDirectory(base::FilePath* result) {
+  std::wstring portable_directory;
+  if (install_static::GetPortableUserDataDirectory(&portable_directory)) {
+    *result = base::FilePath(portable_directory).DirName().Append(L"Downloads");
+    return true;
+  }
   base::win::ScopedCoMem<wchar_t> path_buf;
   if (SUCCEEDED(
           ::SHGetKnownFolderPath(FOLDERID_Downloads, 0, nullptr, &path_buf))) {

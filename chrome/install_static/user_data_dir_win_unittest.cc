@@ -6,6 +6,8 @@
 
 #include <algorithm>
 
+#include "base/files/file_util.h"
+#include "base/files/scoped_temp_dir.h"
 #include "base/test/test_reg_util_win.h"
 #include "build/branding_buildflags.h"
 #include "chrome/chrome_elf/nt_registry/nt_registry.h"
@@ -59,6 +61,64 @@ TEST(UserDataDir, EmptyResultsInDefault) {
   GetUserDataDirectoryImpl(L"m.exe", kFakeInstallConstants, &result, &invalid);
   EXPECT_TRUE(result.ends_with(kUserDataDirNameSuffix));
   EXPECT_EQ(std::wstring(), invalid);
+}
+
+TEST(UserDataDir, PortableMarkerKeepsProfileBesideExecutable) {
+  base::ScopedTempDir directory;
+  ASSERT_TRUE(directory.CreateUniqueTempDir());
+  ASSERT_TRUE(
+      base::WriteFile(directory.GetPath().Append(L"joao_portable"), ""));
+
+  std::wstring result;
+  EXPECT_TRUE(GetPortableUserDataDirectoryForExecutable(
+      directory.GetPath().Append(L"chrome.exe").value(), &result));
+  EXPECT_EQ(directory.GetPath().Append(L"User Data").value(), result);
+}
+
+TEST(UserDataDir, PortableMarkerIsRequired) {
+  base::ScopedTempDir directory;
+  ASSERT_TRUE(directory.CreateUniqueTempDir());
+
+  std::wstring result = L"unchanged";
+  EXPECT_FALSE(GetPortableUserDataDirectoryForExecutable(
+      directory.GetPath().Append(L"chrome.exe").value(), &result));
+  EXPECT_EQ(L"unchanged", result);
+}
+
+TEST(UserDataDir, PortableExecutableNeedsADirectory) {
+  std::wstring result = L"unchanged";
+  EXPECT_FALSE(
+      GetPortableUserDataDirectoryForExecutable(L"chrome.exe", &result));
+  EXPECT_EQ(L"unchanged", result);
+}
+
+TEST(UserDataDir, PortableMarkerMustBeAFile) {
+  base::ScopedTempDir directory;
+  ASSERT_TRUE(directory.CreateUniqueTempDir());
+  ASSERT_TRUE(
+      base::CreateDirectory(directory.GetPath().Append(L"joao_portable")));
+
+  std::wstring result;
+  EXPECT_FALSE(GetPortableUserDataDirectoryForExecutable(
+      directory.GetPath().Append(L"chrome.exe").value(), &result));
+}
+
+TEST(UserDataDir, PortableDirectoryFollowsMovedExecutable) {
+  base::ScopedTempDir directory;
+  ASSERT_TRUE(directory.CreateUniqueTempDir());
+  const base::FilePath original = directory.GetPath().Append(L"Original");
+  const base::FilePath moved =
+      directory.GetPath().Append(L"Moved Joao Browser");
+  ASSERT_TRUE(base::CreateDirectory(original));
+  ASSERT_TRUE(base::WriteFile(original.Append(L"joao_portable"), ""));
+  ASSERT_TRUE(base::Move(original, moved));
+
+  std::wstring result;
+  EXPECT_TRUE(GetPortableUserDataDirectoryForExecutable(
+      moved.Append(L"chrome.exe").value(), &result));
+  EXPECT_EQ(moved.Append(L"User Data").value(), result);
+  EXPECT_FALSE(GetPortableUserDataDirectoryForExecutable(
+      original.Append(L"chrome.exe").value(), &result));
 }
 
 TEST(UserDataDir, InvalidResultsInDefault) {

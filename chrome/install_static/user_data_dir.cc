@@ -55,8 +55,9 @@ void GetUserDataDirFromRegistryPolicyIfSet(const InstallConstants& mode,
 
 std::wstring MakeAbsoluteFilePath(const std::wstring& input) {
   wchar_t file_path[MAX_PATH];
-  if (!_wfullpath(file_path, input.c_str(), _countof(file_path)))
+  if (!_wfullpath(file_path, input.c_str(), _countof(file_path))) {
     return std::wstring();
+  }
   return file_path;
 }
 
@@ -78,6 +79,10 @@ bool GetUserDataDirectoryUsingProcessCommandLine(
 // Unify this with the Browser Distribution code.
 bool GetDefaultUserDataDirectory(const InstallConstants& mode,
                                  std::wstring* result) {
+  if (GetPortableUserDataDirectory(result)) {
+    return true;
+  }
+
   // This environment variable should be set on Windows Vista and later
   // (https://msdn.microsoft.com/library/windows/desktop/dd378457.aspx).
   std::wstring user_data_dir = GetEnvironmentString(L"LOCALAPPDATA");
@@ -85,18 +90,21 @@ bool GetDefaultUserDataDirectory(const InstallConstants& mode,
   if (user_data_dir.empty()) {
     // LOCALAPPDATA was not set; fallback to the temporary files path.
     DWORD size = ::GetTempPath(0, nullptr);
-    if (!size)
+    if (!size) {
       return false;
+    }
     user_data_dir.resize(size + 1);
     size = ::GetTempPath(size + 1, &user_data_dir[0]);
-    if (!size || size >= user_data_dir.size())
+    if (!size || size >= user_data_dir.size()) {
       return false;
+    }
     user_data_dir.resize(size);
   }
 
   result->swap(user_data_dir);
-  if ((*result)[result->length() - 1] != L'\\')
+  if ((*result)[result->length() - 1] != L'\\') {
     result->push_back(L'\\');
+  }
   AppendChromeInstallSubDirectory(mode, true /* include_suffix */, result);
   result->push_back(L'\\');
   result->append(L"User Data");
@@ -110,14 +118,60 @@ bool IsHeadlessMode(const std::wstring& command_line) {
 
 }  // namespace
 
+bool GetPortableUserDataDirectoryForExecutable(
+    const std::wstring& executable_path,
+    std::wstring* result) {
+  const size_t separator = executable_path.find_last_of(L"\\/");
+  if (separator == std::wstring::npos) {
+    return false;
+  }
+  const std::wstring directory = executable_path.substr(0, separator + 1);
+  const DWORD attributes =
+      ::GetFileAttributesW((directory + L"joao_portable").c_str());
+  if (attributes == INVALID_FILE_ATTRIBUTES ||
+      (attributes & FILE_ATTRIBUTE_DIRECTORY)) {
+    return false;
+  }
+  *result = directory + L"User Data";
+  return true;
+}
+
+bool GetPortableUserDataDirectory(std::wstring* result) {
+  std::wstring executable_path(32768, L'\0');
+  const DWORD length =
+      ::GetModuleFileNameW(nullptr, executable_path.data(),
+                           static_cast<DWORD>(executable_path.size()));
+  if (length == 0 || length >= executable_path.size()) {
+    return false;
+  }
+  executable_path.resize(length);
+  return GetPortableUserDataDirectoryForExecutable(executable_path, result);
+}
+
 bool GetUserDataDirectoryImpl(const std::wstring& command_line,
                               const InstallConstants& mode,
                               std::wstring* result,
                               std::wstring* invalid_supplied_directory) {
+  std::wstring portable_directory;
+  const bool is_portable = GetPortableUserDataDirectory(&portable_directory);
+  if (is_portable) {
+    const std::wstring temp_directory = portable_directory + L"\\Temp";
+    if (!RecursiveDirectoryCreate(temp_directory) ||
+        !::SetEnvironmentVariableW(L"TEMP", temp_directory.c_str()) ||
+        !::SetEnvironmentVariableW(L"TMP", temp_directory.c_str())) {
+      *invalid_supplied_directory = portable_directory;
+      return false;
+    }
+  }
+
   std::wstring user_data_dir =
       GetCommandLineSwitchValue(command_line, kUserDataDirSwitch);
 
   GetUserDataDirFromRegistryPolicyIfSet(mode, &user_data_dir);
+
+  if (user_data_dir.empty() && is_portable) {
+    user_data_dir = portable_directory;
+  }
 
   // Headless Chrome instances are expected to run in parallel with the headful
   // Chrome and other headless Chrome instances. In order to do so, headless
@@ -152,8 +206,9 @@ bool GetUserDataDirectoryImpl(const std::wstring& command_line,
   // don't as this function is used to initialize crash reporting, so
   // we would get no report of this failure.
   assert(got_valid_directory);
-  if (!got_valid_directory)
+  if (!got_valid_directory) {
     return false;
+  }
 
   *result = MakeAbsoluteFilePath(user_data_dir);
   return true;
@@ -172,8 +227,9 @@ bool GetUserDataDirectory(std::wstring* user_data_dir,
     assert(!g_user_data_dir->empty());
   }
   *user_data_dir = *g_user_data_dir;
-  if (invalid_user_data_dir)
+  if (invalid_user_data_dir) {
     *invalid_user_data_dir = *g_invalid_user_data_dir;
+  }
   return true;
 }
 

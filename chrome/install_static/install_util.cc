@@ -428,6 +428,10 @@ std::wstring GetActiveSetupPath() {
 }
 
 bool SupportsSetAsDefaultBrowser() {
+  std::wstring portable_directory;
+  if (GetPortableUserDataDirectory(&portable_directory)) {
+    return false;
+  }
   return InstallDetails::Get().mode().supports_set_as_default_browser;
 }
 
